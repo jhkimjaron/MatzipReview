@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>멘야마쯔리 신부점 리뷰 분석 리포트</title>
+  <style>
+    :root {
+      --red:    #C0392B;
+      --orange: #E67E22;
+      --yellow: #F1C40F;
+      --green:  #27AE60;
+      --blue:   #2980B9;
+      --navy:   #1A252F;
+      --bg:     #F4F6F8;
+      --card:   #FFFFFF;
+      --border: #DDE3EA;
+      --text:   #2C3E50;
+      --muted:  #7F8C8D;
+      --pos:    #27AE60;
+      --neg:    #C0392B;
+      --neu:    #95A5A6;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    /* ── 헤더 ── */
+    .report-header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #c0392b 100%);
+      color: #fff;
+      padding: 40px 48px 36px;
+    }
+    .report-header .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+    .report-header h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.5px; }
+    .report-header .meta {
+      margin-top: 8px;
+      font-size: 13px;
+      opacity: 0.8;
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    /* ── 레이아웃 ── */
+    .container { max-width: 960px; margin: 0 auto; padding: 32px 24px 60px; }
+
+    /* ── 카드 ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 20px;
+    }
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card-title .icon {
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+    }
+
+    /* ── 요약 지표 그리드 ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .kpi-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      text-align: center;
+    }
+    .kpi-box .kpi-val {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+    .kpi-box .kpi-label {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+    .kpi-box.pos .kpi-val { color: var(--pos); }
+    .kpi-box.neg .kpi-val { color: var(--neg); }
+    .kpi-box.blue .kpi-val { color: var(--blue); }
+    .kpi-box.orange .kpi-val { color: var(--orange); }
+
+    /* ── 감성 바 ── */
+    .sentiment-bar-wrap { margin: 8px 0 4px; }
+    .sentiment-label-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .sentiment-bar {
+      height: 18px;
+      border-radius: 9px;
+      overflow: hidden;
+      display: flex;
+    }
+    .bar-pos { background: var(--pos); }
+    .bar-neg { background: var(--neg); }
+    .bar-neu { background: var(--neu); }
+    .bar-label {
+      font-size: 11px;
+      color: #fff;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      padding: 0 8px;
+      white-space: nowrap;
+    }
+
+    /* ── 섹션 타이틀 ── */
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 28px 0 12px;
+    }
+
+    /* ── 테이블 ── */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid var(--border);
+      padding: 8px 10px;
+    }
+    td {
+      padding: 9px 10px;
+      border-bottom: 1px solid #EEF1F4;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    .rank { color: var(--muted); font-size: 11px; }
+
+    /* ── 태그 칩 ── */
+    .tag-wrap { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      background: #EBF5FB;
+      color: var(--blue);
+      border-radius: 20px;
+      padding: 3px 10px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .chip.neg { background: #FDEDEC; color: var(--red); }
+    .chip.pos { background: #EAFAF1; color: var(--green); }
+    .chip.warn { background: #FEF9E7; color: #B7950B; }
+
+    /* ── 인용 리뷰 ── */
+    .review-card {
+      background: #F8F9FA;
+      border-left: 4px solid var(--blue);
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+      font-size: 13px;
+    }
+    .review-card.pos { border-left-color: var(--pos); }
+    .review-card.neg { border-left-color: var(--neg); }
+    .review-card .rv-meta {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 6px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .review-card .rv-text { line-height: 1.6; }
+
+    /* ── 이슈 리스트 ── */
+    .issue-list { list-style: none; }
+    .issue-list li {
+      display: flex;
+      gap: 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid #EEF1F4;
+      font-size: 13px;
+    }
+    .issue-list li:last-child { border-bottom: none; }
+    .issue-icon {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .issue-icon.warn { background: #FEF9E7; color: #B7950B; }
+    .issue-icon.info { background: #EBF5FB; color: var(--blue); }
+    .issue-icon.ok   { background: #EAFAF1; color: var(--green); }
+
+    /* ── 월별 바 차트 ── */
+    .bar-chart { display: flex; align-items: flex-end; gap: 5px; height: 80px; margin: 12px 0 4px; }
+    .bar-col { display: flex; flex-direction: column; align-items: center; flex: 1; }
+    .bar-fill {
+      width: 100%;
+      background: var(--blue);
+      border-radius: 3px 3px 0 0;
+      min-height: 2px;
+      transition: height 0.3s;
+    }
+    .bar-fill.blog { background: var(--orange); }
+    .bar-x { font-size: 9px; color: var(--muted); margin-top: 3px; writing-mode: vertical-rl; transform: rotate(180deg); }
+
+    /* ── 트렌드 박스 ── */
+    .trend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .trend-box {
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .trend-box .t-label { font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+    .trend-box .t-val { font-size: 20px; font-weight: 800; }
+    .trend-box .t-val.pos { color: var(--pos); }
+    .trend-box .t-val.neg { color: var(--neg); }
+
+    /* ── 총평 ── */
+    .summary-box {
+      background: linear-gradient(135deg, #1a1a2e 0%, #c0392b 100%);
+      color: #fff;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 20px;
+    }
+    .summary-box h2 { font-size: 16px; font-weight: 700; margin-bottom: 12px; opacity: 0.85; }
+    .summary-box p { font-size: 14px; line-height: 1.8; }
+
+    /* ── 추천/비추천/팁 ── */
+    .tip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .tip-box {
+      background: var(--bg);
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .tip-box .tip-title {
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .tip-box.go .tip-title { color: var(--pos); }
+    .tip-box.nogo .tip-title { color: var(--neg); }
+    .tip-box.info .tip-title { color: var(--blue); }
+    .tip-box ul { padding-left: 14px; font-size: 12px; line-height: 1.8; }
+
+    /* ── 신뢰도 ── */
+    .reliability-box {
+      background: #FFFBF0;
+      border: 1px solid #F8D56E;
+      border-radius: 10px;
+      padding: 16px 20px;
+      font-size: 13px;
+    }
+    .reliability-box .rb-title {
+      font-weight: 700;
+      color: #7D6608;
+      margin-bottom: 8px;
+    }
+    .reliability-box ul { padding-left: 16px; color: #7D6608; line-height: 1.8; }
+
+    /* ── 모바일 ── */
+    @media (max-width: 600px) {
+      .tip-grid { grid-template-columns: 1fr; }
+      .trend-grid { grid-template-columns: 1fr; }
+      .report-header { padding: 24px 20px; }
+      .container { padding: 20px 14px 40px; }
+      .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* ── 네이버 지도 버튼 ── */
+    .naver-map-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      background: #03C75A;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: 24px;
+      text-decoration: none;
+      letter-spacing: -0.2px;
+      transition: opacity 0.15s;
+    }
+    .naver-map-btn:hover { opacity: 0.85; }
+    .naver-map-btn svg { flex-shrink: 0; }
+
+    /* ── 풋터 ── */
+    .report-footer {
+      text-align: center;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════ 헤더 ═══════════════════ -->
+<div class="report-header">
+  <div class="badge">네이버 리뷰 분석 리포트</div>
+  <h1>멘야마쯔리 신부점</h1>
+  <div class="meta">
+    <span>분석일: 2026-06-10</span>
+    <span>방문자 리뷰: 전체 수 미수집 → 500개 수집 → 318개 분석 (2025-09 ~ 2026-06)</span>
+    <span>블로그 리뷰: 전체 수 미수집 → 42개 수집 → 42개 분석 (2024-12 ~ 2026-06)</span>
+  </div>
+  <a class="naver-map-btn"
+     href="https://map.naver.com/p/entry/place/630421393"
+     target="_blank" rel="noopener">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="white"/>
+    </svg>
+    네이버 지도에서 보기
+  </a>
+</div>
+
+<div class="container">
+
+  <!-- ═══════════════════ 1. 전반적 평가 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#EAFAF1; color:var(--green)">📊</div>
+      전반적 평가
+    </div>
+
+    <div class="kpi-grid">
+      <div class="kpi-box pos">
+        <div class="kpi-val">80.5%</div>
+        <div class="kpi-label">방문자 긍정 비율 (가중)</div>
+      </div>
+      <div class="kpi-box pos">
+        <div class="kpi-val">81.0%</div>
+        <div class="kpi-label">블로그 긍정 비율 (가중)</div>
+      </div>
+      <div class="kpi-box blue">
+        <div class="kpi-val" style="font-size:13px;line-height:1.8">
+          <span style="color:var(--muted)">전체</span> <span style="color:var(--muted);font-size:12px">미수집</span><br>
+          <span style="font-size:17px">500</span><span style="font-size:11px">개 수집</span>
+          <span style="color:var(--muted)"> → </span>
+          <span style="font-size:22px;color:var(--blue)">318</span><span style="font-size:11px">개 분석</span>
+        </div>
+        <div class="kpi-label">방문자: 수집→분석 (네이버 전체 수 재수집 필요)</div>
+      </div>
+      <div class="kpi-box blue">
+        <div class="kpi-val" style="font-size:13px;line-height:1.8">
+          <span style="color:var(--muted)">전체</span> <span style="color:var(--muted);font-size:12px">미수집</span><br>
+          <span style="font-size:17px">42</span><span style="font-size:11px">개 수집</span>
+          <span style="color:var(--muted)"> → </span>
+          <span style="font-size:22px;color:var(--blue)">42</span><span style="font-size:11px">개 분석</span>
+        </div>
+        <div class="kpi-label">블로그: 수집→분석 (네이버 전체 수 재수집 필요)</div>
+      </div>
+      <div class="kpi-box orange">
+        <div class="kpi-val">182건</div>
+        <div class="kpi-label">방문자 리뷰 제외 (광고·불성실)</div>
+      </div>
+      <div class="kpi-box orange">
+        <div class="kpi-val">93%</div>
+        <div class="kpi-label">바로 입장 가능 비율</div>
+      </div>
+    </div>
+
+    <p class="section-title">방문자 리뷰 감성 분포 (가중치 반영)</p>
+    <div class="sentiment-bar-wrap">
+      <div class="sentiment-bar">
+        <div class="bar-pos bar-label" style="width:80.5%">긍정 80.5%</div>
+        <div class="bar-neu bar-label" style="width:18.0%">중립 18.0%</div>
+        <div class="bar-neg bar-label" style="width:1.5%"></div>
+      </div>
+    </div>
+    <div style="font-size:11px;color:var(--muted);margin-top:4px">부정 1.6% (실제 부정 의견은 감성 사전 오탐 포함, 순수 불만 리뷰는 거의 없음)</div>
+
+    <p class="section-title" style="margin-top:18px">블로그 리뷰 감성 분포 (가중치 반영)</p>
+    <div class="sentiment-bar-wrap">
+      <div class="sentiment-bar">
+        <div class="bar-pos bar-label" style="width:81.0%">긍정 81.0%</div>
+        <div class="bar-neu bar-label" style="width:11.9%">중립 11.9%</div>
+        <div class="bar-neg bar-label" style="width:7.1%">부정</div>
+      </div>
+    </div>
+    <div style="font-size:11px;color:var(--muted);margin-top:4px">블로그 부정 7.1%: 마늘 위생 지적 1건, 개인 취향 비교(다른 라멘집 선호) 1건 포함 — 강성 부정 없음</div>
+  </div>
+
+  <!-- ═══════════════════ 2. 주요 키워드 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#EBF5FB; color:var(--blue)">🏷</div>
+      주요 키워드 / 태그 분포
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+      <div>
+        <p class="section-title">긍정 키워드 (방문자 — 가중 빈도순)</p>
+        <table>
+          <thead><tr><th>#</th><th>키워드</th><th>가중 빈도</th></tr></thead>
+          <tbody>
+            <tr><td class="rank">1</td><td>음식이 맛있어요</td><td>284.5</td></tr>
+            <tr><td class="rank">2</td><td>재료가 신선해요</td><td>8.0</td></tr>
+            <tr><td class="rank">3</td><td>인테리어가 멋져요</td><td>6.0</td></tr>
+            <tr><td class="rank">4</td><td>특별한 메뉴가 있어요</td><td>5.5</td></tr>
+            <tr><td class="rank">5</td><td>혼밥하기 좋아요</td><td>5.0</td></tr>
+            <tr><td class="rank">6</td><td>가성비가 좋아요</td><td>4.5</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <p class="section-title">방문 유형 태그 (방문자 — 가중 빈도순)</p>
+        <table>
+          <thead><tr><th>#</th><th>태그</th><th>가중 빈도</th></tr></thead>
+          <tbody>
+            <tr><td class="rank">1</td><td>예약 없이 이용</td><td>316.5</td></tr>
+            <tr><td class="rank">2</td><td>대기 시간 바로 입장</td><td>295.0</td></tr>
+            <tr><td class="rank">3</td><td>점심에 방문</td><td>201.5</td></tr>
+            <tr><td class="rank">4</td><td>데이트</td><td>157.5</td></tr>
+            <tr><td class="rank">5</td><td>연인·배우자</td><td>154.0</td></tr>
+            <tr><td class="rank">6</td><td>저녁에 방문</td><td>121.0</td></tr>
+            <tr><td class="rank">7</td><td>혼자</td><td>60.5</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div style="margin-top:14px">
+      <p class="section-title">블로그 본문 언급 키워드 (정성 추출)</p>
+      <div class="tag-wrap">
+        <span class="chip pos">진한 국물</span>
+        <span class="chip pos">쫄깃한 면 (자가제면)</span>
+        <span class="chip pos">부드러운 차슈</span>
+        <span class="chip pos">불향</span>
+        <span class="chip pos">혼밥 가능</span>
+        <span class="chip pos">직원 친절</span>
+        <span class="chip pos">세트 메뉴 구성 좋음</span>
+        <span class="chip pos">런치 할인·사이즈업</span>
+        <span class="chip pos">테이블 조미료 셀프</span>
+        <span class="chip warn">가격 약간 있음</span>
+        <span class="chip neg">단무지 없음</span>
+        <span class="chip neg">교자 식어서 나옴 (1건)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ 3. 메뉴 분석 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#FDEDEC; color:var(--red)">🍜</div>
+      메뉴 분석
+    </div>
+
+    <!-- 시그니처 강조 -->
+    <div style="background:linear-gradient(135deg,#FEF9E7,#FDEBD0);border-radius:10px;padding:16px 18px;margin-bottom:16px;border-left:4px solid var(--orange)">
+      <div style="font-weight:700;color:#784212;font-size:14px;margin-bottom:8px">⭐ 강력 추천 시그니처 메뉴</div>
+      <div style="font-size:13px;color:#7D6608;line-height:1.8">
+        <strong>화산라멘</strong> — 돌솥에 담겨 눈앞에서 완성되는 비주얼, 칼칼하고 중독성 있는 매운맛. 5단계 매운맛 선택 가능. 2단계가 가장 인기(신라면 수준), 3단계부터 본격 매운맛(틈새라면급). <em>단, 평일에만 제공 가능한 날 있음 → 방문 전 확인 권장.</em><br>
+        <strong>돈코츠라멘</strong> — 자가제면의 쫄깃한 면, 뽀얗고 진한 육수, 불향 차슈의 조화. 외국인도 감탄하는 정통 일본 라멘 스타일. 자극적이지 않아 누구나 무난하게 즐길 수 있는 대표 메뉴.<br>
+        <strong>마제소바</strong> — 불향 가득한 비빔라멘. 면발 얇고 쫠깃. "일반 비빔면과 다른 차원"이라는 평. 혼밥 1인석과 잘 어울리는 메뉴.
+      </div>
+    </div>
+
+    <table>
+      <thead><tr><th>메뉴</th><th>주요 평가</th><th>방문자+블로그 언급</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>화산라멘</strong> (11,000원)</td>
+          <td>칼칼·중독적 매운맛, 돌솥 비주얼, 5단계 매운맛 선택</td>
+          <td>★★★ (최빈 언급)</td>
+        </tr>
+        <tr>
+          <td><strong>돈코츠라멘</strong> (10,000원)</td>
+          <td>뽀얀 진한 육수, 쫄깃 자가제면, 부드러운 불향 차슈</td>
+          <td>★★★ (방문자 최빈)</td>
+        </tr>
+        <tr>
+          <td><strong>카라구찌라멘</strong> (10,000원)</td>
+          <td>매운맛 3단계 조절 가능, 1단계 가벼운 매운맛, 2단계=신라면급</td>
+          <td>★★☆</td>
+        </tr>
+        <tr>
+          <td><strong>마제소바</strong></td>
+          <td>불향 비빔라멘, 얇고 쫠깃한 면, 고소 매콤</td>
+          <td>★★☆</td>
+        </tr>
+        <tr>
+          <td><strong>오코노미야끼</strong></td>
+          <td>겉 바삭 안 촉촉, 소스+마요 조합 호평, 라멘 사이드로 추천</td>
+          <td>★★☆</td>
+        </tr>
+        <tr>
+          <td><strong>교자 / 반달야끼</strong></td>
+          <td>고추기름 소스 제공, 라멘 궁합 좋음. 간혹 식어서 나오는 경우 1건</td>
+          <td>★★☆</td>
+        </tr>
+        <tr>
+          <td><strong>차항 (볶음밥)</strong></td>
+          <td>일본식 중화볶음밥, 고슬고슬, 라멘 세트 조합</td>
+          <td>★★☆</td>
+        </tr>
+        <tr>
+          <td><strong>볼카츠</strong></td>
+          <td>카라구찌 세트 구성, 레몬즙 뿌려 먹으면 별미</td>
+          <td>★☆☆</td>
+        </tr>
+        <tr>
+          <td><strong>세트 메뉴</strong> (13,400원~)</td>
+          <td>라멘+사이드 조합, 점심 효율 높음. 돈코츠차항세트, 카라구찌규동세트 등</td>
+          <td>★★★ (가중 빈도 1위)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:12px;font-size:12px;color:var(--muted)">
+      ※ 테이블마다 통마늘(압착기)·깨·후추·생강절임 자유 제공. 마늘을 라멘에 갈아 넣으면 풍미 배가 (블로그 다수 언급)
+    </div>
+  </div>
+
+  <!-- ═══════════════════ 4. 반복 부정 이슈 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#FDEDEC; color:var(--red)">⚠️</div>
+      반복 부정 이슈
+    </div>
+    <ul class="issue-list">
+      <li>
+        <div class="issue-icon warn">!</div>
+        <div>
+          <strong>화산라멘 — 평일 한정 가능성</strong><br>
+          방문자 리뷰(2026-02)에서 "화산라면은 평일에만 먹을 수 있어서 아쉬워요", 블로그(2026-02)에서 "이 날만 그런건지 메뉴에서 빠진건지 키오스크에 없더라고요" 확인. <span class="chip warn" style="font-size:11px">2건 이상</span> 주말·공휴일 방문 시 화산라멘 미제공 가능 — 방문 전 전화 확인 권장.
+        </div>
+      </li>
+      <li>
+        <div class="issue-icon warn">!</div>
+        <div>
+          <strong>단무지(절임류) 미제공</strong><br>
+          방문자 리뷰 1건, 블로그 1건에서 "단무지가 없어서 아쉽다"는 의견. 테이블 기본 세팅은 생강절임·깨·마늘이나 단무지는 제공하지 않음. 얼큰한 라멘과 함께 먹을 반찬이 부족하다는 인식. <span class="chip warn" style="font-size:11px">2건</span>
+        </div>
+      </li>
+      <li>
+        <div class="issue-icon info">i</div>
+        <div>
+          <strong>가격 부담감 일부</strong><br>
+          "가격은 좀 있지만 한국에서 이런 라멘을 즐길 수 있으면" (방문자 1건). 2025년 이후 메뉴 가격 소폭 인상 확인(블로그 언급). 대부분은 "가성비 좋아요" 키워드와 공존하므로 실질적 불만보다는 인식 수준. <span class="chip" style="font-size:11px">1~2건</span>
+        </div>
+      </li>
+      <li>
+        <div class="issue-icon info">i</div>
+        <div>
+          <strong>교자 제공 온도 (단발)</strong><br>
+          블로그 1건에서 "교자가 모든 메뉴와 같이 나왔는데 식어서 왔다"는 언급. 단발성으로 반복 확인되지 않아 구조적 이슈로 보기 어려움. <span class="chip" style="font-size:11px">1건</span>
+        </div>
+      </li>
+      <li>
+        <div class="issue-icon ok">✓</div>
+        <div>
+          <strong>과거 품질 이슈는 해소된 것으로 보임</strong><br>
+          방문자 리뷰(2026-01)에서 "몇년전에 왔다가 실망하고 오랜만에 방문, 그땐 알바생만 있어서 별로였나봐요, 오늘은 맛이 좋네요"라는 언급. 블로그 트렌드상 과거 → 최신 긍정률이 71.4% → 90.5%로 크게 상승. 현재는 품질 안정.
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════════ 5. 영업 정보 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#EBF5FB; color:var(--blue)">📋</div>
+      영업 정보 (방문 전 필수 확인)
+    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td style="width:120px;font-weight:600;color:var(--muted);font-size:12px">영업시간</td>
+          <td>화~일 11:00 — 21:00 (L.O 20:10) · <strong>매주 월요일 정기휴무</strong></td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">브레이크타임</td>
+          <td>15:00 — 16:30 (일요일 브레이크 후 입장 확인 리뷰 다수)</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">주차</td>
+          <td>매장 전용 주차장 없음 · <strong>신부 제5공영주차장</strong> 이용 (도보 1분)<br>매장 이용 시 1시간 무료 (매장에 확인 후 도장/인증 처리)</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">주문 방식</td>
+          <td>테이블오더(키오스크)</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">화장실</td>
+          <td>가게 뒷문으로 나가 외부 건물 위치 (비번 있음) · 휴지 지참 권장</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">좌석 구성</td>
+          <td>테이블 약 7개 (2인/4인 혼합) · 1인석 있음 · 다찌(카운터) 없음</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">연락처</td>
+          <td>0507-1371-4710 (일부 블로그에 041-566-6907 병기)</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">런치 이벤트</td>
+          <td>평일 11:00–15:00 · 1인 1식 주문 시 <strong>라멘 라지 사이즈업 무료</strong> (정식 메뉴 제외)</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">리뷰 이벤트</td>
+          <td>영수증 리뷰 작성 시 <strong>음료수 / 아지타마고 / 차슈 3P 중 1개 랜덤 제공</strong></td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">자가제면</td>
+          <td>"여러분이 드시는 라멘은 12시간 이상의 과정을 거쳐 제공됩니다" (매장 내 문구)</td>
+        </tr>
+        <tr>
+          <td style="font-weight:600;color:var(--muted);font-size:12px">화산라멘</td>
+          <td><strong>평일 메뉴 가능성</strong> — 주말·공휴일에는 키오스크에서 빠지는 날 있음 (2건 확인)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ═══════════════════ 6. 예약·대기 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#EAFAF1; color:var(--green)">🚶</div>
+      예약·대기 방식
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px">
+      <div class="kpi-box" style="border-color:#27AE60">
+        <div class="kpi-val" style="color:var(--green)">93%</div>
+        <div class="kpi-label">바로 입장 (295 / 316.5)</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-val" style="color:var(--orange)">7%</div>
+        <div class="kpi-label">10분 이내 대기 (22.5)</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-val" style="color:var(--muted)">0%</div>
+        <div class="kpi-label">온라인 예약</div>
+      </div>
+    </div>
+    <ul class="issue-list">
+      <li>
+        <div class="issue-icon ok">✓</div>
+        <div>
+          <strong>현장 방문(워크인) 방식</strong> — 네이버 예약 연동 없음. 예약 없이 이용 태그가 사실상 전체(316.5/322.5)를 차지. 웨이팅 앱(테이블링 등) 이용 정보 없음.
+        </div>
+      </li>
+      <li>
+        <div class="issue-icon ok">✓</div>
+        <div>
+          <strong>대기 없이 바로 입장이 압도적</strong> — 93%가 바로 입장 경험. 좌석 회전율이 빠르다는 블로그 언급 다수. 점심 피크타임에도 웨이팅 없이 입장한 리뷰 확인.
+        </div>
+      </li>
+      <li>
+        <div class="issue-icon info">i</div>
+        <div>
+          <strong>점심 피크 유의</strong> — 점심 방문이 저녁보다 많음(201.5 vs 121.0). 12시~13시 피크에는 빈자리 탐색이 필요한 경우도 있음(블로그 "자리를 잡는 순간" 언급). 브레이크타임 직후(16:30) 방문하면 대기 없이 자리 잡기 수월.
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════════ 7. 시간대별 트렌드 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#EBF5FB; color:var(--blue)">📈</div>
+      월별·시간대별 트렌드
+    </div>
+
+    <p class="section-title">방문자 리뷰 월별 분포 (2025-09 ~ 2026-06)</p>
+    <div class="bar-chart" id="vbar"></div>
+    <div style="display:flex;gap:5px;flex-wrap:nowrap;overflow:hidden" id="vbar-labels"></div>
+
+    <p class="section-title" style="margin-top:20px">블로그 리뷰 월별 분포 (2024-12 ~ 2026-06)</p>
+    <div class="bar-chart" id="bbar"></div>
+    <div style="display:flex;gap:5px;flex-wrap:nowrap;overflow:hidden" id="bbar-labels"></div>
+
+    <div style="margin-top:20px">
+      <p class="section-title">감성 트렌드 — 전반부 vs 후반부</p>
+      <div class="trend-grid">
+        <div class="trend-box">
+          <div class="t-label">방문자 — 전반부 (2025-09 ~ 2025-11)</div>
+          <div class="t-val pos">긍정 78.2%</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:4px">부정 0.6% · 중립 21.2%</div>
+        </div>
+        <div class="trend-box">
+          <div class="t-label">방문자 — 후반부 (2025-12 ~ 2026-06)</div>
+          <div class="t-val pos">긍정 82.7%</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:4px">부정 2.5% · 중립 14.8%</div>
+        </div>
+        <div class="trend-box">
+          <div class="t-label">블로그 — 전반부 (2024-12 ~ 2025-04)</div>
+          <div class="t-val" style="color:var(--orange)">긍정 71.4%</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:4px">부정 14.3% · 중립 14.3%</div>
+        </div>
+        <div class="trend-box">
+          <div class="t-label">블로그 — 후반부 (2025-07 ~ 2026-06)</div>
+          <div class="t-val pos">긍정 90.5%</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:4px">부정 0.0% · 중립 9.5%</div>
+        </div>
+      </div>
+      <div style="margin-top:10px;font-size:12px;color:var(--muted)">
+        블로그 기준 전반부 71.4% → 후반부 90.5%로 <strong>+19.1%p 상승</strong>. 품질 안정 및 서비스 개선 경향이 뚜렷함.
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ 8. 신뢰도 메모 ═══════════════════ -->
+  <div class="reliability-box">
+    <div class="rb-title">⚠ 신뢰도 메모</div>
+    <ul>
+      <li>방문자 리뷰 318건 / 기간 2025-09 ~ 2026-06 (약 9개월). <code>target_met: true</code> — 목표 표본 충족.</li>
+      <li>recency_penalty(18개월 초과) 적용 리뷰는 0건 — 전량 최신 데이터. 신뢰도 우수.</li>
+      <li>quality_bonus(120자 이상) 리뷰 9건 — 상대적으로 적음. 단문 리뷰 다수이므로 정성 분석은 블로그 데이터 보완이 중요.</li>
+      <li>블로그 42건 / 기간 2024-12 ~ 2026-06 (약 18개월). 네이버 API 특성상 최신순 약 128건 상한 내 수집 — 전수가 아니나 분석 목적에는 충분.</li>
+      <li>제외 리뷰 182건(방문자) — 전체 수집 대비 비율이 높음. 광고성·불성실 리뷰 필터링이 실질 데이터 품질을 높임.</li>
+      <li>감성 분포는 사전 기반 1차 추정. 부정 라벨 리뷰 실제 검증 결과, 방문자 "neg"의 상당수는 "맵찔이라 매웠지만 맛있다"류 오탐으로 실질 부정 의견은 극소.</li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════════ 9. 추천·비추천·이용팁 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#EAFAF1; color:var(--green)">✅</div>
+      추천 / 비추천 / 이용팁
+    </div>
+    <div class="tip-grid">
+      <div class="tip-box go">
+        <div class="tip-title">추천하는 이유</div>
+        <ul>
+          <li>진한 자가제면 돈코츠·화산라멘 — 정통 일본 라멘 퀄리티</li>
+          <li>긍정 비율 80%+ — 재방문·단골 언급 매우 많음</li>
+          <li>혼밥 환경 최적 — 1인석, 개인 테이블 구조</li>
+          <li>대기 거의 없이 바로 입장 (93%)</li>
+          <li>런치 사이즈업 무료 + 리뷰 이벤트 등 손님 배려 이벤트</li>
+          <li>매운맛 단계 선택 가능 — 맵찔이·매운맛 러버 모두 수용</li>
+          <li>데이트·연인 방문 비율 높음 — 분위기 깔끔</li>
+        </ul>
+      </div>
+      <div class="tip-box nogo">
+        <div class="tip-title">주의할 점</div>
+        <ul>
+          <li>월요일 정기휴무 — 방문 전 필수 확인</li>
+          <li>화산라멘 주말 미제공 가능 — 목적이 화산라멘이라면 전화 확인</li>
+          <li>단무지·반찬류 없음 — 얼큰한 라멘의 중화제 없음</li>
+          <li>주차장 없음 — 공영주차장(도보 1분) 필수, 혼잡 시 주차 불편</li>
+          <li>화장실 외부 위치 + 비번 필요, 휴지 직접 챙길 것</li>
+          <li>가격대가 약간 있음 (라멘 단품 10,000~11,000원)</li>
+        </ul>
+      </div>
+      <div class="tip-box info">
+        <div class="tip-title">방문 전 이용팁</div>
+        <ul>
+          <li>점심 <strong>평일 11시–15시</strong>에 가면 라지 사이즈업 무료</li>
+          <li>마늘을 직접 압착해 라멘에 넣으면 국물 풍미 UP</li>
+          <li>영수증 리뷰 작성 시 차슈 3P 등 서비스 제공</li>
+          <li>매운맛: 돈코츠(순한) → 카라구찌 1단계 → 2단계(신라면) → 화산라멘 2단계 → 3단계(틈새) 순</li>
+          <li>브레이크타임(15:00–16:30) 직후 입장하면 대기 없이 여유롭게 이용 가능</li>
+          <li>처음 방문이라면 돈코츠라멘 + 오코노미야끼 조합 추천</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ 대표 리뷰 인용 ═══════════════════ -->
+  <div class="card">
+    <div class="card-title">
+      <div class="icon" style="background:#F4F6F8; color:var(--navy)">💬</div>
+      대표 리뷰 인용 (방문자)
+    </div>
+    <div class="review-card pos">
+      <div class="rv-meta"><span>2026-05-30</span><span>weight 1.5</span><span>긍정</span></div>
+      <div class="rv-text">"진한 국물에 면발도 쫄깃해서 한입 먹자마자 '아 여기 맛집이다' 싶었어요. 차슈도 부드럽고 불향이 은은하게 나서 국물이랑 조합이 정말 좋았습니다. 매장 분위기도 깔끔하고 직원분들도 친절해서 편하게 식사하기 좋았어요!"</div>
+    </div>
+    <div class="review-card pos">
+      <div class="rv-meta"><span>2026-04-26</span><span>weight 1.5</span><span>긍정</span></div>
+      <div class="rv-text">"돈코츠라멘은 국물이 진하면서도 너무 느끼하지 않아서 끝까지 부담 없이 먹기 좋았고, 면도 적당히 꼬들해서 식감이 괜찮았어요. 오코노미야끼는 겉은 살짝 바삭하고 안은 촉촉한 스타일이라 식감이 좋았고, 소스랑 마요네즈 조합이 잘 어울려서 계속 손이 가더라고요."</div>
+    </div>
+    <div class="review-card pos">
+      <div class="rv-meta"><span>2025-12-14</span><span>weight 1.5</span><span>긍정</span></div>
+      <div class="rv-text">"매운라멘 2단계 라멘이 얼얼한 맛이 느낄 수 있었고 차슈에서 불맛이 있어서 저는 맛있게 먹었어요!! 교자 소스도 일반 간장이 아니라 고추기름(?)을 섞어서 나왔어요. 라멘 1그릇은 12시간 이상 과정을 걸쳐 제공 된다는 문장이 식당 벽에 있는데 맞는 표현인 것 같아요."</div>
+    </div>
+    <div class="review-card pos">
+      <div class="rv-meta"><span>2025-12-20</span><span>weight 1.5</span><span>긍정</span></div>
+      <div class="rv-text">"마제소바 면이 일반 우동면보다 얇고 쬰득하고 맛있어요. ㄹㅇ 불향...있는 쫠깃. 고소 매콤... 완전 추천합니다. 혼밥하기 좋아요 1인석 있슴"</div>
+    </div>
+    <div class="review-card" style="border-left-color:var(--orange)">
+      <div class="rv-meta"><span>2026-01-17</span><span>weight 1.0</span><span>참고</span></div>
+      <div class="rv-text">"몇년전에 왔다가 실망하고 오랜만에 방문. 그땐 알바생만 있어서 별로였나봐요. 오늘은 맛이 좋네요." — 과거 이슈 해소 확인</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ 10. 종합 의견 ═══════════════════ -->
+  <div class="summary-box">
+    <h2>종합 의견 — 방문자 + 블로그 통합 평가</h2>
+    <p>
+      멘야마쯔리 신부점은 방문자 리뷰 318건·블로그 42건 모두에서 <strong>긍정 비율 80%+</strong>를 기록한, 천안 신부동의 검증된 일본 라멘 전문점이다.
+      자가제면의 쫄깃한 면과 12시간 이상 우려낸 진한 돈코츠 육수, 불향 차슈가 핵심 경쟁력이며,
+      화산라멘(매운 돌솥 라멘)과 마제소바는 반복 방문을 이끄는 시그니처 메뉴다.
+      블로그 기준 전반부 71% → 후반부 90.5%로 감성이 뚜렷하게 개선되고 있어 최근 품질이 더 안정적이다.
+      단, <strong>월요일 정기휴무·화산라멘 주말 미제공 가능성·주차장 없음</strong>은 방문 전 반드시 확인해야 할 사항이다.
+      평일 점심에 방문해 라지 사이즈업 혜택을 받고, 영수증 리뷰로 사이드 서비스를 챙기는 것이 가장 만족도 높은 이용법이다.
+    </p>
+  </div>
+
+  <div class="report-footer">
+    생성: 2026-06-10 · Claude Code 분석 리포트 · 방문자 리뷰 기준 2025-09-17 ~ 2026-06-07 · 블로그 리뷰 기준 2024-12-12 ~ 2026-06-06
+  </div>
+</div>
+
+<!-- 차트 스크립트 -->
+<script>
+  const vData = {
+    "2025-09":{count:21},"2025-10":{count:49},"2025-11":{count:37},
+    "2025-12":{count:38},"2026-01":{count:47},"2026-02":{count:35},
+    "2026-03":{count:34},"2026-04":{count:23},"2026-05":{count:29},"2026-06":{count:5}
+  };
+  const bData = {
+    "2024-12":{count:2},"2025-01":{count:5},"2025-02":{count:5},
+    "2025-03":{count:4},"2025-04":{count:3},"2025-07":{count:3},
+    "2025-08":{count:2},"2025-09":{count:3},"2025-10":{count:1},
+    "2025-11":{count:3},"2026-01":{count:4},"2026-02":{count:3},
+    "2026-03":{count:1},"2026-05":{count:2},"2026-06":{count:1}
+  };
+
+  function drawBar(containerId, labelId, data, cls) {
+    const vals = Object.values(data).map(d => d.count);
+    const mx = Math.max(...vals);
+    const barH = 80;
+    const wrap = document.getElementById(containerId);
+    const lbl  = document.getElementById(labelId);
+    Object.entries(data).forEach(([m, d]) => {
+      const col = document.createElement('div');
+      col.className = 'bar-col';
+      const fill = document.createElement('div');
+      fill.className = 'bar-fill' + (cls ? ' '+cls : '');
+      fill.style.height = Math.max(2, Math.round((d.count / mx) * barH)) + 'px';
+      fill.title = m + ': ' + d.count + '건';
+      col.appendChild(fill);
+      wrap.appendChild(col);
+
+      const lc = document.createElement('div');
+      lc.className = 'bar-col';
+      lc.style.flex = '1';
+      const lx = document.createElement('div');
+      lx.className = 'bar-x';
+      lx.textContent = m.replace('20','');
+      lc.appendChild(lx);
+      lbl.appendChild(lc);
+    });
+  }
+  drawBar('vbar',  'vbar-labels',  vData,  '');
+  drawBar('bbar',  'bbar-labels',  bData,  'blog');
+</script>
+</body>
+</html>
