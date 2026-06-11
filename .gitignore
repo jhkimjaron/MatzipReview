@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Claude Code 내부 파일 (로컬 전용)
+.claude/
+.playwright-mcp/
+
+# 임시 파일
+temp_*.txt
+temp_*.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# IDE
+.vscode/
+.idea/
+
+# raw txt는 사람 확인용이라 제외 (json만 유지)
+raw/*.txt

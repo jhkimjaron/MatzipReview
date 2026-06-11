@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이나경송탄부대찌개 리뷰 분석 리포트</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; background: #f5f5f0; color: #2d2d2d; line-height: 1.7; }
+
+  .header {
+    background: linear-gradient(135deg, #c0392b 0%, #e74c3c 50%, #e67e22 100%);
+    color: white; padding: 40px 24px 32px; text-align: center;
+  }
+  .header .badge { display: inline-block; background: rgba(255,255,255,0.2); border-radius: 20px; padding: 4px 14px; font-size: 13px; margin-bottom: 10px; }
+  .header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+  .header .subtitle { font-size: 14px; opacity: 0.85; }
+  .header .meta { margin-top: 14px; font-size: 13px; opacity: 0.75; }
+
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+
+  .section {
+    background: white; border-radius: 14px; padding: 24px;
+    margin-bottom: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  }
+  .section-title {
+    font-size: 16px; font-weight: 700; color: #c0392b;
+    border-left: 4px solid #e74c3c; padding-left: 10px;
+    margin-bottom: 16px;
+  }
+
+  /* 감성 바 */
+  .sentiment-bar { display: flex; border-radius: 8px; overflow: hidden; height: 34px; margin: 10px 0 6px; }
+  .bar-pos { background: #27ae60; display: flex; align-items: center; justify-content: center; color: white; font-size: 13px; font-weight: 600; }
+  .bar-neu { background: #95a5a6; display: flex; align-items: center; justify-content: center; color: white; font-size: 13px; font-weight: 600; }
+  .bar-neg { background: #e74c3c; display: flex; align-items: center; justify-content: center; color: white; font-size: 13px; font-weight: 600; }
+  .bar-legend { display: flex; gap: 16px; font-size: 12px; color: #666; }
+  .bar-legend span::before { content: '●'; margin-right: 4px; }
+  .bar-legend .lpos::before { color: #27ae60; }
+  .bar-legend .lneu::before { color: #95a5a6; }
+  .bar-legend .lneg::before { color: #e74c3c; }
+
+  /* 키워드 태그 */
+  .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .tag { border-radius: 20px; padding: 5px 12px; font-size: 13px; font-weight: 500; }
+  .tag-pos { background: #eafaf1; color: #1e8449; border: 1px solid #a9dfbf; }
+  .tag-neg { background: #fdf2f2; color: #c0392b; border: 1px solid #f5c6c6; }
+  .tag-info { background: #eaf4ff; color: #1a5276; border: 1px solid #aed6f1; }
+
+  /* 대기 분포 */
+  .wait-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-top: 10px; }
+  .wait-card { background: #fef9f0; border: 1px solid #f0e0b0; border-radius: 10px; padding: 12px; text-align: center; }
+  .wait-card .val { font-size: 22px; font-weight: 700; color: #e67e22; }
+  .wait-card .lbl { font-size: 12px; color: #888; margin-top: 2px; }
+
+  /* 메뉴 테이블 */
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { background: #fdf0ee; color: #c0392b; padding: 9px 12px; text-align: left; border-bottom: 2px solid #e74c3c; }
+  td { padding: 9px 12px; border-bottom: 1px solid #f0f0f0; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #fdfafa; }
+
+  /* 월별 차트 */
+  .monthly-chart { display: flex; align-items: flex-end; gap: 6px; margin-top: 14px; height: 80px; }
+  .bar-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .bar-col { background: #e74c3c; border-radius: 4px 4px 0 0; min-height: 4px; width: 100%; transition: all 0.3s; }
+  .bar-col:hover { background: #c0392b; }
+  .bar-label { font-size: 10px; color: #999; text-align: center; }
+  .bar-count { font-size: 10px; color: #c0392b; font-weight: 600; }
+
+  /* 운영 정보 그리드 */
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  .info-item { background: #fafafa; border-radius: 8px; padding: 10px 14px; border: 1px solid #ebebeb; }
+  .info-item .il { font-size: 12px; color: #888; margin-bottom: 2px; }
+  .info-item .iv { font-size: 14px; font-weight: 600; color: #2d2d2d; }
+
+  /* 이슈 카드 */
+  .issue-list { list-style: none; }
+  .issue-list li { padding: 10px 14px; border-left: 3px solid #e74c3c; background: #fdf5f5; border-radius: 0 8px 8px 0; margin-bottom: 8px; font-size: 14px; }
+  .issue-list li .issue-meta { font-size: 11px; color: #999; margin-top: 3px; }
+
+  /* 추천/비추천 */
+  .rec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 10px; }
+  .rec-box { border-radius: 10px; padding: 16px; }
+  .rec-box.good { background: #eafaf1; border: 1px solid #a9dfbf; }
+  .rec-box.bad { background: #fdf2f2; border: 1px solid #f5c6c6; }
+  .rec-box h4 { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+  .rec-box.good h4 { color: #1e8449; }
+  .rec-box.bad h4 { color: #c0392b; }
+  .rec-box ul { list-style: none; font-size: 13px; }
+  .rec-box ul li { padding: 4px 0; border-bottom: 1px dashed rgba(0,0,0,0.07); }
+  .rec-box ul li:last-child { border-bottom: none; }
+  .rec-box ul li::before { content: '▸ '; }
+
+  /* 이용팁 */
+  .tip-list { list-style: none; margin-top: 10px; }
+  .tip-list li { padding: 8px 12px; background: #eff8ff; border-radius: 8px; margin-bottom: 6px; font-size: 13px; border-left: 3px solid #3498db; }
+  .tip-list li::before { content: '💡 '; }
+
+  /* 종합 의견 */
+  .summary-box { background: linear-gradient(135deg, #fdf5f5, #fef9f0); border: 1.5px solid #e8c9a0; border-radius: 12px; padding: 20px; font-size: 15px; line-height: 1.9; }
+
+  /* 신뢰도 */
+  .reliability-box { background: #f7f7f7; border: 1px solid #ddd; border-radius: 10px; padding: 14px; font-size: 13px; color: #555; }
+  .reliability-box strong { color: #2d2d2d; }
+
+  /* 리뷰 인용 */
+  .quote { background: #fafafa; border-left: 3px solid #bdc3c7; padding: 10px 14px; margin: 8px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #444; font-style: italic; }
+  .quote .qmeta { font-size: 11px; color: #aaa; margin-top: 4px; font-style: normal; }
+
+  @media (max-width: 600px) {
+    .info-grid, .rec-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="badge">🍲 찌개·전골 | 수원 인계동</div>
+  <h1>이나경송탄부대찌개</h1>
+  <div class="subtitle">경기 수원시 팔달구 효원로307번길 47 문화빌딩</div>
+  <div class="meta">분석 기준일: 2026-06-11 &nbsp;|&nbsp; 방문자 리뷰 363개 · 블로그 리뷰 100개</div>
+</div>
+
+<div class="container">
+
+  <!-- 1. 전반적 평가 -->
+  <div class="section">
+    <div class="section-title">① 전반적 평가</div>
+
+    <p style="font-size:13px;color:#666;margin-bottom:6px;"><strong>방문자 리뷰</strong> (n=363, weight 합계 380.5)</p>
+    <div class="sentiment-bar">
+      <div class="bar-pos" style="width:58.2%">긍정 58.2%</div>
+      <div class="bar-neu" style="width:30.5%">중립 30.5%</div>
+      <div class="bar-neg" style="width:11.3%">부정 11.3%</div>
+    </div>
+    <div class="bar-legend">
+      <span class="lpos">긍정</span><span class="lneu">중립</span><span class="lneg">부정</span>
+    </div>
+
+    <p style="font-size:13px;color:#666;margin-top:14px;margin-bottom:6px;"><strong>블로그 리뷰</strong> (n=100, weight 합계 100) <em style="color:#e74c3c;font-size:11px;">※ 사전 기반 추정, 경계 주의</em></p>
+    <div class="sentiment-bar">
+      <div class="bar-pos" style="width:56%">긍정 56%</div>
+      <div class="bar-neu" style="width:9%">중립 9%</div>
+      <div class="bar-neg" style="width:35%">부정 35%</div>
+    </div>
+    <p style="font-size:12px;color:#888;margin-top:6px;">블로그 부정 수치가 높으나, 샘플 검토 결과 "짜다", "정신없다" 등 단어가 혼재된 긍정·복합 후기가 대부분임. 실제 부정 비중은 낮을 것으로 추정.</p>
+
+    <p style="margin-top:14px;font-size:14px;">전국적으로 알려진 부대찌개 맛집. 방문자 긍정 58%는 단일 메뉴 전문점치고 양호하나, 블로그 데이터와 대표 샘플에서 <strong>서비스 불만·웨이팅 스트레스</strong>가 맛 만족을 상당 부분 희석시키는 패턴이 보임.</p>
+  </div>
+
+  <!-- 2. 주요 키워드 -->
+  <div class="section">
+    <div class="section-title">② 주요 키워드</div>
+    <p style="font-size:13px;color:#666;margin-bottom:8px;">weight 반영 상위 키워드 (방문자 리뷰)</p>
+    <div class="tag-list">
+      <span class="tag tag-pos">음식이 맛있어요 (324.0)</span>
+      <span class="tag tag-pos">재료가 신선해요 (14.5)</span>
+      <span class="tag tag-pos">양이 많아요 (11.0)</span>
+      <span class="tag tag-pos">특별한 메뉴가 있어요 (6.0)</span>
+      <span class="tag tag-pos">음식이 빨리 나와요 (3.0)</span>
+      <span class="tag tag-pos">친절해요 (3.0)</span>
+      <span class="tag tag-info">건강한 맛이에요 (1.5)</span>
+      <span class="tag tag-info">포장이 깔끔해요 (1.5)</span>
+      <span class="tag tag-info">컨셉이 독특해요 (1.5)</span>
+    </div>
+
+    <p style="font-size:13px;color:#666;margin-top:14px;margin-bottom:8px;">블로그 자주 언급 내용 (샘플 분석)</p>
+    <div class="tag-list">
+      <span class="tag tag-pos">단일 메뉴, 주문 없이 착석 즉시 세팅</span>
+      <span class="tag tag-pos">직원 친절 · 고인물 숙련도</span>
+      <span class="tag tag-pos">대파·마늘·콩나물 조합</span>
+      <span class="tag tag-pos">SNS 인증 시 라면사리+음료 서비스</span>
+      <span class="tag tag-neg">불친절 (복수 언급)</span>
+      <span class="tag tag-neg">포장 용기값 1,000원 미고지</span>
+      <span class="tag tag-neg">뚜껑 열지 말라 등 잦은 간섭</span>
+    </div>
+  </div>
+
+  <!-- 3. 메뉴 분석 -->
+  <div class="section">
+    <div class="section-title">③ 메뉴 분석</div>
+    <table>
+      <thead><tr><th>메뉴</th><th>가격</th><th>리뷰 평가</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>스페셜 부대찌개 2인</strong></td>
+          <td>26,000원</td>
+          <td>1인 13,000원. 소시지·햄·민찌·파 구성. 가성비 적절 평가.</td>
+        </tr>
+        <tr>
+          <td>스페셜 부대찌개 3인</td>
+          <td>39,000원</td>
+          <td>1인 13,000원. 인원별 세팅 동일.</td>
+        </tr>
+        <tr>
+          <td>스페셜 부대찌개 4인</td>
+          <td>52,000원</td>
+          <td>1인 13,000원.</td>
+        </tr>
+        <tr>
+          <td>사리 추가</td>
+          <td>2,000원</td>
+          <td>진라면 제공. 육수 추가·양념장 추가 필수 세트로 언급.</td>
+        </tr>
+        <tr>
+          <td>치즈 추가</td>
+          <td>2,000원</td>
+          <td>스페셜 부찌 기본 구성에 치즈 올려 먹는 조합 인기.</td>
+        </tr>
+        <tr>
+          <td>공기밥</td>
+          <td>1,000원</td>
+          <td>맛있다는 평 있으나 대기 중 식어 퍼짐 불만도 있음.</td>
+        </tr>
+        <tr>
+          <td>포장 용기값</td>
+          <td>+1,000원</td>
+          <td>미고지 불만 다수. 포장 시 반찬·밥 미제공.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:14px; background:#fffbf0; border:1px solid #f0d080; border-radius:8px; padding:12px;">
+      <strong style="color:#b7770d;">★ 시그니처 추천 조합</strong><br>
+      <span style="font-size:13px;">스페셜 부찌 + 사리 추가 + 라면 전 양념장·육수 추가 요청. 마늘·콩나물은 직원이 투입해주는 타이밍에 넣어 함께 끓임. 뚜껑 닫고 충분히 끓인 후 섭취.</span>
+    </div>
+  </div>
+
+  <!-- 4. 반복 부정 이슈 -->
+  <div class="section">
+    <div class="section-title">④ 반복 부정 이슈</div>
+    <ul class="issue-list">
+      <li>
+        <strong>서비스 불친절 · 테이블 회전 강요</strong><br>
+        "30분도 안 됐는데 빨리 나가야 한다", "계속 섞으라 간섭", "밥 바꿔달라 해도 난감한 표정만" 등 복수 언급. 최근 리뷰에도 지속.
+        <div class="issue-meta">▸ 반복성 높음 · 최근(2026-05~06) 다수 확인</div>
+      </li>
+      <li>
+        <strong>포장 용기값 1,000원 미고지</strong><br>
+        "어디에도 27,000원이라는 안내가 없었다", "포장비 안내 꼭 해라" 등 복수. 메뉴판·구두 안내 부재가 원인으로 지목.
+        <div class="issue-meta">▸ 반복성 중간 · 2026-05 확인</div>
+      </li>
+      <li>
+        <strong>주말 웨이팅 1시간 이상</strong><br>
+        캐치테이블 앱 기준 주말 오픈(10:50 접수) 시 50팀 이상, 입장까지 2시간 소요 사례 복수. "가성비 대비 웨이팅 가치 의문" 반응 있음.
+        <div class="issue-meta">▸ 반복성 높음 · 구조적 이슈</div>
+      </li>
+      <li>
+        <strong>화로 불 꺼짐 / 가스 세팅 불량</strong><br>
+        "25분이 넘어서야 끓기 시작", "불이 두 번 꺼짐, 혼자 관리해야 했다" (id:7, 2026-06-03). 고립 사례이나 웨이팅 후 경험이라 실망감 증폭.
+        <div class="issue-meta">▸ 발생 1건 확인, 단발성이나 중요도 높음</div>
+      </li>
+      <li>
+        <strong>컵 위생 문제</strong><br>
+        "콜라 컵에서 꿉꿉한 냄새가 심했다, 건조 안 된 컵 쌓아둬서" (블로그 id:3, 2026-06-10). 1건이나 위생 민감도 고려.
+        <div class="issue-meta">▸ 단발성, 최근 확인</div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 5. 영업 정보 -->
+  <div class="section">
+    <div class="section-title">⑤ 영업 정보 (방문 전 필수 확인)</div>
+    <div class="info-grid">
+      <div class="info-item">
+        <div class="il">영업시간</div>
+        <div class="iv">매일 11:00 – 21:30</div>
+      </div>
+      <div class="info-item">
+        <div class="il">브레이크타임</div>
+        <div class="iv">16:00 – 17:30</div>
+      </div>
+      <div class="info-item">
+        <div class="il">라스트오더</div>
+        <div class="iv">20:50</div>
+      </div>
+      <div class="info-item">
+        <div class="il">주차</div>
+        <div class="iv">주차 불가 (블로그 다수 언급)</div>
+      </div>
+      <div class="info-item">
+        <div class="il">포장</div>
+        <div class="iv">가능 (2인분↑, 용기값 +1,000원)</div>
+      </div>
+      <div class="info-item">
+        <div class="il">1인 이용</div>
+        <div class="iv">불가 (2인 이상)</div>
+      </div>
+      <div class="info-item">
+        <div class="il">소주 제한</div>
+        <div class="iv">테이블당 1병만 판매</div>
+      </div>
+      <div class="info-item">
+        <div class="il">SNS 이벤트</div>
+        <div class="iv">홍보 시 라면사리+음료 서비스</div>
+      </div>
+    </div>
+    <div style="margin-top:10px; font-size:12px; color:#888;">
+      ▸ 리뷰 근거: 브레이크타임은 다수 블로그에서 16:00~17:30 명시 | 주차 불가는 방문 후기에서 반복 언급 | 소주 1병 제한은 복수 리뷰 언급
+    </div>
+  </div>
+
+  <!-- 6. 예약·대기 방식 -->
+  <div class="section">
+    <div class="section-title">⑥ 예약·대기 방식</div>
+    <p style="font-size:14px;margin-bottom:12px;"><strong>캐치테이블(앱)</strong>으로 원격 웨이팅 가능. 네이버 예약 불가. <span style="color:#c0392b;font-weight:600;">위치 인증 필수</span> — 인증 실패 시 순서 맨 뒤로 밀림.</p>
+
+    <p style="font-size:13px;color:#666;margin-bottom:8px;">대기 시간 분포 (방문자 태그 weight 기준)</p>
+    <div class="wait-grid">
+      <div class="wait-card">
+        <div class="val">114.5</div>
+        <div class="lbl">바로 입장</div>
+      </div>
+      <div class="wait-card">
+        <div class="val">56.0</div>
+        <div class="lbl">10분 이내</div>
+      </div>
+      <div class="wait-card">
+        <div class="val">71.5</div>
+        <div class="lbl">30분 이내</div>
+      </div>
+      <div class="wait-card">
+        <div class="val">47.5</div>
+        <div class="lbl">30분 이상</div>
+      </div>
+      <div class="wait-card">
+        <div class="val">46.0</div>
+        <div class="lbl">1시간 이상</div>
+      </div>
+    </div>
+    <p style="font-size:13px;margin-top:10px;">분포 해석: 절반 가까이는 당일 바로~10분 이내 입장이지만, <strong>93.5 weight(전체의 약 25%)가 30분 이상 대기</strong>. 주말·공휴일에 1시간↑ 대기 빈번. 평일 오후 2~3시 방문 시 대기 없거나 짧음.</p>
+
+    <div class="quote">
+      "일요일 기준 10:54에 캐치테이블 49번째(웨이팅53번) 걸고, 12:52 입장. 당시 웨이팅 76팀. 주말에는 오픈 전런 필수." — 방문자 id:48
+      <div class="qmeta">2026-05-03</div>
+    </div>
+  </div>
+
+  <!-- 7. 시간대별 트렌드 -->
+  <div class="section">
+    <div class="section-title">⑦ 시간대별 트렌드</div>
+
+    <p style="font-size:13px;color:#666;margin-bottom:10px;">월별 리뷰 수</p>
+    <div class="monthly-chart">
+      <div class="bar-wrap">
+        <div class="bar-count">11</div>
+        <div class="bar-col" style="height:14px"></div>
+        <div class="bar-label">25.8</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">38</div>
+        <div class="bar-col" style="height:48px"></div>
+        <div class="bar-label">25.9</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">38</div>
+        <div class="bar-col" style="height:48px"></div>
+        <div class="bar-label">25.10</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">39</div>
+        <div class="bar-col" style="height:49px"></div>
+        <div class="bar-label">25.11</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">43</div>
+        <div class="bar-col" style="height:54px"></div>
+        <div class="bar-label">25.12</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">40</div>
+        <div class="bar-col" style="height:51px"></div>
+        <div class="bar-label">26.1</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">48</div>
+        <div class="bar-col" style="height:60px"></div>
+        <div class="bar-label">26.2</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">35</div>
+        <div class="bar-col" style="height:44px"></div>
+        <div class="bar-label">26.3</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">27</div>
+        <div class="bar-col" style="height:34px"></div>
+        <div class="bar-label">26.4</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">35</div>
+        <div class="bar-col" style="height:44px"></div>
+        <div class="bar-label">26.5</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">9</div>
+        <div class="bar-col" style="height:11px"></div>
+        <div class="bar-label">26.6</div>
+      </div>
+    </div>
+
+    <div style="margin-top:14px; display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+      <div style="background:#f0faf5;border:1px solid #a9dfbf;border-radius:8px;padding:12px;font-size:13px;">
+        <strong style="color:#1e8449;">초반 절반 (2025.8~2026.1)</strong><br>
+        긍정 59.4% / 부정 12.9% / 중립 27.7%
+      </div>
+      <div style="background:#fdf5f5;border:1px solid #f5c6c6;border-radius:8px;padding:12px;font-size:13px;">
+        <strong style="color:#c0392b;">최근 절반 (2026.2~2026.6)</strong><br>
+        긍정 57.1% / 부정 9.7% / 중립 33.2%
+      </div>
+    </div>
+    <p style="font-size:13px;margin-top:8px;color:#555;">부정 비율이 약 3%p 감소하며 <strong>소폭 개선</strong>. 그러나 긍정도 2%p 낮아지고 중립이 증가, 전반적 흥미 감소보다 '익숙해진 방문자 증가' 해석이 더 적절.</p>
+  </div>
+
+  <!-- 8. 신뢰도 메모 -->
+  <div class="section">
+    <div class="section-title">⑧ 신뢰도 메모</div>
+    <div class="reliability-box">
+      <p>✅ <strong>표본 충분:</strong> 방문자 363개 (18개월 이내 100%), 블로그 100개. target_met = true.</p>
+      <p style="margin-top:6px;">✅ <strong>recency_penalty 없음:</strong> 분석 대상 전체가 18개월 이내 데이터.</p>
+      <p style="margin-top:6px;">⚠️ <strong>총 제외 137건:</strong> 불성실 136건 + 유료 의심 1건. 유효 리뷰 비율 72.4%(363/500). 불성실 제외 비율이 높아 네이버 리뷰 전체의 신뢰도 환경을 반영.</p>
+      <p style="margin-top:6px;">⚠️ <strong>블로그 데이터 기간 짧음:</strong> 2026-04~06, 약 2개월치만 수집. 블로그 수치는 단기 스냅샷으로 해석할 것.</p>
+      <p style="margin-top:6px;">ℹ️ <strong>네이버 플레이스 총 리뷰:</strong> 4,301개. 본 분석은 최근 500개 중 유효 363개 기준.</p>
+    </div>
+  </div>
+
+  <!-- 9. 추천/비추천/이용팁 -->
+  <div class="section">
+    <div class="section-title">⑨ 추천 / 비추천 / 이용팁</div>
+    <div class="rec-grid">
+      <div class="rec-box good">
+        <h4>✅ 추천하는 이유</h4>
+        <ul>
+          <li>부대찌개 맛 자체가 단단함: 소시지·햄 신선, 깔끔한 감칠맛 국물</li>
+          <li>단일 메뉴 + 미리 세팅 → 착석 즉시 식사 시작 가능</li>
+          <li>수원 인계동 전국구 맛집 인지도: 오랜 단골 재방문 많음</li>
+          <li>낮 시간대 평일 방문 시 웨이팅 없거나 10분 이내</li>
+          <li>포장 가능 (2인↑), 캐치테이블 원격 웨이팅으로 외출 중 대기 가능</li>
+        </ul>
+      </div>
+      <div class="rec-box bad">
+        <h4>⚠️ 비추천 (주의)</h4>
+        <ul>
+          <li>주말·공휴일 1~2시간 대기 감수 필요</li>
+          <li>서비스 일관성 부재: 친절한 직원도 있으나 불친절·간섭 민원 반복</li>
+          <li>식사 시간 압박(회전 강요) 호소 복수</li>
+          <li>포장 시 밥·반찬 미제공, 용기값 추가 → 내식 대비 만족도 낮을 수 있음</li>
+          <li>자극적 부대찌개 선호자에게는 맹싱거운 맛으로 느껴질 수 있음</li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="tip-list">
+      <li>평일 오후 2시~브레이크 전(14~16시) 방문이 웨이팅 가장 짧음</li>
+      <li>캐치테이블 앱 원격 웨이팅 시 <strong>위치 인증 필수</strong> (인증 실패 = 맨 뒤로)</li>
+      <li>주말 오픈 런: 앱 접수 가능 시간은 10:50 전후 (현장 10시)</li>
+      <li>라면사리 추가 후 <strong>육수 추가 + 양념장 추가 요청</strong>이 핵심 조합</li>
+      <li>SNS(인스타 등)에 방문 홍보 후 직원에게 알리면 라면사리+음료 무료 서비스</li>
+      <li>포장 주문 시 용기값 1,000원 추가 및 밥·반찬 미포함 미리 숙지</li>
+      <li>주차 불가 → 대중교통(수원시청역 7~10분) 또는 인근 유료 주차장 이용</li>
+    </ul>
+  </div>
+
+  <!-- 10. 종합 의견 -->
+  <div class="section">
+    <div class="section-title">⑩ 종합 의견</div>
+    <div class="summary-box">
+      이나경송탄부대찌개는 <strong>맛의 완성도와 인지도 면에서 수원 인계동 대표 맛집</strong>의 지위를 유지하고 있다. 신선한 소시지·햄과 깊은 감칠맛의 국물은 방문자 리뷰 363개 중 압도적 키워드 1위(weight 324)를 차지하며 핵심 강점으로 일관되게 확인된다. 단일 메뉴·즉시 세팅·빠른 회전율은 효율적 식사 경험을 지원한다.<br><br>
+      그러나 <strong>서비스 일관성 문제가 데이터에서 반복 확인</strong>된다. 테이블 회전 압박, 포장비 미고지, 직원 간섭 등이 방문자·블로그 양쪽에서 지속 언급되며 맛 만족을 희석시키는 요인이다. 특히 주말 1시간 이상 웨이팅 이후 이런 경험을 마주하면 실망감이 증폭되는 구조다. 최근 트렌드에서 부정이 소폭 감소했으나 구조적 이슈는 해결되지 않은 상태다.<br><br>
+      <strong>결론:</strong> 평일 오후 타이밍을 골라 방문한다면 맛 대비 높은 만족도를 기대할 수 있다. 주말 방문은 긴 웨이팅과 서비스 편차를 감수할 준비가 필요하다.
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:12px;color:#bbb;margin-top:20px;">
+    분석 생성: 2026-06-11 | 데이터 수집: 2026-06-11 | 방문자 363개 + 블로그 100개 기준
+  </div>
+
+</div>
+</body>
+</html>

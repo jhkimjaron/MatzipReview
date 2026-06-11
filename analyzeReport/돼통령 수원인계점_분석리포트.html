@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>돼통령 수원인계점 리뷰 분석 리포트</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; background: #f5f5f0; color: #2d2d2d; line-height: 1.7; }
+
+  .header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #2c3e50 50%, #e67e22 100%);
+    color: white; padding: 40px 24px 32px; text-align: center;
+  }
+  .header .badge { display: inline-block; background: rgba(255,255,255,0.2); border-radius: 20px; padding: 4px 14px; font-size: 13px; margin-bottom: 10px; }
+  .header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+  .header .subtitle { font-size: 14px; opacity: 0.85; }
+  .header .meta { margin-top: 14px; font-size: 13px; opacity: 0.75; }
+
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+
+  .section {
+    background: white; border-radius: 14px; padding: 24px;
+    margin-bottom: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  }
+  .section-title {
+    font-size: 16px; font-weight: 700; color: #1a5276;
+    border-left: 4px solid #2980b9; padding-left: 10px;
+    margin-bottom: 16px;
+  }
+
+  /* 감성 바 */
+  .sentiment-bar { display: flex; border-radius: 8px; overflow: hidden; height: 34px; margin: 10px 0 6px; }
+  .bar-pos { background: #27ae60; display: flex; align-items: center; justify-content: center; color: white; font-size: 13px; font-weight: 600; }
+  .bar-neu { background: #95a5a6; display: flex; align-items: center; justify-content: center; color: white; font-size: 13px; font-weight: 600; }
+  .bar-neg { background: #e74c3c; display: flex; align-items: center; justify-content: center; color: white; font-size: 13px; font-weight: 600; }
+  .bar-legend { display: flex; gap: 16px; font-size: 12px; color: #666; }
+  .bar-legend span::before { content: '●'; margin-right: 4px; }
+  .bar-legend .lpos::before { color: #27ae60; }
+  .bar-legend .lneu::before { color: #95a5a6; }
+  .bar-legend .lneg::before { color: #e74c3c; }
+
+  /* 키워드 태그 */
+  .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .tag { border-radius: 20px; padding: 5px 12px; font-size: 13px; font-weight: 500; }
+  .tag-pos { background: #eafaf1; color: #1e8449; border: 1px solid #a9dfbf; }
+  .tag-neg { background: #fdf2f2; color: #c0392b; border: 1px solid #f5c6c6; }
+  .tag-info { background: #eaf4ff; color: #1a5276; border: 1px solid #aed6f1; }
+  .tag-hot { background: #fff3e0; color: #e65100; border: 1px solid #ffcc80; }
+
+  /* 대기 분포 */
+  .wait-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-top: 10px; }
+  .wait-card { background: #f0f8ff; border: 1px solid #aed6f1; border-radius: 10px; padding: 12px; text-align: center; }
+  .wait-card .val { font-size: 22px; font-weight: 700; color: #2980b9; }
+  .wait-card .lbl { font-size: 12px; color: #888; margin-top: 2px; }
+
+  /* 메뉴 테이블 */
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { background: #eaf4ff; color: #1a5276; padding: 9px 12px; text-align: left; border-bottom: 2px solid #2980b9; }
+  td { padding: 9px 12px; border-bottom: 1px solid #f0f0f0; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #f8fbff; }
+
+  /* 월별 차트 */
+  .monthly-chart { display: flex; align-items: flex-end; gap: 6px; margin-top: 14px; height: 80px; }
+  .bar-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .bar-col { background: #2980b9; border-radius: 4px 4px 0 0; min-height: 4px; width: 100%; }
+  .bar-col:hover { background: #1a5276; }
+  .bar-label { font-size: 10px; color: #999; text-align: center; }
+  .bar-count { font-size: 10px; color: #2980b9; font-weight: 600; }
+
+  /* 운영 정보 그리드 */
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  .info-item { background: #fafafa; border-radius: 8px; padding: 10px 14px; border: 1px solid #ebebeb; }
+  .info-item .il { font-size: 12px; color: #888; margin-bottom: 2px; }
+  .info-item .iv { font-size: 14px; font-weight: 600; color: #2d2d2d; }
+
+  /* 추천/비추천 */
+  .rec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 10px; }
+  .rec-box { border-radius: 10px; padding: 16px; }
+  .rec-box.good { background: #eafaf1; border: 1px solid #a9dfbf; }
+  .rec-box.bad { background: #fdf2f2; border: 1px solid #f5c6c6; }
+  .rec-box h4 { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+  .rec-box.good h4 { color: #1e8449; }
+  .rec-box.bad h4 { color: #c0392b; }
+  .rec-box ul { list-style: none; font-size: 13px; }
+  .rec-box ul li { padding: 4px 0; border-bottom: 1px dashed rgba(0,0,0,0.07); }
+  .rec-box ul li:last-child { border-bottom: none; }
+  .rec-box ul li::before { content: '▸ '; }
+
+  /* 이용팁 */
+  .tip-list { list-style: none; margin-top: 10px; }
+  .tip-list li { padding: 8px 12px; background: #eff8ff; border-radius: 8px; margin-bottom: 6px; font-size: 13px; border-left: 3px solid #2980b9; }
+  .tip-list li::before { content: '💡 '; }
+
+  /* 종합 의견 */
+  .summary-box { background: linear-gradient(135deg, #f0f8ff, #f9fbe7); border: 1.5px solid #aed6f1; border-radius: 12px; padding: 20px; font-size: 15px; line-height: 1.9; }
+
+  /* 신뢰도 */
+  .reliability-box { background: #f7f7f7; border: 1px solid #ddd; border-radius: 10px; padding: 14px; font-size: 13px; color: #555; }
+  .reliability-box strong { color: #2d2d2d; }
+
+  /* 리뷰 인용 */
+  .quote { background: #fafafa; border-left: 3px solid #bdc3c7; padding: 10px 14px; margin: 8px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #444; font-style: italic; }
+  .quote .qmeta { font-size: 11px; color: #aaa; margin-top: 4px; font-style: normal; }
+
+  /* 점수 카드 */
+  .score-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-top: 10px; }
+  .score-card { border-radius: 10px; padding: 14px; text-align: center; border: 1px solid #e0e0e0; }
+  .score-card .sc { font-size: 28px; font-weight: 800; }
+  .score-card .sl { font-size: 12px; color: #888; margin-top: 2px; }
+
+  /* 이슈 카드 */
+  .issue-list { list-style: none; }
+  .issue-list li { padding: 10px 14px; border-left: 3px solid #e67e22; background: #fffbf5; border-radius: 0 8px 8px 0; margin-bottom: 8px; font-size: 14px; }
+  .issue-list li .issue-meta { font-size: 11px; color: #999; margin-top: 3px; }
+
+  @media (max-width: 600px) {
+    .info-grid, .rec-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+    .score-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="badge">🥩 돼지고기구이 | 수원 인계동</div>
+  <h1>돼통령 수원인계점</h1>
+  <div class="subtitle">경기 수원시 팔달구 권광로188번길 41 1층 | porkking.co.kr</div>
+  <div class="meta">분석 기준일: 2026-06-11 &nbsp;|&nbsp; 방문자 리뷰 389개 · 블로그 리뷰 100개</div>
+</div>
+
+<div class="container">
+
+  <!-- 1. 전반적 평가 -->
+  <div class="section">
+    <div class="section-title">① 전반적 평가</div>
+
+    <div class="score-grid">
+      <div class="score-card" style="background:#eafaf1;border-color:#a9dfbf;">
+        <div class="sc" style="color:#1e8449;">79.4%</div>
+        <div class="sl">방문자 긍정률</div>
+      </div>
+      <div class="score-card" style="background:#f0f8ff;border-color:#aed6f1;">
+        <div class="sc" style="color:#2980b9;">98%</div>
+        <div class="sl">블로그 긍정률</div>
+      </div>
+      <div class="score-card" style="background:#fafafa;border-color:#ddd;">
+        <div class="sc" style="color:#2d2d2d;">389</div>
+        <div class="sl">유효 방문자 리뷰</div>
+      </div>
+      <div class="score-card" style="background:#fafafa;border-color:#ddd;">
+        <div class="sc" style="color:#2d2d2d;">100</div>
+        <div class="sl">유효 블로그 리뷰</div>
+      </div>
+    </div>
+
+    <p style="font-size:13px;color:#666;margin-top:16px;margin-bottom:6px;"><strong>방문자 리뷰</strong> (n=389, weight 합계 397.5)</p>
+    <div class="sentiment-bar">
+      <div class="bar-pos" style="width:79.4%">긍정 79.4%</div>
+      <div class="bar-neu" style="width:19.1%">중립 19.1%</div>
+      <div class="bar-neg" style="width:1.5%"></div>
+    </div>
+    <div class="bar-legend">
+      <span class="lpos">긍정</span><span class="lneu">중립</span><span class="lneg">부정 1.5%</span>
+    </div>
+
+    <p style="font-size:13px;color:#666;margin-top:14px;margin-bottom:6px;"><strong>블로그 리뷰</strong> (n=100, 2026-05~06 데이터)</p>
+    <div class="sentiment-bar">
+      <div class="bar-pos" style="width:98%">긍정 98%</div>
+      <div class="bar-neu" style="width:2%"></div>
+    </div>
+
+    <p style="margin-top:14px;font-size:14px;">방문자 긍정률 79.4%, 블로그 98%로 <strong>수원 인계동 고기구이 집 중 극히 높은 만족도</strong>를 기록. 부정 의견(1.5%)은 통계적으로 거의 무의미한 수준. 인계점은 2025-12 이후 오픈한 비교적 신생 매장으로, 빠른 인지도 확산과 함께 리뷰가 급증하고 있는 추세.</p>
+  </div>
+
+  <!-- 2. 주요 키워드 -->
+  <div class="section">
+    <div class="section-title">② 주요 키워드</div>
+    <p style="font-size:13px;color:#666;margin-bottom:8px;">weight 반영 상위 키워드 (방문자 리뷰)</p>
+    <div class="tag-list">
+      <span class="tag tag-pos">음식이 맛있어요 (346.5)</span>
+      <span class="tag tag-pos">고기 질이 좋아요 (25.0)</span>
+      <span class="tag tag-pos">양이 많아요 (7.5)</span>
+      <span class="tag tag-pos">가성비가 좋아요 (4.0)</span>
+      <span class="tag tag-pos">직접 잘 구워줘요 (2.0)</span>
+      <span class="tag tag-pos">친절해요 (2.0)</span>
+      <span class="tag tag-info">매장이 넓어요 (2.5)</span>
+      <span class="tag tag-info">단체모임 하기 좋아요 (1.0)</span>
+      <span class="tag tag-info">뷰가 좋아요 (2.0)</span>
+    </div>
+
+    <p style="font-size:13px;color:#666;margin-top:14px;margin-bottom:8px;">블로그 자주 언급 내용 (샘플 분석)</p>
+    <div class="tag-list">
+      <span class="tag tag-hot">볶음밥+계란 (26회 언급) ★★★</span>
+      <span class="tag tag-pos">주방에서 완성 후 제공 (기름 튐 없음)</span>
+      <span class="tag tag-pos">통삼겹·통목살 두께감·육즙</span>
+      <span class="tag tag-pos">멜젓 감칠맛 조합</span>
+      <span class="tag tag-pos">채소 리필 가능 (미나리·콩나물·김치)</span>
+      <span class="tag tag-pos">솥뚜껑 비주얼</span>
+      <span class="tag tag-pos">돼통주·하이볼 음료 라인업</span>
+      <span class="tag tag-info">인계동 데이트·회식 단골</span>
+    </div>
+  </div>
+
+  <!-- 3. 메뉴 분석 -->
+  <div class="section">
+    <div class="section-title">③ 메뉴 분석</div>
+    <table>
+      <thead><tr><th>메뉴</th><th>가격</th><th>리뷰 평가</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>돼통령 모둠한판 소 (2인) 480g</strong></td>
+          <td>39,500원</td>
+          <td>삼겹살+목살+껍데기+목항정 구성. "솥뚜껑에 비주얼만으로도 만족" 다수.</td>
+        </tr>
+        <tr>
+          <td>돼통령 모둠한판 중 (3인) 720g</td>
+          <td>58,000원</td>
+          <td>3인 표준. 블로그 가장 많이 선택하는 구성.</td>
+        </tr>
+        <tr>
+          <td>돼통령 모둠한판 대 (4인↑) 980g</td>
+          <td>76,000원</td>
+          <td>단체·가족 모임용.</td>
+        </tr>
+        <tr>
+          <td>통삼겹 한판 소 480g</td>
+          <td>41,000원</td>
+          <td>"삼겹살만 원할 때" 선택. 비계·살코기 비율 극찬.</td>
+        </tr>
+        <tr>
+          <td>통목살 한판 소 480g</td>
+          <td>39,500원</td>
+          <td>"결이 살아있고 담백". 모둠과 병행 언급.</td>
+        </tr>
+        <tr style="background:#fffbf0;">
+          <td><strong>볶음밥+계란 (1인분)</strong></td>
+          <td>3,000원</td>
+          <td><strong>블로그 26회 언급 1위.</strong> "불판 기름+양념에 볶는 마무리 필수". 2인분 5,000원.</td>
+        </tr>
+        <tr>
+          <td>한우 꽃 육회 150g</td>
+          <td>22,000원</td>
+          <td>언급 적음. 메뉴판 존재 확인 수준.</td>
+        </tr>
+        <tr>
+          <td>돼통주 (매실 대나무 통주)</td>
+          <td>8,000원</td>
+          <td>독특한 대나무 통 제공으로 인증샷 인기.</td>
+        </tr>
+        <tr>
+          <td>하이볼 (얼그레이·진저에일·복분자)</td>
+          <td>5,000원</td>
+          <td>"고기 기름기 정리에 얼그레이 조합 좋다" 언급.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:14px; background:#fffbf0; border:1px solid #ffcc80; border-radius:8px; padding:12px;">
+      <strong style="color:#e65100;">★ 시그니처 추천 조합 (블로그 최다 언급)</strong><br>
+      <span style="font-size:13px;">모둠한판 + 볶음밥+계란. 고기는 주방에서 구워 나오므로 착석 직후 바로 식사 가능. 멜젓에 찍어 먹고, 채소(미나리·콩나물·김치)와 함께 쌈. 마지막 불판 기름에 볶음밥 마무리.</span>
+    </div>
+  </div>
+
+  <!-- 4. 반복 부정 이슈 -->
+  <div class="section">
+    <div class="section-title">④ 반복 부정 이슈</div>
+    <p style="font-size:14px; color:#1e8449; margin-bottom:10px;"><strong>부정 이슈가 극히 적음.</strong> 방문자 부정 비율 1.5%, 블로그 0%. 아래는 소수 확인된 주의 사항.</p>
+    <ul class="issue-list">
+      <li>
+        <strong>피크 타임 혼잡 · 테이블 여유 부족</strong><br>
+        "저녁 피크엔 미리 조율 필요", "테이블이 협소하다는 말이 있다" (블로그 id:1, 2026-06-10). 1~2건 확인.
+        <div class="issue-meta">▸ 단발성, 피크타임 한정</div>
+      </li>
+      <li>
+        <strong>주차 공간 제한</strong><br>
+        "주차 따로 넉넉하진 않음, 건물 지하주차장 1시간 협조". 방문자 태그·블로그에서 간헐 언급.
+        <div class="issue-meta">▸ 구조적 한계, 사전 인지 필요</div>
+      </li>
+      <li>
+        <strong>수원역점 혼동</strong><br>
+        "수원역점도 좋고 여기도 조으네" — 타 지점과 방문지 혼동 가능성. 인계점 방문 시 주소 재확인 권장.
+        <div class="issue-meta">▸ 정보 주의사항</div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 5. 영업 정보 -->
+  <div class="section">
+    <div class="section-title">⑤ 영업 정보 (방문 전 필수 확인)</div>
+    <div class="info-grid">
+      <div class="info-item">
+        <div class="il">영업시간</div>
+        <div class="iv">매일 12:00 – 24:00</div>
+      </div>
+      <div class="info-item">
+        <div class="il">브레이크타임</div>
+        <div class="iv">없음</div>
+      </div>
+      <div class="info-item">
+        <div class="il">라스트오더</div>
+        <div class="iv">미확인 (자정 영업)</div>
+      </div>
+      <div class="info-item">
+        <div class="il">정기 휴무</div>
+        <div class="iv">없음 (매일 영업)</div>
+      </div>
+      <div class="info-item">
+        <div class="il">주차</div>
+        <div class="iv">건물 지하주차장 1시간 협조</div>
+      </div>
+      <div class="info-item">
+        <div class="il">편의시설</div>
+        <div class="iv">남/녀 화장실 구분, Wi-Fi, 단체 이용</div>
+      </div>
+      <div class="info-item">
+        <div class="il">포장</div>
+        <div class="iv">가능</div>
+      </div>
+      <div class="info-item">
+        <div class="il">네이버 예약</div>
+        <div class="iv">불가</div>
+      </div>
+    </div>
+    <div style="margin-top:10px; font-size:12px; color:#888;">
+      ▸ 영업시간 출처: place_info hours 데이터 | 주차 1시간 협조: 블로그 id:2 (2026-06-10) 언급
+    </div>
+  </div>
+
+  <!-- 6. 예약·대기 방식 -->
+  <div class="section">
+    <div class="section-title">⑥ 예약·대기 방식</div>
+    <p style="font-size:14px;margin-bottom:12px;">네이버 예약 불가. 현장 대기 방식이나 <strong>대기 없이 바로 입장 비율이 압도적으로 높음.</strong></p>
+
+    <p style="font-size:13px;color:#666;margin-bottom:8px;">대기 시간 분포 (방문자 태그 weight 기준)</p>
+    <div class="wait-grid">
+      <div class="wait-card">
+        <div class="val">365.0</div>
+        <div class="lbl">바로 입장</div>
+      </div>
+      <div class="wait-card">
+        <div class="val">41.5</div>
+        <div class="lbl">예약 후 이용</div>
+      </div>
+      <div class="wait-card" style="background:#f7f7f7;border-color:#ddd;">
+        <div class="val" style="color:#888;">—</div>
+        <div class="lbl">대기 시간 없음</div>
+      </div>
+    </div>
+
+    <p style="font-size:13px;margin-top:10px;"><strong>전체 방문자의 91.8%(weight 365/397.5)가 바로 입장.</strong> 이나경과 달리 웨이팅이 거의 없는 것이 큰 강점. 예약 후 이용 비율(41.5)도 있으나 네이버 예약 버튼은 없음 — 전화 또는 방문 예약으로 추정.</p>
+
+    <div class="quote">
+      "유명하고 사람 많아서 시간 잘 보고 와야 함!!" — 방문자 id:19 (극소수 대기 언급)
+      <div class="qmeta">2026-06-06 | 이 리뷰가 예외적 케이스임을 주목</div>
+    </div>
+  </div>
+
+  <!-- 7. 시간대별 트렌드 -->
+  <div class="section">
+    <div class="section-title">⑦ 시간대별 트렌드</div>
+
+    <p style="font-size:13px;color:#888;margin-bottom:4px;">※ 수집 데이터 시작: 2025-12-07. 인계점은 비교적 최근 오픈 매장으로 추정.</p>
+    <p style="font-size:13px;color:#666;margin-bottom:10px;">월별 리뷰 수</p>
+    <div class="monthly-chart">
+      <div class="bar-wrap">
+        <div class="bar-count">26</div>
+        <div class="bar-col" style="height:17px"></div>
+        <div class="bar-label">25.12</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">19</div>
+        <div class="bar-col" style="height:13px"></div>
+        <div class="bar-label">26.1</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">60</div>
+        <div class="bar-col" style="height:40px"></div>
+        <div class="bar-label">26.2</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">74</div>
+        <div class="bar-col" style="height:50px"></div>
+        <div class="bar-label">26.3</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">52</div>
+        <div class="bar-col" style="height:35px"></div>
+        <div class="bar-label">26.4</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">119</div>
+        <div class="bar-col" style="height:79px"></div>
+        <div class="bar-label">26.5</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-count">39</div>
+        <div class="bar-col" style="height:26px"></div>
+        <div class="bar-label">26.6</div>
+      </div>
+    </div>
+
+    <div style="margin-top:14px; display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+      <div style="background:#f0faf5;border:1px solid #a9dfbf;border-radius:8px;padding:12px;font-size:13px;">
+        <strong style="color:#1e8449;">초반 (2025.12~2026.3)</strong><br>
+        긍정 80.3% / 부정 0.0% / 중립 19.7%
+      </div>
+      <div style="background:#f0f8ff;border:1px solid #aed6f1;border-radius:8px;padding:12px;font-size:13px;">
+        <strong style="color:#1a5276;">최근 (2026.4~2026.6)</strong><br>
+        긍정 78.4% / 부정 3.0% / 중립 18.5%
+      </div>
+    </div>
+    <p style="font-size:13px;margin-top:8px;color:#555;">긍정률이 2%p 소폭 하락했으나 전체적으로 <strong>매우 안정적인 고만족 상태 유지</strong>. 2026-05에 리뷰가 119건으로 급증한 것은 SNS·블로그 바이럴 영향으로 해석. 최근 부정 3%는 피크타임 혼잡에 따른 소수 불만으로 추정.</p>
+  </div>
+
+  <!-- 8. 신뢰도 메모 -->
+  <div class="section">
+    <div class="section-title">⑧ 신뢰도 메모</div>
+    <div class="reliability-box">
+      <p>✅ <strong>표본 충분:</strong> 방문자 389개, 블로그 100개. target_met = true.</p>
+      <p style="margin-top:6px;">✅ <strong>recency_penalty 없음:</strong> 분석 대상 전체가 18개월 이내 데이터.</p>
+      <p style="margin-top:6px;">⚠️ <strong>데이터 기간 짧음:</strong> 방문자 리뷰 시작일 2025-12-07 (약 6개월). 인계점이 최근 오픈한 신생 매장으로 보임. 장기 운영 후 서비스 품질 유지 여부는 추적 필요.</p>
+      <p style="margin-top:6px;">⚠️ <strong>블로그 기간 매우 짧음:</strong> 2026-05~06, 약 1개월치. 블로그 98% 긍정은 오픈 초기 바이럴·체험단 효과 가능성 있음. 장기 추적 필요.</p>
+      <p style="margin-top:6px;">⚠️ <strong>불성실 제외 111건:</strong> 유효 리뷰 비율 77.8%(389/500). 양호한 수준.</p>
+      <p style="margin-top:6px;">ℹ️ <strong>네이버 플레이스 총 리뷰:</strong> 1,328개. 본 분석은 최근 500개 중 유효 389개 기준.</p>
+    </div>
+  </div>
+
+  <!-- 9. 추천/비추천/이용팁 -->
+  <div class="section">
+    <div class="section-title">⑨ 추천 / 비추천 / 이용팁</div>
+    <div class="rec-grid">
+      <div class="rec-box good">
+        <h4>✅ 추천하는 이유</h4>
+        <ul>
+          <li>고기 품질(두께·육즙·숙성)과 맛이 뛰어남. 방문자 긍정률 79.4%</li>
+          <li>주방 완성 제공 → 기름 튐 없이 대화에 집중 가능</li>
+          <li>바로 입장 비율 91.8% — 웨이팅 스트레스 없음</li>
+          <li>브레이크타임 없이 12:00~24:00 운영, 야식 방문 가능</li>
+          <li>채소 리필·다양한 소스·돼통주·하이볼 등 구성 알참</li>
+          <li>볶음밥+계란 마무리가 만족도를 한 단계 끌어올림</li>
+          <li>데이트·회식·단체 모임 모두 적합</li>
+        </ul>
+      </div>
+      <div class="rec-box bad">
+        <h4>⚠️ 비추천 (주의)</h4>
+        <ul>
+          <li>2인 기준 39,500원↑ — 가볍게 먹기엔 다소 부담</li>
+          <li>저녁 피크타임 테이블 혼잡 가능 (사전 방문 시간 조율 권장)</li>
+          <li>주차 공간 제한 — 대중교통 또는 지하주차장 이용 필요</li>
+          <li>오픈 6개월차 신생 매장 → 장기 서비스 안정성 추적 중</li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="tip-list">
+      <li>모둠한판 + <strong>볶음밥+계란</strong>은 블로그 26회 언급 조합. 불판 정리 전 꼭 요청.</li>
+      <li>멜젓에 고기 찍어 먹기 + 미나리·콩나물 쌈 조합이 리뷰에서 가장 많이 추천.</li>
+      <li>건물 지하주차장 이용 시 주차권 1시간 협조 확인 (방문 전 전화 문의 권장).</li>
+      <li>저녁 피크(19~21시)보다 <strong>점심(12~14시) 또는 늦은 저녁(21시↑)</strong> 방문 시 여유 있음.</li>
+      <li>단체 방문(회식 등) 시 사전 전화 예약 권장.</li>
+      <li>돼통주(매실 대나무 통주)는 비주얼 인증샷 인기 아이템. 술 즐긴다면 필수 주문.</li>
+      <li>수원역점과 인계점이 별도 매장 — 방문 전 주소 재확인 (인계점: 권광로188번길 41).</li>
+    </ul>
+  </div>
+
+  <!-- 10. 종합 의견 -->
+  <div class="section">
+    <div class="section-title">⑩ 종합 의견</div>
+    <div class="summary-box">
+      돼통령 수원인계점은 <strong>수원 인계동 돼지구이 카테고리에서 현재 가장 높은 만족도를 기록하는 매장</strong>이다. 방문자 긍정률 79.4%, 블로그 98%라는 수치는 수백 건의 리뷰에서 일관되게 확인되며, 부정 의견이 통계적으로 거의 없는 수준이다. 핵심 강점은 세 가지로 압축된다: <strong>① 주방 완성 제공으로 편한 식사</strong>, <strong>② 고품질 고기(두께·육즙·숙성)</strong>, <strong>③ 대기 없는 빠른 입장(91.8%)</strong>.<br><br>
+      볶음밥+계란 마무리(블로그 26회 언급)가 고객 경험의 피날레로 자리 잡은 것은 단순 맛 이상의 <strong>식사 흐름 설계</strong>가 잘 되어 있음을 시사한다. 인계동 데이트·회식 방문자의 재방문 패턴도 뚜렷.<br><br>
+      단, <strong>2025-12 오픈 이후 약 6개월치 데이터</strong>라는 한계가 있다. 블로그 98% 긍정은 초기 바이럴 효과를 배제하기 어렵고, 향후 리뷰 증가에 따른 평가 안정화 여부를 지켜볼 필요가 있다. 현재 시점에서는 수원 인계동 방문 시 <strong>강력 추천</strong>할 수 있는 고기집이다.
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:12px;color:#bbb;margin-top:20px;">
+    분석 생성: 2026-06-11 | 데이터 수집: 2026-06-11 | 방문자 389개 + 블로그 100개 기준
+  </div>
+
+</div>
+</body>
+</html>

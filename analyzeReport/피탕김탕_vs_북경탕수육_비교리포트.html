@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>피탕김탕 vs 북경탕수육 비교 분석 리포트</title>
+<style>
+  :root {
+    --pos: #2e7d32; --neg: #c62828; --neu: #546e7a;
+    --blue: #1565c0; --orange: #e65100; --green: #2e7d32;
+    --muted: #78909c; --bg: #f8f9fa; --card: #ffffff;
+    --border: #e0e0e0; --text: #212121;
+    --p-bg: #e8f5e9; --n-bg: #ffebee;
+    --accent-a: #1565c0; --accent-b: #6a1b9a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif;
+         background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.6; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ─── 헤더 ─── */
+  .header {
+    background: linear-gradient(135deg, #1a237e 0%, #6a1b9a 100%);
+    color: #fff; padding: 28px 24px 20px; text-align: center;
+  }
+  .header h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .header .subtitle { font-size: 13px; opacity: .8; }
+  .header .vs-badge {
+    display: inline-block; background: rgba(255,255,255,.2);
+    border-radius: 20px; padding: 4px 16px; font-size: 13px;
+    margin: 10px 0;
+  }
+
+  /* ─── 레이아웃 ─── */
+  .container { max-width: 960px; margin: 0 auto; padding: 16px 12px; }
+  .section { background: var(--card); border-radius: 10px; border: 1px solid var(--border);
+             margin-bottom: 16px; overflow: hidden; }
+  .section-title {
+    background: #f5f5f5; border-bottom: 1px solid var(--border);
+    padding: 10px 16px; font-size: 14px; font-weight: 700;
+  }
+  .section-body { padding: 14px 16px; }
+
+  /* ─── 두 가게 정보 카드 ─── */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+  .store-card {
+    background: var(--card); border-radius: 10px; border: 2px solid;
+    overflow: hidden;
+  }
+  .store-card.a { border-color: var(--accent-a); }
+  .store-card.b { border-color: var(--accent-b); }
+  .store-card-header {
+    padding: 12px 14px; color: #fff; display: flex; align-items: center; gap: 10px;
+  }
+  .store-card.a .store-card-header { background: var(--accent-a); }
+  .store-card.b .store-card-header { background: var(--accent-b); }
+  .store-card-header h2 { font-size: 16px; font-weight: 700; }
+  .store-card-body { padding: 12px 14px; font-size: 13px; }
+  .info-row { display: flex; gap: 6px; margin-bottom: 4px; }
+  .info-label { color: var(--muted); min-width: 72px; flex-shrink: 0; }
+  .info-val { color: var(--text); }
+  .map-btn {
+    display: inline-block; margin-top: 10px;
+    background: #03C75A; color: #fff; padding: 5px 14px;
+    border-radius: 5px; font-size: 12px; font-weight: 600;
+  }
+  .map-btn:hover { background: #02a84b; text-decoration: none; }
+
+  /* ─── KPI 그리드 ─── */
+  .kpi-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+  .kpi-box {
+    border-radius: 8px; border: 1px solid var(--border);
+    padding: 10px 12px; text-align: center; background: var(--card);
+  }
+  .kpi-box .kpi-val { font-size: 20px; font-weight: 800; line-height: 1.3; }
+  .kpi-box .kpi-label { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .kpi-box.pos .kpi-val { color: var(--pos); }
+  .kpi-box.neg .kpi-val { color: var(--neg); }
+  .kpi-box.blue .kpi-val { color: var(--blue); }
+  .kpi-box.purple .kpi-val { color: var(--accent-b); }
+  .kpi-box.orange .kpi-val { color: var(--orange); }
+
+  /* ─── 비교 테이블 ─── */
+  .cmp-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .cmp-table th, .cmp-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .cmp-table th { background: #f5f5f5; font-weight: 700; text-align: center; }
+  .cmp-table .row-label { color: var(--muted); font-weight: 600; background: #fafafa; width: 110px; }
+  .cmp-table .a-col { border-left: 3px solid var(--accent-a); }
+  .cmp-table .b-col { border-left: 3px solid var(--accent-b); }
+  .cmp-table tr:last-child td { border-bottom: none; }
+  .badge { display: inline-block; border-radius: 4px; padding: 1px 6px; font-size: 11px; font-weight: 600; }
+  .badge-pos { background: var(--p-bg); color: var(--pos); }
+  .badge-neg { background: var(--n-bg); color: var(--neg); }
+  .badge-warn { background: #fff3e0; color: #e65100; }
+  .badge-info { background: #e3f2fd; color: #1565c0; }
+
+  /* ─── 개별 분석 탭 ─── */
+  .store-section-title {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 15px; font-weight: 700; padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .store-label-a { background: var(--accent-a); color: #fff; border-radius: 4px; padding: 2px 10px; font-size: 12px; }
+  .store-label-b { background: var(--accent-b); color: #fff; border-radius: 4px; padding: 2px 10px; font-size: 12px; }
+
+  /* ─── 리뷰 샘플 카드 ─── */
+  .review-cards { display: flex; flex-direction: column; gap: 8px; }
+  .review-card {
+    border-radius: 8px; border: 1px solid var(--border);
+    padding: 10px 12px; font-size: 13px;
+  }
+  .review-card.pos { border-left: 3px solid var(--pos); background: #fafffe; }
+  .review-card.neg { border-left: 3px solid var(--neg); background: #fffafa; }
+  .review-card.neu { border-left: 3px solid var(--neu); background: #fafafa; }
+  .review-meta { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+  .review-content { color: #333; line-height: 1.55; }
+
+  /* ─── 트렌드 바 ─── */
+  .trend-bar-wrap { margin: 8px 0; }
+  .trend-bar-label { font-size: 12px; color: var(--muted); margin-bottom: 3px; }
+  .trend-bar-track { background: #eee; border-radius: 4px; height: 14px; overflow: hidden; display: flex; }
+  .trend-bar-pos { background: var(--pos); height: 100%; }
+  .trend-bar-neg { background: var(--neg); height: 100%; }
+  .trend-bar-neu { background: #b0bec5; height: 100%; }
+  .trend-bar-nums { display: flex; gap: 8px; font-size: 11px; margin-top: 2px; }
+
+  /* ─── 아이콘 태그 ─── */
+  .tag { display: inline-block; background: #f0f4ff; color: #3949ab;
+         border-radius: 20px; padding: 2px 10px; font-size: 12px; margin: 2px; }
+  .tag.neg { background: #fff0f0; color: #c62828; }
+  .tag.pos { background: #f0fff4; color: #2e7d32; }
+
+  /* ─── 요약 총평 ─── */
+  .verdict {
+    background: linear-gradient(135deg, #f3e5f5 0%, #e8eaf6 100%);
+    border-radius: 10px; border: 1px solid #ce93d8;
+    padding: 16px; margin-bottom: 16px;
+  }
+  .verdict h3 { font-size: 15px; font-weight: 700; margin-bottom: 10px; color: #4a148c; }
+  .verdict-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 500px) { .verdict-grid { grid-template-columns: 1fr; } }
+  .verdict-box { background: #fff; border-radius: 8px; padding: 12px; font-size: 13px; }
+  .verdict-box h4 { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .verdict-box.a h4 { color: var(--accent-a); }
+  .verdict-box.b h4 { color: var(--accent-b); }
+  .verdict-box ul { padding-left: 16px; }
+  .verdict-box li { margin-bottom: 3px; }
+
+  /* ─── 신뢰도 ─── */
+  .reliability { font-size: 12px; color: var(--muted); border-top: 1px solid var(--border);
+                 padding-top: 10px; margin-top: 10px; }
+  .warn { color: var(--orange); font-weight: 600; }
+
+  /* ─── 풍자 또간집 배너 ─── */
+  .hotbanner {
+    background: #fff8e1; border: 1px solid #ffcc02; border-radius: 8px;
+    padding: 10px 14px; font-size: 13px; margin-bottom: 10px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .hotbanner strong { color: #e65100; }
+</style>
+</head>
+<body>
+
+<!-- ──────────────── 헤더 ──────────────── -->
+<div class="header">
+  <div class="vs-badge">공주 김피탕 원조 대결</div>
+  <h1>피탕김탕 vs 북경탕수육</h1>
+  <div class="subtitle">네이버 리뷰 기반 비교 분석 · 분석일 2026-06-11</div>
+</div>
+
+<div class="container">
+
+  <!-- ──── 또간집 배너 ──── -->
+  <div class="hotbanner">
+    📺 <strong>풍자 또간집 공주편 방영 이후</strong> 두 가게 모두 방문객 급증 중 — 리뷰 데이터가 빠르게 쌓이는 시점임에 유의
+  </div>
+
+  <!-- ──────────────── 두 가게 기본정보 ──────────────── -->
+  <div class="two-col">
+    <div class="store-card a">
+      <div class="store-card-header">
+        <div>
+          <h2>피탕김탕</h2>
+          <div style="font-size:12px;opacity:.85">대형 단독건물 · 현대식</div>
+        </div>
+      </div>
+      <div class="store-card-body">
+        <div class="info-row"><span class="info-label">주소</span><span class="info-val">충남 공주시 한적2길 47-5</span></div>
+        <div class="info-row"><span class="info-label">전화</span><span class="info-val">041-856-3366</span></div>
+        <div class="info-row"><span class="info-label">영업시간</span><span class="info-val">화~일 11:00–23:00</span></div>
+        <div class="info-row"><span class="info-label">브레이크</span><span class="info-val">15:30–16:30</span></div>
+        <div class="info-row"><span class="info-label">정기휴무</span><span class="info-val">격주 월요일</span></div>
+        <div class="info-row"><span class="info-label">주차</span><span class="info-val">건물 2층 전용 주차 (주차등록 필수)</span></div>
+        <div class="info-row"><span class="info-label">예약</span><span class="info-val">캐치테이블 앱 원격 웨이팅</span></div>
+        <div class="info-row"><span class="info-label">방문자리뷰</span><span class="info-val">네이버 총 6,102개</span></div>
+        <a class="map-btn" href="https://map.naver.com/p/entry/place/31992305" target="_blank">네이버 지도 바로가기</a>
+      </div>
+    </div>
+    <div class="store-card b">
+      <div class="store-card-header">
+        <div>
+          <h2>북경탕수육</h2>
+          <div style="font-size:12px;opacity:.85">소형 노포 · 20년 가족경영</div>
+        </div>
+      </div>
+      <div class="store-card-body">
+        <div class="info-row"><span class="info-label">주소</span><span class="info-val">충남 공주시 중동1길 5-18</span></div>
+        <div class="info-row"><span class="info-label">전화</span><span class="info-val">041-858-9991</span></div>
+        <div class="info-row"><span class="info-label">영업시간</span><span class="info-val">화·수 10:00–19:00 / 금 10:00–18:00<br>토·일 09:30–14:00</span></div>
+        <div class="info-row"><span class="info-label">정기휴무</span><span class="info-val">매주 월·목요일</span></div>
+        <div class="info-row"><span class="info-label">조기마감</span><span class="info-val">재료소진 시 12–13시 영업종료</span></div>
+        <div class="info-row"><span class="info-label">주차</span><span class="info-val">공영주차타워 도보 2분 (주말·공휴일 무료)</span></div>
+        <div class="info-row"><span class="info-label">예약</span><span class="info-val">현장 번호표 (호명 시 부재 → 순서 소멸)</span></div>
+        <div class="info-row"><span class="info-label">방문자리뷰</span><span class="info-val">네이버 총 910개</span></div>
+        <a class="map-btn" href="https://map.naver.com/p/entry/place/30867172" target="_blank">네이버 지도 바로가기</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ──────────────── KPI 비교 ──────────────── -->
+  <div class="section">
+    <div class="section-title">📊 핵심 수치 비교</div>
+    <div class="section-body">
+      <table class="cmp-table">
+        <colgroup><col style="width:110px"><col><col></colgroup>
+        <thead>
+          <tr>
+            <th class="row-label">항목</th>
+            <th class="a-col">🔵 피탕김탕</th>
+            <th class="b-col">🟣 북경탕수육</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="row-label">방문자 긍정률</td>
+            <td class="a-col"><strong>65.8%</strong> <span class="badge badge-pos">긍정</span></td>
+            <td class="b-col"><strong>63.5%</strong> <span class="badge badge-pos">긍정</span></td>
+          </tr>
+          <tr>
+            <td class="row-label">블로그 긍정률</td>
+            <td class="a-col"><strong>65.0%</strong></td>
+            <td class="b-col"><strong>74.0%</strong> <span class="badge badge-pos">상위</span></td>
+          </tr>
+          <tr>
+            <td class="row-label">방문자 부정률</td>
+            <td class="a-col">8.6%</td>
+            <td class="b-col">8.2%</td>
+          </tr>
+          <tr>
+            <td class="row-label">블로그 부정 트렌드</td>
+            <td class="a-col">20% → <strong>32%</strong> <span class="badge badge-neg">악화</span></td>
+            <td class="b-col">22% → <strong>14%</strong> <span class="badge badge-pos">개선</span></td>
+          </tr>
+          <tr>
+            <td class="row-label">방문자 부정 트렌드</td>
+            <td class="a-col">8.9% → <strong>8.3%</strong> <span class="badge badge-info">유지</span></td>
+            <td class="b-col">1.1% → <strong>13.3%</strong> <span class="badge badge-neg">급악화</span></td>
+          </tr>
+          <tr>
+            <td class="row-label">리뷰 수집 현황</td>
+            <td class="a-col">네이버 6,102개 → 수집 500 → 분석 <strong>349</strong></td>
+            <td class="b-col">네이버 910개 → 수집 500 → 분석 <strong>108</strong></td>
+          </tr>
+          <tr>
+            <td class="row-label">블로그 현황</td>
+            <td class="a-col">네이버 3,045개 → 수집·분석 <strong>100</strong></td>
+            <td class="b-col">네이버 1,068개 → 수집·분석 <strong>100</strong></td>
+          </tr>
+          <tr>
+            <td class="row-label">주요 예약방식</td>
+            <td class="a-col"><span class="badge badge-info">캐치테이블 앱</span></td>
+            <td class="b-col"><span class="badge badge-warn">현장 번호표</span></td>
+          </tr>
+          <tr>
+            <td class="row-label">영업시간</td>
+            <td class="a-col">11:00–23:00 (12시간+)</td>
+            <td class="b-col">09:30–14:00 (주말 기준 4.5시간)</td>
+          </tr>
+          <tr>
+            <td class="row-label">규모/분위기</td>
+            <td class="a-col">단독 3층 건물, 로봇 서빙, 셀프바</td>
+            <td class="b-col">테이블 10–12개, 노포 분위기</td>
+          </tr>
+          <tr>
+            <td class="row-label">기본 제공</td>
+            <td class="a-col">무료 음료 셀프바 (리뷰 이벤트 시)</td>
+            <td class="b-col">콜라 기본 서비스 (사이즈별 상이)</td>
+          </tr>
+          <tr>
+            <td class="row-label">가격대 (2인 기준)</td>
+            <td class="a-col">김피탕 커플 24,000원~</td>
+            <td class="b-col">김치탕 미니 18,000원~ <span class="badge badge-pos">저렴</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ──────────────── 피탕김탕 개별 분석 ──────────────── -->
+  <div class="section">
+    <div class="store-section-title">
+      <span class="store-label-a">피탕김탕</span> 개별 분석
+    </div>
+    <div class="section-body">
+
+      <div class="hotbanner" style="margin-bottom:10px">
+        ⚠️ 방문자 데이터가 <strong>2026년 4월 이후만</strong> 집중 — 또간집 방영 이후 리뷰 급증, 그 이전 데이터가 반영 안 된 점 참고
+      </div>
+
+      <!-- 감성 트렌드 -->
+      <div style="margin-bottom:14px">
+        <div style="font-weight:700;margin-bottom:8px">감성 분포 (가중치 반영)</div>
+        <div class="trend-bar-wrap">
+          <div class="trend-bar-label">방문자 리뷰 (349개)</div>
+          <div class="trend-bar-track">
+            <div class="trend-bar-pos" style="width:65.8%"></div>
+            <div class="trend-bar-neg" style="width:8.6%"></div>
+            <div class="trend-bar-neu" style="width:25.6%"></div>
+          </div>
+          <div class="trend-bar-nums">
+            <span style="color:var(--pos)">긍정 65.8%</span>
+            <span style="color:var(--neg)">부정 8.6%</span>
+            <span style="color:var(--neu)">중립 25.6%</span>
+          </div>
+        </div>
+        <div class="trend-bar-wrap" style="margin-top:8px">
+          <div class="trend-bar-label">블로그 리뷰 (100개) — <span class="warn">부정 트렌드 악화 주의</span></div>
+          <div class="trend-bar-track">
+            <div class="trend-bar-pos" style="width:65%"></div>
+            <div class="trend-bar-neg" style="width:26%"></div>
+            <div class="trend-bar-neu" style="width:9%"></div>
+          </div>
+          <div class="trend-bar-nums">
+            <span style="color:var(--pos)">긍정 65.0%</span>
+            <span style="color:var(--neg)">부정 26.0%</span>
+            <span style="color:var(--neu)">중립 9.0%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 메뉴 -->
+      <div style="margin-bottom:14px">
+        <div style="font-weight:700;margin-bottom:6px">메뉴 언급 빈도 (가중치)</div>
+        <div>
+          <span class="tag pos">피탕 142.5</span>
+          <span class="tag pos">탕수육 35.0</span>
+          <span class="tag pos">김탕 34.5</span>
+          <span class="tag">코스 4.5</span>
+          <span class="tag">세트 4.5</span>
+          <span class="tag">볶음밥 1.0</span>
+        </div>
+        <div style="margin-top:8px;font-size:12px;color:var(--muted)">
+          ★ <strong>시그니처: 김피탕</strong> — 탕수육+김치+피자치즈 조합. 닭고기(기본) 또는 돼지등심으로 변경 가능. 치즈추가 강추 (5,000원).
+          커플 사이즈도 양이 많으니 2인은 커플 또는 미니로 충분.
+        </div>
+      </div>
+
+      <!-- 주요 이슈 -->
+      <div style="margin-bottom:14px">
+        <div style="font-weight:700;margin-bottom:6px">반복 이슈</div>
+        <div class="review-cards">
+          <div class="review-card neg">
+            <div class="review-meta">🔴 주문 누락 (복수 건 확인)</div>
+            <div class="review-content">홀 직원에게 물어보니 "원래 30–40분 걸린다"고 했으나 실제로는 주문 자체가 누락. 한 시간 대기 후 카운터에 항의해야 음식 나옴. 사과 없이 "바로 빼드릴게요" 응대. (2026-06-06)</div>
+          </div>
+          <div class="review-card neg">
+            <div class="review-meta">🔴 키오스크 오작동 (복수 건)</div>
+            <div class="review-content">키오스크 기계가 말썽이라 주문이 어려웠음. 직원 응대는 친절하지만 기계 불안정 반복 언급. (2026-06-06)</div>
+          </div>
+          <div class="review-card neg">
+            <div class="review-meta">🟠 웨이팅 2–3.5시간 (대기 수용도는 분분)</div>
+            <div class="review-content">토요일 점심 기준 3–3.5시간. 캐치테이블 예상시간은 실제와 다름 → 10팀 이하 남았을 때 매장으로 이동 권고. 캐치테이블 예약은 당일 11시 전 선점 필수.</div>
+          </div>
+          <div class="review-card neu">
+            <div class="review-meta">🟡 홀 직원 소통 문제 (소수 언급)</div>
+            <div class="review-content">외국인 직원 발음·소통 문제 언급 2–3건. 전체적으로는 친절하다는 평 우세.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 대표 긍정 리뷰 -->
+      <div style="margin-bottom:6px">
+        <div style="font-weight:700;margin-bottom:6px">대표 긍정 리뷰</div>
+        <div class="review-cards">
+          <div class="review-card pos">
+            <div class="review-meta">2026-06-06 · 가족 방문</div>
+            <div class="review-content">나이드신분이나 초등학생이나 호불호가 없는 맛집. 치즈와 김치의 조합이 새로운 듯 익숙한 맛. 연령별·성별 모두 만족. 사전 예약 필수!</div>
+          </div>
+          <div class="review-card pos">
+            <div class="review-meta">2026-06-06 · 연인 방문 (블로그)</div>
+            <div class="review-content">서울김피탕이랑 차원이 다름. 커플 사이즈에도 2인분 충분. 물가가 서울보다 저렴해 가성비 느낌. 치즈추가 꼭 하세요 (5천원 아깝지 않음). 돼지등심으로 변경 추천.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 신뢰도 -->
+      <div class="reliability">
+        📌 신뢰도: 방문자 349개 / 2026-04~06 집중 (2개월). target_met=true. 블로그 부정률이 최근 반기 기준 20%→32%로 상승 중 — 운영 품질 모니터링 필요.
+      </div>
+    </div>
+  </div>
+
+  <!-- ──────────────── 북경탕수육 개별 분석 ──────────────── -->
+  <div class="section">
+    <div class="store-section-title">
+      <span class="store-label-b">북경탕수육</span> 개별 분석
+    </div>
+    <div class="section-body">
+
+      <div class="hotbanner" style="margin-bottom:10px">
+        ⚠️ 방문자 리뷰 <strong>표본 108개 (제외율 78%)</strong> — 신뢰도 낮음, 블로그 100개를 주요 근거로 활용 권장
+      </div>
+
+      <!-- 감성 트렌드 -->
+      <div style="margin-bottom:14px">
+        <div style="font-weight:700;margin-bottom:8px">감성 분포 (가중치 반영)</div>
+        <div class="trend-bar-wrap">
+          <div class="trend-bar-label">방문자 리뷰 (108개) — <span class="warn">최근 부정률 13.3%로 급등</span></div>
+          <div class="trend-bar-track">
+            <div class="trend-bar-pos" style="width:63.5%"></div>
+            <div class="trend-bar-neg" style="width:8.2%"></div>
+            <div class="trend-bar-neu" style="width:28.3%"></div>
+          </div>
+          <div class="trend-bar-nums">
+            <span style="color:var(--pos)">긍정 63.5%</span>
+            <span style="color:var(--neg)">부정 8.2%</span>
+            <span style="color:var(--neu)">중립 28.3%</span>
+          </div>
+        </div>
+        <div class="trend-bar-wrap" style="margin-top:8px">
+          <div class="trend-bar-label">블로그 리뷰 (100개) — <span style="color:var(--pos);font-weight:600">긍정 트렌드 개선 중</span></div>
+          <div class="trend-bar-track">
+            <div class="trend-bar-pos" style="width:74%"></div>
+            <div class="trend-bar-neg" style="width:18%"></div>
+            <div class="trend-bar-neu" style="width:8%"></div>
+          </div>
+          <div class="trend-bar-nums">
+            <span style="color:var(--pos)">긍정 74.0%</span>
+            <span style="color:var(--neg)">부정 18.0%</span>
+            <span style="color:var(--neu)">중립 8.0%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 메뉴 -->
+      <div style="margin-bottom:14px">
+        <div style="font-weight:700;margin-bottom:6px">메뉴 언급 빈도 (가중치)</div>
+        <div>
+          <span class="tag pos">탕수육 37.75</span>
+          <span class="tag pos">피탕 43.5</span>
+          <span class="tag pos">김탕 6.25</span>
+          <span class="tag">군만두 2.5</span>
+          <span class="tag">세트 1.5</span>
+        </div>
+        <div style="margin-top:8px;font-size:12px;color:var(--muted)">
+          ★ <strong>시그니처: 고구마김치치즈탕수육</strong> — 고구마 추가(2,000원)가 달달함을 더해 최다 추천.
+          닭가슴살 탕수육으로 퍽퍽함 없음. 콜라 기본 제공, 포장 쿠폰 5장=군만두 무료.
+          사장님 추천 사이즈: 싱글(1–2인), 미니(2인), 소(3인).
+        </div>
+      </div>
+
+      <!-- 주요 이슈 -->
+      <div style="margin-bottom:14px">
+        <div style="font-weight:700;margin-bottom:6px">반복 이슈</div>
+        <div class="review-cards">
+          <div class="review-card neg">
+            <div class="review-meta">🔴 조기 재료 소진 (매우 반복적)</div>
+            <div class="review-content">주말·공휴일 기준 12–13시에 재료 소진으로 조기 마감. 12시 30분 이전 도착 필수. 또간집 방영 이후 오픈런 필요 수준. 하루 100팀 내외만 받는 듯.</div>
+          </div>
+          <div class="review-card neg">
+            <div class="review-meta">🔴 주방 고성/욕 (복수 블로그에서 반복 언급)</div>
+            <div class="review-content">주방이 테이블 바로 옆에 붙어있어 고성이 고스란히 들림. 식사 중 당황스러운 경험 여러 건. 노부부 사장님은 친절하나 주방 소리 문제가 반복적으로 지적됨.</div>
+          </div>
+          <div class="review-card neg">
+            <div class="review-meta">🟠 현장 번호표 시스템 불편</div>
+            <div class="review-content">사장님이 육성으로 번호 호명. 전화 안내 없음 → 자리 비우면 순서 소멸. 매장 앞에서 계속 대기해야 함. 의자 부족.</div>
+          </div>
+          <div class="review-card neu">
+            <div class="review-meta">🟡 협소한 내부 (가게 특성상)</div>
+            <div class="review-content">테이블 10–12개, 다닥다닥 배치. 사람 많을 때 답답하다는 후기 있음. 그러나 회전율은 빠른 편.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 대표 긍정 리뷰 -->
+      <div style="margin-bottom:6px">
+        <div style="font-weight:700;margin-bottom:6px">대표 긍정 리뷰</div>
+        <div class="review-cards">
+          <div class="review-card pos">
+            <div class="review-meta">2026-06-06 · 재방문 의향</div>
+            <div class="review-content">진심 존맛탱👍 작년 피탕김탕 방문 후 계속 생각나서 주말에 공주 다녀왔는데 역시 원조는 원조👍👍 김피탕 양도 진짜 푸짐하고 너무너무 맛있음. 콜라도 서비스로 주셔서 좋더라구요.</div>
+          </div>
+          <div class="review-card pos">
+            <div class="review-meta">2026-06-10 · 블로그 (또간집 이후 방문)</div>
+            <div class="review-content">인생 김피탕이었습니다. 고구마 들어간 걸로 주문하세요! 달달함이 배가 됩니다. 닭가슴살인데 퍽퍽함 없고, 김치도 너무 시지 않고 적당해요. 자연치즈 쓰는 것 같음.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 신뢰도 -->
+      <div class="reliability">
+        📌 신뢰도: 방문자 108개로 표본 부족 (target_met=false). 2024-06~2026-06 장기 데이터이나 제외율 78% 주의. 최근 방문자 부정률 1.1%→13.3% 급등은 또간집 이후 기대치가 높아진 신규 방문객 영향 가능성. 블로그는 70%→78% 긍정 개선 중.
+      </div>
+    </div>
+  </div>
+
+  <!-- ──────────────── 메뉴 가격 비교 ──────────────── -->
+  <div class="section">
+    <div class="section-title">💰 메뉴·가격 비교</div>
+    <div class="section-body">
+      <table class="cmp-table">
+        <thead>
+          <tr>
+            <th class="row-label">사이즈</th>
+            <th class="a-col">피탕김탕 (김피탕 기준)</th>
+            <th class="b-col">북경탕수육 (김치탕 기준)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="row-label">싱글/커플</td>
+            <td class="a-col">커플 24,000원 (2인 추천)</td>
+            <td class="b-col">싱글 15,000원 (1–2인)</td>
+          </tr>
+          <tr>
+            <td class="row-label">미니</td>
+            <td class="a-col">26,000원</td>
+            <td class="b-col">18,000원</td>
+          </tr>
+          <tr>
+            <td class="row-label">소</td>
+            <td class="a-col">28,000원</td>
+            <td class="b-col">22,000원 (3인)</td>
+          </tr>
+          <tr>
+            <td class="row-label">중</td>
+            <td class="a-col">32,000원</td>
+            <td class="b-col">25,000원 (4인)</td>
+          </tr>
+          <tr>
+            <td class="row-label">추가옵션</td>
+            <td class="a-col">치즈+5,000 / 고구마+1,000 / 돼지등심으로 변경 가능</td>
+            <td class="b-col">고구마+2,000 / 치즈+4,000 / 떡+1,000</td>
+          </tr>
+          <tr>
+            <td class="row-label">기본 제공</td>
+            <td class="a-col">무료 음료 셀프바 (사이다·주스)</td>
+            <td class="b-col">콜라 기본 제공 (사이즈별 500ml~1.25L)</td>
+          </tr>
+          <tr>
+            <td class="row-label">사이드</td>
+            <td class="a-col">주먹밥, 오징어튀김, 모둠튀김 등 다양</td>
+            <td class="b-col">군만두(4,000), 고구마·치즈 추가 위주</td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="margin-top:10px;font-size:12px;color:var(--muted)">
+        ※ 두 가게 모두 닭가슴살 탕수육 기본, 양이 많아 사이즈 한 단계 아래로 주문 권장 (사장님들도 권유).
+      </div>
+    </div>
+  </div>
+
+  <!-- ──────────────── 대기·예약 방식 ──────────────── -->
+  <div class="section">
+    <div class="section-title">⏰ 대기·예약 완전 가이드</div>
+    <div class="section-body">
+      <table class="cmp-table">
+        <thead>
+          <tr>
+            <th class="row-label">구분</th>
+            <th class="a-col">피탕김탕</th>
+            <th class="b-col">북경탕수육</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="row-label">예약 방법</td>
+            <td class="a-col"><strong>캐치테이블 앱</strong> 원격 웨이팅. 당일 오전 11시 전 선점 필수.</td>
+            <td class="b-col"><strong>현장 번호표</strong>. 가게 앞 테이블의 종이에 전화번호·인원 기입.</td>
+          </tr>
+          <tr>
+            <td class="row-label">주말 예상 대기</td>
+            <td class="a-col">1–3.5시간. 캐치테이블 예상시간≠실제 → 10팀 이하일 때 매장 이동.</td>
+            <td class="b-col">40분–2시간. 단, <strong>12–13시 재료소진 마감</strong> → 오전 9:30–10:30 도착 권장.</td>
+          </tr>
+          <tr>
+            <td class="row-label">대기 중 이탈</td>
+            <td class="a-col">앱 알림 → 근처에서 자유롭게 이동 가능</td>
+            <td class="b-col"><span class="badge badge-neg">부재 시 순서 소멸</span> (전화 안내 없음). 매장 앞에서 계속 대기 필요.</td>
+          </tr>
+          <tr>
+            <td class="row-label">평일 대기</td>
+            <td class="a-col">비교적 짧음 (블로그 후기 기준)</td>
+            <td class="b-col">오픈 직후(9:30–10:00)면 대기 짧음. 영업시간 자체가 짧으니 확인 필수.</td>
+          </tr>
+          <tr>
+            <td class="row-label">바로입장 비율</td>
+            <td class="a-col">방문자 태그: 바로입장 55% / 10분이내 9% / 30분이내 11% / 30분이상↑ 17%</td>
+            <td class="b-col">방문자 태그: 바로입장 61% / 10분이내 10% / 30분이내 12%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ──────────────── 종합 비교 및 추천 ──────────────── -->
+  <div class="verdict">
+    <h3>🎯 종합 비교 — 어디를 가야 할까?</h3>
+    <div class="verdict-grid">
+      <div class="verdict-box a">
+        <h4>🔵 피탕김탕 추천 상황</h4>
+        <ul>
+          <li>저녁 방문 또는 브레이크타임 이후에 갈 계획</li>
+          <li>3인 이상 단체 방문 (넓은 공간, 다양한 사이드)</li>
+          <li>처음 방문, 편안한 현대식 환경 선호</li>
+          <li>캐치테이블로 미리 예약하고 여유있게 기다릴 수 있을 때</li>
+          <li>주차 편의 중요한 경우 (2층 전용 주차)</li>
+          <li>아이·노인 동반 가족 (로봇 서빙, 셀프바 등 편의)</li>
+        </ul>
+      </div>
+      <div class="verdict-box b">
+        <h4>🟣 북경탕수육 추천 상황</h4>
+        <ul>
+          <li>원조 노포 경험을 원할 때 (20년+ 가족경영)</li>
+          <li>또간집 1위 검증된 맛 → 블로그 긍정률 74% 상위</li>
+          <li>오전 일찍 방문 가능할 때 (9:30 오픈런)</li>
+          <li>2인 소규모 방문 + 가성비 중요 (같은 양 대비 저렴)</li>
+          <li>고구마김치치즈탕수육이라는 별미를 맛보고 싶을 때</li>
+          <li>포장 또는 빠른 회전을 원할 때</li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top:14px;background:#fff;border-radius:8px;padding:12px;font-size:13px;">
+      <strong>⚠️ 반드시 알고 가야 할 것</strong>
+      <ul style="padding-left:16px;margin-top:6px;">
+        <li><strong>피탕김탕</strong>: 주문 누락 사례가 최근 복수 확인됨 → 음식이 오래 안 나오면 직접 카운터에 확인 필수. 캐치테이블 예상 시간은 실제와 다름.</li>
+        <li><strong>북경탕수육</strong>: 주말 12시 이후 재료 소진 조기마감 매우 흔함. 번호 불릴 때 자리에 없으면 순서 소멸. 주방 소음은 개선 여지 있는 반복 민원 사항.</li>
+        <li>두 가게 모두 <strong>닭가슴살 탕수육</strong> 기본 (돼지고기 아님). 치즈가 아래 깔려 있어 받자마자 빠르게 섞어야 함.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ──────────────── 이용팁 ──────────────── -->
+  <div class="section">
+    <div class="section-title">💡 방문 전 이용팁</div>
+    <div class="section-body">
+      <table class="cmp-table">
+        <thead>
+          <tr>
+            <th class="row-label">팁</th>
+            <th class="a-col">피탕김탕</th>
+            <th class="b-col">북경탕수육</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="row-label">메뉴 추천</td>
+            <td class="a-col">김피탕 + 치즈추가 + 돼지등심 변경. 고구마추가(1,000원)도 호평. 주먹밥 사이드 추천.</td>
+            <td class="b-col">고구마김치치즈탕수육 강력 추천. 치즈 아래 깔려있으니 받자마자 뒤집어 섞기.</td>
+          </tr>
+          <tr>
+            <td class="row-label">사이즈</td>
+            <td class="a-col">2인: 커플 충분. 3인: 미니 또는 소. 생각보다 많이 나옴.</td>
+            <td class="b-col">2인: 싱글 or 미니. 사장님이 사이즈 조정해주심. 많이 남으면 포장 가능.</td>
+          </tr>
+          <tr>
+            <td class="row-label">시간대</td>
+            <td class="a-col">평일 저녁이 가장 쾌적. 주말은 캐치테이블 오전 11시 전 필수.</td>
+            <td class="b-col">주말 9:30–10:30 오픈런 추천. 12시 이후는 재료소진 위험 높음.</td>
+          </tr>
+          <tr>
+            <td class="row-label">결제</td>
+            <td class="a-col">키오스크 결제 (오작동 가능 → 직원 도움 요청)</td>
+            <td class="b-col">공주페이 사용 가능 (15% 캐시백)</td>
+          </tr>
+          <tr>
+            <td class="row-label">기타</td>
+            <td class="a-col">1층 식당·2층 주차(등록 필수)·3층 카페. 셀프포장 용기 비치. 로봇 서빙.</td>
+            <td class="b-col">공영주차타워 도보 2분 (주말 무료). 화장실은 건물 외부(노후). 공주페이 할인.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ──────────────── 신뢰도 메모 ──────────────── -->
+  <div class="section">
+    <div class="section-title">📋 데이터 신뢰도 메모</div>
+    <div class="section-body" style="font-size:12px;color:var(--muted);line-height:1.8">
+      <p><strong>피탕김탕</strong>: 방문자 349개 / 2026-04-11~2026-06-10. 또간집 방영 이후 리뷰 급증으로 최근 2개월 데이터만 반영됨. 블로그 100개 / 2026-05-23~2026-06-10. 모두 최신 데이터로 신선도 높으나 장기 흐름 파악 불가. 블로그 부정률이 전반기 20%→후반기 32%로 상승 중.</p>
+      <p style="margin-top:6px"><strong>북경탕수육</strong>: 방문자 108개 (target_met=false, 제외율 78%). 제외된 392개는 24개월 초과·광고·불성실 리뷰. 표본 부족으로 방문자 수치 신뢰도 낮음 → 블로그 100개 (2026-02~06) 위주로 판단 권장. 방문자 부정률 1.1%→13.3% 급등은 또간집 이후 기대치 상승 신규방문객 영향 가능성.</p>
+      <p style="margin-top:6px">감성 분류는 사전 기반 1차 추정이며 경계 사례는 대표 샘플 본문으로 검증됨.</p>
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:12px;color:var(--muted);padding:16px 0">
+    분석 생성: 2026-06-11 · 데이터 수집: 2026-06-11 기준 · 네이버 방문자+블로그 리뷰 기반
+  </div>
+
+</div>
+</body>
+</html>
