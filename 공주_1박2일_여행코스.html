@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>공주 1박2일 여행코스 — 6월 21~22일</title>
+<style>
+  :root {
+    --bg: #fafaf8;
+    --card: #ffffff;
+    --border: #e8e4dc;
+    --primary: #2c6e49;
+    --primary-light: #e8f4ed;
+    --accent: #e07b39;
+    --accent-light: #fdf0e6;
+    --red: #c0392b;
+    --red-light: #fdecea;
+    --blue: #2563eb;
+    --blue-light: #eff6ff;
+    --gray: #6b7280;
+    --gray-light: #f3f2ef;
+    --text: #1a1a1a;
+    --text-sub: #555;
+    --shadow: 0 2px 12px rgba(0,0,0,0.08);
+    --radius: 12px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* ── HEADER ── */
+  .hero {
+    background: linear-gradient(135deg, #1a3d2b 0%, #2c6e49 60%, #3a8a5c 100%);
+    color: #fff;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+  .hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+  .hero p { font-size: 0.95rem; opacity: 0.85; }
+  .hero .meta { margin-top: 20px; display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; }
+  .hero .meta-item { text-align: center; }
+  .hero .meta-item .val { font-size: 1.05rem; font-weight: 700; }
+  .hero .meta-item .lbl { font-size: 0.75rem; opacity: 0.75; margin-top: 2px; }
+
+  /* ── NAV ── */
+  .sticky-nav {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .sticky-nav::-webkit-scrollbar { display: none; }
+  .sticky-nav a {
+    flex-shrink: 0;
+    padding: 12px 18px;
+    font-size: 0.83rem;
+    font-weight: 600;
+    color: var(--gray);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+  }
+  .sticky-nav a:hover { color: var(--primary); border-bottom-color: var(--primary); }
+
+  /* ── LAYOUT ── */
+  .container { max-width: 900px; margin: 0 auto; padding: 0 16px 60px; }
+  .section { margin-top: 40px; }
+  .section-title {
+    font-size: 1.25rem; font-weight: 800; color: var(--text);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-title .icon { font-size: 1.3rem; }
+
+  /* ── WARNING BANNERS ── */
+  .warning-box {
+    background: var(--red-light);
+    border: 1px solid #f5c6cb;
+    border-left: 4px solid var(--red);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    font-size: 0.88rem;
+  }
+  .warning-box .wt { font-weight: 700; color: var(--red); margin-bottom: 4px; }
+  .info-box {
+    background: var(--blue-light);
+    border: 1px solid #bfdbfe;
+    border-left: 4px solid var(--blue);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    font-size: 0.88rem;
+  }
+  .info-box .wt { font-weight: 700; color: var(--blue); margin-bottom: 4px; }
+  .tip-box {
+    background: var(--accent-light);
+    border: 1px solid #fed7aa;
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    font-size: 0.88rem;
+  }
+  .tip-box .wt { font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+
+  /* ── OVERVIEW TABLE ── */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .ov-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+  }
+  .ov-card .ov-label { font-size: 0.75rem; color: var(--gray); margin-bottom: 4px; }
+  .ov-card .ov-val { font-size: 0.95rem; font-weight: 700; }
+  .ov-card.warn { border-left: 3px solid var(--red); }
+  .ov-card.ok { border-left: 3px solid var(--primary); }
+
+  /* ── TIMELINE ── */
+  .day-header {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: var(--radius);
+    padding: 14px 20px;
+    margin-bottom: 6px;
+  }
+  .day-header .day-num { font-size: 1.5rem; font-weight: 900; }
+  .day-header .day-info { }
+  .day-header .day-date { font-size: 1rem; font-weight: 700; }
+  .day-header .day-sub { font-size: 0.8rem; opacity: 0.8; margin-top: 2px; }
+
+  .tl { position: relative; padding-left: 28px; margin-top: 16px; }
+  .tl::before {
+    content: '';
+    position: absolute; left: 10px; top: 0; bottom: 0;
+    width: 2px; background: var(--border);
+  }
+
+  .tl-item { position: relative; margin-bottom: 20px; }
+  .tl-dot {
+    position: absolute; left: -24px; top: 3px;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px var(--primary);
+    z-index: 1;
+  }
+  .tl-dot.food { background: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+  .tl-dot.sights { background: var(--blue); box-shadow: 0 0 0 2px var(--blue); }
+  .tl-dot.hotel { background: #7c3aed; box-shadow: 0 0 0 2px #7c3aed; }
+  .tl-dot.transport { background: var(--gray); box-shadow: 0 0 0 2px var(--gray); }
+
+  .tl-time {
+    font-size: 0.78rem; font-weight: 700; color: var(--primary);
+    margin-bottom: 4px; letter-spacing: 0.02em;
+  }
+  .tl-time.food { color: var(--accent); }
+  .tl-time.sights { color: var(--blue); }
+  .tl-time.hotel { color: #7c3aed; }
+  .tl-time.transport { color: var(--gray); }
+
+  .tl-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+  }
+  .tl-card.food { border-left: 3px solid var(--accent); }
+  .tl-card.sights { border-left: 3px solid var(--blue); }
+  .tl-card.hotel { border-left: 3px solid #7c3aed; }
+  .tl-card.transport { border-left: 3px solid var(--gray); background: var(--gray-light); }
+
+  .tl-card .tc-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .tl-card .tc-name { font-size: 1rem; font-weight: 800; }
+  .tl-card .tc-type {
+    font-size: 0.72rem; padding: 2px 8px; border-radius: 10px; font-weight: 600;
+  }
+  .type-food { background: var(--accent-light); color: var(--accent); }
+  .type-cafe { background: #fef9c3; color: #854d0e; }
+  .type-sights { background: var(--blue-light); color: var(--blue); }
+  .type-hotel { background: #ede9fe; color: #6d28d9; }
+  .type-move { background: var(--gray-light); color: var(--gray); }
+  .type-bakery { background: #fff7ed; color: #9a3412; }
+
+  .tl-card .tc-addr { font-size: 0.8rem; color: var(--gray); margin-top: 4px; }
+  .tl-card .tc-desc { font-size: 0.875rem; color: var(--text-sub); margin-top: 8px; line-height: 1.5; }
+  .tl-card .tc-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .tag {
+    font-size: 0.73rem; padding: 3px 8px; border-radius: 8px;
+    background: var(--gray-light); color: var(--gray);
+  }
+  .tag.warn { background: var(--red-light); color: var(--red); font-weight: 700; }
+  .tag.good { background: var(--primary-light); color: var(--primary); }
+  .tag.note { background: var(--accent-light); color: var(--accent); }
+
+  .tl-card .tc-links { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .map-btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 0.75rem; font-weight: 600;
+    padding: 5px 10px; border-radius: 6px;
+    text-decoration: none; border: 1px solid;
+    transition: opacity 0.15s;
+  }
+  .map-btn:hover { opacity: 0.75; }
+  .map-btn.naver { background: #03c75a; color: #fff; border-color: #03c75a; }
+  .map-btn.kakao { background: #fee500; color: #3c1e1e; border-color: #e5d000; }
+
+  .walk-arrow {
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 10px;
+    background: var(--gray-light); border-radius: 8px;
+    font-size: 0.8rem; color: var(--gray);
+    margin-bottom: 8px;
+  }
+  .walk-arrow::before { content: '↓'; font-weight: 700; }
+
+  /* ── VENUE SUMMARY TABLE ── */
+  .venue-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; }
+  .venue-table th {
+    background: var(--primary); color: #fff;
+    padding: 10px 12px; text-align: left; font-weight: 700;
+  }
+  .venue-table th:first-child { border-radius: 8px 0 0 0; }
+  .venue-table th:last-child { border-radius: 0 8px 0 0; }
+  .venue-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .venue-table tr:last-child td { border-bottom: none; }
+  .venue-table tr:hover td { background: var(--gray-light); }
+  .badge-open { background: var(--primary-light); color: var(--primary); padding: 2px 7px; border-radius: 8px; font-weight: 700; font-size: 0.72rem; }
+  .badge-closed { background: var(--red-light); color: var(--red); padding: 2px 7px; border-radius: 8px; font-weight: 700; font-size: 0.72rem; }
+  .badge-caution { background: var(--accent-light); color: var(--accent); padding: 2px 7px; border-radius: 8px; font-weight: 700; font-size: 0.72rem; }
+
+  /* ── TIPS SECTION ── */
+  .tips-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .tip-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 18px; box-shadow: var(--shadow);
+  }
+  .tip-card h4 { font-size: 0.9rem; font-weight: 800; margin-bottom: 10px; color: var(--primary); }
+  .tip-card ul { list-style: none; padding: 0; }
+  .tip-card li { font-size: 0.83rem; color: var(--text-sub); padding: 4px 0; padding-left: 14px; position: relative; }
+  .tip-card li::before { content: '•'; position: absolute; left: 0; color: var(--primary); font-weight: 700; }
+
+  /* ── OPTIONAL ── */
+  .optional-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 18px; box-shadow: var(--shadow);
+    border-top: 3px solid var(--accent);
+  }
+  .optional-card h4 { font-size: 0.95rem; font-weight: 800; margin-bottom: 8px; }
+  .optional-card p { font-size: 0.85rem; color: var(--text-sub); }
+
+  /* ── FOOTER ── */
+  footer {
+    text-align: center; padding: 28px 16px;
+    color: var(--gray); font-size: 0.78rem;
+    border-top: 1px solid var(--border); margin-top: 40px;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.5rem; }
+    .tl { padding-left: 22px; }
+    .tl::before { left: 7px; }
+    .tl-dot { left: -19px; width: 12px; height: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="badge">리뷰 분석 기반 · 실전 여행코스</div>
+  <h1>공주 1박2일 여행코스</h1>
+  <p>공산성 · 무령왕릉 · 제민천 + 검증된 맛집 9선</p>
+  <div class="meta">
+    <div class="meta-item">
+      <div class="val">6월 21일 (일)</div>
+      <div class="lbl">출발 · DAY 1</div>
+    </div>
+    <div class="meta-item">
+      <div class="val">6월 22일 (월)</div>
+      <div class="lbl">귀가 · DAY 2</div>
+    </div>
+    <div class="meta-item">
+      <div class="val">호텔 미인</div>
+      <div class="lbl">숙소 (체크인 15:00)</div>
+    </div>
+    <div class="meta-item">
+      <div class="val">도보·버스·택시</div>
+      <div class="lbl">이동수단</div>
+    </div>
+  </div>
+</div>
+
+<!-- STICKY NAV -->
+<nav class="sticky-nav">
+  <a href="#warnings">⚠️ 주의</a>
+  <a href="#overview">전체표</a>
+  <a href="#day1">DAY 1</a>
+  <a href="#day2">DAY 2</a>
+  <a href="#optional">옵션</a>
+  <a href="#tips">여행팁</a>
+</nav>
+
+<div class="container">
+
+  <!-- WARNINGS -->
+  <div class="section" id="warnings">
+    <div class="section-title"><span class="icon">⚠️</span>방문 전 필수 확인사항</div>
+
+    <div class="warning-box">
+      <div class="wt">6월 22일(월) 운영 불가 업체</div>
+      <b>북경탕수육</b> — 월요일 정기휴무 / <b>로컬커피</b> — 월요일 정기휴무 /
+      <b>빵빵빵하우스</b> — 월요일 정기휴무 (우성면 소재, Day 1 옵션으로만 가능)
+    </div>
+
+    <div class="warning-box">
+      <div class="wt">6월 21일(일) 마감 시간 주의</div>
+      <b>북경탕수육</b> — 14:00 마감! 공주 도착 직후 바로 가야 함 /
+      <b>로컬커피</b> — 일요일 18:00 마감 (평일 20:00) /
+      <b>부자떡집</b> — 18:30 전후 마감
+    </div>
+
+    <div class="info-box">
+      <div class="wt">피탕김탕 격주 월요일 휴무 확인</div>
+      원본 데이터: "월(6/15) 정기휴무 (격주 월요일)" → 6월 22일(월)은 <b>정상 영업</b>입니다.
+    </div>
+
+    <div class="tip-box">
+      <div class="wt">호텔 미인 위치</div>
+      충남 공주시 전막3길 14 (신관동) · 공주종합버스터미널에서 도보 5분 · 체크인 15:00 / 체크아웃 12:00
+    </div>
+  </div>
+
+  <!-- OVERVIEW TABLE -->
+  <div class="section" id="overview">
+    <div class="section-title"><span class="icon">📋</span>업체별 일정 가능 여부</div>
+    <div style="overflow-x:auto;">
+      <table class="venue-table">
+        <thead>
+          <tr>
+            <th>업체명</th>
+            <th>카테고리</th>
+            <th>위치</th>
+            <th>6/21 (일)</th>
+            <th>6/22 (월)</th>
+            <th>주요 제약</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>북경탕수육</b></td>
+            <td>중식</td>
+            <td>백미고을길 (공산성 앞)</td>
+            <td><span class="badge-caution">⚡ 14:00 마감</span></td>
+            <td><span class="badge-closed">✕ 월 휴무</span></td>
+            <td>도착 직후 바로 가야 함</td>
+          </tr>
+          <tr>
+            <td><b>매향</b></td>
+            <td>한식</td>
+            <td>백미고을길 (북경 바로 옆)</td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td>11:00 오픈, 재료 소진 조기 마감</td>
+          </tr>
+          <tr>
+            <td><b>베이커리 밤마을</b></td>
+            <td>베이커리</td>
+            <td>백미고을길 (매향 인근)</td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td>이른 시간 인기 품목 소진 가능</td>
+          </tr>
+          <tr>
+            <td><b>루치아의 뜰</b></td>
+            <td>카페</td>
+            <td>웅진로 145-8 (공산성 인근)</td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td>공산성 관람 후 티타임 최적</td>
+          </tr>
+          <tr>
+            <td><b>로컬커피</b></td>
+            <td>카페</td>
+            <td>용당길 (신관동)</td>
+            <td><span class="badge-caution">⚡ 18:00 마감</span></td>
+            <td><span class="badge-closed">✕ 월 휴무</span></td>
+            <td>일요일 마감 시간 빠름</td>
+          </tr>
+          <tr>
+            <td><b>부자떡집</b></td>
+            <td>떡·간식</td>
+            <td>용당길 (로컬커피 도보 5분)</td>
+            <td><span class="badge-caution">⚡ 18:30 마감</span></td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td>저녁 전 간식 타이밍</td>
+          </tr>
+          <tr>
+            <td><b>피탕김탕</b></td>
+            <td>중식</td>
+            <td>금흥동 한적2길 (택시 7분)</td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td><span class="badge-open">◎ 6/22 영업</span></td>
+            <td>격주 월 휴무 — 6/22는 정상 영업</td>
+          </tr>
+          <tr>
+            <td><b>바므</b></td>
+            <td>카페·바</td>
+            <td>제민2길 3-2 (제민천)</td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td>저녁~야간 운영, 제민천 뷰</td>
+          </tr>
+          <tr>
+            <td><b>빵빵빵하우스</b></td>
+            <td>베이커리</td>
+            <td>우성면 평목길 (택시 15분)</td>
+            <td><span class="badge-open">◎ 영업</span></td>
+            <td><span class="badge-closed">✕ 월 휴무</span></td>
+            <td>Day 1 오전 옵션만 가능 (이동 부담 있음)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- DAY 1 -->
+  <div class="section" id="day1">
+    <div class="day-header">
+      <div class="day-num">D1</div>
+      <div class="day-info">
+        <div class="day-date">6월 21일 (일요일)</div>
+        <div class="day-sub">공주 도착 12:00 → 저녁 여유롭게</div>
+      </div>
+    </div>
+
+    <div class="tl">
+
+      <!-- 도착 -->
+      <div class="tl-item">
+        <div class="tl-dot transport"></div>
+        <div class="tl-time transport">11:30 ~ 12:00</div>
+        <div class="tl-card transport">
+          <div class="tc-head">
+            <span class="tc-name">공주 도착 — 버스터미널</span>
+            <span class="tc-type type-move">이동</span>
+          </div>
+          <div class="tc-desc">공주종합버스터미널 하차. 짐은 호텔에 선 맡겨두고(체크인 15:00) 바로 점심으로. 터미널→북경탕수육 도보 15분 또는 택시 3분.</div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주종합버스터미널" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주종합버스터미널" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">도보 15분 또는 택시 3분 (요금 약 3,500원)</div>
+
+      <!-- 북경탕수육 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">12:00 ~ 13:20</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🥡 북경탕수육</span>
+            <span class="tc-type type-food">점심</span>
+          </div>
+          <div class="tc-addr">충남 공주시 백미고을길 (공산성 정면 맞은편)</div>
+          <div class="tc-desc">
+            공주 여행의 필수 코스. <b>14:00 마감</b>이므로 도착 직후 첫 목적지.
+            탕수육은 미리 + 세트 주문 추천. 런치타임 웨이팅 있을 수 있으니 12:00 입장 목표.
+          </div>
+          <div class="tc-tags">
+            <span class="tag warn">⚡ 14:00 마감</span>
+            <span class="tag warn">월 휴무</span>
+            <span class="tag good">탕수육 명소</span>
+            <span class="tag">공산성 도보 5분</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+북경탕수육" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+북경탕수육" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">도보 1분 (같은 블록)</div>
+
+      <!-- 베이커리 밤마을 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">13:20 ~ 14:00</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🥐 베이커리 밤마을</span>
+            <span class="tc-type type-bakery">디저트</span>
+          </div>
+          <div class="tc-addr">충남 공주시 백미고을길 (북경탕수육 바로 옆)</div>
+          <div class="tc-desc">
+            공주 밤을 활용한 밤 크림빵·밤 케이크 등 특색 있는 베이커리.
+            점심 후 커피 한 잔과 함께 공산성 입장 전 간단히 들르기 딱 좋은 위치.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">공주 밤 테마</span>
+            <span class="tag note">공산성 도보 3분</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+베이커리+밤마을" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+베이커리밤마을" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">도보 3분</div>
+
+      <!-- 공산성 -->
+      <div class="tl-item">
+        <div class="tl-dot sights"></div>
+        <div class="tl-time sights">14:00 ~ 15:30</div>
+        <div class="tl-card sights">
+          <div class="tc-head">
+            <span class="tc-name">🏯 공산성 관람</span>
+            <span class="tc-type type-sights">관광</span>
+          </div>
+          <div class="tc-addr">충남 공주시 웅진로 280 (금강변)</div>
+          <div class="tc-desc">
+            유네스코 세계유산. 성벽 한 바퀴 약 1.7km, 60~90분 소요.
+            금강과 시내를 한눈에 보는 뷰포인트. 매표소에서 입장권 구입 (성인 1,200원).
+            짐이 있다면 호텔에 먼저 맡기고 올 것.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">유네스코 세계유산</span>
+            <span class="tag">입장료 1,200원</span>
+            <span class="tag">금강 뷰</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/entry/place/11618571" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공산성" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">도보 5분 (웅진로 방향)</div>
+
+      <!-- 루치아의 뜰 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">15:30 ~ 16:30</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">☕ 루치아의 뜰</span>
+            <span class="tc-type type-cafe">카페</span>
+          </div>
+          <div class="tc-addr">충남 공주시 웅진로 145-8</div>
+          <div class="tc-desc">
+            공산성 산책 후 지친 발을 쉬게 할 감성 정원 카페.
+            공주 여행 인증샷 명소로 소문난 곳. 음료와 함께 야외 정원에서 여유로운 티타임.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">정원 카페</span>
+            <span class="tag good">인증샷 명소</span>
+            <span class="tag note">공산성 도보 5분</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+루치아의뜰" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+루치아의뜰" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 5분 또는 도보 15분 (호텔 방향)</div>
+
+      <!-- 호텔 체크인 -->
+      <div class="tl-item">
+        <div class="tl-dot hotel"></div>
+        <div class="tl-time hotel">15:00 ~ 16:30</div>
+        <div class="tl-card hotel">
+          <div class="tc-head">
+            <span class="tc-name">🏨 호텔 미인 체크인</span>
+            <span class="tc-type type-hotel">숙소</span>
+          </div>
+          <div class="tc-addr">충남 공주시 전막3길 14 (신관동) · 버스터미널 도보 5분</div>
+          <div class="tc-desc">
+            체크인 15:00. 루치아의 뜰에서 여유 시간 이후 짐 풀고 잠깐 휴식.
+            이후 로컬커피(<b>18:00 마감</b>) 전에 용당길로 이동 필요.
+          </div>
+          <div class="tc-tags">
+            <span class="tag">체크인 15:00</span>
+            <span class="tag">체크아웃 12:00</span>
+            <span class="tag note">터미널 도보 5분</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/entry/place/1997556352" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+호텔미인" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 5분 또는 도보 10분 (용당길)</div>
+
+      <!-- 로컬커피 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">17:10 ~ 17:50</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">☕ 로컬커피</span>
+            <span class="tc-type type-cafe">카페</span>
+          </div>
+          <div class="tc-addr">충남 공주시 용당길 (신관동)</div>
+          <div class="tc-desc">
+            공주 로컬 감성의 스페셜티 커피숍. 일요일은 <b>18:00 마감</b>이므로
+            17:10 이전 입장 필수. 부자떡집과 같은 용당길 방향이라 함께 돌아보기 좋다.
+          </div>
+          <div class="tc-tags">
+            <span class="tag warn">⚡ 일 18:00 마감</span>
+            <span class="tag warn">월 휴무</span>
+            <span class="tag good">스페셜티 커피</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+로컬커피" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+로컬커피" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">도보 5분</div>
+
+      <!-- 부자떡집 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">17:50 ~ 18:20</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🍡 부자떡집</span>
+            <span class="tc-type type-food">간식</span>
+          </div>
+          <div class="tc-addr">충남 공주시 용당길 (로컬커피 도보 5분)</div>
+          <div class="tc-desc">
+            공주 로컬 대표 떡집. <b>18:30 전후 마감</b>이므로 로컬커피와 연계해서 18:20 이전 방문 목표.
+            저녁 식사 전 가벼운 간식 또는 다음 날 아침용 구매도 가능.
+          </div>
+          <div class="tc-tags">
+            <span class="tag warn">⚡ 18:30 마감</span>
+            <span class="tag good">공주 로컬 명소</span>
+            <span class="tag note">포장 가능</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+부자떡집" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+부자떡집" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 7분 (요금 약 5,500원)</div>
+
+      <!-- 피탕김탕 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">19:00 ~ 20:30</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🍜 피탕김탕</span>
+            <span class="tc-type type-food">저녁</span>
+          </div>
+          <div class="tc-addr">충남 공주시 금흥동 한적2길</div>
+          <div class="tc-desc">
+            공주 현지인들이 즐겨 찾는 중식당.
+            <b>격주 월요일 휴무 — 6월 22일은 정상 영업</b>이므로 Day 2 저녁도 가능하지만,
+            Day 1 저녁으로 배치하는 것이 여유롭다. 피탕(피자탕수육)이 시그니처.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">6/22 정상 영업</span>
+            <span class="tag good">피자탕수육 시그니처</span>
+            <span class="tag">택시 이용 권장</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+피탕김탕" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+피탕김탕" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 7분 → 제민천 야간 산책 (선택)</div>
+
+      <!-- 바므 야간 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">21:00 ~ 22:00 (선택)</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🌙 바므 (야간 선택)</span>
+            <span class="tc-type type-cafe">카페·바</span>
+          </div>
+          <div class="tc-addr">충남 공주시 제민2길 3-2 (제민천변)</div>
+          <div class="tc-desc">
+            저녁 식사 후 야간에 여유가 있다면 제민천을 산책하며 바므에서 마무리 음료.
+            저녁~야간 운영이라 타이밍이 잘 맞는다.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">제민천 뷰</span>
+            <span class="tag">야간 운영</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+바므" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+바므" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /tl -->
+  </div><!-- /day1 -->
+
+  <!-- DAY 2 -->
+  <div class="section" id="day2">
+    <div class="day-header">
+      <div class="day-num">D2</div>
+      <div class="day-info">
+        <div class="day-date">6월 22일 (월요일)</div>
+        <div class="day-sub">체크아웃 12:00 → 공주 출발 ~19:00</div>
+      </div>
+    </div>
+
+    <div class="warning-box">
+      <div class="wt">Day 2 운영 불가: 북경탕수육, 로컬커피, 빵빵빵하우스 (월 휴무)</div>
+    </div>
+
+    <div class="tl">
+
+      <!-- 아침 베이커리 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">08:30 ~ 09:30</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🥐 베이커리 밤마을 — 아침</span>
+            <span class="tc-type type-bakery">아침식사</span>
+          </div>
+          <div class="tc-addr">충남 공주시 백미고을길</div>
+          <div class="tc-desc">
+            호텔 체크아웃(12:00) 전 아침 겸 브런치. 공산성 앞 베이커리에서
+            밤 크림빵 등을 테이크아웃해 공산성 성벽 위에서 먹는 것도 좋다.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">공주 밤 테마</span>
+            <span class="tag note">공산성 도보 3분</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+베이커리+밤마을" target="_blank">네이버지도</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">도보 10분 또는 택시 3분</div>
+
+      <!-- 제민천 산책 + 바므 -->
+      <div class="tl-item">
+        <div class="tl-dot sights"></div>
+        <div class="tl-time sights">09:30 ~ 10:30</div>
+        <div class="tl-card sights">
+          <div class="tc-head">
+            <span class="tc-name">🌿 제민천 산책 + 바므</span>
+            <span class="tc-type type-sights">산책·카페</span>
+          </div>
+          <div class="tc-addr">충남 공주시 제민천 일대 · 바므: 제민2길 3-2</div>
+          <div class="tc-desc">
+            공주의 숨은 명소 제민천을 따라 산책. 아기자기한 골목과 카페가 어우러진 정취.
+            바므에서 모닝커피 한 잔으로 여유로운 아침 마무리.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">공주 로컬 분위기</span>
+            <span class="tag">산책 30분 코스</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+제민천" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+바므" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">도보 15분 또는 택시</div>
+
+      <!-- 매향 점심 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">11:00 ~ 12:00</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🍚 매향 — 점심 (오픈런)</span>
+            <span class="tc-type type-food">점심</span>
+          </div>
+          <div class="tc-addr">충남 공주시 백미고을길 (북경탕수육 바로 옆)</div>
+          <div class="tc-desc">
+            11:00 오픈. 인기 메뉴는 재료 소진으로 조기 마감되는 경우가 있으므로 오픈 시간에 맞춰 방문.
+            공산성 정면의 한식 맛집. 체크아웃 전 12:00까지 여유롭게 식사 가능.
+          </div>
+          <div class="tc-tags">
+            <span class="tag warn">⚡ 재료 소진 조기 마감</span>
+            <span class="tag good">11:00 오픈</span>
+            <span class="tag note">북경탕수육 옆</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+매향" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/공주+매향" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 5분 → 호텔 체크아웃</div>
+
+      <!-- 체크아웃 -->
+      <div class="tl-item">
+        <div class="tl-dot hotel"></div>
+        <div class="tl-time hotel">12:00</div>
+        <div class="tl-card hotel">
+          <div class="tc-head">
+            <span class="tc-name">🏨 호텔 미인 체크아웃</span>
+            <span class="tc-type type-hotel">숙소</span>
+          </div>
+          <div class="tc-addr">충남 공주시 전막3길 14</div>
+          <div class="tc-desc">체크아웃 후 짐 보관 요청 가능 여부 호텔에 확인. 이후 무령왕릉 방면으로 이동.</div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/entry/place/1997556352" target="_blank">네이버지도</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 10분 (요금 약 6,000원)</div>
+
+      <!-- 무령왕릉 -->
+      <div class="tl-item">
+        <div class="tl-dot sights"></div>
+        <div class="tl-time sights">12:30 ~ 14:30</div>
+        <div class="tl-card sights">
+          <div class="tc-head">
+            <span class="tc-name">🏛️ 무령왕릉 · 국립공주박물관</span>
+            <span class="tc-type type-sights">관광</span>
+          </div>
+          <div class="tc-addr">충남 공주시 왕릉로 37 (웅진동)</div>
+          <div class="tc-desc">
+            유네스코 세계유산 백제역사유적지구 핵심. 무령왕릉 관람(60분) +
+            국립공주박물관(60분) 코스. 박물관은 무령왕릉 출토 유물을 원본으로 전시.
+            무료 또는 소액 입장. 에어컨 있는 박물관에서 더위 피하기도 좋다.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">유네스코 세계유산</span>
+            <span class="tag good">국립박물관 연계</span>
+            <span class="tag">무료~소액 입장</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/무령왕릉" target="_blank">네이버지도</a>
+            <a class="map-btn kakao" href="https://map.kakao.com/link/search/무령왕릉" target="_blank">카카오맵</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 10분</div>
+
+      <!-- 루치아의 뜰 오후 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">15:00 ~ 16:00</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">☕ 루치아의 뜰 — 오후 티타임</span>
+            <span class="tc-type type-cafe">카페</span>
+          </div>
+          <div class="tc-addr">충남 공주시 웅진로 145-8</div>
+          <div class="tc-desc">
+            무령왕릉에서 가까운 정원 카페. Day 1에 못 들렀다면 Day 2 오후에 방문.
+            출발 전 마지막 여유로운 카페 시간.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">정원 카페</span>
+            <span class="tag note">무령왕릉 택시 10분</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+루치아의뜰" target="_blank">네이버지도</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="walk-arrow">택시 5분 → 피탕김탕 저녁 (선택) 또는 터미널 이동</div>
+
+      <!-- 피탕김탕 or 이동 -->
+      <div class="tl-item">
+        <div class="tl-dot food"></div>
+        <div class="tl-time food">17:30 ~ 19:00</div>
+        <div class="tl-card food">
+          <div class="tc-head">
+            <span class="tc-name">🍜 피탕김탕 저녁 (Day 1 미방문 시)</span>
+            <span class="tc-type type-food">저녁·선택</span>
+          </div>
+          <div class="tc-addr">충남 공주시 금흥동 한적2길</div>
+          <div class="tc-desc">
+            Day 1에 방문 못했다면 Day 2 저녁도 가능. 6월 22일은 격주 월요일 영업일.
+            저녁 식사 후 버스터미널로 이동해 출발.
+          </div>
+          <div class="tc-tags">
+            <span class="tag good">6/22 정상 영업 확인됨</span>
+            <span class="tag">출발 전 마지막 식사</span>
+          </div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+피탕김탕" target="_blank">네이버지도</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 출발 -->
+      <div class="tl-item">
+        <div class="tl-dot transport"></div>
+        <div class="tl-time transport">19:00</div>
+        <div class="tl-card transport">
+          <div class="tc-head">
+            <span class="tc-name">공주 출발 — 버스터미널</span>
+            <span class="tc-type type-move">귀가</span>
+          </div>
+          <div class="tc-addr">공주종합버스터미널</div>
+          <div class="tc-desc">버스터미널까지 택시 5~10분. 출발 30분 전 도착 목표.</div>
+          <div class="tc-links">
+            <a class="map-btn naver" href="https://map.naver.com/v5/search/공주종합버스터미널" target="_blank">네이버지도</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /tl -->
+  </div><!-- /day2 -->
+
+  <!-- OPTIONAL: 빵빵빵하우스 -->
+  <div class="section" id="optional">
+    <div class="section-title"><span class="icon">➕</span>선택 옵션</div>
+
+    <div class="optional-card">
+      <h4>🍞 빵빵빵하우스 — Day 1 오전 추가 옵션 (월요일 휴무)</h4>
+      <p style="margin-top:8px; font-size:0.88rem; color:var(--text-sub);">
+        <b>위치:</b> 충남 공주시 우성면 평목길 (시내에서 택시 15~20분, 편도 약 12,000원)<br>
+        <b>제약:</b> 월요일 정기휴무로 Day 2 불가. Day 1 공주 도착 직후(12:00 이전 도착 시) 이동 가능하지만,
+        북경탕수육 14:00 마감과 충돌할 수 있으므로 <b>이른 도착(10~11시) 시에만 권장</b>.<br>
+        <b>추천 시나리오:</b> 공주를 10시쯤 도착하면 빵빵빵하우스(우성면) → 북경탕수육(시내) 순서가 가능.
+      </p>
+      <div style="margin-top:10px;">
+        <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+빵빵빵하우스" target="_blank">네이버지도</a>
+        <a class="map-btn kakao" style="margin-left:6px;" href="https://map.kakao.com/link/search/공주+빵빵빵하우스" target="_blank">카카오맵</a>
+      </div>
+    </div>
+
+    <div style="margin-top:14px;" class="optional-card">
+      <h4>🌊 고마나루 · 솔밭공원 — 자연 휴식 옵션</h4>
+      <p style="margin-top:8px; font-size:0.88rem; color:var(--text-sub);">
+        금강변 고마나루 솔밭은 여름에 그늘이 좋아 산책·휴식에 적합.
+        공산성에서 도보 15분 거리. 일정에 여유가 생기면 공산성 관람 전후에 연계 가능.
+      </p>
+      <div style="margin-top:10px;">
+        <a class="map-btn naver" href="https://map.naver.com/v5/search/공주+고마나루" target="_blank">네이버지도</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIPS -->
+  <div class="section" id="tips">
+    <div class="section-title"><span class="icon">💡</span>여행 팁</div>
+    <div class="tips-grid">
+      <div class="tip-card">
+        <h4>교통·이동</h4>
+        <ul>
+          <li>공주 시내는 대부분 도보 15분 내 이동 가능</li>
+          <li>택시 기본요금 약 3,500원 · 시내 이동 대부분 5,000원 이내</li>
+          <li>우성면(빵빵빵하우스)은 편도 12,000원 내외</li>
+          <li>카카오택시 호출 앱 미리 준비</li>
+          <li>버스터미널 → 공산성 방향은 도보 20분 거리</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h4>식사 예약·대기</h4>
+        <ul>
+          <li>북경탕수육: 주말 웨이팅 있음, 12시 정각 입장 목표</li>
+          <li>매향: 재료 소진 조기 마감 빈번 — 오픈런 필수</li>
+          <li>피탕김탕: 피자탕수육(피탕) + 김치탕수육(김탕) 세트 추천</li>
+          <li>부자떡집: 포장만 가능할 수 있음, 현금 지참</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h4>날씨·준비물</h4>
+        <ul>
+          <li>6월 말 공주 낮 최고 26~30°C, 햇볕 강함</li>
+          <li>공산성·무령왕릉은 야외 이동 많음 — 선크림·모자 필수</li>
+          <li>루치아의 뜰 정원 야외석 — 선글라스 권장</li>
+          <li>제민천 야간 산책 시 모기 기피제 준비</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h4>숙소 활용</h4>
+        <ul>
+          <li>호텔 미인 도착 시 짐 먼저 맡겨두고 북경탕수육 이동 가능</li>
+          <li>체크아웃 후 짐 보관 요청 여부 사전 문의</li>
+          <li>버스터미널까지 도보 5분 — 출발 당일 이동 부담 없음</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h4>결제·현금</h4>
+        <ul>
+          <li>부자떡집·재래시장 등 소규모 업체는 현금 우선</li>
+          <li>대부분 카드 결제 가능하나 현금 2만원 예비 권장</li>
+          <li>공산성·무령왕릉 입장권은 카드 가능</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h4>공주 관광 포인트</h4>
+        <ul>
+          <li>공산성: 금강 뷰 + 성벽 산책 (약 1.7km)</li>
+          <li>무령왕릉: 백제 25대 왕릉, 유네스코 세계유산</li>
+          <li>국립공주박물관: 무령왕릉 출토 유물 원본 전시 (무료)</li>
+          <li>제민천: 공주의 작은 청계천, 카페·갤러리 밀집</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<footer>
+  공주 1박2일 여행코스 · 리뷰 분석 기반 맞춤 일정 · 2026년 6월 21~22일 기준<br>
+  운영시간은 변동될 수 있으니 방문 전 업체에 직접 확인하세요.
+</footer>
+
+</body>
+</html>

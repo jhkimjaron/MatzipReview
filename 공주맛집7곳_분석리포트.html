@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>공주 맛집 7곳 리뷰 분석 리포트</title>
+<style>
+  :root {
+    --primary: #2c3e50;
+    --accent: #8b4513;
+    --pos: #27ae60;
+    --neg: #e74c3c;
+    --neu: #95a5a6;
+    --bg: #fafaf8;
+    --card-bg: #ffffff;
+    --border: #e0d8cc;
+    --tag-bg: #f5f0e8;
+    --warn: #e67e22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Nanum Gothic', 'Apple SD Gothic Neo', sans-serif; background: var(--bg); color: var(--primary); line-height: 1.7; }
+
+  /* 헤더 */
+  .site-header { background: var(--primary); color: #fff; padding: 32px 24px 24px; text-align: center; }
+  .site-header h1 { font-size: 1.6rem; letter-spacing: -0.5px; }
+  .site-header .meta { font-size: 0.82rem; opacity: 0.7; margin-top: 6px; }
+
+  /* 목차 */
+  .toc { background: var(--tag-bg); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; position: sticky; top: 0; z-index: 100; }
+  .toc a { text-decoration: none; color: var(--accent); font-size: 0.82rem; font-weight: 700; background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 4px 12px; transition: background 0.2s; }
+  .toc a:hover { background: var(--accent); color: #fff; }
+
+  /* 레스토랑 섹션 */
+  .restaurant { max-width: 860px; margin: 40px auto; padding: 0 16px; }
+  .restaurant-header { background: var(--primary); color: #fff; border-radius: 10px 10px 0 0; padding: 20px 24px; }
+  .restaurant-header h2 { font-size: 1.35rem; }
+  .restaurant-header .cat { font-size: 0.78rem; opacity: 0.7; margin-top: 3px; }
+  .card { background: var(--card-bg); border: 1px solid var(--border); border-top: none; border-radius: 0 0 10px 10px; padding: 24px; margin-bottom: 48px; }
+
+  /* 섹션 제목 */
+  .section-title { font-size: 0.95rem; font-weight: 700; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 10px; margin: 24px 0 12px; }
+  .section-title:first-child { margin-top: 0; }
+
+  /* 기본정보 그리드 */
+  .info-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; font-size: 0.83rem; }
+  .info-item { background: var(--tag-bg); border-radius: 6px; padding: 8px 12px; }
+  .info-item .label { font-weight: 700; color: #666; font-size: 0.75rem; }
+  .info-item .val { margin-top: 2px; }
+
+  /* 감성 바 */
+  .sent-bar-wrap { display: flex; align-items: center; gap: 10px; margin: 6px 0; font-size: 0.82rem; }
+  .sent-label { width: 80px; font-weight: 700; color: #555; }
+  .bar-track { flex: 1; background: #eee; border-radius: 4px; height: 18px; overflow: hidden; display: flex; }
+  .bar-pos { background: var(--pos); height: 100%; }
+  .bar-neg { background: var(--neg); height: 100%; }
+  .bar-neu { background: var(--neu); height: 100%; }
+  .sent-nums { font-size: 0.78rem; color: #555; white-space: nowrap; }
+
+  /* 키워드/메뉴 태그 */
+  .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+  .tag { background: var(--tag-bg); border: 1px solid var(--border); border-radius: 16px; padding: 3px 10px; font-size: 0.78rem; }
+  .tag.strong { background: #fff3cd; border-color: #ffc107; font-weight: 700; }
+  .tag.neg-tag { background: #fde8e8; border-color: var(--neg); }
+
+  /* 대표 리뷰 */
+  .review-quote { background: var(--tag-bg); border-left: 3px solid var(--border); border-radius: 0 6px 6px 0; padding: 10px 14px; margin: 8px 0; font-size: 0.82rem; color: #444; }
+  .review-quote .review-meta { font-size: 0.75rem; color: #888; margin-bottom: 4px; }
+
+  /* 표 */
+  table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin: 10px 0; }
+  th { background: var(--primary); color: #fff; padding: 7px 10px; text-align: left; }
+  td { padding: 6px 10px; border-bottom: 1px solid var(--border); }
+  tr:nth-child(even) td { background: var(--tag-bg); }
+
+  /* 경고/주의 박스 */
+  .warn-box { background: #fff8e1; border: 1px solid #ffc107; border-radius: 6px; padding: 10px 14px; font-size: 0.82rem; margin: 8px 0; }
+  .warn-box .warn-title { font-weight: 700; color: var(--warn); margin-bottom: 4px; }
+  .notice-box { background: #e8f5e9; border: 1px solid #81c784; border-radius: 6px; padding: 10px 14px; font-size: 0.82rem; margin: 8px 0; }
+  .notice-box .notice-title { font-weight: 700; color: var(--pos); margin-bottom: 4px; }
+
+  /* 불릿 리스트 */
+  ul.plain { padding-left: 18px; font-size: 0.83rem; }
+  ul.plain li { margin-bottom: 4px; }
+  ul.plain li span.pos { color: var(--pos); font-weight: 700; }
+  ul.plain li span.neg { color: var(--neg); font-weight: 700; }
+  ul.plain li span.tip { color: var(--accent); font-weight: 700; }
+
+  /* 종합 평가 */
+  .verdict { background: linear-gradient(135deg, #f9f5ef, #fff); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; font-size: 0.88rem; margin-top: 16px; }
+  .verdict strong { color: var(--accent); }
+
+  /* 신뢰도 */
+  .reliability { font-size: 0.78rem; color: #888; background: #f8f8f8; border: 1px dashed #ccc; border-radius: 6px; padding: 8px 12px; margin-top: 16px; }
+
+  hr.divider { border: none; border-top: 2px solid var(--border); margin: 0; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <h1>공주 맛집 7곳 리뷰 분석 리포트</h1>
+  <div class="meta">분석 기준일: 2026-06-11 &nbsp;|&nbsp; 대상: 바므 · 루치아의 뜰 · 부자떡집 · 로컬커피 · 베이커리 밤마을 · 매향 · 빵빵빵하우스 공주점</div>
+</header>
+
+<nav class="toc">
+  <a href="#bameu">바므</a>
+  <a href="#lucia">루치아의 뜰</a>
+  <a href="#bujaduck">부자떡집</a>
+  <a href="#local">로컬커피</a>
+  <a href="#bamvil">베이커리 밤마을</a>
+  <a href="#maehyang">매향</a>
+  <a href="#bbang">빵빵빵하우스 공주점</a>
+</nav>
+
+<!-- ==================== 1. 바므 ==================== -->
+<section class="restaurant" id="bameu">
+  <div class="restaurant-header">
+    <h2>바므 (Bameu)</h2>
+    <div class="cat">카페 · 디저트 &nbsp;|&nbsp; 충남 공주시 제민2길 3-2</div>
+  </div>
+  <div class="card">
+
+    <div class="section-title">기본 운영 정보</div>
+    <div class="info-grid">
+      <div class="info-item"><div class="label">영업시간</div><div class="val">매일 11:00 – 21:00</div></div>
+      <div class="info-item"><div class="label">라스트오더</div><div class="val">20:30</div></div>
+      <div class="info-item"><div class="label">정기휴무</div><div class="val">연중무휴 (2026년부터)</div></div>
+      <div class="info-item"><div class="label">주차</div><div class="val">매장 앞 주차 가능 (약 9대)</div></div>
+      <div class="info-item"><div class="label">전화</div><div class="val">0507-1339-4904</div></div>
+      <div class="info-item"><div class="label">네이버예약</div><div class="val">불가 (현장 웨이팅 기기)</div></div>
+    </div>
+
+    <div class="section-title">메뉴</div>
+    <table>
+      <tr><th>메뉴명</th><th>가격</th><th>비고</th></tr>
+      <tr><td>수제 밤아이스크림 (누아)</td><td>6,000원</td><td>시그니처, 보늬밤조림시럽·밤잼</td></tr>
+      <tr><td>보늬밤+메밀튀일 추가 밤아이스크림</td><td>8,000원</td><td></td></tr>
+      <tr><td>바므 플롯라떼</td><td>6,800원</td><td>플랫화이트+수제 밤아이스크림+크럼블</td></tr>
+      <tr><td>밤티라미수</td><td>8,000원</td><td></td></tr>
+      <tr><td>밤휘낭시에</td><td>3,500원</td><td>보늬밤퓨레 반죽, 밤잼 내장</td></tr>
+      <tr><td>캐모마일 멜란지 아이스크림</td><td>8,500원</td><td>시즌 메뉴 변경 있음</td></tr>
+      <tr><td>블랑 밤아이스크림 콘</td><td>6,500원</td><td>마누카꿀 콘</td></tr>
+    </table>
+
+    <div class="section-title">전반적 평가</div>
+    <p style="font-size:0.83rem;margin-bottom:10px;">방문자 167건 · 블로그 99건 분석. 방문자 제외 수가 적어(0건) 표본 품질 양호.</p>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">방문자 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:53%"></div>
+        <div class="bar-neg" style="width:18.1%"></div>
+        <div class="bar-neu" style="width:28.9%"></div>
+      </div>
+      <span class="sent-nums">긍정 53% · 부정 18.1% · 중립 28.9%</span>
+    </div>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">블로그 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:65.7%"></div>
+        <div class="bar-neg" style="width:20.2%"></div>
+        <div class="bar-neu" style="width:14.1%"></div>
+      </div>
+      <span class="sent-nums">긍정 65.7% · 부정 20.2% · 중립 14.1%</span>
+    </div>
+    <div class="warn-box" style="margin-top:8px;">블로그 부정 20.2%는 사전 기반 1차 추정치로 과대집계됨. 실제 샘플 검토 결과 대부분 정보 전달형 중립 리뷰이며 실질 부정 의견은 5% 이하 수준.</div>
+
+    <div class="section-title">주요 키워드</div>
+    <div class="tag-list">
+      <span class="tag strong">디저트가 맛있어요 (wt 57)</span>
+      <span class="tag strong">커피가 맛있어요 (wt 51)</span>
+      <span class="tag">특별한 메뉴가 있어요 (17.5)</span>
+      <span class="tag">인테리어가 멋져요 (5.75)</span>
+      <span class="tag">사진이 잘 나와요 (3.5)</span>
+      <span class="tag">아늑해요 (2.5)</span>
+      <span class="tag">친절해요 (2.0)</span>
+    </div>
+
+    <div class="section-title">메뉴 분석 &amp; 시그니처</div>
+    <div class="notice-box">
+      <div class="notice-title">강력 추천 메뉴: 수제 밤아이스크림(누아) · 바므 플롯라떼 · 밤티라미수</div>
+      여러 리뷰에서 "공주에 왔으면 반드시 먹어야 할 것", "바밤바와는 완전히 다른 차원의 고급진 밤맛", "투썸 티라미수보다 맛있다" 등 극찬이 반복됨. 바므 플롯라떼는 "백미당 아이스크림 라떼 수준"이라는 극찬도 있음.
+    </div>
+    <ul class="plain">
+      <li>밤아이스크림: 진짜 밤을 갈아 넣은 고소하고 깊은 맛. 인공적 밤향 아님.</li>
+      <li>플롯라떼: 아이스크림 먼저 떠먹고 커피와 섞어 마시는 방식. 비주얼+맛 모두 호평.</li>
+      <li>밤티라미수: 느끼함 없이 식감·맛 훌륭, 시즌 한정 메뉴 병행 운영 (참외 소르베 등).</li>
+      <li>밤휘낭시에: 공주 여행 기념 소품으로도 인기.</li>
+    </ul>
+
+    <div class="section-title">반복 부정 이슈</div>
+    <ul class="plain">
+      <li><span class="neg">①</span> <strong>주말 피크타임 웨이팅</strong>: 주말 11:30 방문 시 20분 대기. 웨이팅 등록 태블릿 비치됨. (2~3건)</li>
+      <li><span class="neg">②</span> <strong>좌석 협소</strong>: 2층 자리 없을 때 1층은 큰 공용 테이블. 2층 원하면 일찍 방문 필요. (2건)</li>
+      <li><span class="neg">③</span> <strong>화장실 공용</strong>: 2층 남녀 공용화장실, 위치 안내 미흡. (1~2건)</li>
+    </ul>
+
+    <div class="section-title">영업 정보 (방문 전 인지)</div>
+    <ul class="plain">
+      <li>2026년부터 연중무휴 운영 (블로그 리뷰에서 복수 확인)</li>
+      <li>매장 앞 주차 약 9대, 근처 공영주차장도 이용 가능</li>
+      <li>1인 1음료 원칙 (아이스크림은 음료 포함, 디저트류 제외)</li>
+      <li>시즌 메뉴 교체: 참외 소르베, 무화과 선데 등 계절별 변경됨</li>
+      <li>위치: 제민천 감성 골목, 공산성·제민천 산책 코스와 연결</li>
+    </ul>
+
+    <div class="section-title">예약 · 대기 방식</div>
+    <ul class="plain">
+      <li>예약 없이 이용이 압도적(wt 142.75). 대기 바로 입장(wt 106.5).</li>
+      <li>피크 주말: 10~20분 대기. 입구 웨이팅 태블릿 이용.</li>
+      <li>야외 좌석 포함 시 대기 시간 단축 가능.</li>
+    </ul>
+
+    <div class="section-title">시간대별 트렌드</div>
+    <ul class="plain">
+      <li>방문자 데이터(2024-06~2026-06): 최신 절반 긍정 소폭 감소 없음, 전체적으로 안정적.</li>
+      <li>블로그(2026-04~06): 3개월 내 99건 집중 — 최근 SNS/유튜브 버즈로 방문 급증 중.</li>
+    </ul>
+
+    <div class="section-title">추천 / 비추천 / 이용팁</div>
+    <ul class="plain">
+      <li><span class="pos">추천:</span> 공주 특산 밤을 가장 세련되게 즐길 수 있는 곳. 수제 아이스크림+디저트 퀄리티 최상. 제민천 산책 후 들르기 최적.</li>
+      <li><span class="neg">비추천(주의):</span> 주말 오후 2시 이후 방문 시 좌석 부족 가능. 넓은 공간 원하는 분께는 비적합.</li>
+      <li><span class="tip">이용팁:</span> 주말엔 11시 오픈 직후 방문. 밤아이스크림(누아)은 필수. 시즌 메뉴는 방문 전 SNS(인스타: bameu_mangjoonghan) 확인.</li>
+    </ul>
+
+    <div class="section-title">종합 의견</div>
+    <div class="verdict">
+      공주를 대표하는 밤 디저트 카페. 수제 밤아이스크림, 플롯라떼, 밤티라미수 모두 여러 리뷰에서 반복 극찬되며 <strong>공주 여행 필수 코스</strong>로 자리 잡았다. 블로그 리뷰가 최근 3개월에 집중되어 인기가 가파르게 상승 중. 부정 의견은 주로 웨이팅과 좌석 수에 집중되며 음식 품질 자체에 대한 불만은 극히 드물다. 전반적 신뢰도 높음.
+    </div>
+    <div class="reliability">신뢰도: 방문자 167건 (제외 0건), 블로그 99건 (제외 1건). 데이터 범위 2024-06 ~ 2026-06. 표본 양호.</div>
+  </div>
+</section>
+
+<!-- ==================== 2. 루치아의 뜰 ==================== -->
+<section class="restaurant" id="lucia">
+  <div class="restaurant-header">
+    <h2>루치아의 뜰</h2>
+    <div class="cat">찻집 &nbsp;|&nbsp; 충남 공주시 웅진로 145-8</div>
+  </div>
+  <div class="card">
+
+    <div class="section-title">기본 운영 정보</div>
+    <div class="info-grid">
+      <div class="info-item"><div class="label">영업시간</div><div class="val">12:00 – 18:30</div></div>
+      <div class="info-item"><div class="label">정기휴무</div><div class="val">매주 화요일</div></div>
+      <div class="info-item"><div class="label">주차</div><div class="val">전용 주차장 없음 (공영주차장 이용)</div></div>
+      <div class="info-item"><div class="label">전화</div><div class="val">041-855-2233</div></div>
+      <div class="info-item"><div class="label">좌석</div><div class="val">본관(좌식) + 별관(입식) + 야외 마당</div></div>
+      <div class="info-item"><div class="label">네이버예약</div><div class="val">불가</div></div>
+    </div>
+
+    <div class="section-title">메뉴</div>
+    <table>
+      <tr><th>메뉴명</th><th>가격</th></tr>
+      <tr><td>홍차와 스콘 (홈메이드 스콘+무화과잼+크림치즈)</td><td>11,500원</td></tr>
+      <tr><td>밀크티와 스콘</td><td>12,500원</td></tr>
+      <tr><td>오늘의 홍차 단품</td><td>8,000원</td></tr>
+      <tr><td>오늘의 밀크티 단품</td><td>9,000원</td></tr>
+      <tr><td>근대로의 산책길 세트 (2인)</td><td>23,000원</td></tr>
+    </table>
+    <p style="font-size:0.78rem;color:#888;margin-top:4px;">* 1인 1주문 필수. 커피 메뉴 없음. 취향 맞는 홍차 추천 요청 가능.</p>
+
+    <div class="section-title">전반적 평가</div>
+    <p style="font-size:0.83rem;margin-bottom:10px;">방문자 85건 · 블로그 100건 분석.</p>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">방문자 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:65.6%"></div>
+        <div class="bar-neg" style="width:3%"></div>
+        <div class="bar-neu" style="width:31.5%"></div>
+      </div>
+      <span class="sent-nums">긍정 65.6% · 부정 3.0% · 중립 31.5%</span>
+    </div>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">블로그 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:78%"></div>
+        <div class="bar-neg" style="width:9%"></div>
+        <div class="bar-neu" style="width:13%"></div>
+      </div>
+      <span class="sent-nums">긍정 78% · 부정 9% · 중립 13%</span>
+    </div>
+    <p style="font-size:0.78rem;color:#888;margin-top:6px;">방문자 중립(31.5%)은 감성 표현이 적은 정보형 리뷰에서 기인. 실질 불만 건수는 매우 적음.</p>
+
+    <div class="section-title">주요 키워드</div>
+    <div class="tag-list">
+      <span class="tag strong">차가 맛있어요 (wt 59.5)</span>
+      <span class="tag">인테리어가 멋져요 (7.25)</span>
+      <span class="tag">음료가 맛있어요 (5.75)</span>
+      <span class="tag">친절해요 (3.75)</span>
+      <span class="tag">특별한 메뉴가 있어요 (2.0)</span>
+      <span class="tag">컨셉이 독특해요 (1.5)</span>
+      <span class="tag">대화하기 좋아요 (1.5)</span>
+    </div>
+
+    <div class="section-title">메뉴 분석 &amp; 시그니처</div>
+    <div class="notice-box">
+      <div class="notice-title">강력 추천: 밀크티 · 홍차와 스콘 세트</div>
+      "밀크티 풍미가 깊고 뒷맛이 깔끔", "찹쌀떡 아이스크림 라떼처럼 진하고 묵직", "한 모금에 익숙한 홍차 풍미가 확 퍼짐" 등 반복 극찬. 세계 유명 홍차 브랜드(포트넘&메이슨, 마리아쥬 프레르 등) 차엽 사용 추정.
+    </div>
+    <ul class="plain">
+      <li>밀크티: 얼음 없이 차갑게 식힌 방식 → 처음부터 끝까지 균질한 맛 유지.</li>
+      <li>홍차: 종류 다양, 취향별 추천 가능. 잉글리시 블랙퍼스트, 임페리얼 웨딩 등.</li>
+      <li>스콘: 홈메이드, 겉바삭·속촉촉. 무화과잼+크림치즈 조합 호평. 단, "차 맛을 못 따라간다"는 의견 소수 존재.</li>
+      <li>찻잔: 테이블별 다른 티팟/찻잔 제공 — 사진 찍는 재미도 포인트.</li>
+    </ul>
+
+    <div class="section-title">반복 부정 이슈</div>
+    <ul class="plain">
+      <li><span class="neg">①</span> <strong>주차 불편</strong>: 전용 주차장 없음. 근처 공영주차장(산성시장 공영주차장, 주말: 농협 하나로마트 주차장 무료) → 도보 이동 필요. 다수 리뷰에서 반복 언급.</li>
+      <li><span class="neg">②</span> <strong>주말·공휴일 웨이팅</strong>: "빨간 날엔 웨이팅 엄청나고 일손 모자람", "원하는 자리(다락방) 못 잡을 수 있음". 평일 방문 강력 추천. (3건 이상)</li>
+      <li><span class="neg">③</span> <strong>좌식 불편</strong>: 본관이 좌식 구조. 좌식 불편한 분은 별관(입식) 요청 가능.</li>
+      <li><span class="neg">④</span> <strong>스콘 품질 아쉬움</strong>: "스콘은 주문한 걸 후회", "티푸드가 차를 못 쫓아간다"는 의견 소수 있음 (1~2건).</li>
+    </ul>
+
+    <div class="section-title">영업 정보 (방문 전 인지)</div>
+    <ul class="plain">
+      <li>영업시간 짧음 (12시~18:30). 여유롭게 즐기려면 오후 2시 이전 방문 권장.</li>
+      <li>1960년대 한옥 직접 개조 — 문화체육관광부 공간문화대상 수상 공간.</li>
+      <li>본관: 좌식+다락방. 별관: 입식. 마당+야외 좌석도 있음.</li>
+      <li>고양이 2마리 상주 (순하고 애교 있음, 리뷰에서 빈번히 언급).</li>
+      <li>나태주 시인 자주 방문하는 곳으로 알려짐. 시집·소설 다수 비치.</li>
+    </ul>
+
+    <div class="section-title">예약 · 대기 방식</div>
+    <ul class="plain">
+      <li>예약 없이 이용(wt 69.5). 바로 입장(wt 67.5)이 주류.</li>
+      <li>주말에는 본관 만석이 흔함. 별관 or 마당으로 안내받는 경우 있음.</li>
+      <li>별도 웨이팅 앱 없음 — 현장 순서대로.</li>
+    </ul>
+
+    <div class="section-title">시간대별 트렌드</div>
+    <ul class="plain">
+      <li>방문자 과거 절반 긍정 70.4% → 최신 절반 62.4% 소폭 하락. 중립 증가(26.7→34.7%).</li>
+      <li>블로그 과거 86% → 최신 70% 하락. 최근 부정 14%로 증가 — 웨이팅·주차 불만이 증가하는 추세.</li>
+    </ul>
+
+    <div class="section-title">추천 / 비추천 / 이용팁</div>
+    <ul class="plain">
+      <li><span class="pos">추천:</span> 홍차·밀크티 애호가라면 국내 최고 수준. 한옥 감성+고즈넉한 분위기 원하는 여행자. 혼자 독서·사색하기 최적.</li>
+      <li><span class="neg">비추천(주의):</span> 커피 메뉴 없음. 주말 공휴일엔 웨이팅+정신없는 분위기 가능성 높음.</li>
+      <li><span class="tip">이용팁:</span> 평일 오후 1~2시 방문 시 한산. 다락방 자리가 뷰 최고 — 일찍 도착 필요. 스콘보다 차 단품이 가성비 좋다는 의견 있음.</li>
+    </ul>
+
+    <div class="section-title">종합 의견</div>
+    <div class="verdict">
+      공주를 대표하는 홍차·밀크티 전문 한옥 찻집. 방문자·블로그 모두 <strong>차 품질에 대한 신뢰도가 매우 높고</strong> 공간 감성에 대한 극찬이 반복된다. 최근 트렌드상 SNS 유입 관광객 증가로 주말 웨이팅과 주차 불만이 상승 중. 평일 방문 시 본래의 고요하고 여유로운 경험을 온전히 누릴 수 있다.
+    </div>
+    <div class="reliability">신뢰도: 방문자 85건(제외 306건 — 18개월 이전 리뷰 다수 존재, target_met false), 블로그 100건. 방문자 표본 수가 적으나 블로그로 보완 가능. 범위 2024-06 ~ 2026-06.</div>
+  </div>
+</section>
+
+<!-- ==================== 3. 부자떡집 ==================== -->
+<section class="restaurant" id="bujaduck">
+  <div class="restaurant-header">
+    <h2>부자떡집</h2>
+    <div class="cat">전통간식 &nbsp;|&nbsp; 충남 공주시 용당길 11 (산성시장 내)</div>
+  </div>
+  <div class="card">
+
+    <div class="section-title">기본 운영 정보</div>
+    <div class="info-grid">
+      <div class="info-item"><div class="label">영업시간</div><div class="val">매일 09:00 – 18:30</div></div>
+      <div class="info-item"><div class="label">정기휴무</div><div class="val">없음</div></div>
+      <div class="info-item"><div class="label">주차</div><div class="val">산성시장 공영주차장 (무료)</div></div>
+      <div class="info-item"><div class="label">전화</div><div class="val">041-854-5454</div></div>
+      <div class="info-item"><div class="label">택배</div><div class="val">전국 가능 (포장비 5,000원 별도)</div></div>
+      <div class="info-item"><div class="label">할인</div><div class="val">온누리상품권 7% / 공주시민증 5%</div></div>
+    </div>
+
+    <div class="section-title">주요 메뉴 &amp; 가격</div>
+    <table>
+      <tr><th>메뉴명</th><th>가격</th></tr>
+      <tr><td>알밤모찌 3개입</td><td>7,500원</td></tr>
+      <tr><td>알밤모찌 8개입</td><td>20,000원</td></tr>
+      <tr><td>쑥개떡 20개입</td><td>18,000원</td></tr>
+      <tr><td>단호박말이 小</td><td>5,500원</td></tr>
+      <tr><td>호밤시루 / 쑥밤시루 小</td><td>각 5,500원</td></tr>
+      <tr><td>흑임자 인절미 小</td><td>5,500원</td></tr>
+      <tr><td>부자떡 4개입</td><td>5,800원</td></tr>
+    </table>
+    <p style="font-size:0.78rem;color:#888;margin-top:4px;">* 방부제·유화제·보존제 無. 당일 섭취 또는 냉동 보관 권장. 사전 대량주문 카카오톡/전화 가능.</p>
+
+    <div class="section-title">전반적 평가</div>
+    <p style="font-size:0.83rem;margin-bottom:10px;">방문자 289건 · 블로그 100건 분석. target_met true, 표본 충분.</p>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">방문자 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:60.8%"></div>
+        <div class="bar-neg" style="width:8.1%"></div>
+        <div class="bar-neu" style="width:31.1%"></div>
+      </div>
+      <span class="sent-nums">긍정 60.8% · 부정 8.1% · 중립 31.1%</span>
+    </div>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">블로그 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:71%"></div>
+        <div class="bar-neg" style="width:20%"></div>
+        <div class="bar-neu" style="width:9%"></div>
+      </div>
+      <span class="sent-nums">긍정 71% · 부정 20% · 중립 9%</span>
+    </div>
+    <p style="font-size:0.78rem;color:#888;margin-top:6px;">블로그 부정 20%는 사전 추정치. 실제 샘플 검토 시 대부분 줄·주차 불편 언급이나 맛에 대한 긍정으로 마무리됨. 실질 맛 부정 의견은 5% 내외.</p>
+
+    <div class="section-title">주요 키워드</div>
+    <div class="tag-list">
+      <span class="tag strong">빵이 맛있어요(떡) / 아침에 방문 (wt 40)</span>
+      <span class="tag strong">점심에 방문 (wt 249.5)</span>
+      <span class="tag">저녁에 방문 (wt 19.5)</span>
+    </div>
+    <p style="font-size:0.78rem;color:#888;">* 방문자 리뷰가 단문 위주라 키워드 태그 수집 없음. 대신 방문 시간대 분포로 판단.</p>
+
+    <div class="section-title">메뉴 분석 &amp; 시그니처</div>
+    <div class="notice-box">
+      <div class="notice-title">강력 추천: 알밤모찌 · 쑥개떡 · 부자떡</div>
+      알밤모찌는 공주알밤이 통째로 들어가고 팥앙금이 진하며 "두쫀쿠와 유사하지만 고급진 맛", "밤맛이 진짜로 느껴짐"으로 반복 극찬. 쑥개떡은 "인생 쑥개떡"이라는 표현 복수 등장. 부자떡은 찰떡에 밤·대추·호두·땅콩 견과류 폭탄으로 어르신 선물용으로도 최적.
+    </div>
+    <ul class="plain">
+      <li>알밤모찌: 1개 2,500원 낱개 구매 가능. "3개만 산 게 후회된다"는 표현 반복.</li>
+      <li>쑥개떡: 쑥향 진하고 쫀득한 식감. 막걸리 안주로도 인기.</li>
+      <li>단호박말이: 찹쌀+단호박+녹두고물. 시즌 인기 품목.</li>
+      <li>호밤시루/쑥밤시루: 달콤탱글한 공주밤이 들어간 시루떡.</li>
+    </ul>
+
+    <div class="section-title">반복 부정 이슈</div>
+    <ul class="plain">
+      <li><span class="neg">①</span> <strong>주말 웨이팅</strong>: 주말 10시에도 줄 길게 형성. 오전 9시 오픈런 추천 (평일은 비교적 한산). (5건 이상 반복)</li>
+      <li><span class="neg">②</span> <strong>주차 불편</strong>: 산성시장 공영주차타워 이용 권장이나 주말 만차 가능. 일행 분리 전략 추천. (4건)</li>
+      <li><span class="neg">③</span> <strong>위생 이슈 (단발성)</strong>: 머리카락 이물질 발견 1건, 고물 쉰내 1건 보고. 빈도 낮지만 식품 안전 측면에서 주의.</li>
+      <li><span class="neg">④</span> <strong>가격 부담</strong>: "유명세에 비해 가격이 높다", "여러 종류 사니 7~8만원" 의견 2~3건.</li>
+    </ul>
+
+    <div class="section-title">영업 정보 (방문 전 인지)</div>
+    <ul class="plain">
+      <li>마감 전 품절 빈번 — 알밤모찌 등 인기 품목은 오후에 소진 가능. 오전 방문 권장.</li>
+      <li>블루리본 14개 수상. 방송 여러 곳 출연.</li>
+      <li>임산부 프리패스 있음.</li>
+      <li>온누리 디지털 7% + 공주시민증 5% 중복 적용 가능.</li>
+    </ul>
+
+    <div class="section-title">예약 · 대기 방식</div>
+    <ul class="plain">
+      <li>예약 없이 이용. 현장 순서 대기 방식.</li>
+      <li>포장 구매 특성상 줄 빠르게 줄어드는 편. 주말 평균 10~20분 대기.</li>
+    </ul>
+
+    <div class="section-title">시간대별 트렌드</div>
+    <ul class="plain">
+      <li>데이터 범위: 2025-10~2026-06 (최근 8개월 집중). 매월 꾸준히 리뷰 증가.</li>
+      <li>부정 비율 과거 5.3% → 최신 10.7% 증가 — 인기 급등으로 인한 웨이팅·주차·품절 불만 증가 추세.</li>
+    </ul>
+
+    <div class="section-title">추천 / 비추천 / 이용팁</div>
+    <ul class="plain">
+      <li><span class="pos">추천:</span> 공주 여행 기념 선물·답례품 최적. 당일 구매 후 바로 먹는 맛이 최고. 알밤모찌는 연령불문 호평.</li>
+      <li><span class="neg">비추천(주의):</span> 주말 오후 방문 시 인기 메뉴 품절 가능성 높음. 선물 목적이면 주말 주차 스트레스 감안.</li>
+      <li><span class="tip">이용팁:</span> 평일 또는 주말 오전 9~10시 방문. 알밤모찌는 8개입 이상 구매 추천. 냉동 보관 가능하나 당일 지퍼백 밀봉 필수. 온누리 디지털 앱 사전 충전.</li>
+    </ul>
+
+    <div class="section-title">종합 의견</div>
+    <div class="verdict">
+      공주 산성시장 내 <strong>전국구 명성의 떡집</strong>. 알밤모찌를 중심으로 다양한 전통 떡이 방부제 없이 당일 생산되어 품질 신뢰가 높다. 최근 SNS·유튜브 버즈로 방문자가 급증하면서 웨이팅·주차 불만이 증가하는 추세이나, 음식 자체에 대한 만족도는 여전히 견고하다. 오전 일찍 방문하는 것이 최선.
+    </div>
+    <div class="reliability">신뢰도: 방문자 289건(target_met true), 블로그 100건. 데이터 범위 2025-10 ~ 2026-06. 표본 충분, 신뢰도 높음.</div>
+  </div>
+</section>
+
+<!-- ==================== 4. 로컬커피 ==================== -->
+<section class="restaurant" id="local">
+  <div class="restaurant-header">
+    <h2>로컬커피</h2>
+    <div class="cat">카페 · 디저트 &nbsp;|&nbsp; 충남 공주시 용당길 55-7</div>
+  </div>
+  <div class="card">
+
+    <div class="section-title">기본 운영 정보</div>
+    <div class="info-grid">
+      <div class="info-item"><div class="label">영업시간 (화~토)</div><div class="val">12:00 – 21:00</div></div>
+      <div class="info-item"><div class="label">영업시간 (일)</div><div class="val">12:00 – 18:00</div></div>
+      <div class="info-item"><div class="label">정기휴무</div><div class="val">매주 월요일</div></div>
+      <div class="info-item"><div class="label">주차</div><div class="val">로컬파스타 주차장 이용 / 주말 갓길</div></div>
+      <div class="info-item"><div class="label">전화</div><div class="val">0507-1331-4707</div></div>
+      <div class="info-item"><div class="label">편의</div><div class="val">단체이용·무선인터넷·포장·남녀화장실 구분</div></div>
+    </div>
+
+    <div class="section-title">주요 메뉴</div>
+    <table>
+      <tr><th>메뉴명</th><th>가격</th></tr>
+      <tr><td>밤타르트</td><td>6,500원</td></tr>
+      <tr><td>옥수수타르트</td><td>6,500원</td></tr>
+      <tr><td>공주알밤라떼 (아이스/핫)</td><td>6,500원</td></tr>
+      <tr><td>밤 크렘브륄레</td><td>-</td></tr>
+      <tr><td>아메리카노</td><td>4,500원</td></tr>
+      <tr><td>크림모카</td><td>-</td></tr>
+    </table>
+    <p style="font-size:0.78rem;color:#888;margin-top:4px;">* 디저트는 매장에서 직접 베이킹. 영수증 리뷰 작성 시 항아리 비누 증정(소진 시 종료).</p>
+
+    <div class="section-title">전반적 평가</div>
+    <p style="font-size:0.83rem;margin-bottom:10px;">방문자 407건 · 블로그 100건 분석. 7개 중 방문자 리뷰 가장 많고 긍정 비율도 최상위.</p>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">방문자 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:78%"></div>
+        <div class="bar-neg" style="width:1.2%"></div>
+        <div class="bar-neu" style="width:20.8%"></div>
+      </div>
+      <span class="sent-nums">긍정 78% · 부정 1.2% · 중립 20.8%</span>
+    </div>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">블로그 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:80%"></div>
+        <div class="bar-neg" style="width:15%"></div>
+        <div class="bar-neu" style="width:5%"></div>
+      </div>
+      <span class="sent-nums">긍정 80% · 부정 15% · 중립 5%</span>
+    </div>
+    <p style="font-size:0.78rem;color:#888;margin-top:6px;">방문자 부정 1.2%는 7개 음식점 중 최저 수준. 블로그 부정 15%는 주차·웨이팅 불편 및 정보전달형 리뷰 포함으로 실질 맛 불만은 극히 드뭄.</p>
+
+    <div class="section-title">주요 키워드</div>
+    <div class="tag-list">
+      <span class="tag strong">커피가 맛있어요 (wt 278 — 압도적)</span>
+      <span class="tag strong">디저트가 맛있어요 (wt 58.5)</span>
+      <span class="tag">인테리어가 멋져요 (35.5)</span>
+      <span class="tag">특별한 메뉴가 있어요 (14)</span>
+      <span class="tag">음료가 맛있어요 (10)</span>
+      <span class="tag">뷰가 좋아요 (3)</span>
+      <span class="tag">친절해요 (2)</span>
+      <span class="tag">가성비가 좋아요 (1)</span>
+    </div>
+
+    <div class="section-title">메뉴 분석 &amp; 시그니처</div>
+    <div class="notice-box">
+      <div class="notice-title">강력 추천: 공주알밤라떼 · 밤 크렘브륄레 · 밤타르트</div>
+      "밤 크렘브륄레는 꼭 드세요", "크림모카가 진짜 맛있다" 등 특정 메뉴 반복 추천. 밤타르트는 "과하게 달지 않고 밤 풍미 살아있으며 타르트지 바삭함이 일품". 알밤라떼는 "달달하지만 부담 없고 은은한 밤향".
+    </div>
+    <ul class="plain">
+      <li>밤 크렘브륄레: 옹기 항아리 플레이팅, 커스터드 아래 달콤한 알밤. 인스타 감성 최고.</li>
+      <li>밤타르트: 오후 일찍 품절됨 — 오후 3시 이후엔 소진 가능성 높음. 일찍 방문 필수.</li>
+      <li>크림모카: 직원 강력 추천 시그니처. "재방문 시 크림모카만 먹겠다"는 표현 복수.</li>
+      <li>창밖 대나무뷰, 우드톤 인테리어 — 사진 잘 나오는 카페 평.</li>
+    </ul>
+
+    <div class="section-title">반복 부정 이슈</div>
+    <ul class="plain">
+      <li><span class="neg">①</span> <strong>오후 디저트 조기 소진</strong>: 밤타르트, 옥수수타르트 등이 오후 3시 전후 품절. 여러 리뷰에서 "일찍 오라"고 반복 강조. 핵심 운영 이슈.</li>
+      <li><span class="neg">②</span> <strong>주말 웨이팅</strong>: 주말 피크 1시간 대기 사례 있음. 평일 오후가 쾌적.</li>
+      <li><span class="neg">③</span> <strong>주차</strong>: 전용 주차 없음. 로컬파스타 주차장 또는 주말 갓길 이용. 약간 불편.</li>
+    </ul>
+
+    <div class="section-title">영업 정보 (방문 전 인지)</div>
+    <ul class="plain">
+      <li>일요일 영업시간 단축 (18:00 마감). 착각하지 않도록 주의.</li>
+      <li>한옥 구조 특성상 좁은 편 — 유모차 반입 시 피크 타임 피할 것.</li>
+      <li>공주페이 가능 언급 있음.</li>
+      <li>위치: 로컬파스타 옆 골목 안 — 입구 찾기 어려울 수 있음. 잘 보이지 않는 골목 안쪽.</li>
+    </ul>
+
+    <div class="section-title">예약 · 대기 방식</div>
+    <ul class="plain">
+      <li>예약 없이 이용 압도적(wt 388.5). 바로 입장(wt 311)이 주류.</li>
+      <li>주말에는 웨이팅 가능. 별도 앱 없이 현장 대기.</li>
+    </ul>
+
+    <div class="section-title">시간대별 트렌드</div>
+    <ul class="plain">
+      <li>2025-09 오픈 이후 2025-10~2026-02 방문자 급증(월 50~69건). 2026-03 이후 소폭 감소(정착기).</li>
+      <li>과거 긍정 77.8% → 최신 78.2% — 거의 동일. 안정적으로 높은 만족도 유지.</li>
+    </ul>
+
+    <div class="section-title">추천 / 비추천 / 이용팁</div>
+    <ul class="plain">
+      <li><span class="pos">추천:</span> 커피+밤 디저트 조합으로 공주 감성 최고. 데이트·연인 방문(wt 159.5) 최적. 오후 3시 이전 방문 시 디저트 풀라인업 경험 가능.</li>
+      <li><span class="neg">비추천(주의):</span> 오후 늦게 방문 시 인기 디저트 품절. 주말 피크엔 웨이팅 1시간도 각오해야.</li>
+      <li><span class="tip">이용팁:</span> 평일 오후 2~4시가 황금시간. 밤 크렘브륄레, 밤타르트, 알밤라떼 조합 추천. 영수증 리뷰 작성 시 항아리 비누 증정 (소진 가능).</li>
+    </ul>
+
+    <div class="section-title">종합 의견</div>
+    <div class="verdict">
+      7개 음식점 중 방문자 리뷰 수(407건)와 긍정 비율(78%) 모두 최상위. <strong>커피 품질이 압도적으로 높이 평가</strong>되며, 밤 디저트와의 조합으로 "공주 카페 투탑"이라는 표현이 자주 등장한다. 디저트 조기 소진이 핵심 단점이지만, 음식·서비스·분위기 전반의 만족도는 매우 안정적이다.
+    </div>
+    <div class="reliability">신뢰도: 방문자 407건(target_met true), 블로그 100건. 범위 2025-09 ~ 2026-06. 표본 충분, 신뢰도 매우 높음.</div>
+  </div>
+</section>
+
+<!-- ==================== 5. 베이커리 밤마을 ==================== -->
+<section class="restaurant" id="bamvil">
+  <div class="restaurant-header">
+    <h2>베이커리 밤마을</h2>
+    <div class="cat">베이커리 &nbsp;|&nbsp; 충남 공주시 백미고을길 5-9 (공산성 맞은편)</div>
+  </div>
+  <div class="card">
+
+    <div class="section-title">기본 운영 정보</div>
+    <div class="info-grid">
+      <div class="info-item"><div class="label">영업시간</div><div class="val">매일 09:00 – 21:00</div></div>
+      <div class="info-item"><div class="label">정기휴무</div><div class="val">없음</div></div>
+      <div class="info-item"><div class="label">주차</div><div class="val">매장 뒤 3대 (협소) / 공영주차장 이용 권장</div></div>
+      <div class="info-item"><div class="label">전화</div><div class="val">0507-1428-3489</div></div>
+      <div class="info-item"><div class="label">편의</div><div class="val">1·2층 좌석 / 남녀 화장실 구분 / 포장·택배</div></div>
+      <div class="info-item"><div class="label">할인</div><div class="val">온누리 7% / 공주시민증 5% / 공주페이 불가</div></div>
+    </div>
+
+    <div class="section-title">주요 메뉴</div>
+    <table>
+      <tr><th>메뉴명</th><th>가격</th></tr>
+      <tr><td>밤마을파이 6개입</td><td>14,000원</td></tr>
+      <tr><td>밤마을파이 12개입</td><td>21,000원</td></tr>
+      <tr><td>밤 에끌레어</td><td>3,800원/개</td></tr>
+      <tr><td>치즈 타르트</td><td>3,500원/개</td></tr>
+      <tr><td>밤마을 라떼 (핫/아이스)</td><td>5,000원/5,500원</td></tr>
+      <tr><td>밤 팡도르</td><td>6,800원</td></tr>
+      <tr><td>밤마을 양갱 1개</td><td>2,500원</td></tr>
+    </table>
+    <p style="font-size:0.78rem;color:#888;margin-top:4px;">* 충남 제과명장 운영. 에끌레어는 즉석 밤크림 주입 — 당일 섭취 권장. 택배 가능.</p>
+
+    <div class="section-title">전반적 평가</div>
+    <p style="font-size:0.83rem;margin-bottom:10px;">방문자 382건 · 블로그 100건 분석. target_met true.</p>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">방문자 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:62.1%"></div>
+        <div class="bar-neg" style="width:5.5%"></div>
+        <div class="bar-neu" style="width:32.4%"></div>
+      </div>
+      <span class="sent-nums">긍정 62.1% · 부정 5.5% · 중립 32.4%</span>
+    </div>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">블로그 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:80%"></div>
+        <div class="bar-neg" style="width:13%"></div>
+        <div class="bar-neu" style="width:7%"></div>
+      </div>
+      <span class="sent-nums">긍정 80% · 부정 13% · 중립 7%</span>
+    </div>
+    <p style="font-size:0.78rem;color:#888;margin-top:6px;">트렌드: 방문자 과거 neg 6.9% → 최신 neg 4.1%로 개선 추세. 블로그 역시 안정적. 최근 방향은 긍정적.</p>
+
+    <div class="section-title">주요 키워드</div>
+    <div class="tag-list">
+      <span class="tag strong">빵이 맛있어요 (wt 320 — 압도적)</span>
+      <span class="tag strong">특별한 메뉴가 있어요 (wt 41.5)</span>
+      <span class="tag">커피가 맛있어요 (9)</span>
+      <span class="tag">뷰가 좋아요 (8)</span>
+      <span class="tag">음료가 맛있어요 (7.5)</span>
+      <span class="tag">매장이 넓어요 (3.5)</span>
+      <span class="tag">가성비가 좋아요 (1)</span>
+    </div>
+
+    <div class="section-title">메뉴 분석 &amp; 시그니처</div>
+    <div class="notice-box">
+      <div class="notice-title">강력 추천: 밤마을파이 (밤파이) · 밤 에끌레어</div>
+      밤파이는 "겉 바삭, 속 촉촉, 밤앙금+통밤", "너무 달지 않고 담백", "페이스트리와 밤의 식감 조화"로 반복 극찬. 에끌레어는 즉석 밤크림 주입으로 신선도 보장, "바삭한 겉과 꾸덕한 크림". 공산성 뷰 2층 창가 자리는 덤.
+    </div>
+    <ul class="plain">
+      <li>밤파이 에어프라이어 3~5분 데우면 바삭함 살아남 (택배 구매자용 팁).</li>
+      <li>에끌레어: 당일 바로 먹을 만큼만 구매 권장 (크림 상할 수 있음).</li>
+      <li>밤마을 라떼: "더운 날 텁텁하다"는 의견 소수 있음. 호불호 존재.</li>
+      <li>치즈타르트: 무난한 호평.</li>
+    </ul>
+
+    <div class="section-title">반복 부정 이슈</div>
+    <ul class="plain">
+      <li><span class="neg">①</span> <strong>주말 웨이팅 40~50분 (땡볕 대기)</strong>: 원격 웨이팅 앱 없음. 현장 줄 서기만 가능. 주말 오후엔 건물 뒷문 바깥까지 줄 형성. 다수 리뷰 반복 언급.</li>
+      <li><span class="neg">②</span> <strong>품절 사전 안내 미흡</strong>: 줄 다 서고 주문 시점에서야 품절 안내 받는 경우 발생. 복수 리뷰에서 불만. 개선 필요.</li>
+      <li><span class="neg">③</span> <strong>직원 응대 태도</strong>: 일부 리뷰에서 직원의 짜증 섞인 응대, 인상 쓰기 언급. 특히 잘못 알아들을 때 불쾌한 반응. (2~3건)</li>
+      <li><span class="neg">④</span> <strong>단맛 강하다</strong>: 에끌레어 크림, 밤라떼가 "너무 달다"는 의견 2~3건. 밤파이 자체는 "달지 않음"으로 호평.</li>
+      <li><span class="neg">⑤</span> <strong>주차 불편</strong>: 뒷편 3대 전용 주차 외엔 공영주차장 이용. 공산성 공영주차장 추천.</li>
+    </ul>
+
+    <div class="section-title">영업 정보 (방문 전 인지)</div>
+    <ul class="plain">
+      <li>포장 줄과 매장 이용 줄이 피크타임엔 분리 운영됨.</li>
+      <li>임산부 프리패스 가능.</li>
+      <li>2층 통창에서 공산성 뷰 감상 가능.</li>
+      <li>공산성 관광 코스와 길 하나 사이 — 관광 후 방문하기 최적.</li>
+    </ul>
+
+    <div class="section-title">예약 · 대기 방식</div>
+    <ul class="plain">
+      <li>원격 웨이팅 앱 불가. 현장 도착 순서대로.</li>
+      <li>주말 오전 10시 이전 방문 시 대기 10~20분으로 단축 가능.</li>
+      <li>평일: 줄 없거나 짧음.</li>
+    </ul>
+
+    <div class="section-title">시간대별 트렌드</div>
+    <ul class="plain">
+      <li>방문자 2025-05부터 꾸준히 월 25~38건 수준 유지.</li>
+      <li>블로그 2026-04~06에 집중(3개월 100건) — 최근 강하게 버즈 중.</li>
+      <li>최신 부정 비율 감소 추세 → 운영 개선 신호로 해석 가능.</li>
+    </ul>
+
+    <div class="section-title">추천 / 비추천 / 이용팁</div>
+    <ul class="plain">
+      <li><span class="pos">추천:</span> 공산성 관광 연계 코스 최적. 공주 여행 기념 선물 1순위. 밤파이 맛은 공주에서만 먹을 수 있는 수준. 충남 명장 품질.</li>
+      <li><span class="neg">비추천(주의):</span> 직원 응대 불친절 리스크 있음. 오후 방문 시 인기 메뉴 품절 가능. 주말엔 폭염 대기 각오 필요.</li>
+      <li><span class="tip">이용팁:</span> 평일 또는 주말 오전 9~10시 오픈런. 매향 웨이팅과 병행 시 일행 분리 전략(한 명씩 각각 줄). 에끌레어는 당일 섭취, 밤파이는 냉동 가능.</li>
+    </ul>
+
+    <div class="section-title">종합 의견</div>
+    <div class="verdict">
+      충남 제과명장이 운영하는 <strong>공주 밤파이의 원조</strong>. 밤파이 품질은 여러 리뷰에서 이견 없이 극찬을 받으며, 공산성 뷰까지 더해 관광과 쇼핑을 동시에 해결할 수 있다. 웨이팅과 직원 응대가 반복 부정 이슈로 지속 거론되지만, 최근 트렌드상 부정 비율이 낮아지고 있어 운영 개선 중으로 보인다.
+    </div>
+    <div class="reliability">신뢰도: 방문자 382건(target_met true), 블로그 100건. 범위 2025-05 ~ 2026-06. 표본 충분, 신뢰도 높음.</div>
+  </div>
+</section>
+
+<!-- ==================== 6. 매향 ==================== -->
+<section class="restaurant" id="maehyang">
+  <div class="restaurant-header">
+    <h2>매향</h2>
+    <div class="cat">한식 · 100% 메밀면 전문점 &nbsp;|&nbsp; 충남 공주시 백미고을길 18</div>
+  </div>
+  <div class="card">
+
+    <div class="section-title">기본 운영 정보</div>
+    <div class="info-grid">
+      <div class="info-item"><div class="label">영업시간 (평일)</div><div class="val">11:00 – 15:00</div></div>
+      <div class="info-item"><div class="label">영업시간 (주말·공휴일)</div><div class="val">10:30 – 15:00</div></div>
+      <div class="info-item"><div class="label">정기휴무</div><div class="val">매주 화요일</div></div>
+      <div class="info-item"><div class="label">주차</div><div class="val">전용 주차장 없음 (공영·행정복지센터 주차장)</div></div>
+      <div class="info-item"><div class="label">전화</div><div class="val">041-881-3161</div></div>
+      <div class="info-item"><div class="label">편의</div><div class="val">단체이용 가능 / 태블릿 키오스크 주문</div></div>
+    </div>
+
+    <div class="section-title">메뉴</div>
+    <table>
+      <tr><th>메뉴명</th><th>가격</th><th>비고</th></tr>
+      <tr><td>물막국수 / 비빔막국수</td><td>각 12,000원</td><td>동치미/들기름 육수 선택</td></tr>
+      <tr><td>물냉면 / 비빔냉면</td><td>각 12,000원</td><td>소고기 육수 (물냉면)</td></tr>
+      <tr><td>편육무침</td><td>5,000원</td><td>강력 추천 사이드</td></tr>
+      <tr><td>메밀 사브레 2봉</td><td>-</td><td>메밀+견과류 쿠키</td></tr>
+    </table>
+    <p style="font-size:0.78rem;color:#888;margin-top:4px;">* 매장 내 맷돌로 당일 제분·제면. 100% 메밀면 — 약간 설익은 듯한 식감이 특성. 가위로 자르지 않음 권장.</p>
+
+    <div class="section-title">전반적 평가</div>
+    <p style="font-size:0.83rem;margin-bottom:10px;">방문자 218건 · 블로그 100건 분석. target_met true.</p>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">방문자 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:69.8%"></div>
+        <div class="bar-neg" style="width:10.3%"></div>
+        <div class="bar-neu" style="width:19.9%"></div>
+      </div>
+      <span class="sent-nums">긍정 69.8% · 부정 10.3% · 중립 19.9%</span>
+    </div>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">블로그 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:74%"></div>
+        <div class="bar-neg" style="width:19%"></div>
+        <div class="bar-neu" style="width:7%"></div>
+      </div>
+      <span class="sent-nums">긍정 74% · 부정 19% · 중립 7%</span>
+    </div>
+    <div class="warn-box" style="margin-top:8px;">
+      <div class="warn-title">트렌드 주의: 최근 부정 비율 증가</div>
+      방문자 과거 절반 긍정 77.2% → 최신 절반 64.6%. 부정 5.6% → 13.6%로 증가. 웨이팅·서비스 불만이 최근 리뷰에서 더 자주 등장하는 추세.
+    </div>
+
+    <div class="section-title">주요 키워드</div>
+    <div class="tag-list">
+      <span class="tag strong">음식이 맛있어요 (wt 165.25 — 압도적)</span>
+      <span class="tag strong">재료가 신선해요 (wt 14)</span>
+      <span class="tag">특별한 메뉴가 있어요 (9)</span>
+      <span class="tag">친절해요 (6)</span>
+      <span class="tag">매장이 넓어요 (5)</span>
+      <span class="tag">건강한 맛이에요 (4)</span>
+      <span class="tag">음식이 빨리 나와요 (3.75)</span>
+    </div>
+
+    <div class="section-title">메뉴 분석 &amp; 시그니처</div>
+    <div class="notice-box">
+      <div class="notice-title">강력 추천: 편육무침 · 비빔막국수 · 들기름막국수</div>
+      편육무침은 "먹고 나서 입에 남는 텁텁함 없음", "소고기+취나물+청경채 들기름 무침", "입맛이 싹 돌아나는 맛", "한 바가지 퍼먹기 가능" 등 극찬 다수. 비빔막국수는 "자극적이지 않은데 계속 젓가락이 가는 맛", 들기름막국수는 "향이 너무 좋아 바로 입으로 직행".
+    </div>
+    <ul class="plain">
+      <li>편육무침이 막국수보다 더 많이 언급되는 숨은 주인공.</li>
+      <li>물막국수 육수: 동치미 베이스. 물냉면 육수: 소고기 베이스. 취향에 따라 선택.</li>
+      <li>메밀차 무료 제공 — "구수한 향이 너무 좋다"는 반응 다수.</li>
+      <li>동치미·절임무 셀프 제공 — 메밀과 잘 어울림.</li>
+    </ul>
+
+    <div class="section-title">반복 부정 이슈</div>
+    <ul class="plain">
+      <li><span class="neg">①</span> <strong>웨이팅 매우 김 (주말 1시간~1시간 15분)</strong>: 번호표 없음, 웨이팅 앱 없음, 줄 서기만 가능. 땡볕 대기. 최다 불만 이슈. (7건 이상)</li>
+      <li><span class="neg">②</span> <strong>줄 새치기·일행 합류 문제</strong>: 웨이팅 시 뒤에서 온 일행이 앞사람에게 합류하는 경우 발생. 사장님도 "문 앞에서만 모이면 된다" 식으로 방관한다는 불만 1건.</li>
+      <li><span class="neg">③</span> <strong>합석 강요</strong>: 혼자 방문 시 의사 묻지 않고 합석 권유. "불쾌했고 재방문 의사 없다"는 리뷰 1건.</li>
+      <li><span class="neg">④</span> <strong>맛 변화 의견</strong>: "예전보다 맛이 변함", "편육무침이 너무 느끼해졌다"는 과거 단골의 불만 2건.</li>
+      <li><span class="neg">⑤</span> <strong>주차 불편</strong>: 전용 주차장 없음. 공영주차장 평행주차로 차 빼기 어려움. (2건)</li>
+    </ul>
+
+    <div class="section-title">영업 정보 (방문 전 인지)</div>
+    <ul class="plain">
+      <li>영업 시간 15:00까지 (4시간 영업). 점심 전쟁 구간에만 운영.</li>
+      <li>공주 으뜸맛집 인증, 방송 다수 출연.</li>
+      <li>당일 직접 제분한 100% 메밀면 — "약간 설익은 듯한 식감이 정상"이라고 매장 안내.</li>
+      <li>임산부 우선 입장 있음.</li>
+      <li>아이 의자 구비. 키오스크 주문.</li>
+    </ul>
+
+    <div class="section-title">예약 · 대기 방식</div>
+    <ul class="plain">
+      <li>테이블링·앱 예약 불가. 완전 현장 줄 서기.</li>
+      <li>주말·공휴일 10:30 오픈이나 9~10시에 도착해야 대기 최소화 가능.</li>
+      <li>평일도 점심시간엔 웨이팅 발생. 오픈 직후 방문 권장.</li>
+      <li>우산 비치됨 (대기자용 배려).</li>
+    </ul>
+
+    <div class="section-title">시간대별 트렌드</div>
+    <ul class="plain">
+      <li>방문자 데이터 2024-06~2026-06, 넓은 범위로 장기 운영 확인.</li>
+      <li>최근 6개월 부정 비율 상승(5.6→13.6%) — 관광객 급증으로 인한 운영 스트레스 반영.</li>
+      <li>음식 맛 자체에 대한 긍정은 여전히 강하나, 서비스·대기 경험 불만 증가.</li>
+    </ul>
+
+    <div class="section-title">추천 / 비추천 / 이용팁</div>
+    <ul class="plain">
+      <li><span class="pos">추천:</span> 메밀 100% 면의 깊은 풍미와 편육무침 조합은 공주에서만 경험 가능. 자극적이지 않고 건강한 한 끼 원하는 분.</li>
+      <li><span class="neg">비추천(주의):</span> 강한 맛 선호하는 분에겐 슴슴할 수 있음. 주말엔 1시간 이상 폭염 대기 각오 필요. 합석 가능성 있음.</li>
+      <li><span class="tip">이용팁:</span> 주말엔 최소 오픈 30분 전 도착. 편육무침 필수 주문. 메밀면은 가위로 자르지 않는 것 권장. 베이커리 밤마을과 인접 — 일행 분리 병행 웨이팅 전략 유효.</li>
+    </ul>
+
+    <div class="section-title">종합 의견</div>
+    <div class="verdict">
+      당일 제분한 100% 메밀면과 특제 편육무침으로 <strong>공주 으뜸 막국수 맛집</strong>으로 확고히 자리 잡은 곳. 음식 맛 자체의 만족도는 여전히 높지만, 최근 웨이팅과 서비스 이슈로 인한 부정 비율이 증가 추세다. 오픈런 전략과 기대치 조정이 핵심.
+    </div>
+    <div class="reliability">신뢰도: 방문자 218건(target_met true, 제외 282건 포함), 블로그 100건. 범위 2024-06 ~ 2026-06. 표본 충분.</div>
+  </div>
+</section>
+
+<!-- ==================== 7. 빵빵빵하우스 공주점 ==================== -->
+<section class="restaurant" id="bbang">
+  <div class="restaurant-header">
+    <h2>빵빵빵하우스 공주점</h2>
+    <div class="cat">베이커리 카페 &nbsp;|&nbsp; 충남 공주시 우성면 평목길 163-9 (3·4층) &nbsp;|&nbsp; 금강뷰</div>
+  </div>
+  <div class="card">
+
+    <div class="section-title">기본 운영 정보</div>
+    <div class="info-grid">
+      <div class="info-item"><div class="label">영업시간 (화~일)</div><div class="val">10:00 – 21:00</div></div>
+      <div class="info-item"><div class="label">브런치</div><div class="val">10:00 – 17:00</div></div>
+      <div class="info-item"><div class="label">라스트오더</div><div class="val">20:30</div></div>
+      <div class="info-item"><div class="label">정기휴무</div><div class="val">매주 월요일</div></div>
+      <div class="info-item"><div class="label">주차</div><div class="val">전용 주차장 (무료, 넓음)</div></div>
+      <div class="info-item"><div class="label">전화</div><div class="val">0507-1353-6706</div></div>
+      <div class="info-item"><div class="label">편의</div><div class="val">엘리베이터·단체이용·루프탑·주차</div></div>
+    </div>
+
+    <div class="section-title">주요 메뉴</div>
+    <table>
+      <tr><th>메뉴명</th><th>가격</th><th>비고</th></tr>
+      <tr><td>아메리카노 아이스</td><td>4,000원</td><td>원두: 반죽동247 사용</td></tr>
+      <tr><td>벌꿀라떼</td><td>-</td><td>큐브 벌집꿀 토핑</td></tr>
+      <tr><td>치아바타 (원픽 메뉴)</td><td>-</td><td>재방문 트리거 메뉴</td></tr>
+      <tr><td>밤블랑 (공주 시그니처)</td><td>-</td><td></td></tr>
+      <tr><td>깜빠뉴 / 무화과 깜빠뉴</td><td>-</td><td></td></tr>
+      <tr><td>브런치 메뉴 (파스타·샌드위치·샐러드)</td><td>12,000~20,000원</td><td>10:00~17:00만</td></tr>
+      <tr><td>홀케이크 (사전예약)</td><td>-</td><td>네이버 예약 픽업</td></tr>
+    </table>
+
+    <div class="section-title">전반적 평가</div>
+    <p style="font-size:0.83rem;margin-bottom:10px;">방문자 59건 · 블로그 43건 분석. <strong>표본 수가 다른 곳에 비해 적음 (target_met false)</strong> — 아직 초기 운영 단계 (2025년 하반기 오픈 또는 상호 변경).</p>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">방문자 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:77.2%"></div>
+        <div class="bar-neg" style="width:4.7%"></div>
+        <div class="bar-neu" style="width:18.1%"></div>
+      </div>
+      <span class="sent-nums">긍정 77.2% · 부정 4.7% · 중립 18.1%</span>
+    </div>
+    <div class="sent-bar-wrap">
+      <span class="sent-label">블로그 리뷰</span>
+      <div class="bar-track">
+        <div class="bar-pos" style="width:95.3%"></div>
+        <div class="bar-neg" style="width:2.3%"></div>
+        <div class="bar-neu" style="width:2.3%"></div>
+      </div>
+      <span class="sent-nums">긍정 95.3% · 부정 2.3% · 중립 2.3%</span>
+    </div>
+    <div class="notice-box" style="margin-top:8px;">
+      <div class="notice-title">개선 트렌드 확인</div>
+      방문자 과거 절반 긍정 74.6% / 부정 9.5% → 최신 절반 긍정 79.7% / 부정 0%. 최근 방문자 불만 건수 급감. 서비스 개선 중으로 보임.
+    </div>
+
+    <div class="section-title">주요 키워드</div>
+    <div class="tag-list">
+      <span class="tag strong">빵이 맛있어요 (wt 47)</span>
+      <span class="tag">커피가 맛있어요 (4)</span>
+      <span class="tag">가성비가 좋아요 (3.5)</span>
+      <span class="tag">음료가 맛있어요 (2)</span>
+      <span class="tag">뷰가 좋아요 (1)</span>
+      <span class="tag">인테리어가 멋져요 (1)</span>
+    </div>
+
+    <div class="section-title">메뉴 분석 &amp; 시그니처</div>
+    <div class="notice-box">
+      <div class="notice-title">강력 추천: 치아바타 · 깜빠뉴 · 벌꿀라떼</div>
+      치아바타는 "재방문 3회의 이유", 무화과 깜빠뉴는 "담백하고 커피와 잘 어울림", 벌꿀라떼는 "인공 단맛이 아닌 진짜 벌꿀향"으로 반복 언급.
+    </div>
+    <ul class="plain">
+      <li>빵 종류 다양: 식빵, 크로와상, 소금빵, 깜빠뉴, 바게트, 퀸아망, 프레첼 등.</li>
+      <li>커피: 반죽동247 원두 사용 — 공주 로컬 로스터리 원두.</li>
+      <li>브런치: 아보카도 샌드위치, 토마토바질 포카치아, 파스타류.</li>
+      <li>홀케이크: 사전 예약 후 픽업. "과일 많고 생크림 고소하며 시트 촉촉" 극찬.</li>
+    </ul>
+
+    <div class="section-title">반복 부정 이슈</div>
+    <ul class="plain">
+      <li><span class="neg">①</span> <strong>서비스 태도 불만 (과거 2건, 최근 없음)</strong>: 컵에 커피자국 묻어 제공 + 사과 없이 설명만, 접시·집게 제공 거부 등. 단, 최신 리뷰에선 해당 불만 없음 — 개선된 것으로 추정.</li>
+      <li><span class="neg">②</span> <strong>위치 접근성</strong>: 우성면 소재 — 공주 시내 관광 동선과 다소 떨어져 있음(차량 필수). (일부 언급)</li>
+    </ul>
+
+    <div class="section-title">영업 정보 (방문 전 인지)</div>
+    <ul class="plain">
+      <li>같은 건물 2층에 우성쭈꾸미 본점 운영 — 식사+카페 원스톱 가능. 식사 후 10% 할인 연동 가능.</li>
+      <li>엘리베이터 있어 유모차·어르신 방문 용이.</li>
+      <li>3층: 4인 테이블 주류. 4층: 다양한 좌석 형태 (바형식, 소파석). 루프탑(5층)도 운영.</li>
+      <li>자율 포장대 비치 — 먹다 남은 빵·음료 테이크아웃 가능.</li>
+    </ul>
+
+    <div class="section-title">예약 · 대기 방식</div>
+    <ul class="plain">
+      <li>예약 없이 이용 주류(wt 55.5). 바로 입장(wt 60.5).</li>
+      <li>홀케이크는 네이버 예약 필요.</li>
+      <li>공주 여행자보다 로컬·드라이브 코스 이용자 비중 높음.</li>
+    </ul>
+
+    <div class="section-title">시간대별 트렌드</div>
+    <ul class="plain">
+      <li>2025-12~2026-01에 블로그 리뷰 집중 → 상호 변경 후 초기 주목도.</li>
+      <li>방문자 리뷰는 2025-08~2026-06 안정 분포. 최근 긍정 급증.</li>
+    </ul>
+
+    <div class="section-title">추천 / 비추천 / 이용팁</div>
+    <ul class="plain">
+      <li><span class="pos">추천:</span> 공주 여행 중 여유로운 브런치+뷰 즐기기 최적. 아이·가족 동반 방문에 최적화(엘베·넓은 주차·넓은 좌석). 케이크 예약 구매도 우수.</li>
+      <li><span class="neg">비추천(주의):</span> 시내 관광 동선에서 벗어남. 차 없이 방문 불가.</li>
+      <li><span class="tip">이용팁:</span> 오전 11시~오후 2시 브런치 타임에 방문. 치아바타·무화과 깜빠뉴 미리 확인(소진 가능). 우성쭈꾸미 식사 후 상층 카페 이용 시 할인 가능.</li>
+    </ul>
+
+    <div class="section-title">종합 의견</div>
+    <div class="verdict">
+      금강뷰를 바라보며 직접 만든 다양한 빵과 커피를 즐길 수 있는 <strong>공주 유일의 대형 베이커리 카페</strong>. 서비스 이슈가 초기에 있었으나 최근 방문자 불만이 사라지고 있어 안정화 중. 아직 표본이 적어 평가 신중이 필요하지만, 블로그 95% 긍정과 방문자 트렌드 개선은 긍정적 신호다.
+    </div>
+    <div class="reliability">신뢰도: 방문자 59건(target_met false), 블로그 43건. 범위 2025-08 ~ 2026-06. <strong>표본 수 부족 — 평가 신중 필요. 추이 지켜볼 필요 있음.</strong></div>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:24px;color:#aaa;font-size:0.78rem;border-top:1px solid #ddd;margin-top:24px;">
+  분석일: 2026-06-11 &nbsp;|&nbsp; 데이터 출처: 네이버 플레이스 방문자·블로그 리뷰 &nbsp;|&nbsp; 감성 분포는 사전 기반 1차 추정치 포함
+</footer>
+
+</body>
+</html>
