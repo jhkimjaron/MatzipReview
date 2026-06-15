@@ -64,10 +64,10 @@ BROWSER_UA = (
 BROWSER_VIEWPORT = {"width": 390, "height": 844}
 
 # ── 방문자 리뷰 상수 ──
-V_TARGET_COUNT    = 150
+DEFAULT_V_TARGET  = 150   # 방문자 리뷰 기본 목표(유효 리뷰 기준). 실행 시 사용자 입력으로 덮어씀
 V_MIN_CHARS       = 20
 V_QUALITY_CHARS   = 120
-V_MAX_REVIEWS     = 500
+V_MAX_REVIEWS     = 800   # DOM 로딩 안전 상한 (목표가 매우 클 때 대비)
 V_NO_CHANGE_LIMIT = 6
 
 V_PAID_KEYWORDS = [
@@ -76,8 +76,7 @@ V_PAID_KEYWORDS = [
 ]
 
 # ── 블로그 리뷰 상수 ──
-B_MIN_TARGET     = 30
-B_MAX_VALID      = 100
+DEFAULT_B_TARGET = 50    # 블로그 리뷰 기본 목표(유효 리뷰 기준). 실행 시 사용자 입력으로 덮어씀
 B_MIN_BODY_CHARS = 300
 B_API_DISPLAY    = 50
 B_API_MAX_PAGES  = 30
@@ -102,8 +101,7 @@ B_GQL_QUERY = (
     " hasNaverReservation bySmartEditor3 thumbnailCount reviewId } } }"
 )
 
-B_STOP_TARGET_MET  = "target_met:18개월이내_30개이상"
-B_STOP_MAX_REACHED = "max_reached:유효리뷰_100개도달"
+B_STOP_TARGET_MET  = "target_met:유효리뷰_목표도달"
 B_STOP_24M_WALL    = "24m_wall:24개월초과_도달"
 B_STOP_API_END     = "api_end:maxItemCount_소진"
 
@@ -220,6 +218,37 @@ def prompt_mode() -> str:
         if choice == "3":
             return "blog"
         print("  ❌ 1, 2, 3 중 하나를 입력해주세요.")
+
+
+def _ask_count(label: str, default: int) -> int:
+    """리뷰 개수 1건 입력받기. 빈 입력은 기본값, 잘못된 입력은 재요청."""
+    while True:
+        raw = input(f"  {label} (기본 {default}개, Enter=기본값): ").strip()
+        if not raw:
+            return default
+        if raw.isdigit() and int(raw) > 0:
+            return int(raw)
+        print("  ❌ 1 이상의 숫자를 입력해주세요.")
+
+
+def prompt_review_counts(mode: str) -> tuple[int, int]:
+    """수집할 리뷰 개수를 한 번만 입력받아 모든 음식점에 동일 적용한다.
+    여기서 입력하는 개수는 '광고·불성실 등 제외 후의 유효(분석 대상) 리뷰' 기준이다."""
+    print()
+    print("─" * 64)
+    print(f"기본 수집 리뷰 수는 방문자 리뷰 {DEFAULT_V_TARGET}개, 블로그 리뷰 {DEFAULT_B_TARGET}개입니다.")
+    print("각각 몇 개씩 수집할까요?")
+    print("※ 입력 개수 = 광고·불성실 등 '제외 대상을 뺀 유효 리뷰' 기준입니다.")
+    print("※ 여러 음식점을 수집할 경우 모두 같은 개수로 수집됩니다.")
+    v_target = DEFAULT_V_TARGET
+    b_target = DEFAULT_B_TARGET
+    if mode in ("all", "visitor"):
+        v_target = _ask_count("방문자 리뷰 개수", DEFAULT_V_TARGET)
+    if mode in ("all", "blog"):
+        b_target = _ask_count("블로그 리뷰 개수", DEFAULT_B_TARGET)
+    print(f"  → 방문자 {v_target}개 / 블로그 {b_target}개 (유효 리뷰 기준)로 수집합니다.")
+    print("─" * 64)
+    return v_target, b_target
 
 
 # ─────────────────────────────────────────────
@@ -594,9 +623,46 @@ def _calc_weight_visitor(content: str, date_str: str) -> dict:
     }
 
 
-async def collect_visitor(place_id: str, name: str) -> list[dict]:
+# 방문자 리뷰 DOM 추출 JS — 로딩 중 유효 개수 집계와 최종 추출에 공용으로 사용
+_VISITOR_EXTRACT_JS = r"""
+    () => {
+        const ul = document.querySelector('ul.OTi6Q');
+        if (!ul) return [];
+        return Array.from(ul.querySelectorAll('li.EjjAW')).map((el, i) => {
+            const contentDiv = el.querySelector('div.pui__vn15t2');
+            let content = contentDiv ? contentDiv.innerText.trim() : '';
+            content = content.replace(/\n?더보기\s*$/, '').trim();
+
+            let date = '';
+            el.querySelectorAll('span.pui__blind').forEach(s => {
+                if (/\d{4}년/.test(s.innerText)) date = s.innerText.trim();
+            });
+
+            const tags = Array.from(el.querySelectorAll('span.pui__V8F9nN'))
+                .map(s => s.innerText.trim()).filter(Boolean);
+            const keywords = Array.from(el.querySelectorAll('span.pui__jhpEyP'))
+                .map(s => s.innerText.trim()).filter(Boolean);
+            const authorEl = el.querySelector('span.pui__NMi-Dp');
+            const author   = authorEl ? authorEl.innerText.trim() : '';
+
+            return { seq: i + 1, author, date, content, tags, keywords };
+        });
+    }
+"""
+
+
+async def _count_valid_visitor(page) -> int:
+    """현재 로드된 방문자 리뷰 중 '제외 대상이 아닌 유효 리뷰' 수를 센다."""
+    loaded = await page.evaluate(_VISITOR_EXTRACT_JS)
+    return sum(
+        1 for r in loaded
+        if not _calc_weight_visitor(r["content"], r["date"])["exclude_reason"]
+    )
+
+
+async def collect_visitor(place_id: str, name: str, target: int) -> list[dict]:
     url = f"https://m.place.naver.com/restaurant/{place_id}/review/visitor?reviewSort=recent"
-    print(f"\n[{name}] 방문자 리뷰 수집 시작 → {url}")
+    print(f"\n[{name}] 방문자 리뷰 수집 시작 (목표 유효 {target}개) → {url}")
 
     async with async_playwright() as pw:
         browser, context = await make_browser_context(pw)
@@ -604,9 +670,10 @@ async def collect_visitor(place_id: str, name: str) -> list[dict]:
         await page.goto(url)
         await page.wait_for_timeout(2000)
 
-        prev_count = 0
-        no_change  = 0
+        prev_count   = 0
+        no_change    = 0
         total_clicks = 0
+        valid_cnt    = 0
 
         while True:
             btn = await page.query_selector("a.fvwqf")
@@ -624,20 +691,31 @@ async def collect_visitor(place_id: str, name: str) -> list[dict]:
                     return ul ? ul.querySelectorAll('li.EjjAW').length : 0;
                 }
             """)
-            print(f"  로딩 중... {count}개", end="\r")
 
-            if count >= V_MAX_REVIEWS:
-                print(f"\n  상한 도달: {count}개 → 로딩 중단")
+            # 로드 수가 늘었을 때만 유효 리뷰 수 재집계 (불필요한 추출 방지)
+            if count != prev_count:
+                valid_cnt = await _count_valid_visitor(page)
+            print(f"  로딩 중... 로드 {count}개 / 유효 {valid_cnt}개 (목표 {target})", end="\r")
+
+            # ① 목표 유효 개수 도달 → 중단
+            if valid_cnt >= target:
+                print(f"\n  목표 달성: 유효 {valid_cnt}개 ≥ {target}개 → 로딩 중단")
                 break
+            # ② 안전 상한 도달 → 중단
+            if count >= V_MAX_REVIEWS:
+                print(f"\n  상한 도달: 로드 {count}개 → 로딩 중단 (유효 {valid_cnt}개)")
+                break
+            # ③ 더 이상 로드되지 않음 → 중단
             if count == prev_count:
                 no_change += 1
                 if no_change >= V_NO_CHANGE_LIMIT:
+                    print(f"\n  더 이상 로드되지 않음 → 중단 (유효 {valid_cnt}개 < 목표 {target}개)")
                     break
             else:
                 no_change  = 0
                 prev_count = count
 
-        print(f"\n  로딩 완료: {prev_count}개 (클릭 {total_clicks}회)")
+        print(f"  로딩 완료: 로드 {prev_count}개 / 유효 {valid_cnt}개 (클릭 {total_clicks}회)")
 
         await page.evaluate("""
             () => {
@@ -652,31 +730,7 @@ async def collect_visitor(place_id: str, name: str) -> list[dict]:
         """)
         await page.wait_for_timeout(500)
 
-        raw = await page.evaluate("""
-            () => {
-                const ul = document.querySelector('ul.OTi6Q');
-                if (!ul) return [];
-                return Array.from(ul.querySelectorAll('li.EjjAW')).map((el, i) => {
-                    const contentDiv = el.querySelector('div.pui__vn15t2');
-                    let content = contentDiv ? contentDiv.innerText.trim() : '';
-                    content = content.replace(/\\n?더보기\\s*$/, '').trim();
-
-                    let date = '';
-                    el.querySelectorAll('span.pui__blind').forEach(s => {
-                        if (/\\d{4}년/.test(s.innerText)) date = s.innerText.trim();
-                    });
-
-                    const tags = Array.from(el.querySelectorAll('span.pui__V8F9nN'))
-                        .map(s => s.innerText.trim()).filter(Boolean);
-                    const keywords = Array.from(el.querySelectorAll('span.pui__jhpEyP'))
-                        .map(s => s.innerText.trim()).filter(Boolean);
-                    const authorEl = el.querySelector('span.pui__NMi-Dp');
-                    const author   = authorEl ? authorEl.innerText.trim() : '';
-
-                    return { seq: i + 1, author, date, content, tags, keywords };
-                });
-            }
-        """)
+        raw = await page.evaluate(_VISITOR_EXTRACT_JS)
 
         # 네이버 표시 총 리뷰 수 (탭 헤더 또는 섹션 카운트에서 추출)
         total_naver_count = await page.evaluate("""
@@ -708,7 +762,8 @@ async def collect_visitor(place_id: str, name: str) -> list[dict]:
 
 
 def save_visitor_json(name: str, place_id: str, raw: list[dict],
-                      place_info: dict, total_naver_count: int | None) -> dict:
+                      place_info: dict, total_naver_count: int | None,
+                      target: int) -> dict:
     reviews  = []
     excluded = []
 
@@ -734,10 +789,15 @@ def save_visitor_json(name: str, place_id: str, raw: list[dict],
         else:
             reviews.append(entry)
 
+    # 목표 = '제외 후 유효 리뷰' 개수. 초과분(최신순 뒤쪽)은 잘라 정확히 target개로 맞춘다.
+    over_collected = max(0, len(reviews) - target)
+    if over_collected:
+        reviews = reviews[:target]
+
     count_18m       = sum(1 for r in reviews if not r["recency_penalty"])
-    extended_to_24m = count_18m < V_TARGET_COUNT
+    extended_to_24m = count_18m < target
     dates = [r["date"] for r in reviews if re.match(r"\d{4}-\d{2}-\d{2}", r["date"])]
-    total_loaded    = len(reviews) + len(excluded)  # DOM에서 로드한 총 건수
+    total_loaded    = len(reviews) + len(excluded) + over_collected  # DOM에서 로드한 총 건수
 
     result = {
         "restaurant":   name,
@@ -750,13 +810,14 @@ def save_visitor_json(name: str, place_id: str, raw: list[dict],
         "reviews":      reviews,
         "excluded":     excluded,
         "summary": {
+            "target":                 target,                # 요청된 유효 리뷰 목표 개수
             "total_naver_count":      total_naver_count,   # 네이버 플레이스 표시 전체 수
             "total_loaded":           total_loaded,         # 수집기가 DOM에서 로드한 수
             "total_collected":        len(reviews),
             "count_within_18m":       count_18m,
             "count_18m_to_24m":       sum(1 for r in reviews if r["recency_penalty"]),
             "extended_to_24m":        extended_to_24m,
-            "extended_to_24m_reason": f"18개월 이내 리뷰 {count_18m}개 < 목표 {V_TARGET_COUNT}개" if extended_to_24m else None,
+            "extended_to_24m_reason": f"18개월 이내 리뷰 {count_18m}개 < 목표 {target}개" if extended_to_24m else None,
             "total_excluded":         len(excluded),
             "excluded_paid":          sum(1 for e in excluded if e.get("exclude_reason", "").startswith("paid")),
             "excluded_insincere":     sum(1 for e in excluded if e.get("exclude_reason") == "insincere"),
@@ -764,7 +825,7 @@ def save_visitor_json(name: str, place_id: str, raw: list[dict],
             "quality_bonus_count":    sum(1 for r in reviews if r["quality_bonus"]),
             "date_oldest":            min(dates) if dates else "unknown",
             "date_newest":            max(dates) if dates else "unknown",
-            "target_met":             len(reviews) >= V_TARGET_COUNT,
+            "target_met":             len(reviews) >= target,
         },
     }
 
@@ -777,7 +838,7 @@ def save_visitor_json(name: str, place_id: str, raw: list[dict],
     print(f"  유효 {len(reviews)}개 (18개월이내 {s['count_within_18m']}개 / "
           f"18~24개월 {s['count_18m_to_24m']}개) / 제외 {len(excluded)}개")
     if extended_to_24m:
-        print(f"  ⚠️  18개월 이내 {count_18m}개 < {V_TARGET_COUNT}개 → 24개월까지 확장 수집됨")
+        print(f"  ⚠️  18개월 이내 {count_18m}개 < {target}개 → 24개월까지 확장 수집됨")
     return result
 
 
@@ -808,7 +869,7 @@ def save_visitor_txt(name: str, place_id: str, result: dict):
     lines.append(f"    - 24개월 초과   : {s['excluded_too_old']}개")
     lines.append(f"  120자 이상(×1.5)  : {s['quality_bonus_count']}개")
     lines.append(f"  수집 기간         : {s['date_oldest']} ~ {s['date_newest']}")
-    lines.append(f"  목표(150개+)      : {'✅ 달성' if s['target_met'] else '❌ 미달성'}")
+    lines.append(f"  목표({s.get('target', '?')}개)       : {'✅ 달성' if s['target_met'] else '❌ 미달성'}")
     if s["extended_to_24m"]:
         lines.append(f"  ⚠️  24개월 확장   : {s['extended_to_24m_reason']}")
     lines.append("")
@@ -952,8 +1013,8 @@ async def _fetch_blog_page(page, business_id: str, page_no: int) -> dict:
     })
 
 
-async def collect_blog(place_id: str, name: str) -> tuple[list[dict], str]:
-    print(f"\n[{name}] 블로그 리뷰 수집 시작")
+async def collect_blog(place_id: str, name: str, target: int) -> tuple[list[dict], str]:
+    print(f"\n[{name}] 블로그 리뷰 수집 시작 (목표 유효 {target}개)")
 
     async with async_playwright() as pw:
         browser, context = await make_browser_context(pw)
@@ -965,7 +1026,6 @@ async def collect_blog(place_id: str, name: str) -> tuple[list[dict], str]:
 
         items              = []
         valid_cnt          = 0
-        in_phase2          = False
         stop_reason        = B_STOP_API_END
         max_item           = None
         total_naver_count  = None   # 네이버 전체 블로그 리뷰 수
@@ -991,18 +1051,10 @@ async def collect_blog(place_id: str, name: str) -> tuple[list[dict], str]:
             for it in batch:
                 dt = _resolve_blog_date(it)
 
-                if dt and not in_phase2 and dt < CUTOFF_18M:
-                    in_phase2 = True
-                    if valid_cnt >= B_MIN_TARGET:
-                        stop_reason = B_STOP_TARGET_MET
-                        print(f"\n  Phase1 종료: 유효 {valid_cnt}개 ≥ {B_MIN_TARGET}개")
-                        done = True
-                        break
-                    print(f"\n  Phase2 진입: 유효 {valid_cnt}개 < {B_MIN_TARGET}개")
-
+                # 24개월 초과 도달 시 중단 (목표 미달이라도 데이터 신선도 한계)
                 if dt and dt < CUTOFF_24M:
                     stop_reason = B_STOP_24M_WALL
-                    print(f"\n  24개월 벽 도달 → 중단 (유효 {valid_cnt}개)")
+                    print(f"\n  24개월 벽 도달 → 중단 (유효 {valid_cnt}개 / 목표 {target}개)")
                     done = True
                     break
 
@@ -1012,14 +1064,14 @@ async def collect_blog(place_id: str, name: str) -> tuple[list[dict], str]:
                 if not is_paid:
                     valid_cnt += 1
 
-                if valid_cnt >= B_MAX_VALID:
-                    stop_reason = B_STOP_MAX_REACHED
-                    print(f"\n  최대 {B_MAX_VALID}개 도달 → 종료")
+                # 목표 = '대가성(확정) 제외 후 유효 리뷰' 개수 도달 시 종료
+                if valid_cnt >= target:
+                    stop_reason = B_STOP_TARGET_MET
+                    print(f"\n  목표 달성: 유효 {valid_cnt}개 ≥ {target}개 → 종료")
                     done = True
                     break
 
-            print(f"  수집 중... 누적 {len(items)}개 / 유효 {valid_cnt}개 "
-                  f"({'Phase2' if in_phase2 else 'Phase1'})", end="\r")
+            print(f"  수집 중... 누적 {len(items)}개 / 유효 {valid_cnt}개 (목표 {target})", end="\r")
 
             if done:
                 break
@@ -1043,7 +1095,7 @@ async def collect_blog(place_id: str, name: str) -> tuple[list[dict], str]:
 
 def save_blog_json(name: str, place_id: str, raw: list[dict], stop_reason: str,
                    place_info: dict, total_naver_count: int | None,
-                   api_max_accessible: int | None) -> dict:
+                   api_max_accessible: int | None, target: int) -> dict:
     reviews  = []
     excluded = []
 
@@ -1081,12 +1133,16 @@ def save_blog_json(name: str, place_id: str, raw: list[dict], stop_reason: str,
         else:
             reviews.append(entry)
 
+    # 목표 = '대가성 제외 후 유효 리뷰' 개수. 초과분(최신순 뒤쪽)은 잘라 정확히 target개로 맞춘다.
+    if target and len(reviews) > target:
+        reviews = reviews[:target]
+
     count_18m   = sum(1 for r in reviews if not r["recency_penalty"])
     count_18_24 = sum(1 for r in reviews if r["recency_penalty"])
     dates = [r["date"] for r in reviews if re.match(r"\d{4}-\d{2}-\d{2}", r["date"])]
 
     phase2_entered = stop_reason != B_STOP_TARGET_MET and count_18_24 > 0
-    min_target_met = count_18m >= B_MIN_TARGET
+    target_met     = len(reviews) >= target
 
     result = {
         "restaurant":   name,
@@ -1101,15 +1157,15 @@ def save_blog_json(name: str, place_id: str, raw: list[dict], stop_reason: str,
         "reviews":      reviews,
         "excluded":     excluded,
         "summary": {
+            "target":               target,                # 요청된 유효 리뷰 목표 개수
             "total_naver_count":    total_naver_count,    # 네이버 플레이스 표시 전체 수
             "api_max_accessible":   api_max_accessible,   # API 접근 가능 상한 (약 128)
             "total_valid":          len(reviews),
             "count_within_18m":     count_18m,
             "count_18m_to_24m":     count_18_24,
             "phase2_entered":       phase2_entered,
-            "phase2_reason":        f"18개월 이내 {count_18m}개 < 목표 {B_MIN_TARGET}개" if phase2_entered else None,
-            "min_target_met":       min_target_met,
-            "max_target_met":       len(reviews) >= B_MAX_VALID,
+            "phase2_reason":        f"18개월 이내 {count_18m}개 (목표 {target}개 중)" if phase2_entered else None,
+            "target_met":           target_met,
             "total_excluded":       len(excluded),
             "excluded_paid_hard":   sum(1 for e in excluded if e.get("exclude_reason", "").startswith("paid_hard")),
             "flag_paid_suspect":    sum(1 for r in reviews if any(f.startswith("paid_suspect") for f in r["flags"])),
@@ -1167,9 +1223,8 @@ def save_blog_txt(name: str, place_id: str, result: dict):
     lines.append(f"  네이버예약 연동      : {s['has_naver_reservation_count']}개")
     lines.append(f"  수집 기간           : {s['date_oldest']} ~ {s['date_newest']}")
     if s["phase2_entered"]:
-        lines.append(f"  ⚠️ Phase2 진입      : {s['phase2_reason']}")
-    lines.append(f"  최소 목표({B_MIN_TARGET}개)      : {'✅ 달성' if s['min_target_met'] else '❌ 미달성'}")
-    lines.append(f"  최대 수집({B_MAX_VALID}개)      : {'✅ 도달' if s['max_target_met'] else '미도달'}")
+        lines.append(f"  ⚠️ 18개월 이내 부족  : {s['phase2_reason']}")
+    lines.append(f"  목표({s.get('target', '?')}개)        : {'✅ 달성' if s['target_met'] else '❌ 미달성'}")
     lines.append("")
     lines.append("  ※ 본문(contents)은 네이버 API 프리뷰(약 1,300자 상한)입니다.")
     lines.append("")
@@ -1219,8 +1274,12 @@ async def main():
     do_visitor = mode in ("all", "visitor")
     do_blog    = mode in ("all", "blog")
 
+    # 수집 개수는 한 번만 입력받아 모든 음식점에 동일 적용 (유효 리뷰 기준)
+    v_target, b_target = prompt_review_counts(mode)
+
     print()
-    print(f"총 {len(restaurants)}개 음식점 / 모드: {mode}")
+    print(f"총 {len(restaurants)}개 음식점 / 모드: {mode} / "
+          f"방문자 {v_target}개 · 블로그 {b_target}개 (유효 기준)")
     print("=" * 64)
 
     for r in restaurants:
@@ -1247,16 +1306,16 @@ async def main():
 
         # ② 방문자 리뷰
         if do_visitor:
-            raw_v, total_v = await collect_visitor(place_id, name)
-            result = save_visitor_json(name, place_id, raw_v, place_info, total_v)
+            raw_v, total_v = await collect_visitor(place_id, name, v_target)
+            result = save_visitor_json(name, place_id, raw_v, place_info, total_v, v_target)
             save_visitor_txt(name, place_id, result)
 
         # ③ 블로그 리뷰
         if do_blog:
-            raw_b, stop_reason, total_b, max_b = await collect_blog(place_id, name)
+            raw_b, stop_reason, total_b, max_b = await collect_blog(place_id, name, b_target)
             if raw_b:
                 result = save_blog_json(name, place_id, raw_b, stop_reason,
-                                        place_info, total_b, max_b)
+                                        place_info, total_b, max_b, b_target)
                 save_blog_txt(name, place_id, result)
             else:
                 print(f"\n❌ [{name}] 블로그 리뷰 수집 실패 또는 결과 없음")

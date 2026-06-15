@@ -118,12 +118,20 @@ C:\Users\jh960\Desktop\리뷰분석\
 > `analyze_reviews.py`는 visitor의 `content`를 읽으므로, 블로그 분석 시 `body`를 함께 처리하도록 보강 필요.
 
 ### `summary` 객체
-- **공통**: `total_excluded`, `date_oldest`, `date_newest`, `count_within_18m`, `count_18m_to_24m`
-- **방문자**: `total_collected`, `excluded_paid`, `excluded_insincere`, `excluded_too_old`,
+- **공통**: `target`, `total_excluded`, `date_oldest`, `date_newest`, `count_within_18m`, `count_18m_to_24m`
+  - `target` = 수집 시 사용자가 지정한 **유효 리뷰 목표 개수**(미입력 시 기본값 방문자 150 / 블로그 50).
+    `reviews[]`는 정확히 이 개수로 맞춰져 있다(초과 수집분은 최신순 뒤쪽부터 잘림). 목표보다 적으면 데이터 부족.
+- **방문자**: `total_collected`, `total_loaded`, `excluded_paid`, `excluded_insincere`, `excluded_too_old`,
   `quality_bonus_count`, `target_met`, `extended_to_24m`, `extended_to_24m_reason`
 - **블로그**: `total_valid`, `excluded_paid_hard`, `flag_paid_suspect`, `flag_extraction_warn`,
-  `has_naver_reservation_count`, `phase2_entered`, `phase2_reason`, `min_target_met`, `max_target_met`
+  `has_naver_reservation_count`, `phase2_entered`, `phase2_reason`, `target_met`
   (최상위에 `source: "place_graphql_fsasReviews"`, `stop_reason`도 포함)
+
+> ⚠️ 수집 개수 변경(2026-06): `naver_ReviewCollector.py`는 실행 시 방문자/블로그 **유효 리뷰 목표 개수**를
+> 한 번만 입력받아(빈 입력=기본값) 모든 음식점에 동일 적용한다. 입력 N은 **광고·불성실 등 제외 후의
+> 분석 대상 리뷰** 기준이며, 수집기가 N개의 유효 리뷰가 모일 때까지 로딩한 뒤 정확히 N개로 잘라 저장한다.
+> 따라서 `reviews[]` 길이 ≈ `summary.target`이다. 구버전 블로그 `min_target_met`/`max_target_met`는 폐기되고
+> 단일 `target_met`으로 통합됐다.
 
 > ⚠️ 블로그는 네이버 API가 **최근순 약 128개(`maxItemCount`)까지만** 접근 허용. total이 수천이어도
 > 그 이상은 못 받는다 → 18~24개월 목표 수집엔 충분하나 "전수"가 아님을 신뢰도 메모에 반영한다.
@@ -202,3 +210,6 @@ python analyze_reviews.py "피탕김탕\피탕김탕_visitor_raw.json"
   블로그 수집이 추가되면 이 섹션과 §2 스키마를 갱신한다.
 - 감성 분포는 사전 기반 1차 추정이므로, 경계 사례는 반드시 대표 샘플 본문으로 검증한다.
 - 분석 결과를 단정적으로 제시하기 전, 표본 수와 `recency_penalty` 비율을 항상 확인한다.
+- **수집 개수**: 수집기는 실행 시 방문자/블로그 유효 리뷰 목표를 1회 입력받는다(기본 150/50, 빈 입력=기본값).
+  목표는 '제외 후 유효 리뷰' 기준이며 `reviews[]`는 정확히 `summary.target`개로 맞춰진다. 분석 시 표본 크기는
+  `summary.target`이 아니라 실제 `reviews[]` 길이(=`total_collected`/`total_valid`)로 확인한다(목표 미달 가능).
