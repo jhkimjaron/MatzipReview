@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>도량 리뷰 분석 리포트</title>
+<style>
+  :root {
+    --primary: #2c3e50;
+    --accent:  #1a6a8a;
+    --pos:     #27ae60;
+    --neg:     #c0392b;
+    --neu:     #7f8c8d;
+    --bg:      #f4f1ec;
+    --card-bg: #fdfaf6;
+    --border:  #e0d8cc;
+    --tag-bg:  #f5f0e8;
+    --warn:    #e67e22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Nanum Gothic', 'Apple SD Gothic Neo', sans-serif; background: var(--bg); color: var(--primary); line-height: 1.7; }
+
+  /* 헤더 */
+  .site-header { background: var(--primary); color: #fff; padding: 28px 24px 20px; text-align: center; }
+  .site-header h1 { font-size: 1.6rem; letter-spacing: -0.5px; }
+  .site-header .meta { font-size: 0.82rem; opacity: 0.7; margin-top: 6px; }
+
+  /* 목차 */
+  .toc { background: var(--tag-bg); border-bottom: 1px solid var(--border); padding: 14px 20px; display: flex; flex-wrap: wrap; gap: 7px; justify-content: center; position: sticky; top: 0; z-index: 100; }
+  .toc a { text-decoration: none; color: var(--accent); font-size: 0.82rem; font-weight: 700; background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 4px 13px; transition: background 0.2s; }
+  .toc a:hover { background: var(--accent); color: #fff; }
+
+  /* 카드 */
+  .wrap { max-width: 820px; margin: 32px auto; padding: 0 16px; }
+  .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 26px; margin-bottom: 28px; }
+  .card-title { font-size: 1.05rem; font-weight: 800; color: var(--primary); border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 18px; }
+
+  /* 기본정보 그리드 */
+  .info-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: 8px; font-size: 0.83rem; }
+  .info-item { background: var(--tag-bg); border-radius: 6px; padding: 8px 12px; }
+  .info-item .label { font-weight: 700; color: #666; font-size: 0.73rem; margin-bottom: 2px; }
+  .info-item .val { line-height: 1.5; }
+  .info-item .val.warn-text { color: #c0392b; font-weight: 700; }
+  .info-item .val.ok-text { color: var(--pos); font-weight: 700; }
+
+  /* 섹션 제목 */
+  .section-title { font-size: 0.93rem; font-weight: 700; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 9px; margin: 22px 0 10px; }
+  .section-title:first-child { margin-top: 0; }
+
+  /* 감성 바 */
+  .sent-bar-wrap { display: flex; align-items: center; gap: 10px; margin: 6px 0; font-size: 0.82rem; }
+  .sent-label { width: 30px; font-weight: 700; }
+  .sent-bar-bg { flex: 1; background: #e8e8e8; border-radius: 4px; height: 13px; }
+  .sent-bar { height: 13px; border-radius: 4px; }
+  .sent-bar.pos { background: var(--pos); }
+  .sent-bar.neg { background: var(--neg); }
+  .sent-bar.neu { background: var(--neu); }
+  .sent-pct { width: 40px; text-align: right; font-weight: 700; }
+
+  /* 태그 클라우드 */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tag { display: inline-block; background: var(--tag-bg); border: 1px solid var(--border); border-radius: 20px; padding: 3px 11px; font-size: 0.79rem; }
+  .tag.pos { border-color: var(--pos); color: var(--pos); background: #f0faf4; }
+  .tag.neg { border-color: var(--neg); color: var(--neg); background: #fdf0ee; }
+
+  /* 테이블 */
+  table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin: 8px 0; }
+  th { background: var(--primary); color: #fff; padding: 7px 10px; text-align: left; font-weight: 700; font-size: 0.79rem; }
+  td { padding: 6px 10px; border-bottom: 1px solid var(--border); }
+  tr:nth-child(even) td { background: var(--tag-bg); }
+
+  /* 박스 */
+  .warn-box { background: #fff8e1; border: 1px solid #ffc107; border-radius: 6px; padding: 10px 14px; font-size: 0.82rem; margin: 8px 0; }
+  .warn-box .warn-title { font-weight: 700; color: var(--warn); margin-bottom: 4px; }
+  .notice-box { background: #e8f5e9; border: 1px solid #81c784; border-radius: 6px; padding: 10px 14px; font-size: 0.82rem; margin: 8px 0; }
+  .notice-box .notice-title { font-weight: 700; color: var(--pos); margin-bottom: 4px; }
+  .danger-box { background: #fdecea; border: 1px solid #e74c3c; border-radius: 6px; padding: 10px 14px; font-size: 0.82rem; margin: 8px 0; }
+  .danger-box .danger-title { font-weight: 700; color: var(--neg); margin-bottom: 4px; }
+  .info-box { background: #e3f2fd; border: 1px solid #90caf9; border-radius: 6px; padding: 10px 14px; font-size: 0.82rem; margin: 8px 0; }
+  .info-box .info-title { font-weight: 700; color: #1565c0; margin-bottom: 4px; }
+
+  /* 불릿 */
+  ul.plain { padding-left: 18px; font-size: 0.83rem; }
+  ul.plain li { margin: 4px 0; }
+
+  /* 리뷰 인용 */
+  .review-quote { background: #f9f9f9; border-left: 3px solid var(--border); border-radius: 0 6px 6px 0; padding: 10px 14px; font-size: 0.81rem; color: #444; margin: 8px 0; line-height: 1.65; }
+  .review-quote .rmeta { font-size: 0.73rem; color: #888; margin-bottom: 4px; }
+
+  /* 총평 */
+  .verdict { background: var(--primary); color: #fff; border-radius: 8px; padding: 16px 20px; font-size: 0.88rem; line-height: 1.75; margin-top: 8px; }
+  .verdict strong { color: #f9ca24; }
+
+  /* 신뢰도 */
+  .reliability { font-size: 0.78rem; color: #888; background: #f8f8f8; border: 1px dashed #ccc; border-radius: 6px; padding: 8px 12px; margin-top: 12px; }
+
+  /* 시그니처 메뉴 강조 */
+  .menu-star { display: inline-block; background: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; padding: 1px 8px; font-size: 0.75rem; font-weight: 700; color: #856404; margin-left: 6px; }
+
+  /* 월별 트렌드 바 */
+  .month-chart { display: flex; align-items: flex-end; gap: 3px; height: 60px; margin-top: 10px; }
+  .month-bar-wrap { display: flex; flex-direction: column; align-items: center; flex: 1; }
+  .month-bar { width: 100%; background: var(--accent); border-radius: 2px 2px 0 0; min-height: 2px; opacity: 0.75; }
+  .month-label { font-size: 0.58rem; color: #888; margin-top: 3px; white-space: nowrap; }
+
+  hr.divider { border: none; border-top: 2px solid var(--border); margin: 0; }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <h1>도량 — 리뷰 분석 리포트</h1>
+  <div class="meta">서울 종로구 자하문로6길 6 2·3층 &nbsp;|&nbsp; 흑백요리사 철가방요리사 임태훈 셰프의 중식당</div>
+  <div class="meta">분석 기준일: 2026-06-15 &nbsp;|&nbsp; 방문자 리뷰 190개 · 블로그 리뷰 100개</div>
+</div>
+
+<nav class="toc">
+  <a href="#info">기본정보</a>
+  <a href="#overall">전반적 평가</a>
+  <a href="#menu">메뉴 분석</a>
+  <a href="#issues">반복 이슈</a>
+  <a href="#ops">영업정보</a>
+  <a href="#booking">예약·대기</a>
+  <a href="#trend">트렌드</a>
+  <a href="#reliability">신뢰도</a>
+  <a href="#tips">추천·팁</a>
+  <a href="#conclusion">종합 의견</a>
+</nav>
+
+<div class="wrap">
+
+<!-- ① 기본정보 -->
+<div class="card" id="info">
+  <div class="card-title">① 기본 정보</div>
+  <div class="info-grid">
+    <div class="info-item"><div class="label">주소</div><div class="val">서울 종로구 자하문로6길 6 2·3층</div></div>
+    <div class="info-item"><div class="label">전화</div><div class="val">0507-1432-0210</div></div>
+    <div class="info-item"><div class="label">영업시간</div><div class="val">화~일 11:00 – 21:30</div></div>
+    <div class="info-item"><div class="label">정기휴무</div><div class="val warn-text">매주 월요일</div></div>
+    <div class="info-item"><div class="label">브레이크타임</div><div class="val warn-text">14:30 – 17:00</div></div>
+    <div class="info-item"><div class="label">라스트오더</div><div class="val warn-text">런치 13:30 / 디너 20:30</div></div>
+    <div class="info-item"><div class="label">예약</div><div class="val ok-text">캐치테이블 (매달 25일 18시 오픈)</div></div>
+    <div class="info-item"><div class="label">현장 웨이팅</div><div class="val">가능 (런치 10:10 / 디너 16:10 등록)</div></div>
+    <div class="info-item"><div class="label">주차</div><div class="val">건물 내 유료주차 가능</div></div>
+    <div class="info-item"><div class="label">접근성</div><div class="val">경복궁역 2·3번 출구 도보 3–5분</div></div>
+    <div class="info-item"><div class="label">편의시설</div><div class="val">룸, 단체 이용, 유아의자, 포장, WiFi</div></div>
+    <div class="info-item"><div class="label">네이버예약</div><div class="val">없음 (캐치테이블 전용)</div></div>
+  </div>
+
+  <div class="section-title" style="margin-top:18px;">메뉴 · 가격</div>
+  <table>
+    <tr><th>구분</th><th>메뉴</th><th>가격</th></tr>
+    <tr><td>시그니처<span class="menu-star">★강추</span></td><td>동파육</td><td>40,000원</td></tr>
+    <tr><td>시그니처<span class="menu-star">★강추</span></td><td>어향가지튀김</td><td>35,000원</td></tr>
+    <tr><td>시그니처<span class="menu-star">★강추</span></td><td>양고기튀김</td><td>30,000원</td></tr>
+    <tr><td>튀김 요리</td><td>꿔바로우</td><td>25,000원</td></tr>
+    <tr><td>튀김 요리</td><td>레몬탕수육</td><td>30,000원</td></tr>
+    <tr><td>튀김 요리</td><td>깐풍기</td><td>30,000원</td></tr>
+    <tr><td>튀김 요리</td><td>크림새우 / 칠리새우</td><td>35,000원</td></tr>
+    <tr><td>일반 요리</td><td>팔보채</td><td>45,000원</td></tr>
+    <tr><td>일반 요리</td><td>마라샹궈 (소·양)</td><td>38,000원</td></tr>
+    <tr><td>식사류</td><td>팔진 쟁반짜장</td><td>13,000원</td></tr>
+    <tr><td>식사류</td><td>팔진짬뽕 / 마라짬뽕</td><td>13,000 / 15,000원</td></tr>
+    <tr><td>식사류</td><td>팔보덮밥</td><td>18,000원</td></tr>
+    <tr><td>식사류</td><td>군만두 (5pcs)</td><td>10,000원</td></tr>
+    <tr><td>훠궈 정식</td><td>도량 훠궈정식 1인</td><td>25,000원~</td></tr>
+    <tr><td>런치한정</td><td>아량차돌짬뽕</td><td>13,000원</td></tr>
+  </table>
+</div>
+
+<!-- ② 전반적 평가 -->
+<div class="card" id="overall">
+  <div class="card-title">② 전반적 평가</div>
+
+  <div class="section-title">방문자 리뷰 감성 분포 (가중치 반영, 190개)</div>
+  <div class="sent-bar-wrap"><div class="sent-label" style="color:var(--pos)">긍정</div><div class="sent-bar-bg"><div class="sent-bar pos" style="width:65%"></div></div><div class="sent-pct" style="color:var(--pos)">65.0%</div></div>
+  <div class="sent-bar-wrap"><div class="sent-label" style="color:var(--neg)">부정</div><div class="sent-bar-bg"><div class="sent-bar neg" style="width:11.8%"></div></div><div class="sent-pct" style="color:var(--neg)">11.8%</div></div>
+  <div class="sent-bar-wrap"><div class="sent-label" style="color:var(--neu)">중립</div><div class="sent-bar-bg"><div class="sent-bar neu" style="width:23.2%"></div></div><div class="sent-pct" style="color:var(--neu)">23.2%</div></div>
+
+  <div class="section-title">블로그 리뷰 감성 분포 (100개 / 2026-04~06)</div>
+  <div class="sent-bar-wrap"><div class="sent-label" style="color:var(--pos)">긍정</div><div class="sent-bar-bg"><div class="sent-bar pos" style="width:45%"></div></div><div class="sent-pct" style="color:var(--pos)">45.0%</div></div>
+  <div class="sent-bar-wrap"><div class="sent-label" style="color:var(--neg)">부정</div><div class="sent-bar-bg"><div class="sent-bar neg" style="width:43%"></div></div><div class="sent-pct" style="color:var(--neg)">43.0%</div></div>
+  <div class="sent-bar-wrap"><div class="sent-label" style="color:var(--neu)">중립</div><div class="sent-bar-bg"><div class="sent-bar neu" style="width:12%"></div></div><div class="sent-pct" style="color:var(--neu)">12.0%</div></div>
+  <div class="warn-box" style="margin-top:8px;">
+    <div class="warn-title">⚠️ 블로그 감성 수치 해석 주의</div>
+    블로그 부정 43%는 실제 음식 부정 평가가 아니라, <b>"웨이팅이 힘들다", "예약 전쟁", "기다리고 기다리고"</b> 등 대기 관련 부정어가 사전에 걸린 결과입니다. 본문 샘플을 확인하면 음식 자체 평가는 대부분 매우 긍정적입니다. 실질 음식 만족도는 방문자 65% 긍정에 더 가깝습니다.
+  </div>
+
+  <div class="section-title">주요 키워드 (방문자, 가중치 순)</div>
+  <div class="tag-cloud">
+    <span class="tag pos">음식이 맛있어요 ★★★</span>
+    <span class="tag pos">친절해요</span>
+    <span class="tag pos">매장이 넓어요</span>
+    <span class="tag pos">인테리어가 멋져요</span>
+    <span class="tag pos">재료가 신선해요</span>
+    <span class="tag pos">고기 질이 좋아요</span>
+    <span class="tag pos">주차하기 편해요</span>
+    <span class="tag pos">단체모임 하기 좋아요</span>
+    <span class="tag pos">특별한 메뉴가 있어요</span>
+    <span class="tag pos">비싼 만큼 가치있어요</span>
+    <span class="tag pos">룸이 잘 되어있어요</span>
+    <span class="tag pos">차분한 분위기예요</span>
+    <span class="tag pos">특별한 날 가기 좋아요</span>
+  </div>
+  <p style="font-size:0.79rem;color:#666;margin-top:8px;">※ 부정 키워드는 네이버 제공 태그에서 미집계 (방문자 리뷰에 부정 태그 없음)</p>
+</div>
+
+<!-- ③ 메뉴 분석 -->
+<div class="card" id="menu">
+  <div class="card-title">③ 메뉴 분석</div>
+
+  <div class="section-title">메뉴 언급 빈도 (방문자 + 블로그 가중치 합산)</div>
+  <table>
+    <tr><th>메뉴</th><th>방문자 언급(가중)</th><th>블로그 언급(가중)</th><th>평가 요약</th></tr>
+    <tr><td><b>동파육</b><span class="menu-star">★시그니처</span></td><td>124.5</td><td>86.0</td><td>압도적 1위. 재방문 핵심 이유</td></tr>
+    <tr><td><b>짬뽕</b> (팔진/마라)</td><td>61.3</td><td>68.0</td><td>국물 깊음, 해산물 풍성. 마라짬뽕도 강추</td></tr>
+    <tr><td><b>짜장</b> (유니/팔진/쟁반)</td><td>35.3</td><td>32.0</td><td>정통 깔끔함 호평. "요즘 이런 짜장 없다"</td></tr>
+    <tr><td>군만두</td><td>12.8</td><td>11.0</td><td>겉바속촉, 필수 사이드 언급 많음</td></tr>
+    <tr><td>볶음밥 / 팔보덮밥</td><td>9.5 / –</td><td>8.0 / 5.0</td><td>팔보덮밥이 의외의 인기 메뉴</td></tr>
+    <tr><td>탕수육 (레몬)</td><td>6.8</td><td>9.0</td><td>레몬탕수육 신선함 호평</td></tr>
+    <tr><td>팔보채</td><td>2.8</td><td>5.0</td><td>해물 풍성, 명절·단체 주문 언급</td></tr>
+  </table>
+
+  <div class="notice-box" style="margin-top:14px;">
+    <div class="notice-title">★ 강력 추천 시그니처 3대 메뉴</div>
+    <ul class="plain">
+      <li><b>동파육 (40,000원)</b> — "젓가락으로 집으면 결이 그대로 풀림", "입에서 녹는다", 청경채 익힘이 정교하다는 언급 반복. 사실상 모든 리뷰에서 등장. 공기밥 같이 주문 강추.</li>
+      <li><b>어향가지튀김 (35,000원)</b> — "겉바속촉", "내 원픽", "가지 못 먹는 사람도 맛있게 먹음". 속 새우완자 탱글탱글, 새콤달콤 소스 호평.</li>
+      <li><b>양고기튀김 (30,000원)</b> — 마라향·쯔란 향신료, 맥주 안주로 최적. "양고기 냄새 전혀 안 남" 언급 다수. 생맥주 세트 함께 강추.</li>
+    </ul>
+  </div>
+
+  <div class="section-title">기타 주목 메뉴</div>
+  <ul class="plain">
+    <li><b>마라짬뽕 (15,000원)</b> — "해물 진짜 푸짐", "국물만 먹어도 미침" / 팔진짬뽕은 "무난무난" 평 있음</li>
+    <li><b>팔보덮밥 (18,000원)</b> — "동행들의 원픽", "소스가 과하지 않고 은은한 감칠맛"</li>
+    <li><b>군만두 (10,000원)</b> — "진짜 겉바속촉 최고", 가성비 사이드로 언급</li>
+    <li><b>훠궈 정식 (25,000원~)</b> — 3층 룸 이용 시 주문 가능. 야채·고기 품질 호평</li>
+  </ul>
+</div>
+
+<!-- ④ 반복 이슈 -->
+<div class="card" id="issues">
+  <div class="card-title">④ 반복 부정 이슈</div>
+
+  <div class="danger-box">
+    <div class="danger-title">🔴 웨이팅 극심 (반복 최다 이슈)</div>
+    예약과 현장 웨이팅 모두 매우 힘들다는 언급이 압도적으로 많음. 태그 기준 "대기 2시간 이상" 가중치 51.0 / "1시간 이상" 26.5 / "30분 이상" 16.5. 흑백요리사 방영 후 1년 이상 지났음에도 웨이팅 강도는 유지 중. 최근 블로그(2026-06)에서도 동일 패턴 확인.
+    <div class="review-quote" style="margin-top:8px;">
+      <div class="rmeta">방문자 리뷰 · 2026-02-08</div>
+      "일요일 아침 6시33분 도착(웨이팅 오픈런) → 직원님이 대기번호 06번 종이 주심 → 귀가 후 다시 09시40분 도착 → 10시05분 웨이팅 등록 → 11시 오픈 때까지 대기"
+    </div>
+  </div>
+
+  <div class="warn-box">
+    <div class="warn-title">🟡 식사 시간 제한 (디너)</div>
+    디너 타임제 운영으로 여유 있는 술자리·대화가 어렵다는 언급이 복수 블로그에서 확인. "고량주 가볍게 반주 하는 느낌으로만 먹을 수 있었다". 천천히 음미하며 마시려는 목적에는 부적합.
+  </div>
+
+  <div class="warn-box">
+    <div class="warn-title">🟡 동파육 품질 편차 (소수 의견)</div>
+    대다수는 "녹는다" 평이나, 블로그 1건에서 "고기가 좀 질기다 / 청경채가 더 익은 듯하다"는 부정 의견 확인. 방문 시기·로트별 편차 가능성. 단발성으로 보이나 참고 필요.
+  </div>
+
+  <div class="warn-box">
+    <div class="warn-title">🟡 실내 온도 낮음 (단발)</div>
+    "실내가 너무 추워서 음식이 빨리 식어요" — 1건 확인. 단발이나 겨울·봄 방문 시 참고.
+  </div>
+</div>
+
+<!-- ⑤ 영업 정보 -->
+<div class="card" id="ops">
+  <div class="card-title">⑤ 영업 정보 (방문 전 필수 확인)</div>
+
+  <div class="info-box">
+    <div class="info-title">📋 핵심 운영 정보 요약</div>
+    <ul class="plain">
+      <li><b>정기휴무:</b> 매주 월요일 (방문자 리뷰·블로그 공통 확인)</li>
+      <li><b>브레이크타임:</b> 14:30 – 17:00 (런치·디너 사이)</li>
+      <li><b>라스트오더:</b> 런치 13:30 / 디너 20:30</li>
+      <li><b>룸 이용:</b> 3층 룸은 훠궈 정식 주문 시 이용 가능. 단체 조용한 식사에 적합</li>
+      <li><b>포장:</b> 가능 (용기·봉투 제공, 셀프 포장)</li>
+      <li><b>주차:</b> 건물 내 유료주차. 서울 치고 비쌈 → 대중교통 권장</li>
+      <li><b>좌식 여부:</b> 일반 테이블석 (2층 테이블, 3층 룸)</li>
+      <li><b>현장 웨이팅 시 메뉴 선주문:</b> 변경 불가, 캐치테이블 등록 때 미리 신중하게 선택</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ⑥ 예약·대기 -->
+<div class="card" id="booking">
+  <div class="card-title">⑥ 예약 · 대기 방식</div>
+
+  <div class="section-title">예약 방법</div>
+  <div class="notice-box">
+    <div class="notice-title">캐치테이블 온라인 예약 (권장)</div>
+    <b>매달 25일 오후 6시</b>에 다음 달 예약이 일괄 오픈됩니다. 경쟁이 극심해 6시 정각 전에 이미 마감되는 경우 빈번. 빈자리 알림(캐치테이블) 설정도 필요.
+  </div>
+
+  <div class="section-title">현장 웨이팅 절차</div>
+  <table>
+    <tr><th>구분</th><th>런치 (오전 11시 첫타임)</th><th>디너 (오후 5시 첫타임)</th></tr>
+    <tr><td>① 번호표 수령</td><td>오전 10:10 매장 방문</td><td>오전 10:00~ 매장 방문 → 번호표 수령</td></tr>
+    <tr><td>② 웨이팅 등록</td><td>10:10 캐치테이블 등록 + 메뉴 선주문</td><td>오후 4:10 재방문 → 번호표 순서대로 등록</td></tr>
+    <tr><td>③ 입장</td><td>11:00 오픈 후 순서대로 입장</td><td>5:00 이후 순서대로 입장</td></tr>
+    <tr><td>총 방문 횟수</td><td>2회</td><td>3회 (번호표 → 등록 → 입장)</td></tr>
+  </table>
+
+  <div class="section-title" style="margin-top:14px;">대기 강도 추정</div>
+  <table>
+    <tr><th>대기 시간 태그</th><th>가중치 비중</th><th>해석</th></tr>
+    <tr><td>바로 입장</td><td>70.3 (약 40%)</td><td>예약자 또는 대기 초번 입장</td></tr>
+    <tr><td>2시간 이상</td><td>51.0 (약 29%)</td><td>현장 웨이팅 시 대기 길이</td></tr>
+    <tr><td>1시간 이상</td><td>26.5 (약 15%)</td><td></td></tr>
+    <tr><td>30분 이상</td><td>16.5 (약 10%)</td><td></td></tr>
+  </table>
+  <p style="font-size:0.81rem;color:#555;margin-top:8px;">→ 예약 없이 방문하면 2시간 이상 대기 가능성이 약 29%. <b>캐치테이블 예약 강력 권장.</b></p>
+</div>
+
+<!-- ⑦ 시계열 트렌드 -->
+<div class="card" id="trend">
+  <div class="card-title">⑦ 시간대별 트렌드</div>
+
+  <div class="section-title">월별 리뷰 분포 (방문자, 2024-06 ~ 2026-06)</div>
+  <div class="month-chart">
+    <div class="month-bar-wrap"><div class="month-bar" style="height:8px"></div><div class="month-label">24.6</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:8px"></div><div class="month-label">24.7</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:10px"></div><div class="month-label">24.8</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:16px"></div><div class="month-label">24.9</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:60px"></div><div class="month-label">24.10</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:43px"></div><div class="month-label">24.11</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:46px"></div><div class="month-label">24.12</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:28px"></div><div class="month-label">25.1</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:45px"></div><div class="month-label">25.2</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:27px"></div><div class="month-label">25.3</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:29px"></div><div class="month-label">25.4</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:14px"></div><div class="month-label">25.5</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:16px"></div><div class="month-label">25.6</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:9px"></div><div class="month-label">25.7</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:14px"></div><div class="month-label">25.8</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:14px"></div><div class="month-label">25.9</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:3px"></div><div class="month-label">25.10</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:8px"></div><div class="month-label">25.11</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:8px"></div><div class="month-label">25.12</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:10px"></div><div class="month-label">26.1</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:12px"></div><div class="month-label">26.2</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:8px"></div><div class="month-label">26.3</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:8px"></div><div class="month-label">26.4</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:4px"></div><div class="month-label">26.5</div></div>
+    <div class="month-bar-wrap"><div class="month-bar" style="height:2px"></div><div class="month-label">26.6</div></div>
+  </div>
+  <p style="font-size:0.79rem;color:#666;margin-top:6px;">※ 2024-10 흑백요리사 방영 직후 급격한 리뷰 집중. 이후 안정적 방문 지속.</p>
+
+  <div class="section-title" style="margin-top:18px;">과거 vs 최근 감성 비교 (방문자)</div>
+  <table>
+    <tr><th>구간</th><th>긍정</th><th>부정</th><th>중립</th></tr>
+    <tr><td>과거 절반 (2024-06 ~ 약 2025-04)</td><td style="color:var(--pos);font-weight:700">74.3%</td><td style="color:var(--neg)">6.2%</td><td>19.5%</td></tr>
+    <tr><td>최근 절반 (약 2025-04 ~ 2026-06)</td><td style="color:var(--pos);font-weight:700">59.1%</td><td style="color:var(--neg)">15.3%</td><td>25.5%</td></tr>
+  </table>
+  <div class="warn-box" style="margin-top:10px;">
+    <div class="warn-title">📉 긍정 비율 하락 추세</div>
+    초기 오픈·방영 직후(2024 하반기) 대비 최근 긍정 비율이 15%p 하락하고 부정이 9%p 상승했습니다. 기대치 증가로 인한 엄격한 평가, 웨이팅 피로도 누적이 주요 원인으로 추정됩니다. 다만 최근에도 긍정이 59%로 여전히 우세하며, 음식 자체 품질 저하를 뜻하진 않습니다.
+  </div>
+
+  <div class="section-title" style="margin-top:10px;">블로그 트렌드 (2026-04~06, 최신 3개월)</div>
+  <p style="font-size:0.83rem;">블로그 100건이 모두 2026-04 이후에 집중 (62건이 2026-05). 흑백요리사 시즌2 이후로 추정되는 재조명 흐름. 블로그 내 부정 구간(48%) → 웨이팅 서술 중심이며 음식 자체 비판은 소수.</p>
+</div>
+
+<!-- ⑧ 신뢰도 -->
+<div class="card" id="reliability">
+  <div class="card-title">⑧ 신뢰도 메모</div>
+  <div class="reliability">
+    <b>[방문자 리뷰]</b> 네이버 전체 361개 중 190개 유효 분석 (제외 171개: 불성실 75개 / 24개월 초과 96개 / 대가성 0개). 18개월 이내 119개(62.6%), 18~24개월 71개(37.4%). 수집 목표 500 대비 미달 → 이는 도량의 네이버 방문자 리뷰 총 수 자체가 361개에 불과하기 때문으로, 전수 수집에 가까운 표본임. 대가성 리뷰 0건은 긍정적 신호.<br><br>
+    <b>[블로그 리뷰]</b> 100개 (2026-04-12 ~ 2026-06-15). 거의 100% 최근 3개월 리뷰로 신선도는 높으나, 장기 추세 반영 불가. 블로그 감성 부정 43%는 웨이팅 묘사의 부정어 반영이므로 과도한 해석 금지.<br><br>
+    <b>[종합]</b> 방문자 리뷰의 대가성 0건, 블로그 제외 1건(대가성 확정)으로 광고성 오염 매우 낮음. 데이터 신뢰도 ★★★★☆
+  </div>
+</div>
+
+<!-- ⑨ 추천·팁 -->
+<div class="card" id="tips">
+  <div class="card-title">⑨ 추천 / 비추천 / 이용팁</div>
+
+  <div class="section-title">✅ 추천하는 이유</div>
+  <ul class="plain">
+    <li>동파육·어향가지튀김·양고기튀김 — 업계 최상위권 평가를 받는 시그니처 메뉴 3종</li>
+    <li>임태훈 셰프가 직접 모든 테이블을 돌며 메뉴 설명·사진 촬영 팬서비스 제공</li>
+    <li>재료 신선도, 기름지지 않은 깔끔한 중식 스타일 — 한식 입맛에도 편하게 먹힘</li>
+    <li>룸 포함 단체석 완비, 연인·커플 데이트·기념일 분위기 호평</li>
+    <li>포장 가능, 남은 음식 셀프 포장 편의 제공</li>
+  </ul>
+
+  <div class="section-title">❌ 비추천(주의)하는 이유</div>
+  <ul class="plain">
+    <li>웨이팅이 매우 길고 복잡함 — 평일도 2시간 대기 각오 필요, 주말 오픈런 수준</li>
+    <li>디너 타임제로 음주·대화 여유 시간이 짧음 — 술자리 목적으로 가면 아쉬움</li>
+    <li>가격대 높은 편 (메인 요리 3~4만원대). 2인 기준 10~15만원 예상</li>
+    <li>월요일 정기휴무, 브레이크타임 14:30-17:00 유의 (브레이크타임 방문 잦은 민원)</li>
+  </ul>
+
+  <div class="section-title">💡 방문 전 이용팁</div>
+  <ul class="plain">
+    <li><b>예약 필수:</b> 매달 25일 오후 6시 캐치테이블 오픈 — 달력에 미리 표시하고 정각 대기</li>
+    <li><b>현장 웨이팅 시:</b> 런치는 10:10 / 디너는 오전 10시에 번호표 → 16:10 재방문 등록. 메뉴 변경 불가이므로 신중히 선택</li>
+    <li><b>필수 주문 조합:</b> 동파육 + 어향가지튀김 + (짬뽕 or 짜장) + 군만두. 2인 기준 이 조합이 가장 호평</li>
+    <li><b>공기밥 추가:</b> 동파육 소스에 공기밥 말아먹는 것을 강력 추천 (여러 리뷰 반복 언급)</li>
+    <li><b>맥주 추천:</b> 양고기튀김 + 생맥주/고량주 조합. 칭따오 협업으로 생맥주 세트 있음</li>
+    <li><b>대중교통 이용:</b> 주차 비쌈. 경복궁역 2·3번 출구 도보 3-5분</li>
+    <li><b>셰프 사진:</b> 식사 중 임태훈 셰프가 테이블 돌아다님 → 자연스럽게 사진 요청 가능</li>
+  </ul>
+</div>
+
+<!-- ⑩ 종합 의견 -->
+<div class="card" id="conclusion">
+  <div class="card-title">⑩ 종합 의견</div>
+  <div class="verdict">
+    <b>도량</b>은 흑백요리사 철가방요리사 임태훈 셰프의 중식당으로, 방영 후 1년 이상이 지난 지금도 웨이팅이 유지될 만큼 <strong>음식의 완성도가 탄탄</strong>합니다. 방문자 리뷰 긍정 65%, 블로그 실질 긍정(웨이팅 묘사 제외) 다수로, 음식 자체에 대한 만족도는 <strong>명확히 우수</strong>합니다.<br><br>
+    시그니처 3종(동파육·어향가지튀김·양고기튀김)은 다수 리뷰에서 반복 강추되는 검증된 메뉴이며, 셰프 직접 서비스라는 경험적 가치도 재방문 동기로 작동하고 있습니다.<br><br>
+    단, <strong>웨이팅 부담</strong>이 이 집의 가장 큰 진입 장벽입니다. 예약 없이 방문하면 2시간 이상 대기 각오가 필요하고, 현장 웨이팅도 하루 3번 매장을 방문해야 하는 번거로움이 있습니다. 디너 타임제로 여유 있는 술자리를 원한다면 어울리지 않을 수 있습니다.<br><br>
+    <strong>요약: 맛은 웨이팅을 뚫을 가치가 충분하다. 단, 캐치테이블 예약을 먼저 잡고 방문하라.</strong>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+<footer style="text-align:center;padding:28px 16px;font-size:0.78rem;color:#999;border-top:1px solid var(--border);margin-top:4px;">
+  분석 기준일: 2026-06-15 &nbsp;|&nbsp; 방문자 리뷰 190개 (2024-06 ~ 2026-06) + 블로그 리뷰 100개 (2026-04 ~ 2026-06) &nbsp;|&nbsp; 감성 분포는 사전 기반 1차 추정
+</footer>
+
+</body>
+</html>
