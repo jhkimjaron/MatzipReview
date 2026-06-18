@@ -473,7 +473,7 @@
         flex-wrap: wrap;
       }
       .sent-label {
-        min-width: 115px;
+        width: 115px;
         flex-shrink: 0;
         font-weight: 600;
         color: #555;
@@ -834,6 +834,32 @@
           font-size: 0.69rem;
         }
       }
+
+      /* TOC 그룹 행 */
+      .toc-row { display: flex; flex-wrap: wrap; align-items: center; margin: 1px 0; }
+      .toc-gl {
+        font-size: 0.72rem;
+        font-weight: 800;
+        color: var(--accent);
+        padding: 3px 6px 3px 2px;
+        white-space: nowrap;
+      }
+
+      /* 메뉴 추천 박스 */
+      .mq-box {
+        border-radius: 8px;
+        padding: 9px 12px;
+        margin: 5px 0;
+        font-size: 0.84rem;
+        line-height: 1.65;
+      }
+      .mq-box-sig   { background: #fef6eb; border-left: 3px solid #c88a4a; }
+      .mq-box-rec   { background: #eef8f2; border-left: 3px solid var(--good); }
+      .mq-box-combo { background: #edf3fa; border-left: 3px solid #4a7db5; }
+      .mq-box-surp  { background: #f3effe; border-left: 3px solid #9b5ad4; }
+      .mq-box-miss  { background: var(--bad-bg); border-left: 3px solid var(--bad); }
+      .mq-box q { color: #6b6b6b; font-style: italic; }
+      .mq-box .mq-list { margin: 5px 0 0; }
     </style>
   </head>
   <body>
@@ -848,15 +874,8 @@
       </header>
 
       <div class="toc">
-        <b>🍽 가게 바로가기</b>
-        <a href="#우케타">우케타</a><a href="#피탕김탕">피탕김탕</a
-        ><a href="#매향">매향</a> <a href="#시장정육점식당">시장정육점식당</a
-        ><a href="#우시장국밥">우시장국밥</a>
-        <a href="#북경탕수육">북경탕수육</a><a href="#원진">원진</a>
-        <a href="#곡물집">곡물집</a><a href="#루치아의뜰">루치아의 뜰</a>
-        <a href="#카페소솜">카페 소솜</a><a href="#바므">바므</a>
-        <a href="#베이커리밤마을">베이커리 밤마을</a
-        ><a href="#빵빵빵하우스">빵빵빵하우스</a>
+        <div class="toc-row"><span class="toc-gl">🍽 식사</span><a href="#우케타">우케타</a><a href="#피탕김탕">피탕김탕</a><a href="#매향">매향</a><a href="#시장정육점식당">시장정육점식당</a><a href="#우시장국밥">우시장국밥</a><a href="#북경탕수육">북경탕수육</a><a href="#원진">원진</a></div>
+        <div class="toc-row"><span class="toc-gl">☕ 카페·디저트</span><a href="#곡물집">곡물집</a><a href="#루치아의뜰">루치아의 뜰</a><a href="#카페소솜">카페 소솜</a><a href="#바므">바므</a><a href="#베이커리밤마을">베이커리 밤마을</a><a href="#빵빵빵하우스">빵빵빵하우스</a></div>
       </div>
 
       <!-- ① 요약 -->
@@ -1095,10 +1114,6 @@
 
       <!-- ③ 가게별 세부분석 -->
       <h2 class="sec" id="detail">③ 가게별 세부 분석</h2>
-      <p class="note">
-        영업정보 → 전반적 평가 → 메뉴 → 주문팁 → 트렌드 → 예약·대기 → 부정이슈 →
-        추천/비추/팁 → 종합의견 순으로 구성.
-      </p>
 
       <h3 class="subh">식사 (7곳)</h3>
 
@@ -1152,8 +1167,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 88.9%"></div>
-              <div class="bar-neg" style="width: 0.8%"></div>
               <div class="bar-neu" style="width: 10.3%"></div>
+              <div class="bar-neg" style="width: 0.8%"></div>
             </div>
             <span class="sent-nums">긍정 88.9% / 중립 10.3% / 부정 0.8%</span>
           </div>
@@ -1163,8 +1178,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 67.7%"></div>
-              <div class="bar-neg" style="width: 17.2%"></div>
               <div class="bar-neu" style="width: 15.1%"></div>
+              <div class="bar-neg" style="width: 17.2%"></div>
             </div>
             <span class="sent-nums">긍정 67.7% / 중립 15.1% / 부정 17.2%</span>
           </div>
@@ -1174,23 +1189,21 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 92.8%"></div>
-              <div class="bar-neg" style="width: 2.7%"></div>
               <div class="bar-neu" style="width: 4.5%"></div>
+              <div class="bar-neg" style="width: 2.7%"></div>
             </div>
             <span class="sent-nums">긍정 92.8% / 중립 4.5% / 부정 2.7%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span
               ><b>우케 텐동(오리지널)</b>
               <span class="mq-price">10,000원</span> — 리뷰 언급량 1위.
               <q>오리지널이 최고</q> <q>개인적으로 우케텐동을 가장 추천</q>.
-              가장 보편적인 첫 방문 픽.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              가장 보편적인 첫 방문 픽.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">기스텐동</span>
@@ -1209,26 +1222,21 @@
                 <q>텐동 못지않게 만족</q> — 비(非)생선파에게 추천
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span>텐동 +
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span>텐동 +
               <b>세트 미니소바/미니우동</b>
               <span class="mq-price">4,500원</span> —
               <q>메밀이랑 같이 먹으니 딱</q>
               <q>에비텐동의 바삭함과 시원한 메밀소바 조합</q>. 텐동 주문 시에만
-              세트가로 추가 가능.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span><b>세트 미니우동</b> —
+              세트가로 추가 가능.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span><b>세트 미니우동</b> —
               <q>미니우동이 오히려 생각보다 맛있어서 놀람</q>. 곁들임 무말랭이도
-              <q>느끼함도 잡아주고 오독한 맛</q>으로 평이 좋음.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">주의</span>튀김은
+              <q>느끼함도 잡아주고 오독한 맛</q>으로 평이 좋음.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">주의</span>튀김은
               <q>안 느끼하다</q>는 평이 대다수지만,
               <b>밥(쌀밥) 퀄리티가 간헐적으로 편차</b> —
               <q>밥이 되다 만 것처럼 딱딱하고 일부는 뭉쳐있다</q>(26.6, ★3)는
-              지적이 드물게 있음.
-            </p>
+              지적이 드물게 있음.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -1258,7 +1266,7 @@
           <div class="waiting-tag">🟡 보통 — 피크시 15~30분</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend flat">
               📈 <b>추세 안정</b> — 부정 리뷰 비율이 12개월 내내 0~3%로 거의
@@ -1285,6 +1293,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -1315,6 +1324,7 @@
           <b>종합의견</b> — 공주 13곳 중 만족도 부동의 1위 (카카오 ★4.82). 튀김
           바삭함과 간 균형이 일관되게 극찬되며 재방문율도 높음. 일요일
           휴무이므로 반드시 월요일 일정에 배치할 것.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -1364,8 +1374,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 64.2%"></div>
-              <div class="bar-neg" style="width: 13.2%"></div>
               <div class="bar-neu" style="width: 22.6%"></div>
+              <div class="bar-neg" style="width: 13.2%"></div>
             </div>
             <span class="sent-nums">긍정 64.2% / 중립 22.6% / 부정 13.2%</span>
           </div>
@@ -1375,8 +1385,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 41.4%"></div>
-              <div class="bar-neg" style="width: 34.2%"></div>
               <div class="bar-neu" style="width: 24.4%"></div>
+              <div class="bar-neg" style="width: 34.2%"></div>
             </div>
             <span class="sent-nums">긍정 41.4% / 중립 24.4% / 부정 34.2%</span>
           </div>
@@ -1386,26 +1396,24 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 73%"></div>
-              <div class="bar-neg" style="width: 23%"></div>
               <div class="bar-neu" style="width: 4%"></div>
+              <div class="bar-neg" style="width: 23%"></div>
             </div>
             <span class="sent-nums">긍정 73.0% / 중립 4.0% / 부정 23.0%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span
               ><b>김피탕(김치피자탕수육)</b>
               <span class="mq-price">커플 24,000 / 미니 26,000원</span> —
               원조집으로 언급량 압도적. <q>이색적인 김피탕 정말 맛있다</q>
               <q
                 >김치가 탕수육의 기름진 맛을 깔끔하게 잡아줘 끝까지 물리지
                 않는다</q
-              >. 첫 방문은 김피탕이 정답.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              >. 첫 방문은 김피탕이 정답.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">주먹밥</span>
@@ -1417,25 +1425,20 @@
                 김피탕 선호가 뚜렷
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span>2인이면
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span>2인이면
               <b>김피탕 커플/미니 + 주먹밥</b>.
               <q>커플이나 미니 사이즈로 주문하는 걸 추천</q> — 양이 넉넉해 2인은
-              미니 이하로 충분(소 이상은 남기는 경우 多).
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              미니 이하로 충분(소 이상은 남기는 경우 多).</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>커플 사이즈도 생각보다 양이 정말 푸짐</q>
               <q>가격도 생각보다 부담스럽지 않다</q>
               <q>호기심에 갔다가 예상보다 훨씬 만족</q> — 기대 없이 갔다
-              만족하는 패턴이 많음.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span><b>느끼함</b>이 갈림
+              만족하는 패턴이 많음.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span><b>느끼함</b>이 갈림
               — <q>먹다가 좀 느끼해서 주먹밥도 한 알밖에 못 먹었다</q>. 반죽
               양이 많고 닭고기 비중이 낮아 호불호. <b>고구마피탕</b>은
-              <q>고구마가 퍽퍽하다</q>는 지적이 있어 무난한 김피탕 추천.
-            </p>
+              <q>고구마가 퍽퍽하다</q>는 지적이 있어 무난한 김피탕 추천.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -1467,7 +1470,7 @@
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend up">
               📈 <b>최근 급증 주의</b> — 2026년 5~6월 방송·SNS로 방문이
@@ -1531,6 +1534,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -1561,6 +1565,7 @@
           <b>종합의견</b> — 공주 퓨전중식 명소. 일·월 23시 영업으로 가장 유연한
           방문 가능. 단, 피크 대기 및 주문 지연 이슈 반복 확인 — 캐치테이블 미리
           등록 필수.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -1610,8 +1615,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 67.1%"></div>
-              <div class="bar-neg" style="width: 13.3%"></div>
               <div class="bar-neu" style="width: 19.6%"></div>
+              <div class="bar-neg" style="width: 13.3%"></div>
             </div>
             <span class="sent-nums">긍정 67.1% / 중립 19.6% / 부정 13.3%</span>
           </div>
@@ -1621,8 +1626,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 53.8%"></div>
-              <div class="bar-neg" style="width: 18.1%"></div>
               <div class="bar-neu" style="width: 28.1%"></div>
+              <div class="bar-neg" style="width: 18.1%"></div>
             </div>
             <span class="sent-nums">긍정 53.8% / 중립 28.1% / 부정 18.1%</span>
           </div>
@@ -1632,22 +1637,20 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 89%"></div>
-              <div class="bar-neg" style="width: 7%"></div>
               <div class="bar-neu" style="width: 4%"></div>
+              <div class="bar-neg" style="width: 7%"></div>
             </div>
             <span class="sent-nums">긍정 89.0% / 중립 4.0% / 부정 7.0%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>들기름막국수</b>
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>들기름막국수</b>
               <span class="mq-price">12,000원</span> 가 간판이지만, 리뷰
               언급·추천량은 <b>편육무침</b>이 1위. 100% 순메밀면이 핵심으로
-              <q>메밀 특유의 고소한 풍미</q>가 호평.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              <q>메밀 특유의 고소한 풍미</q>가 호평.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">편육무침</span>
@@ -1659,25 +1662,20 @@
                 <q>의외로 평양냉면 맛집</q> 숨은 추천
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>편육무침 + 물/비빔막국수</b> —
               <q>편육무침 말아먹는 막국수가 기가 막힌다</q>. 막국수가 슴슴한
-              대신 편육무침 간이 세서 둘이 균형을 맞추는 조합.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              대신 편육무침 간이 세서 둘이 균형을 맞추는 조합.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>100% 메밀인데 생각보다 면이 뚝뚝 끊어지지 않고 쫄깃</q>
               <q>채소가 전부인 것 같은데 밑을 파면 고기가 꽤 많다</q>
-              <q>촉촉함은 없고 뻑뻑한데 이게 또 별미</q>.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span>막국수 자체가
+              <q>촉촉함은 없고 뻑뻑한데 이게 또 별미</q>.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span>막국수 자체가
               <b>슴슴·밍밍한 건강한 맛</b>이라 호불호가 큼 —
               <q>들기름과 김이 전부</q> <q>무슨 맛으로 먹는지 모르겠다</q>는
               평도. <b>평양냉면</b>은 육향이 약해 진한 평냉파에겐 비빔 계열
-              추천.
-            </p>
+              추천.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -1707,7 +1705,7 @@
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend up">
               📈 <b>최근 부정 소폭 증가</b> — 2026년 5월 부정 비율이 일시
@@ -1756,6 +1754,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -1785,6 +1784,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 들기름막국수 한 가지로 승부하는 공주 막국수 명소.
           재료 소진 전 입장이 성패를 가름. 오전 오픈런 접근 시 실패 없음.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -1840,8 +1840,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 65.4%"></div>
-              <div class="bar-neg" style="width: 12.7%"></div>
               <div class="bar-neu" style="width: 21.9%"></div>
+              <div class="bar-neg" style="width: 12.7%"></div>
             </div>
             <span class="sent-nums">긍정 65.4% / 중립 21.9% / 부정 12.7%</span>
           </div>
@@ -1851,8 +1851,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 43.8%"></div>
-              <div class="bar-neg" style="width: 26%"></div>
               <div class="bar-neu" style="width: 30.2%"></div>
+              <div class="bar-neg" style="width: 26%"></div>
             </div>
             <span class="sent-nums">긍정 43.8% / 중립 30.2% / 부정 26.0%</span>
           </div>
@@ -1862,22 +1862,20 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 97%"></div>
-              <div class="bar-neg" style="width: 1%"></div>
               <div class="bar-neu" style="width: 2%"></div>
+              <div class="bar-neg" style="width: 1%"></div>
             </div>
             <span class="sent-nums">긍정 97.0% / 중립 2.0% / 부정 1.0%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>알밤 육회비빔밥</b>
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>알밤 육회비빔밥</b>
               <span class="mq-price">16,000원</span> — 언급량 압도적 1위.
               <b>공주 알밤</b>이 들어가
-              <q>씹는 맛도 좋고 이질감 없이 잘 어울린다</q>는 게 이 집만의 특색.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              <q>씹는 맛도 좋고 이질감 없이 잘 어울린다</q>는 게 이 집만의 특색.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">선지해장국</span>
@@ -1889,25 +1887,20 @@
                 <span class="mq-price">12,000원</span> — 진한 국물로 추천
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>육회비빔밥 + 선지해장국(기본)</b>. 따로국밥은
               <q>반찬 콩나물을 넣어 먹으면 더 맛있다</q>. 2인이면 비빔밥 +
-              곰탕/국밥으로 나눠 맛보기 좋음.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              곰탕/국밥으로 나눠 맛보기 좋음.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>예상보다 더 인상 깊었던 메뉴는 사골곰탕</q>
               <q>하얀 사골 국물의 반전 매력</q> — 비빔밥만 보고 갔다 곰탕에
-              놀라는 후기가 여럿.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span><b>따로국밥</b>은
+              놀라는 후기가 여럿.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span><b>따로국밥</b>은
               <q>건더기 거의 없이 육개장 맛</q>
               <q>너무 내용물도 없고 별로</q>라는 지적. 육회비빔밥도
               <q>가격대비 육회 양이 적다</q> <q>그냥 건강한 맛</q>이라 기대치
-              조절 필요.
-            </p>
+              조절 필요.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -1940,7 +1933,7 @@
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend up">
               📈 <b>만성 이슈(증가보다는 지속)</b> — 부정 비율은 월 5~15%로 큰
@@ -1995,6 +1988,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -2024,6 +2018,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 공주 공설시장 한우 육회비빔밥 명소. 긍정률 우세하나
           서비스 불친절 이슈 반복. 월요일 휴무이므로 반드시 일요일에 배치.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -2072,8 +2067,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 71.5%"></div>
-              <div class="bar-neg" style="width: 1.9%"></div>
               <div class="bar-neu" style="width: 26.6%"></div>
+              <div class="bar-neg" style="width: 1.9%"></div>
             </div>
             <span class="sent-nums">긍정 71.5% / 중립 26.6% / 부정 1.9%</span>
           </div>
@@ -2084,8 +2079,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 93.7%"></div>
-              <div class="bar-neg" style="width: 4.2%"></div>
               <div class="bar-neu" style="width: 2.1%"></div>
+              <div class="bar-neg" style="width: 4.2%"></div>
             </div>
             <span class="sent-nums">긍정 93.7% / 중립 2.1% / 부정 4.2%</span>
           </div>
@@ -2095,22 +2090,20 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 89.7%"></div>
-              <div class="bar-neg" style="width: 4.7%"></div>
               <div class="bar-neu" style="width: 5.6%"></div>
+              <div class="bar-neg" style="width: 4.7%"></div>
             </div>
             <span class="sent-nums">긍정 89.7% / 중립 5.6% / 부정 4.7%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>우시장국밥</b>
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>우시장국밥</b>
               <span class="mq-price">10,000원</span> — 소머리·내장·선지가 함께
               든 간판. <q>진하면서도 깔끔한 감칠맛</q>으로 가성비 호평. 50년
-              전통·3대 운영.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              전통·3대 운영.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">육사시미</span>
@@ -2122,24 +2115,19 @@
                 <q>고기가 아주 부드럽다</q>
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>우시장국밥 + 육사시미</b> 한 접시가 베스트.
               미니족발·메밀막국수까지 있어 <q>국밥만 있는 게 아니라 다양</q> —
-              2인이 나눠 먹기 좋음.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              2인이 나눠 먹기 좋음.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>외관은 노포 느낌인데 내부는 생각보다 깔끔</q>
               <q>가격대비 생각보다 양이 꽤 된다</q>
-              <q>국밥 종류가 생각보다 너무 다양</q> — 기대 이상이라는 반응.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span><b>소머리국밥</b>은
+              <q>국밥 종류가 생각보다 너무 다양</q> — 기대 이상이라는 반응.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span><b>소머리국밥</b>은
               <q>건더기가 정말 없다 → 그냥 우시장국밥 드세요</q>라는 평이 있어,
               첫 방문은 간판 우시장국밥이 안전. 일부 <q>밍밍하다</q>는 입맛
-              차이도.
-            </p>
+              차이도.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -2166,7 +2154,7 @@
           <div class="waiting-tag">🟢 여유 — 대기 없이 바로 입장</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend flat">
               📈 <b>추세 안정(부정 희소)</b> — 최근 12개월 부정 비율이 0~2%대로
@@ -2193,6 +2181,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -2222,6 +2211,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 공주 시장 인근 국밥·육사시미 전문점. 새벽 6시부터
           영업해 아침 해장·늦은 저녁 식사 모두 가능. 일·월 자유롭게 방문 가능.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -2271,8 +2261,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 69.8%"></div>
-              <div class="bar-neg" style="width: 9.2%"></div>
               <div class="bar-neu" style="width: 21%"></div>
+              <div class="bar-neg" style="width: 9.2%"></div>
             </div>
             <span class="sent-nums">긍정 69.8% / 중립 21.0% / 부정 9.2%</span>
           </div>
@@ -2282,8 +2272,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 60.9%"></div>
-              <div class="bar-neg" style="width: 16.4%"></div>
               <div class="bar-neu" style="width: 22.7%"></div>
+              <div class="bar-neg" style="width: 16.4%"></div>
             </div>
             <span class="sent-nums">긍정 60.9% / 중립 22.7% / 부정 16.4%</span>
           </div>
@@ -2293,23 +2283,21 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 81%"></div>
-              <div class="bar-neg" style="width: 14%"></div>
               <div class="bar-neu" style="width: 5%"></div>
+              <div class="bar-neg" style="width: 14%"></div>
             </div>
             <span class="sent-nums">긍정 81.0% / 중립 5.0% / 부정 14.0%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span
               ><b>김치치즈탕수육(김피탕)</b>
               <span class="mq-price">28,000원</span> — 김피탕 원조이자 '또간집'
               출연으로 화제. <q>김치의 시큼함이 느끼함을 확 잡아준다</q>.
-              콜라·피클이 가격에 포함.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              콜라·피클이 가격에 포함.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">고구마김치치즈탕수육</span>
@@ -2322,23 +2310,18 @@
               </li>
               <li><span class="mq-name">군만두</span> — <q>잘 튀겼다</q></li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>김치치즈탕수육 + 치즈 추가 + 떡 추가</b>, 매장이면 군만두까지.
-              떡 추가가 탕수육과 잘 맞아 자주 권장됨.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              떡 추가가 탕수육과 잘 맞아 자주 권장됨.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>김치랑 탕수육이 어울릴까 했는데 생각보다 조합이 꽤 괜찮다</q>
               <q>반전의 국내산 닭가슴살</q> <q>생긴 것과 달리 반전</q> —
-              의외성으로 만족하는 후기가 다수.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span><b>고구마</b>가
+              의외성으로 만족하는 후기가 다수.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span><b>고구마</b>가
               <q>밤고구마 퍽퍽이 고구마</q>라 <q>굳이 추가 안 해도 될</q> 수
               있음. 느끼함은 콜라로 잡는 편. 사이즈 양이 많아 2인은 작은
-              사이즈로 충분.
-            </p>
+              사이즈로 충분.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -2367,7 +2350,7 @@
           <div class="waiting-tag">🟡 재료소진 리스크 — 오전 입장 필수</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend up">
               📈 <b>방문 급증, 부정 절대수는 낮음</b> — '또간집' 효과로 2026년
@@ -2407,6 +2390,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -2436,6 +2420,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 공주 김피탕·탕수육 원조 명소. 일요일 오전만
           영업이므로 여행 첫날 오전에 배치가 핵심. 재료소진 전 입장이 관건.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -2486,8 +2471,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 54.2%"></div>
-              <div class="bar-neg" style="width: 19.5%"></div>
               <div class="bar-neu" style="width: 26.3%"></div>
+              <div class="bar-neg" style="width: 19.5%"></div>
             </div>
             <span class="sent-nums">긍정 54.2% / 중립 26.3% / 부정 19.5%</span>
           </div>
@@ -2498,8 +2483,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 83.3%"></div>
-              <div class="bar-neg" style="width: 16.7%"></div>
               <div class="bar-neu" style="width: 0%"></div>
+              <div class="bar-neg" style="width: 16.7%"></div>
             </div>
             <span class="sent-nums">긍정 83.3% / 중립 0.0% / 부정 16.7%</span>
           </div>
@@ -2509,22 +2494,20 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 92.7%"></div>
-              <div class="bar-neg" style="width: 3.7%"></div>
               <div class="bar-neu" style="width: 3.6%"></div>
+              <div class="bar-neg" style="width: 3.7%"></div>
             </div>
             <span class="sent-nums">긍정 92.7% / 중립 3.6% / 부정 3.7%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>청국장정식</b>
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>청국장정식</b>
               <span class="mq-price">14,000원</span> + <b>숯불 돼지갈비</b>
               <span class="mq-price">18,000원</span> — 리뷰 언급은 청국장이
-              압도. <q>간이 세지 않고 담백</q> <q>국산콩, 밥맛이 좋다</q>는 평.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              압도. <q>간이 세지 않고 담백</q> <q>국산콩, 밥맛이 좋다</q>는 평.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">양념게장</span>
@@ -2540,27 +2523,22 @@
                 <q>원진한우탕보다는 청국장정식 위주로 주문 추천</q>
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>숯불 돼지갈비 + 청국장정식</b>(고기+정식). 꿀팁:
               <q>돼지갈비 양념에 버섯을 버무려 올리면 더 맛있다</q>, 후식
-              냉면·솥밥도 가능.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              냉면·솥밥도 가능.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>반찬이 생각보다 너무 정갈하고 잘 나와서 놀랐다</q>
               <q>청국장 특유의 쿰쿰한 냄새가 생각보다 심하지 않아</q> 청국장 못
-              먹던 사람도 편하게. <q>의외로 떡이 맛도리</q>.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span>청국장이
+              먹던 사람도 편하게. <q>의외로 떡이 맛도리</q>.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span>청국장이
               <q>의외로 슴슴</q> <q>그냥 다 아는 맛</q>이라는 평과
               <q>반찬은 짜다</q>는 평이 공존.
               <q
                 >밑반찬 고기는 말라비틀어졌고 전도 퍽퍽… 웨이팅 맛집 수준은
                 아니다</q
-              >라는 지적도.
-            </p>
+              >라는 지적도.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -2585,7 +2563,7 @@
           <div class="waiting-tag">🟡 보통 — 피크시 30분</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend up">
               📈 <b>불친절 최근 재부각</b> — 2025년 10월(4건)에 이어 2026년
@@ -2639,6 +2617,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -2669,6 +2648,7 @@
           <b>종합의견</b> — 숯불갈비·청국장 맛 자체는 상위권이나 서비스 불친절
           이슈가 13곳 중 가장 빈번. 음식맛만 기대하고 방문하면 만족도 높음.
           월요일 휴무로 일요일 배치 필수.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -2721,8 +2701,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 78.1%"></div>
-              <div class="bar-neg" style="width: 0.6%"></div>
               <div class="bar-neu" style="width: 21.3%"></div>
+              <div class="bar-neg" style="width: 0.6%"></div>
             </div>
             <span class="sent-nums">긍정 78.1% / 중립 21.3% / 부정 0.6%</span>
           </div>
@@ -2733,8 +2713,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 55.9%"></div>
-              <div class="bar-neg" style="width: 11%"></div>
               <div class="bar-neu" style="width: 33.1%"></div>
+              <div class="bar-neg" style="width: 11%"></div>
             </div>
             <span class="sent-nums">긍정 55.9% / 중립 33.1% / 부정 11.0%</span>
           </div>
@@ -2744,23 +2724,21 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 91.6%"></div>
-              <div class="bar-neg" style="width: 3.3%"></div>
               <div class="bar-neu" style="width: 5.1%"></div>
+              <div class="bar-neg" style="width: 3.3%"></div>
             </div>
             <span class="sent-nums">긍정 91.6% / 중립 5.1% / 부정 3.3%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>미수 샘플러</b>
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>미수 샘플러</b>
               <span class="mq-price">7,500원</span> — 토종 곡물 미숫가루 3종을
               한 번에. <q>다양한 미수를 한 번에 맛볼 수 있어 좋다</q>
               <q>샘플러로 마신 선비잡이콩이 너무 맛있다</q>. 곡물집의 정체성 그
-              자체.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              자체.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">곡물크림 커피</span>
@@ -2778,24 +2756,19 @@
                 강추
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>미수/그레인라떼 샘플러 + 공주 밤 와플</b> — 곡물 음료의 비교
               시음 + 밤 디저트로 공주다운 조합. 굿즈·미수가루는 선물용으로도
-              인기.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              인기.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>의외로 잘 어울린 생강 에이드</q>
               <q>별 기대 안 했는데 맛도리</q> — 토종 식재료 음료가 기대
-              이상이라는 반응. 곡물 굿즈 종류도 <q>생각보다 다양</q>.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span>음료가
+              이상이라는 반응. 곡물 굿즈 종류도 <q>생각보다 다양</q>.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span>음료가
               <b>달지 않은 곡물 본연의 맛</b>이라 호불호 —
               <q>드립커피는 검은 물</q> <q>커피 자체는 그냥 그럼</q>(크림은
-              호평)이라는 평. 단 음료를 기대하면 실망할 수 있음.
-            </p>
+              호평)이라는 평. 단 음료를 기대하면 실망할 수 있음.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -2819,7 +2792,7 @@
           <div class="waiting-tag">🟢 여유 — 대기 없음</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend flat">
               📈 <b>추세 안정(부정 희소)</b> — 최근 12개월 부정 비율이 0~4%로
@@ -2848,6 +2821,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -2877,6 +2851,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 건강 곡물음료 전문 한옥 카페. 독특한 컨셉과 분위기로
           체험형 방문에 적합. 일·월 모두 영업하여 일정 조율 자유로움.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -2925,8 +2900,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 66.1%"></div>
-              <div class="bar-neg" style="width: 3.5%"></div>
               <div class="bar-neu" style="width: 30.4%"></div>
+              <div class="bar-neg" style="width: 3.5%"></div>
             </div>
             <span class="sent-nums">긍정 66.1% / 중립 30.4% / 부정 3.5%</span>
           </div>
@@ -2937,8 +2912,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 68.9%"></div>
-              <div class="bar-neg" style="width: 0%"></div>
               <div class="bar-neu" style="width: 31.1%"></div>
+              <div class="bar-neg" style="width: 0%"></div>
             </div>
             <span class="sent-nums">긍정 68.9% / 중립 31.1% / 부정 0.0%</span>
           </div>
@@ -2948,22 +2923,20 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 81%"></div>
-              <div class="bar-neg" style="width: 9.8%"></div>
               <div class="bar-neu" style="width: 9.2%"></div>
+              <div class="bar-neg" style="width: 9.8%"></div>
             </div>
             <span class="sent-nums">긍정 81.0% / 중립 9.2% / 부정 9.8%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>공주 밀크티</b> &
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>공주 밀크티</b> &
               <b>오늘의 홍차</b> — 언급량 최상위.
               <q>진한 밀크티가 한옥의 고즈넉한 분위기와 완벽하게 어우러진다</q>
-              <q>밀크티엔 얼음이 없어 오히려 좋았다</q>는 평.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              <q>밀크티엔 얼음이 없어 오히려 좋았다</q>는 평.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">홍차/밀크티 + 스콘 세트</span>
@@ -2974,23 +2947,18 @@
                 <span class="mq-name">프랄린 초콜릿</span> — 디저트로 추천
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>오늘의 밀크티(or 홍차) + 스콘 세트</b>. 스콘이 커서
-              <q>스콘 세트는 하나만 주문해도</q> 둘이 나눠 즐기기 충분.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              <q>스콘 세트는 하나만 주문해도</q> 둘이 나눠 즐기기 충분.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>스콘은 별 기대 안 했는데</q> 호평으로 반전
               <q>생각보다 훨씬 고급스럽고</q> 분위기 만족. 골목·소품샵과 함께
-              즐기면 좋음.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span
+              즐기면 좋음.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span
               ><b>홍차 맛 호불호</b> — 과거 <q>홍차가 심각하게 맛없다</q>는
               혹평도 있었음(분위기는 호평). 스콘은 <q>딱딱하니 참고</q>. 정통 티
-              입맛엔 갈릴 수 있음.
-            </p>
+              입맛엔 갈릴 수 있음.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -3015,7 +2983,7 @@
           <div class="waiting-tag">🟢 여유~보통 — 오후 한산</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend flat">
               📈 <b>추세 안정(부정 희소)</b> — 최근 12개월 부정 비율이 0~6%로
@@ -3042,6 +3010,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -3071,6 +3040,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 공주 전통찻집 대표 명소. 홍차·밀크티 맛과 분위기
           모두 상위권. 일·월 영업 가능하나 18:30 이른 마감 주의.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -3120,8 +3090,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 76.9%"></div>
-              <div class="bar-neg" style="width: 4.7%"></div>
               <div class="bar-neu" style="width: 18.4%"></div>
+              <div class="bar-neg" style="width: 4.7%"></div>
             </div>
             <span class="sent-nums">긍정 76.9% / 중립 18.4% / 부정 4.7%</span>
           </div>
@@ -3132,8 +3102,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 70.4%"></div>
-              <div class="bar-neg" style="width: 0%"></div>
               <div class="bar-neu" style="width: 29.6%"></div>
+              <div class="bar-neg" style="width: 0%"></div>
             </div>
             <span class="sent-nums">긍정 70.4% / 중립 29.6% / 부정 0.0%</span>
           </div>
@@ -3143,24 +3113,22 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 94.7%"></div>
-              <div class="bar-neg" style="width: 0%"></div>
               <div class="bar-neu" style="width: 5.3%"></div>
+              <div class="bar-neg" style="width: 0%"></div>
             </div>
             <span class="sent-nums">긍정 94.7% / 중립 5.3% / 부정 0.0%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>밤라떼(왕밤라떼)</b>
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>밤라떼(왕밤라떼)</b>
               <span class="mq-price">6,000원</span> — 언급 1위.
               <q>밤을 갈아 만든 달달한 밤우유 그 자체</q>. 한 단계 위는
               <b>보늬밤크림라떼</b> <span class="mq-price">7,000원</span>
               <q>인위적 단맛이 아니라 진짜 밤을 갈아 넣은 듯 고소하고 깊은 맛</q
-              >.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              >.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">보늬밤 바스크치즈케이크</span>
@@ -3174,24 +3142,19 @@
                 <span class="mq-name">서리태라떼</span> — 고소한 두유 같은 느낌
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>밤라떼(or 보늬밤크림라떼) + 보늬밤 바스크치즈케이크</b>.
               커피파는 <b>서리태라떼</b>와 번갈아 마시면 <q>더 맛있다</q>는
-              후기.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              후기.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>밤 맛이 강하게 나기보다는</q> 은은하다는 평,
               <q>막상 들어가 보면 생각보다 더 아늑한 공간</q>. <b>밤에이드</b>도
-              <q>어울릴까 싶었는데 생각보다 맛 좋네</q>.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span>밤라떼가
+              <q>어울릴까 싶었는데 생각보다 맛 좋네</q>.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span>밤라떼가
               <q>살짝 밍밍</q>하다는 소수 의견, 시그니처가
               <q>큰 밤 하나 말고는 큰 특별함이 없다</q>는 평도. 카페가 작아
-              <b>기대치를 '아담한 동네 카페'</b>로 두면 만족도 높음.
-            </p>
+              <b>기대치를 '아담한 동네 카페'</b>로 두면 만족도 높음.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -3216,7 +3179,7 @@
           <div class="waiting-tag">🟢 여유 — 대기 없음</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend flat">
               📈 <b>추세 안정(부정 희소)</b> — 최근 12개월 부정 비율이 0~3%로
@@ -3242,6 +3205,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -3272,6 +3236,7 @@
           <b>종합의견</b> — 밤 디저트·밤라떼 전문 소형 카페. 고양이와 함께하는
           아담한 분위기로 체험형 방문에 적합. 카카오 표본 13건으로 평가 신뢰도
           제한적.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -3319,8 +3284,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 55.4%"></div>
-              <div class="bar-neg" style="width: 19.1%"></div>
               <div class="bar-neu" style="width: 25.5%"></div>
+              <div class="bar-neg" style="width: 19.1%"></div>
             </div>
             <span class="sent-nums">긍정 55.4% / 중립 25.5% / 부정 19.1%</span>
           </div>
@@ -3331,8 +3296,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 22.9%"></div>
-              <div class="bar-neg" style="width: 24.6%"></div>
               <div class="bar-neu" style="width: 52.5%"></div>
+              <div class="bar-neg" style="width: 24.6%"></div>
             </div>
             <span class="sent-nums">긍정 22.9% / 중립 52.5% / 부정 24.6%</span>
           </div>
@@ -3342,22 +3307,20 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 75%"></div>
-              <div class="bar-neg" style="width: 15%"></div>
               <div class="bar-neu" style="width: 10%"></div>
+              <div class="bar-neg" style="width: 15%"></div>
             </div>
             <span class="sent-nums">긍정 75.0% / 중립 10.0% / 부정 15.0%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span
               ><b>수제 밤아이스크림</b> <span class="mq-price">6,000원</span> —
               가게 정체성. <q>이름에 딱 맞는 밤맛</q>으로 직접 만든
-              보늬밤·메밀튀일 토핑. <q>통밤이 진짜 맛있다</q>.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              보늬밤·메밀튀일 토핑. <q>통밤이 진짜 맛있다</q>.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">바므 플롯라떼</span>
@@ -3370,24 +3333,19 @@
                 <q>진짜 개맛있다</q>
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>수제 밤아이스크림 + 바므 플롯라떼(or 아메리카노)</b> —
               <q>고소한 아이스크림 먹다 보면 아메리카노가 자연스럽게 생각난다</q
-              >. 식사 후 디저트 코스로 적당.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              >. 식사 후 디저트 코스로 적당.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>별 기대 안 하고 먹었는데 끝까지 맛있게</q>
               <q>양 적은가 싶었는데 밥 먹고 먹으니 딱</q>. 다만
-              <q>생각보다는 평범/쏘쏘</q>라는 반대 후기도 많아 기대치를 가른다.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span>호불호가 가장 큰 곳 —
+              <q>생각보다는 평범/쏘쏘</q>라는 반대 후기도 많아 기대치를 가른다.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span>호불호가 가장 큰 곳 —
               밤아이스크림 <q>물탄 맛</q>, 커피는
               <q>라떼에 물 들어가나? 아메리카노+우유 섞은 맛</q>이라는 강한
-              불만도. <b>양 대비 가격</b>이 비싸다는 평이 반복.
-            </p>
+              불만도. <b>양 대비 가격</b>이 비싸다는 평이 반복.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -3415,7 +3373,7 @@
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend up">
               📈 <b>평이 가장 갈리는 곳</b> — 카카오 긍정 22%로 13곳 중 최저. 맛
@@ -3469,6 +3427,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -3499,6 +3458,7 @@
           <b>종합의견</b> — 밤 아이스크림 특화 디저트 카페. 테이크아웃 형태로
           빠르게 즐기기 적합. 서비스 응대 평이 갈리므로 음식 자체만 기대하고
           방문 권장.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -3545,8 +3505,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 68.9%"></div>
-              <div class="bar-neg" style="width: 5%"></div>
               <div class="bar-neu" style="width: 26.1%"></div>
+              <div class="bar-neg" style="width: 5%"></div>
             </div>
             <span class="sent-nums">긍정 68.9% / 중립 26.1% / 부정 5.0%</span>
           </div>
@@ -3557,8 +3517,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 0%"></div>
-              <div class="bar-neg" style="width: 60%"></div>
               <div class="bar-neu" style="width: 40%"></div>
+              <div class="bar-neg" style="width: 60%"></div>
             </div>
             <span class="sent-nums">긍정 0.0% / 중립 40.0% / 부정 60.0%</span>
           </div>
@@ -3568,23 +3528,21 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 92%"></div>
-              <div class="bar-neg" style="width: 6%"></div>
               <div class="bar-neu" style="width: 2%"></div>
+              <div class="bar-neg" style="width: 6%"></div>
             </div>
             <span class="sent-nums">긍정 92.0% / 중립 2.0% / 부정 6.0%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span><b>밤마을파이</b>
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span><b>밤마을파이</b>
               <span class="mq-price">6구 14,000 / 10구 21,000원</span> — 언급
               압도적.
               <q>파이 속을 가르면 밤 앙금이 꽉 차고 중심에 통밤이 콕</q>.
-              선물·당일택배도 가능해 기념품 1순위.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              선물·당일택배도 가능해 기념품 1순위.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">밤에끌레어</span>
@@ -3600,24 +3558,19 @@
                 <span class="mq-name">밤양갱</span> — 부모님 선물용으로 인기
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>밤마을파이(6구) + 밤에끌레어 + 뜨거운 아메리카노</b> —
               <q>고소한 밤파이엔 역시 뜨거운 아메리카노</q>. 6구는
-              <q>다 같이 맛보기 적당</q>, 양갱·파이는 선물용으로.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              <q>다 같이 맛보기 적당</q>, 양갱·파이는 선물용으로.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>밤마을 커피 맛도 예상외로 좋았다</q>
               <q>생각보다 많이 달지 않아 밤 본연의 고소함이 잘 느껴졌다</q> —
-              빵집 커피·당도에서 기대 이상.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">실망·주의</span><b>단맛 호불호</b>가
+              빵집 커피·당도에서 기대 이상.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">실망·주의</span><b>단맛 호불호</b>가
               분명 — <q>인위적인 단맛에 실망</q> <q>너무 달다</q>는 반대 평이
               꾸준. <q>다양한 빵을 기대하면 안 되고 밤파이 사러 가는 곳</q>.
-              치즈타르트는 <q>생각보다 별로</q>라는 소수 의견도.
-            </p>
+              치즈타르트는 <q>생각보다 별로</q>라는 소수 의견도.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -3641,7 +3594,7 @@
           <div class="waiting-tag">🔴 매우 혼잡 — 오픈런 필수</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend up">
               📈 <b>피크 운영 병목</b> — 2026년 6월 방문이 101건으로 폭증. 맛
@@ -3695,6 +3648,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -3724,6 +3678,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 공산성 앞 밤빵 특화 베이커리. 금강뷰 대형 카페
           공간과 다양한 빵 구성으로 인기. 오픈런 필수이며 일·월 영업 가능.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
@@ -3772,8 +3727,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 87.2%"></div>
-              <div class="bar-neg" style="width: 3.1%"></div>
               <div class="bar-neu" style="width: 9.7%"></div>
+              <div class="bar-neg" style="width: 3.1%"></div>
             </div>
             <span class="sent-nums">긍정 87.2% / 중립 9.7% / 부정 3.1%</span>
           </div>
@@ -3784,8 +3739,8 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 28.6%"></div>
-              <div class="bar-neg" style="width: 35.7%"></div>
               <div class="bar-neu" style="width: 35.7%"></div>
+              <div class="bar-neg" style="width: 35.7%"></div>
             </div>
             <span class="sent-nums">긍정 28.6% / 중립 35.7% / 부정 35.7%</span>
           </div>
@@ -3795,23 +3750,21 @@
             >
             <div class="bar-track">
               <div class="bar-pos" style="width: 97.8%"></div>
-              <div class="bar-neg" style="width: 1.1%"></div>
               <div class="bar-neu" style="width: 1.1%"></div>
+              <div class="bar-neg" style="width: 1.1%"></div>
             </div>
             <span class="sent-nums">긍정 97.8% / 중립 1.1% / 부정 1.1%</span>
           </div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">메뉴 — 리뷰 기반 정성 분석</div>
+          <div class="rs-title">메뉴 추천</div>
           <div class="menu-q">
-            <p>
-              <span class="mq-tag mq-sig">시그니처</span
+            <div class="mq-box mq-box-sig"><span class="mq-tag mq-sig">시그니처</span
               ><b>우지말차앙버터소금빵</b>
               <span class="mq-price">4,300원</span> —
               <q>방문하면 꼭 한번 드셔보라 추천</q>. 짭조름한 소금빵에 진한
-              말차크림·팥·버터. 금강뷰 대형 베이커리 카페의 대표빵.
-            </p>
-            <p><span class="mq-tag mq-rec">소비자 추천</span></p>
+              말차크림·팥·버터. 금강뷰 대형 베이커리 카페의 대표빵.</div>
+            <div class="mq-box mq-box-rec"><span class="mq-tag mq-rec">소비자 추천</span>
             <ul class="mq-list">
               <li>
                 <span class="mq-name">브런치 클래식플레이트</span>
@@ -3830,25 +3783,20 @@
                 <q>산미 안 튀고 고소·묵직</q>
               </li>
             </ul>
-            <p>
-              <span class="mq-tag mq-combo">추천 조합</span
+          </div>
+            <div class="mq-box mq-box-combo"><span class="mq-tag mq-combo">추천 조합</span
               ><b>소금빵·깜빠뉴 + 아메리카노</b> 또는
               <b>브런치 클래식플레이트 + 음료</b> — 빵과 식사를 한 곳에서 해결.
-              가족·일행 방문이면 브런치 추천.
-            </p>
-            <p>
-              <span class="mq-tag mq-surp">생각보다</span
+              가족·일행 방문이면 브런치 추천.</div>
+            <div class="mq-box mq-box-surp"><span class="mq-tag mq-surp">생각보다</span
               ><q>아메리카노 큰 기대 안 했는데 만족</q>
               <q>빵 종류가 생각보다 많아 고르는 재미</q>
               <q>마늘 간장 목살 필라프 가격 부담 없고 퀄리티 괜찮다</q>, 심지어
-              <q>화장실이 정말 깨끗(반전)</q>.
-            </p>
-            <p>
-              <span class="mq-tag mq-miss">주의</span>큰 불만은 적으나
+              <q>화장실이 정말 깨끗(반전)</q>.</div>
+            <div class="mq-box mq-box-miss"><span class="mq-tag mq-miss">주의</span>큰 불만은 적으나
               <b>인기 빵은 조기 소진</b> 가능,
               <b>홀케이크는 네이버 사전 예약</b> 필요. 카카오 후기 표본이
-              3건뿐이라 별점보다 본문·블로그 호평을 근거로 볼 것.
-            </p>
+              3건뿐이라 별점보다 본문·블로그 호평을 근거로 볼 것.</div>
           </div>
         </div>
         <div class="rs-sec">
@@ -3872,7 +3820,7 @@
           <div class="waiting-tag">🟢 여유 (넓은 공간)</div>
         </div>
         <div class="rs-sec">
-          <div class="rs-title">부정 이슈 — 다각 분석</div>
+          <div class="rs-title">주요 부정 이슈</div>
           <div class="neg-box">
             <div class="neg-trend flat">
               📈 <b>추세 안정(부정 희소)</b> — 최근 12개월 부정 비율이 0~10%로
@@ -3905,6 +3853,7 @@
             </div>
           </div>
         </div>
+        <div class="rs-sec"><div class="rs-title">요약 정리</div>
         <div class="tips3col">
           <div class="t3 t3-good">
             <b>추천</b>
@@ -3934,6 +3883,7 @@
         <div class="verdict-box">
           <b>종합의견</b> — 금강뷰의 대형 베이커리·브런치 카페. NV 긍정률 85%로
           상위권. 음식+분위기 모두 호평. 월요일 휴무로 반드시 일요일에 배치.
+        </div>
         </div>
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
