@@ -1,0 +1,332 @@
+{
+  "restaurant": "빵빵빵하우스 공주점",
+  "place_id": "1169258440",
+  "confirm_id": "1169258440",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "api_end:마지막페이지_도달",
+  "place_info": {
+    "confirm_id": "1169258440",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "빵빵빵하우스 공주점",
+    "category": "음식점 > 간식 > 제과,베이커리",
+    "address": "충남 공주시 우성면 평목길 163-9 3-4층",
+    "phone": "041-855-6660",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": "건물 앞 넓은 전용 주차장 약 80대 무료 이용 가능",
+    "facilities": [
+      "핸드드립전문점",
+      "주차",
+      "장애인 편의",
+      "포장가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.0,
+    "total_kakao_reviews": 3,
+    "total_blog_reviews": 42,
+    "menus": [
+      {
+        "name": "벌꿀라떼",
+        "price": "6,800원",
+        "description": null
+      },
+      {
+        "name": "아메리카노",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "스테이크샐러드",
+        "price": "15,000원",
+        "description": null
+      },
+      {
+        "name": "썰어먹는로메인샐러드",
+        "price": "12,000원",
+        "description": null
+      },
+      {
+        "name": "쉬림프필라프",
+        "price": "11,000원",
+        "description": null
+      },
+      {
+        "name": "아보카도쉬림프샌드위치",
+        "price": "13,000원",
+        "description": null
+      },
+      {
+        "name": "생모짜토마토샌드위치",
+        "price": "12,000원",
+        "description": null
+      },
+      {
+        "name": "스테이크크림파스타",
+        "price": "18,000원",
+        "description": null
+      },
+      {
+        "name": "리코타잠봉토마토",
+        "price": "17,000원",
+        "description": null
+      },
+      {
+        "name": "샐러드파스타",
+        "price": "13,000원",
+        "description": null
+      },
+      {
+        "name": "해물토마토스튜파스타",
+        "price": "20,000원",
+        "description": null
+      },
+      {
+        "name": "머쉬룸트리플크림",
+        "price": "16,000원",
+        "description": null
+      },
+      {
+        "name": "감잎차",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "호박차",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "이른봄쑥차",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "캐모마일",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "사과유자티",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "유자차",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "자몽티",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "복숭아아이스티",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "플레인요거트",
+        "price": "6,800원",
+        "description": null
+      },
+      {
+        "name": "하우스딸기요거트",
+        "price": "6,800원",
+        "description": null
+      },
+      {
+        "name": "블루베리요거트",
+        "price": "6,800원",
+        "description": null
+      },
+      {
+        "name": "라임모히또",
+        "price": "6,300원",
+        "description": null
+      },
+      {
+        "name": "패션후르츠에이드",
+        "price": "6,300원",
+        "description": null
+      },
+      {
+        "name": "자몽에이드",
+        "price": "6,300원",
+        "description": null
+      },
+      {
+        "name": "발로나초코라떼",
+        "price": "5,800원",
+        "description": null
+      },
+      {
+        "name": "말차말차말차라떼",
+        "price": "5,800원",
+        "description": null
+      },
+      {
+        "name": "하우스딸기라떼",
+        "price": "6,300원",
+        "description": null
+      },
+      {
+        "name": "고구마라떼",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "로투스크림라떼",
+        "price": "7,000원",
+        "description": null
+      },
+      {
+        "name": "에스프레소",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "카페라떼",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "바닐라라떼",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "에티오피아",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "과테말라",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "비엔나커피",
+        "price": "8,000원",
+        "description": null
+      },
+      {
+        "name": "클래식플레이트",
+        "price": "20,000원",
+        "description": null
+      },
+      {
+        "name": "양송이스프",
+        "price": "6,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 14842866,
+      "author": "융당",
+      "date": "2026-02-16",
+      "date_raw": "2026-02-16 22:58:55",
+      "content": "빵 종류가 생각보다 다양하고 맛있게 잘 먹었어요 ㅎㅎ 위치가 좋아서 그런지 쉬는 날에 잘 쉬었습니당🥰\n매장도 깔끔하고 좌석 편해서 친구 여럿이랑 놀기 좋고, 날도 좋아서 진짜 최고였슴당~~~~\n기회되면 또 가볼게염",
+      "char_count": 90,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 2,
+      "review_id": 14833178,
+      "author": "⛳️",
+      "date": "2026-02-15",
+      "date_raw": "2026-02-15 19:13:28",
+      "content": "빵빵빵 하우스에서 쌍화차와 대추차는 절대 드시지 마세요 ㆍ. 저는 3일전 4명이 방문해서 쌍화차 2잔과\n대추차 2잔을 시켜서 먹게되엤는데 질도 좋지\n않았지만 알바생들의 대처나 잘못된 조리를 지적해\n주었는데도 별 반응이 없고 관심 없다는 언행에\n깜짝 놀라 이렇게 후기를 작성합니다\n\n쌍화차 2잔이 색깔도 맞도 달랐고 이에대해\n알바생에게 말했음에도 저희가 실수 했나봐요\n이것이 전부였어요~~~\n적어도 다시 해드릴게요  ㆍ죄송합니다 라는\n미안함은 하나도 없었다는점\n\n대추차 2잔 역시 2개의 맞이 다르고 질적으로\n너무 부족한바. 이렇게 후기를 작성해 봅니다\n\n기분전환하러 갔다가 오히려 기분만 잡치고\n돈만 버리고 왔네요\n\n빵빵빵 하수스에서는 쌍화차와 대추차는 절대\n드시지 마시고 다른 커피류는 안먹어 봐서\n어떤지는 모르겠고 알바생들의 교육은 꼭 필요\n한것 같네요",
+      "char_count": 320,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 3,
+      "review_id": 14491767,
+      "author": "후기왕",
+      "date": "2025-12-30",
+      "date_raw": "2025-12-30 13:41:59",
+      "content": "보령점 다녀와서 여기도 왔는데, 우선 커피와 케이크는 똑같이 맛있었어요. 다만, 커피를 주셨을때 컵에 커피자국이 묻어있었어요. 카운터에 이야기 했더니 커피내려주시는 분께서 “커피를 흘려서 닦은 자국이에요” 라고 답해주셨어요. 고객에게 음식을 드릴 때에는 기본적으로 위생상태는 고려하고, 사과부터 하는게 아닐지…서비스마인드에 대한 아쉬움이 남습니다. 케이크도 그릇에 담겨서 내놓으면 좋을 것 같아요. 손님이 손으로 담는 게 보기 좋지 않습니다.",
+      "char_count": 195,
+      "rating": 2,
+      "strength_ids": [
+        4
+      ],
+      "keywords": [
+        "주차"
+      ],
+      "tags": [
+        "주차"
+      ],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    }
+  ],
+  "excluded": [],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 3,
+    "average_score_overall": 4.0,
+    "total_collected": 3,
+    "total_loaded": 3,
+    "count_within_3m": 0,
+    "count_3m_to_12m": 3,
+    "count_12m_to_24m": 0,
+    "recency_bonus_count": 0,
+    "recency_penalty_count": 0,
+    "quality_bonus_count": 3,
+    "rating_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    },
+    "avg_rating_collected": 4.0,
+    "total_excluded": 0,
+    "excluded_paid": 0,
+    "excluded_insincere": 0,
+    "excluded_too_old": 0,
+    "date_oldest": "2025-12-30",
+    "date_newest": "2026-02-16",
+    "target_met": false
+  }
+}

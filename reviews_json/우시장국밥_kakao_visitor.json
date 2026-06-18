@@ -1,0 +1,872 @@
+{
+  "restaurant": "우시장국밥",
+  "place_id": "18262611",
+  "confirm_id": "18262611",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "18262611",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "우시장국밥",
+    "category": "음식점 > 한식 > 국밥",
+    "address": "충남 공주시 번영3로 25 1층",
+    "phone": "041-853-1257",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": "가게 앞 1대, 매장 옆 3~4대 주차 가능",
+    "facilities": [
+      "노포",
+      "아침식사",
+      "혼밥",
+      "주차가능",
+      "포장가능",
+      "배달가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.1,
+    "total_kakao_reviews": 49,
+    "total_blog_reviews": 159,
+    "menus": [
+      {
+        "name": "우시장국밥",
+        "price": "10,000원",
+        "description": null
+      },
+      {
+        "name": "소머리국밥(특)",
+        "price": "11,000원",
+        "description": null
+      },
+      {
+        "name": "소내장탕",
+        "price": "10,000원",
+        "description": null
+      },
+      {
+        "name": "시래기국밥",
+        "price": "10,000원",
+        "description": null
+      },
+      {
+        "name": "소머리국밥(보통)",
+        "price": "9,000원",
+        "description": null
+      },
+      {
+        "name": "선지해장국",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "소곰탕",
+        "price": "10,000원",
+        "description": null
+      },
+      {
+        "name": "메밀 물(비빔)막국수",
+        "price": "8,000원",
+        "description": null
+      },
+      {
+        "name": "소곱창전골",
+        "price": "40,000원",
+        "description": null
+      },
+      {
+        "name": "소머리수육(대)",
+        "price": "30,000원",
+        "description": null
+      },
+      {
+        "name": "소머리수육(소)",
+        "price": "16,000원",
+        "description": null
+      },
+      {
+        "name": "술국(대)",
+        "price": "20,000원",
+        "description": null
+      },
+      {
+        "name": "술국(소)",
+        "price": "12,000원",
+        "description": null
+      },
+      {
+        "name": "미니 중 족발",
+        "price": "23,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15757945,
+      "author": "양만석",
+      "date": "2026-06-16",
+      "date_raw": "2026-06-16 06:36:11",
+      "content": "잡내 없는 소국밥.\n가성비 만점 육사시미",
+      "char_count": 17,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "review_id": 15694994,
+      "author": "뚱이",
+      "date": "2026-06-07",
+      "date_raw": "2026-06-07 21:08:08",
+      "content": "우시장국밥과 순대국밥 만두를 주문했는데\n순대국밥 나오는 순간 역한 내장 냄새가 심하게 났어요 원래 내장이 들어가 큼큼한 냄새가 나기도 하는데 도저히 먹을수없을 정도였어요 \n비위좋은분들은 냄새는나도 무난하게 드시더군요 우시장국밥도 그냥저냥이구요\n밥맛은 좋아서 겉절이에 밥 먹고 나왔네요\n만두는 맛있어요\n순대국밥맛만이라면 1점이지만\n서빙하는 직원총각이 친절하고 인상이좋아\n3점 남깁니다\n사장님 순대국밥 만들어서 꼭 좀 들어보세요 \n도대체 그 냄새는 뭘 어떻게 해도 안 없어지더라구요",
+      "char_count": 208,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 3,
+      "review_id": 15497223,
+      "author": "시고르자브종",
+      "date": "2026-05-13",
+      "date_raw": "2026-05-13 21:42:36",
+      "content": "미니소머리수육, 소머리특 주문.\n수육 입에서 살살 녹음. 씹으려는 노력할 필요가 없음.\n국밥 간 삼삼하게 나와서 필요하면 소금이나 새우젓으로 간 조절 가능. 국밥 고기 역시 야무지게 부드러움.\n김치 잡내없이 맛있음. 배추김치는 겉절이 스타익, 깍두기는 살짝 익혔는데 시원함.\n145km 자전거 달리고 와서 먹는 최고의 선택지였다",
+      "char_count": 141,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 4,
+      "review_id": 15425855,
+      "author": "이규호",
+      "date": "2026-05-04",
+      "date_raw": "2026-05-04 22:37:53",
+      "content": "감동임 무조건 가세요\n\n우시장국밥 특(1.2만원), 육사시미(1만원) 이렇게 먹었는데\n국밥에 부속,선지 가득합니다. 집 주변이었으면 매일 가고싶은 곳. 육사시미는 와사비랑 소금기름장에 먹다가 4~5점 정도 남아서 맛이 조금 단조로울때 국밥에 넣어서 고기 고명처럼 먹었더니 좋았습니다.\n\n밑반찬 중에 깍두기는 새콤한 스타일이라 개인적으로 별로였으나 김치가 칼국수집 김치겉절이 스타일이라 좋았고 셀프 리필로 다시 가져다 먹었습니다.",
+      "char_count": 189,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "photo_count": 4,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 5,
+      "review_id": 15421524,
+      "author": "Ehzi",
+      "date": "2026-05-04",
+      "date_raw": "2026-05-04 15:43:56",
+      "content": "우시장국밥, 소머리국밥 둘다 맛있어요ㅠㅠ\n칼칼하고 잡내없는 국밥이었고,\n김치나 밑반찬도 굿이었습니다!!",
+      "char_count": 48,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 6,
+      "review_id": 15356721,
+      "author": "마포걷달",
+      "date": "2026-04-26",
+      "date_raw": "2026-04-26 22:05:29",
+      "content": "팩트체크\n“ 터미널, 서울 올라가기 전 들리는 식사 필수 코스 ”\n\n맛\n어떤 표현이 좋을까요? 적당하게 간이 배어 있지만 결코 짜지 않습니다. 끝맛이 시원하게 감도는 감칠맛이 인상적입니다. 여러 국밥을 먹어봤지만 이곳의 감칠맛은 손에 꼽을 정도입니다. 곁들임으로 시킨 한우 사시미도 가격 대비 품질이 좋았고, 사시미 소스와 국밥 소스 모두 훌륭합니다.\n\n\n서비스\n손님이 많아 분주합니다. 바쁘게 움직이지만 지연 없이 서빙이 이루어집니다. 그 과정이 친절로 느껴집니다. 특히 젊은 여성 직원의 응대가 인상적입니다.\n\n\n분위기\n손님이 끊임없이 들어옵니다. 안쪽에 방과 홀이 함께 있는 구조이며, 테이블 간 간격은 좁은 편입니다. 소음에 민감하다면 자리 선택이 중요합니다. 전반적으로 활기가 있으나, 상황에 따라 다소 시끄럽게 느껴질 수 있습니다.\n\n\n가격\n훌륭합니다. 국밥 10,000원, 한우 사시미 10,000원으로 부담 없이 즐길 수 있습니다.\n\n\n총평\n국물의 간과 감칠맛 균형이 뛰어납니다. 소스 완성도도 전체 만족도를 끌어올립니다. 사시미는 가격 대비 품질이 좋습니다. 다만 공간 소음은 변수로 작용합니다. 터미널 인근 식사로 충분한 선택지입니다.\n\n\n- 끝",
+      "char_count": 446,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "주차"
+      ],
+      "photo_count": 9,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 12,
+      "review_id": 14080300,
+      "author": ".",
+      "date": "2025-11-02",
+      "date_raw": "2025-11-02 17:40:51",
+      "content": "우시장국밥\n추울때 먹으면\n속이 뜨끈해지는 맛\n양은 좀 아쉬움",
+      "char_count": 25,
+      "rating": 3,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 13,
+      "review_id": 14031479,
+      "author": "맛집지도 공유해 드림",
+      "date": "2025-10-26",
+      "date_raw": "2025-10-26 21:59:09",
+      "content": "공주버스터미널 맞은편에 자리한 오래된 국밥집. \n대표메뉴 ‘우시장국밥’을 시켰다. 소머리, 선지, 내장과 콩나물, 시래기가 들어간 복합적인 국밥이다. 첫인상은 슴슴하고 담백한? 자극적이지 않아 괜찮았다. 양평해장국, 방일해장국, 청진옥..이런 계열의 맛이 아니라 이 업소만의 맛이 따로 있다. 정말 많은 해장국과 국밥을 먹어 봤지만 이런 류의 국물은 처음이다. 메뉴가 참 많아서 다른 음식도 궁금해지는 업소다. 겉절이도 깔끔하고 개운하다. 거의 다 먹어갈 때 쯤 더 먹고 싶어지는 국밥이다. 서울에 있다면 자주 찾을텐데..라는 생각이 드는 업소이다!",
+      "char_count": 238,
+      "rating": 3,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 14,
+      "review_id": 13980484,
+      "author": "오지훈",
+      "date": "2025-10-19",
+      "date_raw": "2025-10-19 19:37:48",
+      "content": "기대가 컸던 탓일까\n맛, 양, 친절 모두 기대이하",
+      "char_count": 20,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 16,
+      "review_id": 13871448,
+      "author": "띠로리",
+      "date": "2025-10-06",
+      "date_raw": "2025-10-06 14:14:45",
+      "content": "배고파서 급검색해서 방문했습니다.\n오후 1시쯤이었습니다.\n\n장점\n- 나름 맛 괜찮음.\n- 나름 저렴하다고 생각됨.\n\n단점\n- 양이 좀 적은듯.\n- 너무 바뻐서 조금 일 진행이 애매할때가 있음.\n\n비고\n- 방문전엔 몰랐으니 맛집이었음 (사람 매우 많음)\n- 사람이 많음에도 1인을 받아줌.",
+      "char_count": 118,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 17,
+      "review_id": 13859066,
+      "author": "tarrga",
+      "date": "2025-10-04",
+      "date_raw": "2025-10-04 20:29:34",
+      "content": "가격 적당\n종업원 친절\n소머리보다는 우시장이 나은듯",
+      "char_count": 22,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 18,
+      "review_id": 13811688,
+      "author": "lucy0307",
+      "date": "2025-09-28",
+      "date_raw": "2025-09-28 17:35:45",
+      "content": "공주 2일차..\n평가가 좋아서 한껏 기대하고 갔는데\n점심시간 이라 그런지 어수선하고 체계가 전혀 없음..주문 하고 20분이 지나서야 음식이 나왔는데 우시장 국밥은 그런데로 건더기가 있는 반면 소머리 국밥은 정말 건더기가 없다..그냥 우시장 국밥 드세요! 그리고 내 입맛엔 넘 밍밍해서 고추,마늘 다진거,소금,다대기 넣어 먹으니 그나마 괜찮은정도..\n가격대비 양이며 잘 모르겠음..",
+      "char_count": 165,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 20,
+      "review_id": 13695817,
+      "author": "늘양",
+      "date": "2025-09-12",
+      "date_raw": "2025-09-12 18:01:45",
+      "content": "맛있어요\n사장님도 친절하시고 혼밥하기도 좋아요~",
+      "char_count": 22,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 21,
+      "review_id": 13238187,
+      "author": "임승완",
+      "date": "2025-07-17",
+      "date_raw": "2025-07-17 19:18:49",
+      "content": "2024년 10월 4일에 갔구요\n여자친구랑 점심 먹으러 갔습니다\n국밥 두개랑 육사시미 하나 시켜서 맛있게 먹고있는데 사장님이 갑자기 말도 없이 여자친구가 먹는 뚝배기를 가져가셨어요. \n뚝배기가 없다고 씻어야한다고 하시던데\n그렇다고 손님이 먹고 있는 음식을 가져가서 치워버리는건 무슨 예의인가요? \n여자친구 있어서 참고 그냥 좋게좋게 넘어가긴했는데 너무 충격적인 기억이라 음식점 이름까지 계속 생각나서 적었습니다",
+      "char_count": 178,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 5,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 22,
+      "review_id": 13207385,
+      "author": "느그 어망구 분쇄기",
+      "date": "2025-07-13",
+      "date_raw": "2025-07-13 14:30:24",
+      "content": "조심해서 먹어야함\n너무 맛있어서 죽을때까지 여기서 국밥만 먹을수도 있음",
+      "char_count": 31,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 23,
+      "review_id": 12951516,
+      "author": "Moharu",
+      "date": "2025-06-08",
+      "date_raw": "2025-06-08 15:43:27",
+      "content": "보통의 국밥 건더기가 살짝 부족함을 느낌 김치는 좋음",
+      "char_count": 22,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 24,
+      "review_id": 12856835,
+      "author": "먹쨩",
+      "date": "2025-05-27",
+      "date_raw": "2025-05-27 02:11:15",
+      "content": "육사시미 달달~\n우시장국밥 너무 맛있당\n이른아침에 이렇게 맛있는 식사를 할수 있다는게 행복\n주차는 근처 골목에 눈치껏ㅎ",
+      "char_count": 51,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 25,
+      "review_id": 12536802,
+      "author": "음식",
+      "date": "2025-04-13",
+      "date_raw": "2025-04-13 15:24:25",
+      "content": "선지국밥. 선지 풍성하고 국물이 맑아서 좋아요",
+      "char_count": 20,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 28,
+      "review_id": 11893878,
+      "author": "가을남자",
+      "date": "2025-01-11",
+      "date_raw": "2025-01-11 21:13:18",
+      "content": "시레기 국밥 10,000. 육수가 맑은 편. 육수 남길수가 없음. 소고기와 깍두기, 김치 신선함. 밤 9시에도 식사 가능해서 고마움.",
+      "char_count": 57,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    }
+  ],
+  "excluded": [
+    {
+      "id": 7,
+      "review_id": 15277804,
+      "author": "프로맛집러",
+      "date": "2026-04-16",
+      "date_raw": "2026-04-16 19:40:28",
+      "content": "",
+      "char_count": 0,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 8,
+      "review_id": 15249103,
+      "author": "이용주",
+      "date": "2026-04-12",
+      "date_raw": "2026-04-12 20:00:19",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        1
+      ],
+      "keywords": [
+        "가성비"
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 9,
+      "review_id": 15225786,
+      "author": "Hario",
+      "date": "2026-04-09",
+      "date_raw": "2026-04-09 22:08:09",
+      "content": "",
+      "char_count": 0,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 10,
+      "review_id": 14934915,
+      "author": "닥터장",
+      "date": "2026-02-28",
+      "date_raw": "2026-02-28 22:44:59",
+      "content": "충남은 맛있다고하면 싱거움",
+      "char_count": 12,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 11,
+      "review_id": 14306037,
+      "author": "프로젝트A",
+      "date": "2025-12-04",
+      "date_raw": "2025-12-04 08:55:24",
+      "content": "맛있고 푸짐합니다",
+      "char_count": 8,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 15,
+      "review_id": 13906775,
+      "author": "@-@",
+      "date": "2025-10-10",
+      "date_raw": "2025-10-10 10:17:01",
+      "content": "감칠맛폭발…. 넘 맛있음",
+      "char_count": 11,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 19,
+      "review_id": 13707089,
+      "author": "소중한 지금..",
+      "date": "2025-09-14",
+      "date_raw": "2025-09-14 08:06:24",
+      "content": "가성비 맛 좋습니다",
+      "char_count": 8,
+      "rating": 3,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 26,
+      "review_id": 12361087,
+      "author": "jacob21",
+      "date": "2025-03-20",
+      "date_raw": "2025-03-20 10:18:04",
+      "content": "우시장국밥 맛있습니다",
+      "char_count": 10,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 27,
+      "review_id": 12192551,
+      "author": "라라",
+      "date": "2025-02-23",
+      "date_raw": "2025-02-23 22:56:07",
+      "content": "보통임.",
+      "char_count": 4,
+      "rating": 3,
+      "strength_ids": [
+        1
+      ],
+      "keywords": [
+        "가성비"
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 49,
+    "average_score_overall": 4.1,
+    "total_collected": 19,
+    "total_loaded": 28,
+    "count_within_3m": 6,
+    "count_3m_to_12m": 9,
+    "count_12m_to_24m": 4,
+    "recency_bonus_count": 6,
+    "recency_penalty_count": 4,
+    "quality_bonus_count": 11,
+    "rating_distribution": {
+      "1": 1,
+      "2": 0,
+      "3": 5,
+      "4": 3,
+      "5": 10
+    },
+    "avg_rating_collected": 4.11,
+    "total_excluded": 9,
+    "excluded_paid": 0,
+    "excluded_insincere": 9,
+    "excluded_too_old": 0,
+    "date_oldest": "2025-01-11",
+    "date_newest": "2026-06-16",
+    "target_met": false
+  }
+}

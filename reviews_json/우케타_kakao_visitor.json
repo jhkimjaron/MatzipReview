@@ -1,0 +1,1410 @@
+{
+  "restaurant": "우케타",
+  "place_id": "681872918",
+  "confirm_id": "681872918",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "681872918",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "우케타",
+    "category": "음식점 > 일식",
+    "address": "충남 공주시 번영1로 54-6 1층",
+    "phone": "0507-1340-2505",
+    "homepage": null,
+    "hours": [
+      {
+        "day": "월",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "화",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "수",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "목",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "금",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "토",
+        "open": "11:00",
+        "close": "20:00"
+      }
+    ],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": "매주 일요일, 추석당일",
+    "parking": null,
+    "facilities": [
+      "공주시텐동",
+      "공주가볼만한곳",
+      "공주맛집",
+      "공주여행",
+      "공주카페",
+      "혼밥",
+      "장애인 편의",
+      "주차가능",
+      "예약가능",
+      "포장가능",
+      "배달가능"
+    ],
+    "kakao_booking": true,
+    "average_score": 4.7,
+    "total_kakao_reviews": 61,
+    "total_blog_reviews": 120,
+    "menus": [
+      {
+        "name": "스페셜 텐동",
+        "price": "16,500원",
+        "description": "추천메뉴"
+      },
+      {
+        "name": "덴푸라 우동",
+        "price": "9,500원",
+        "description": "추천메뉴"
+      },
+      {
+        "name": "우케 텐동",
+        "price": "10,000원",
+        "description": null
+      },
+      {
+        "name": "에비 텐동",
+        "price": "13,000원",
+        "description": null
+      },
+      {
+        "name": "아나고 텐동",
+        "price": "15,000원",
+        "description": null
+      },
+      {
+        "name": "기스 텐동",
+        "price": "13,500원",
+        "description": null
+      },
+      {
+        "name": "메론소다",
+        "price": "4,500원",
+        "description": null
+      },
+      {
+        "name": "세트 미니우동",
+        "price": "4,500원",
+        "description": null
+      },
+      {
+        "name": "방울토마토 절임",
+        "price": "4,000원",
+        "description": null
+      },
+      {
+        "name": "메밀소바",
+        "price": "10,000원",
+        "description": null
+      },
+      {
+        "name": "세트미니소바",
+        "price": "4,500원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": "월 11:00 ~ 20:00\n화 11:00 ~ 20:00\n수 11:00 ~ 20:00\n목 11:00 ~ 20:00\n금 11:00 ~ 20:00\n토 11:00 ~ 20:00",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15753088,
+      "author": "솜닌",
+      "date": "2026-06-15",
+      "date_raw": "2026-06-15 13:45:55",
+      "content": "장국이 싱거움.\n밥이 아쉬움.\n물과 컵이 셀프.\n전반적으로 평범.",
+      "char_count": 28,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "review_id": 15753050,
+      "author": "호호",
+      "date": "2026-06-15",
+      "date_raw": "2026-06-15 13:42:04",
+      "content": "텐동은 튀김 못지않게 밥도 중요하다고 생각하는데 밥이 되다만것처럼 딱딱하고 일부는 뭉쳐있기까지 해서 텐동맛에 방해되었습니다 평점이 너무 좋아 일부러 멀리서 찾아간건데 아쉬웠습니다.",
+      "char_count": 80,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 8,
+      "review_id": 15300483,
+      "author": "PJS",
+      "date": "2026-04-19",
+      "date_raw": "2026-04-19 16:53:49",
+      "content": "주차장이 매우 협소 합니다. 하지만 맛이 모든걸 커버합니다. 가족과 함께 만족스럽게 푸짐하게 먹었습니다.",
+      "char_count": 46,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 10,
+      "review_id": 15132784,
+      "author": "루한샤",
+      "date": "2026-03-28",
+      "date_raw": "2026-03-28 14:06:48",
+      "content": "이궈궈던~~~\n국내 텐동 진짜 수십 곳 가봤는데 상위권의 맛임",
+      "char_count": 26,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 11,
+      "review_id": 15047948,
+      "author": "맛집 탐방가",
+      "date": "2026-03-16",
+      "date_raw": "2026-03-16 17:38:03",
+      "content": "여기 맛있어요!!\n종종 찾아갈정도로 맛있어요",
+      "char_count": 20,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 12,
+      "review_id": 14545292,
+      "author": "후라이잘하는녀자",
+      "date": "2026-01-06",
+      "date_raw": "2026-01-06 17:23:04",
+      "content": "너무너무너무 맛있어서 싹싹김치했습니다😋\n가게 분위기도 깔끔하니 좋고, \n텐동 튀김이 바삭바삭한게 \n한입 먹을때마다 내적댄스 췄네요",
+      "char_count": 57,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 14,
+      "review_id": 13798720,
+      "author": "H",
+      "date": "2025-09-27",
+      "date_raw": "2025-09-27 01:41:21",
+      "content": "튀김옷이 알밤가루? 들었다고 하는데 여기 튀김 잘합니다 맛있어요. 다시 생각날 맛입니다.\n이미 몇번이고 재방문한 집",
+      "char_count": 50,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 17,
+      "review_id": 13272260,
+      "author": "최고의 맛집을 찾아서",
+      "date": "2025-07-22",
+      "date_raw": "2025-07-22 12:23:04",
+      "content": "우동에 스페셜 시키면 2인으로 맛있게 먹기 좋다",
+      "char_count": 20,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 18,
+      "review_id": 13134909,
+      "author": " 이상필",
+      "date": "2025-07-03",
+      "date_raw": "2025-07-03 17:09:19",
+      "content": "전에 최고 였는데 어째 맛에서 가성비로 가는 것 같아 아쉽네요. 가격을 좀 올려도 맛은 유지되었으면 하는 개인적이 바램이 있음.",
+      "char_count": 53,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 19,
+      "review_id": 12917545,
+      "author": "난수",
+      "date": "2025-06-04",
+      "date_raw": "2025-06-04 13:08:15",
+      "content": "너무 느끼하지않고 바삭하니 맛있어요. 공주 특산품인 알밤가루를 넣었다곤 하는데 맛이 느껴지진 않아요. 주차가 좀 극악인데 1대까진 가능하고 나머진 골목 주차나 인근 공영주차장이용 해야해요.",
+      "char_count": 83,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 20,
+      "review_id": 12885590,
+      "author": "😊",
+      "date": "2025-05-31",
+      "date_raw": "2025-05-31 12:01:11",
+      "content": "튀김이라 중간에 느끼할 줄 알았는데 \n다 먹을 때까지 괜찮았다(와사비 다먹음)\n팽이버섯튀김이 정말 맛있다!",
+      "char_count": 46,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 21,
+      "review_id": 12705617,
+      "author": "돈까스경찰관",
+      "date": "2025-05-05",
+      "date_raw": "2025-05-05 21:22:54",
+      "content": "가성비 좋고 무난한 텐동\n미니우동이 오히려 생각보다 맛있어서 놀람",
+      "char_count": 28,
+      "rating": 4,
+      "strength_ids": [
+        1
+      ],
+      "keywords": [
+        "가성비"
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 22,
+      "review_id": 12513603,
+      "author": "박성철",
+      "date": "2025-04-10",
+      "date_raw": "2025-04-10 12:27:55",
+      "content": "공주 3대돈가스 어택을 미루고 방문한 곳. \n주차는 인근 공주 공영주차장. 시간 천원. 도보 1분거리.\n\n텐동이 마치 부산, 일본에서 먹은것같은 퀄리티\n오징어, 가지는 입에서 살살 녹고 새우 통통튼실, 다른 튀김들도 바삭함과 짭짤함이 아주 끝내줍니다. 소스는 달콤함도 섞였으나 잘 어울리고 특성상 미소된장국이 덜 짰는데 좋은 조합이 되었습니다.\n\n느끼함을 잡아주는 조금 매콤한 와사비, 유자절임단무지와 무말랭이는 탁월한 밑반찬이었습니다.\n\n25. 4 기준 만원 우케 텐동 갓성비 퀄리티 다 잡을 수 있구요, 튀김추가 가능합니다. 제로콜라 얼음컵과 주시는데 제로사랑 나라사랑.\n\n여러마리 토끼 한번에 잡는 공주 맛집 킹정합니다.",
+      "char_count": 266,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 8,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 23,
+      "review_id": 12367893,
+      "author": "이재권",
+      "date": "2025-03-21",
+      "date_raw": "2025-03-21 11:24:26",
+      "content": "이른 시간에 전화 예약 받아주시고, 친절하세요!\n평일에는 예약없이 방문 가능할것같구\n맛은 진짜 먹어본 텐동중에 역대급입니다ㅎㅎㅎ\n버섯튀김은 제일 마지막에 드십셩🍄‍🟫",
+      "char_count": 74,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 24,
+      "review_id": 11959858,
+      "author": "다형",
+      "date": "2025-01-21",
+      "date_raw": "2025-01-21 22:05:27",
+      "content": "넉넉하게 잘 나오는 양에 배불리 먹었네요 ! 텐동 맛집이예요",
+      "char_count": 25,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 25,
+      "review_id": 11959580,
+      "author": "아영",
+      "date": "2025-01-21",
+      "date_raw": "2025-01-21 21:15:49",
+      "content": "처음 방문한 집인데 맛보고 놀랐어요 맛있었습니다 추천합니다 ㅎㅎ",
+      "char_count": 28,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 26,
+      "review_id": 11930979,
+      "author": "권유영",
+      "date": "2025-01-17",
+      "date_raw": "2025-01-17 16:59:28",
+      "content": "푸짐하고 든든한 한그릇! 식사잘하고 갑니당 ㅎ 가게 넘 이뻐요",
+      "char_count": 26,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 27,
+      "review_id": 11926951,
+      "author": "빛나는인생",
+      "date": "2025-01-16",
+      "date_raw": "2025-01-16 22:26:55",
+      "content": "음식이 모두 깔끔하고 재료의 신선함이 느껴져서 좋았어요!! ㅎㅎㅎ 맛있었습니다",
+      "char_count": 35,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 28,
+      "review_id": 11914360,
+      "author": "고구마",
+      "date": "2025-01-14",
+      "date_raw": "2025-01-14 21:44:40",
+      "content": "맛있게 먹고갑니다~! 양도 충분해서 배불리 잘먹었어요",
+      "char_count": 24,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 29,
+      "review_id": 11914282,
+      "author": "백수민",
+      "date": "2025-01-14",
+      "date_raw": "2025-01-14 21:33:59",
+      "content": "조용한 분위기라 일행과 대화하며 식사하기 좋았습니다~ 💗",
+      "char_count": 25,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 30,
+      "review_id": 11913870,
+      "author": "영지",
+      "date": "2025-01-14",
+      "date_raw": "2025-01-14 20:33:19",
+      "content": "인스타보고 찾아왔는데 되게 잘나오궁 맛도 좋아용!!!",
+      "char_count": 24,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 31,
+      "review_id": 11886289,
+      "author": "신도경",
+      "date": "2025-01-10",
+      "date_raw": "2025-01-10 20:50:52",
+      "content": "텐동 장인이십니다 튀김 하나하나 재료본연의 맛이 살아있고 튀김옷도 두껍지 않고 딱 좋았어요 바삭바삭 너무 맛있었습니다 ㅎㅎ",
+      "char_count": 53,
+      "rating": 5,
+      "strength_ids": [
+        1,
+        2
+      ],
+      "keywords": [
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 32,
+      "review_id": 11886078,
+      "author": "도날드",
+      "date": "2025-01-10",
+      "date_raw": "2025-01-10 20:20:45",
+      "content": "첨에 양보고 다먹을수있을까 싶었는데 와 맛있어서 ㅠㅠㅠ 순삭했어여ㅠㅠㅠㅠ",
+      "char_count": 33,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "주차"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 33,
+      "review_id": 11873849,
+      "author": "sin",
+      "date": "2025-01-08",
+      "date_raw": "2025-01-08 21:39:48",
+      "content": "느끼함 없이 담백하게 맛있네요 재방문의사 100프로 입니다~",
+      "char_count": 27,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 34,
+      "review_id": 11866574,
+      "author": "마리오",
+      "date": "2025-01-07",
+      "date_raw": "2025-01-07 22:14:56",
+      "content": "에비텐동이랑 우동 맛있게 먹었어요 양 좋네요!",
+      "char_count": 20,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 35,
+      "review_id": 11855311,
+      "author": "나봉이",
+      "date": "2025-01-06",
+      "date_raw": "2025-01-06 18:12:51",
+      "content": "주기적으로 먹으러 와야겠습니다 너모 맛있오요,,,!!!! 인테리어도 예뻐서 진짜 취향저격",
+      "char_count": 41,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 36,
+      "review_id": 11747141,
+      "author": "권담",
+      "date": "2025-01-02",
+      "date_raw": "2025-01-02 15:07:24",
+      "content": "메뉴들 종류다양해요 가성비 좋고 맛있어서 좋았어요",
+      "char_count": 22,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 37,
+      "review_id": 11747021,
+      "author": "로운",
+      "date": "2025-01-02",
+      "date_raw": "2025-01-02 14:53:02",
+      "content": "점심식사하기 딱 좋은 곳 맛있었습니다!!",
+      "char_count": 18,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 38,
+      "review_id": 11746183,
+      "author": "배정화",
+      "date": "2025-01-02",
+      "date_raw": "2025-01-02 13:15:01",
+      "content": "요근래 여기 자주 오는 중 !!!! 메뉴들이 다 맛있어요",
+      "char_count": 23,
+      "rating": 5,
+      "strength_ids": [
+        1,
+        2
+      ],
+      "keywords": [
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 39,
+      "review_id": 11729297,
+      "author": "블리블리",
+      "date": "2024-12-31",
+      "date_raw": "2024-12-31 03:26:18",
+      "content": "일식 좋아해서 와봤는데 진짜 맛있어요ㅠㅠ 맛에 감동받고 갑니다",
+      "char_count": 27,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 40,
+      "review_id": 11696050,
+      "author": "송이",
+      "date": "2024-12-26",
+      "date_raw": "2024-12-26 15:11:23",
+      "content": "완전 추천합니다! 나오자 마자 비주얼에 놀라고 맛에 놀란집 서비스도 친절하시고 좋아요",
+      "char_count": 37,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 41,
+      "review_id": 11695980,
+      "author": "정",
+      "date": "2024-12-26",
+      "date_raw": "2024-12-26 15:03:50",
+      "content": "매장 너무 깔끔 분위기도 좋아용 맛도 완전 극호호호호!!! 기분좋은 점심이였습니당",
+      "char_count": 36,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 42,
+      "review_id": 11650913,
+      "author": "최지호",
+      "date": "2024-12-19",
+      "date_raw": "2024-12-19 18:06:43",
+      "content": "포장 했는데 집에 와서 먹어도 바삭함이 매장에서 먹는것과 동일 합니다\n와사비와 유자맛이 나는 단무지도  튀김과 잘 어울립니다\n서울에 있는 텐동집과 비교해도 결코 뒤지지 않는 맛입니다 \n먹느라 사진을 못 찍었네요 ㅎㅎ",
+      "char_count": 89,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    }
+  ],
+  "excluded": [
+    {
+      "id": 3,
+      "review_id": 15490072,
+      "author": "부작불식",
+      "date": "2026-05-12",
+      "date_raw": "2026-05-12 21:06:14",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        2
+      ],
+      "keywords": [
+        "친절"
+      ],
+      "tags": [
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 4,
+      "review_id": 15369227,
+      "author": "❄️",
+      "date": "2026-04-28",
+      "date_raw": "2026-04-28 17:46:09",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 5,
+      "review_id": 15362897,
+      "author": "유은우",
+      "date": "2026-04-27",
+      "date_raw": "2026-04-27 19:25:41",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 6,
+      "review_id": 15362092,
+      "author": "Jay",
+      "date": "2026-04-27",
+      "date_raw": "2026-04-27 17:38:19",
+      "content": "맛있었음",
+      "char_count": 4,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 7,
+      "review_id": 15348246,
+      "author": "나무늘보",
+      "date": "2026-04-25",
+      "date_raw": "2026-04-25 23:44:41",
+      "content": "마시떠욤",
+      "char_count": 4,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 9,
+      "review_id": 15271229,
+      "author": "이용주",
+      "date": "2026-04-15",
+      "date_raw": "2026-04-15 20:23:50",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        3
+      ],
+      "keywords": [
+        "분위기"
+      ],
+      "tags": [
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 13,
+      "review_id": 14008927,
+      "author": "한구일",
+      "date": "2025-10-24",
+      "date_raw": "2025-10-24 06:23:21",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 15,
+      "review_id": 13673876,
+      "author": "PK_Runner",
+      "date": "2025-09-09",
+      "date_raw": "2025-09-09 14:12:03",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 16,
+      "review_id": 13631377,
+      "author": "벌써일분",
+      "date": "2025-09-03",
+      "date_raw": "2025-09-03 19:03:46",
+      "content": "공주에서 보물하나 발견!",
+      "char_count": 11,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 43,
+      "review_id": 11177087,
+      "author": "크립스",
+      "date": "2024-10-08",
+      "date_raw": "2024-10-08 16:10:31",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 44,
+      "review_id": 10505833,
+      "author": "탐험가",
+      "date": "2024-07-08",
+      "date_raw": "2024-07-08 00:18:26",
+      "content": "맛있어요. 텐동 입문완료",
+      "char_count": 11,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 61,
+    "average_score_overall": 4.7,
+    "total_collected": 33,
+    "total_loaded": 44,
+    "count_within_3m": 4,
+    "count_3m_to_12m": 5,
+    "count_12m_to_24m": 24,
+    "recency_bonus_count": 4,
+    "recency_penalty_count": 24,
+    "quality_bonus_count": 12,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 2,
+      "5": 29
+    },
+    "avg_rating_collected": 4.82,
+    "total_excluded": 11,
+    "excluded_paid": 0,
+    "excluded_insincere": 11,
+    "excluded_too_old": 0,
+    "date_oldest": "2024-12-19",
+    "date_newest": "2026-06-15",
+    "target_met": false
+  }
+}

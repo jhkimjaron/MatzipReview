@@ -1,0 +1,652 @@
+{
+  "restaurant": "루치아의 뜰",
+  "place_id": "21626744",
+  "confirm_id": "21626744",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "21626744",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "루치아의 뜰",
+    "category": "음식점 > 카페 > 전통찻집",
+    "address": "충남 공주시 웅진로 145-8",
+    "phone": "041-855-2233",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": "주차 가능",
+    "facilities": [
+      "수제초콜릿",
+      "조용한카페",
+      "한옥카페",
+      "주차",
+      "포장가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.4,
+    "total_kakao_reviews": 89,
+    "total_blog_reviews": 247,
+    "menus": [
+      {
+        "name": "홍차와 스콘",
+        "price": "11,500원",
+        "description": null
+      },
+      {
+        "name": "밀크티와 스콘",
+        "price": "12,500원",
+        "description": null
+      },
+      {
+        "name": "다양한 홍차 단품",
+        "price": "8,000원",
+        "description": null
+      },
+      {
+        "name": "오늘의 밀크티 단품",
+        "price": "9,000원",
+        "description": null
+      },
+      {
+        "name": "근대로의 산책길 세트",
+        "price": "22,000원",
+        "description": null
+      },
+      {
+        "name": "핸드드립 커피와 프랄린 초콜릿",
+        "price": "7,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 4,
+      "review_id": 15167207,
+      "author": "안 이상한 준호",
+      "date": "2026-04-01",
+      "date_raw": "2026-04-01 22:52:17",
+      "content": "10년만에 가도 그 자리, 그 분위기.\n따뜻한 공간이에요.\n\n가격이 싸지는 않지만 퀄리티를 생각하면 충분해요. 공주에 놀러간다는 친구가 있으면 꼭 추천하는 곳입니다.",
+      "char_count": 71,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 5,
+      "review_id": 14764536,
+      "author": "pompom",
+      "date": "2026-02-06",
+      "date_raw": "2026-02-06 17:39:47",
+      "content": "고양이가 너무귀엽고 아기자기한 분위기 다좋아요. 밀크티 안텁텁하고 굿",
+      "char_count": 31,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 6,
+      "review_id": 14424695,
+      "author": "모니모니",
+      "date": "2025-12-21",
+      "date_raw": "2025-12-21 14:18:03",
+      "content": "정말 향이 좋은 홍차와 밀크티를 만날 수 있습니다.   스콘도 부드럽게 부서지는 맛이라 좋네요. 골목 안쪽에 위치해 있어 주차는 공주부고 옆 공영주차장에 세우고 걸어왔습니다.",
+      "char_count": 73,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 8,
+      "review_id": 14111311,
+      "author": "프시케(Psyche)",
+      "date": "2025-11-07",
+      "date_raw": "2025-11-07 09:38:07",
+      "content": "공주성당 다녀오는길에 가본 카페인데, 카페도 참 예쁘고 분위기도 참 좋습니다~ 손님들이 많아서 내부사진은 찍기 어려웠지만, 따끗한 분위기&애교많은 고양이가 생각납니다~ 차한잔후 재민천 따라서 공산성쪽으로 걸어가는 길도 참 좋습니다.",
+      "char_count": 103,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 5,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 9,
+      "review_id": 13961642,
+      "author": "달꼴이네",
+      "date": "2025-10-17",
+      "date_raw": "2025-10-17 11:27:20",
+      "content": "나만 알고 싶을 정도로 넘 좋은 찻집이었다\n고즈넉하니 조용하고 홍차도 너무 맛있움.. 근데!! 스콘이 진짜 너무 맛있음 ㅠㅠ 하나도 안 퍽퍽하구 좋았다... 여기 먹으러 공주 가고 싶다",
+      "char_count": 77,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 10,
+      "review_id": 13810825,
+      "author": "금나비",
+      "date": "2025-09-28",
+      "date_raw": "2025-09-28 16:01:06",
+      "content": "공주 도심의 아담한 정원이 딸린 한옥 카페로 다락방, 안방, 대청마루 등에 앉아 자개교자상 위로 내놓는 영국산 찻잔과 접시들이 제법 잘어울리고 여기저기 질서없이 놓인 갖가지 소품들도 자연스러운 느낌이다. 좌식이 불편 하다면 본채 뒷편의 테이블식인 별채도 선택 가능하다.\n\n  응대도 친절하시고 그윽하게 퍼지는 감미로운 향과 맛의 홍차도 준수하다.\n\n  나가는 길에 대문 앞 정원의 상사화가 아쉬움을 표하 듯 수줍게 고개를 들고 있다.",
+      "char_count": 179,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 10,
+      "like_count": 2,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 11,
+      "review_id": 13404583,
+      "author": "김병민",
+      "date": "2025-08-07",
+      "date_raw": "2025-08-07 00:29:23",
+      "content": "작은 골목안쪽에 위치한 작은 한옥 카페~ 매우 운치있고 정감가는 분위기입니다... 예쁜 아기 고양이는 덤~ 내부는 크기가 넓지는 않으나 니름 고즈넉하고 분위기 좋아요~ \n그리고 홍차와 밀크티가 너무 향과 맛이 깊고 좋습니다. 스콘도 맛있고요~ 차는 정말 흠잡을때 없이 좋았습니다...\n마침 방문한날 오후에 비가 오다 그치다했는데 비때문에 더욱 운치가 있었네요~ 서울에서 멀지만 공주내려오면 꼭 다시 방문하고 싶네요~~",
+      "char_count": 179,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        1,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "분위기"
+      ],
+      "photo_count": 9,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 12,
+      "review_id": 13469014,
+      "author": "자몽유니",
+      "date": "2025-08-14",
+      "date_raw": "2025-08-14 21:58:12",
+      "content": "공주여행 일정잡으면서 제일 기대했던 카페인데\n생각보다 더 오래된 느낌\n\n본관에 자리없어서 별관에서 마셨는데\n감성, 분위기로 가볼만해요\n본관이 더 예뻤을거같아요\n\n밀크티는 엄청 맛있다기보단 이정도면 맛있지 정도?\n(맛없는 밀크티도 많은데 이정도면 만족인거같아요)\n\n찻잔도 예쁘고 분위기 있고 \n직원분들도 친절하고 사장님도 좋으세요",
+      "char_count": 142,
+      "rating": 4,
+      "strength_ids": [
+        2,
+        3
+      ],
+      "keywords": [
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 4,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 14,
+      "review_id": 13379180,
+      "author": "덴맠무궁화",
+      "date": "2025-08-03",
+      "date_raw": "2025-08-03 21:07:47",
+      "content": "오월, 루치아의 뜰\n               - 나 태주 -\n\n가끔은 세상이 사막이고\n사람들이 사막이고\n나 자신까지 사막으로 느껴질 때\n한 마리 낙타라고 생각될 때 문득\n찾아가고 싶은 집이 있으니\n공주 루치아의 뜰\n목마른 세상에 오아시스 같은 찻집\n고달픈 사람들 지친 발길\n잠시 들렀다 가도 좋겠네.\n\n나태주 시인의 시집에 나오는\n시를 옮겨 적어 보았습니다.",
+      "char_count": 134,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 2,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 16,
+      "review_id": 12890884,
+      "author": "후지코코",
+      "date": "2025-05-31",
+      "date_raw": "2025-05-31 22:35:23",
+      "content": "[오래된 한옥 그리고 차 한잔🍵]\n높은 퀄리티의 차, 소박하지만 정겨운 한옥으로 힐링 오세요💫\n\n골목에 위치해 찾기 어려울 수 있음. 전 좌석 좌식. 저희는 예쁜 찻잔, 한옥+푸릇푸릇한 감성때문에 방문한 곳.\n\n밀크티와 쟈댕블루를 주문했습니다. 밀크티는 오후의 홍차밖에 안먹어봤는데, 이곳 밀크티를 마시고 푹 빠져버렸습니다. 향긋하면서 밀키한 첫 입 그리고 은은한 잔향이 남다가 깔끔하게 사라집니다. 후기에 루치아의 뜰은 밀크티가 맛있다는 후기가 많던데, 왜 유명한지 알겠더라구요!\n쟈댕블루는 가벼우면서 은은하게 올라오는 딸기, 루바브향을 느끼면서 마실 수 있었습니다.",
+      "char_count": 246,
+      "rating": 3,
+      "strength_ids": [
+        3
+      ],
+      "keywords": [
+        "분위기"
+      ],
+      "tags": [
+        "분위기"
+      ],
+      "photo_count": 4,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 18,
+      "review_id": 12846240,
+      "author": "가보고 하는 냉정한 평가머신",
+      "date": "2025-05-25",
+      "date_raw": "2025-05-25 17:02:04",
+      "content": "직원 분들의 친절함이 기분마저 좋아지게 한다",
+      "char_count": 19,
+      "rating": 5,
+      "strength_ids": [
+        2,
+        3
+      ],
+      "keywords": [
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 19,
+      "review_id": 12191500,
+      "author": "서여니",
+      "date": "2025-02-23",
+      "date_raw": "2025-02-23 20:33:27",
+      "content": "공주까지 가서 들린 루치아의뜰\n골목길 들어서면서 두리번두리번\n한옥을 예쁘게 개조한 까페\n신발 벗고 들어가야 해서 당황\n무릎을 다쳐서 좌식이 불편했던지라\n망설이다가 들어간 곳엔 이미 사람이 많고 구석에 그나마 자리에 앉아서 메뉴판 보고 급 정색의 시간 ㅎㅎ 그래도 멋스런 분위기에 사진을 찍어대는 나. 계절꽃차랑 루이보스 블렌딩 차는 양도 많고 향도 좋았다.\n꽃피는 봄에 가면 예쁠 곳",
+      "char_count": 160,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    }
+  ],
+  "excluded": [
+    {
+      "id": 1,
+      "review_id": 15444227,
+      "author": "Anjfqhk",
+      "date": "2026-05-07",
+      "date_raw": "2026-05-07 02:25:37",
+      "content": "고즈넉한 카페",
+      "char_count": 6,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 2,
+      "review_id": 15316243,
+      "author": "백때지",
+      "date": "2026-04-21",
+      "date_raw": "2026-04-21 19:24:57",
+      "content": "👍👍",
+      "char_count": 2,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 3,
+      "review_id": 15254787,
+      "author": "구정미",
+      "date": "2026-04-13",
+      "date_raw": "2026-04-13 16:50:05",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        3
+      ],
+      "keywords": [
+        "분위기"
+      ],
+      "tags": [
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 7,
+      "review_id": 14220885,
+      "author": "마레이니",
+      "date": "2025-11-22",
+      "date_raw": "2025-11-22 01:55:05",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 13,
+      "review_id": 13424112,
+      "author": "fofoo",
+      "date": "2025-08-09",
+      "date_raw": "2025-08-09 14:21:15",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 15,
+      "review_id": 12929330,
+      "author": "에녹",
+      "date": "2025-06-06",
+      "date_raw": "2025-06-06 03:46:20",
+      "content": "",
+      "char_count": 0,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 17,
+      "review_id": 12862182,
+      "author": "정히를따르라",
+      "date": "2025-05-27",
+      "date_raw": "2025-05-27 20:44:31",
+      "content": "이쁨\n분위기좋음",
+      "char_count": 7,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 20,
+      "review_id": 12120166,
+      "author": "로코코",
+      "date": "2025-02-13",
+      "date_raw": "2025-02-13 17:21:47",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        3
+      ],
+      "keywords": [
+        "분위기"
+      ],
+      "tags": [
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 89,
+    "average_score_overall": 4.4,
+    "total_collected": 12,
+    "total_loaded": 20,
+    "count_within_3m": 1,
+    "count_3m_to_12m": 8,
+    "count_12m_to_24m": 3,
+    "recency_bonus_count": 1,
+    "recency_penalty_count": 3,
+    "quality_bonus_count": 10,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 7,
+      "5": 4
+    },
+    "avg_rating_collected": 4.25,
+    "total_excluded": 8,
+    "excluded_paid": 0,
+    "excluded_insincere": 8,
+    "excluded_too_old": 0,
+    "date_oldest": "2025-02-23",
+    "date_newest": "2026-04-01",
+    "target_met": false
+  }
+}

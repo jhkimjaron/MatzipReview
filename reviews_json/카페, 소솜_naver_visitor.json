@@ -1,0 +1,4143 @@
+{
+  "restaurant": "카페, 소솜",
+  "place_id": "1479906200",
+  "collected_at": "2026-06-18T15:34:27+09:00",
+  "review_type": "visitor",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "place_info": {
+    "place_id": "1479906200",
+    "collected_at": "2026-06-18T15:34:27+09:00",
+    "name": "카페, 소솜",
+    "category": null,
+    "address": "충남 공주시 제민2길 1-2 카페, 소솜",
+    "phone": "0507-1370-5609",
+    "homepage": "https://www.instagram.com/cafe_sosom_gongju?igsh=MWJja3BxbjBsZ3llNQ==",
+    "hours": [
+      {
+        "day": "목",
+        "open": "12:00",
+        "close": "20:00"
+      },
+      {
+        "day": "금",
+        "open": "12:00",
+        "close": "20:00"
+      },
+      {
+        "day": "토",
+        "open": "12:00",
+        "close": "20:00"
+      },
+      {
+        "day": "일",
+        "open": "12:00",
+        "close": "20:00"
+      },
+      {
+        "day": "월",
+        "open": "12:00",
+        "close": "20:00"
+      },
+      {
+        "day": "화",
+        "open": "12:00",
+        "close": "20:00"
+      }
+    ],
+    "break_time": null,
+    "last_order": "19:30",
+    "regular_holiday": "정기휴무 (매주 수요일)",
+    "parking": null,
+    "facilities": [
+      "포장",
+      "무선 인터넷"
+    ],
+    "naver_booking": false,
+    "total_visitor_reviews": null,
+    "total_blog_reviews": null,
+    "menus": [
+      {
+        "name": "아메리카노",
+        "price": "4,000원",
+        "description": null
+      },
+      {
+        "name": "헤이즐넛 아메리카노",
+        "price": "4,500원",
+        "description": null
+      },
+      {
+        "name": "카페라떼",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "헤이즐넛 라떼",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "수제 바닐라빈 라떼",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "연유라떼",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "카푸치노",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "카라멜마끼아또",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "카페모카",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "보늬밤샷크림라떼",
+        "price": "7,000원",
+        "description": null
+      },
+      {
+        "name": "서리태크림라떼",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "퍼플소르베 모히또에이드",
+        "price": "7,000원",
+        "description": null
+      },
+      {
+        "name": "레드소르베 딸기에이드",
+        "price": "7,000원",
+        "description": null
+      },
+      {
+        "name": "보늬밤크림라떼",
+        "price": "7,000원",
+        "description": null
+      },
+      {
+        "name": "밤라떼",
+        "price": "6,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": "목 12:00 - 20:00\n19:30 라스트오더\n금 12:00 - 20:00\n19:30 라스트오더\n토 12:00 - 20:00\n19:30 라스트오더\n일 12:00 - 20:00\n19:30 라스트오더\n월 12:00 - 20:00\n19:30 라스트오더\n화 12:00 - 20:00\n19:30 라스트오더\n수 정기휴무 (매주 수요일)",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "author": "레모08",
+      "date": "2026-06-08",
+      "date_raw": "2026년 6월 8일 월요일",
+      "content": "골목길에 있는 한옥카페 인데\n규모가 작은편이라 더 좋았던거 같아요\n아기자기 한맛이 있어서\n고양이도 있고 개냥이에요 ㅎㅎ\n보니밤크림라떼랑 바스크 치즈케익\n먹었는데 라떼는 적당히 달지 않고\n고소했어요 알밤하나가 통째로 올라가 있고\n바스크 치즈 케이크도 숟가락 들어갈때\n부드러운 질감이 좋았어요\n분위기도 좋고 맛도 있었는데\n\n카페 문제는 아니고\n다들 조용하게 즐기는 분위기였는데\n대여섯분남녀분이 들어오셔서는\n갑자기 박수 치고 엄청 떠들기 시작했는데\n눈살이 찢푸려지더라고요\n노이즈 캔슬링해도 뚫고 들어올정도로요\n점심시간쯤이라 주변 직장인분들이지 않을까\n싶었는데 떠들고 말고는 물론 자기 결정이겠지만\n주변 분위기를 보고 그러셨으면 좋지 않았을까 하네요\n다행이 테이크 아웃이라 금방 가셨지만",
+      "char_count": 296,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 2,
+      "author": "165380",
+      "date": "2026-06-02",
+      "date_raw": "2026년 6월 2일 화요일",
+      "content": "밤디저트와 고양이 보러 간곳 ㅜㅜ\n일단 사장님께서 기분좋게 맞아주시고 먹고싶던 티라미수가 제가 간 날은 나오지 않아 아쉬웠지만 오히려 또 방문할 기회가 된거같아 좋았어요 고양이도 기차시간때문에 갈때쯤 치즈냥이가 와서 겨우 얼굴만 봤네요\n다음에는 밤라떼와 티라미수 먹으러 갈게요!!",
+      "char_count": 121,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 3,
+      "author": "dms****",
+      "date": "2026-05-30",
+      "date_raw": "2026년 5월 30일 토요일",
+      "content": "방문 할 때마다 매번 서리태라떼였는데! 밤에이드\n새롭게 먹어보았다\n\n올라가져있는 밤 아이스크림을 풀어 먹은 밤에이드!\n\n밤이랑 톡톡 튀는 에이드란 음료가 어울릴까 싶었는데\n생각보다 맛 좋네ㅎㅎㅎ\n\n밤의 달달함과 간혹 씹히는 밤 특별한 메뉴다\n색다름을 느끼고 싶다면 한번은 꼭 맛보시길!",
+      "char_count": 120,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "혼자"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 4,
+      "author": "독고민초613",
+      "date": "2026-05-24",
+      "date_raw": "2026년 5월 24일 일요일",
+      "content": "주말에 공주 어딜가나 사람이 많아서 여기도 겨우 왔어요. 보늬밤 올라간 메뉴 너무 맛있네요 밤이 진짜 알차고 맛있어요🧡 정원에서 고양이도 볼 수 있습니다.",
+      "char_count": 65,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 5,
+      "author": "PPAEKKOM",
+      "date": "2026-05-24",
+      "date_raw": "2026년 5월 24일 일요일",
+      "content": "사진 보고 방문했는데!! 커다란 밤이! 똭!!\n다른분들 라떼 드시는것도 봤는데 너무 맛있어 보였어요.\n주말에는 웨이팅도 있어요!!! 규모는 작은데 음료랑 디저트도 맛있어요!!",
+      "char_count": 77,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 6,
+      "author": "tnd****",
+      "date": "2026-05-10",
+      "date_raw": "2026년 5월 10일 일요일",
+      "content": "분위기가 너무 좋고 마당에 고양이가 너무 귀여워요~\n사장님도 너무너무 친절하셔서 기분 좋게 쉬다갑니다😁\n보니밤 치즈케이크 추천👍👍👍",
+      "char_count": 58,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 7,
+      "author": "tlayhddk",
+      "date": "2026-05-10",
+      "date_raw": "2026년 5월 10일 일요일",
+      "content": "너무너무 행복한 공간입니다!!!🪴☘️☕🐈‍⬛🐈\n커피와 디저트 모두 맛있어요! 밤티라미수 진짜 맛있고 분위기도 너무 좋습니다",
+      "char_count": 56,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 8,
+      "author": "주임몬",
+      "date": "2026-05-10",
+      "date_raw": "2026년 5월 10일 일요일",
+      "content": "조용하고 힐링되는 카페입니다. 커피랑 밤티라미수 진짜 맛있습니다 고양이도 있고요 기분좋게 데이트 하기 좋네요",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 9,
+      "author": "Chcjzia",
+      "date": "2026-05-10",
+      "date_raw": "2026년 5월 10일 일요일",
+      "content": "공주 여행 왔다가 들렀는데 카페가 너무 예쁘고 힐링돼요\n조용하고 디저트도 너무 맛있어요ㅜㅜ\n주차는 주변에 공영주차장이 많아서 편해요",
+      "char_count": 57,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 10,
+      "author": "명60",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "여기 디저트, 음료 맛있어요!\n특히 밤이 너무 커서 아주 만족스럽습니다🐶\n그리고 고양이도 귀여워욤 ㅎㅎ",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 11,
+      "author": "heeeee1029",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "공주밤라떼...진짜 공주에서만 맛볼수있는 맛입니다 너무 맛있어요!!",
+      "char_count": 32,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 12,
+      "author": "jis****",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "음료도 맛있고 공간이 넘 포근해요!!\n입구에서 반겨주는 고양이들도 넘 귀여워요🐱🐱",
+      "char_count": 36,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 13,
+      "author": "cha****",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "공주 공산성 산책하고 아늑하고 조용한 카페를 찾다가 발견했습니다 귀여운 고양이들이 반겨주는 한옥 카페 느낌 음료도 맛있어요!",
+      "char_count": 54,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 14,
+      "author": "freesia968",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "한옥스타일로 분위기도 좋고, 밤라떼도 맛있어요. 공주 오시면 꼭 방문 추천드립니다.",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 15,
+      "author": "배추포기",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "음료도 디저트도 맛있고 고냥이도 귀여워요\n카페 예뻐요",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 16,
+      "author": "ulu123",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "카페가 이쁘고 티라미수 맛있어요 !!",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 17,
+      "author": "나이스원5963",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "카페 분위기가 너어무 좋고 앞에 고양이가 너어무 긔여워요.. 밤에 진심..! 음료랑 케익도 맛있습니다🫠",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 19,
+      "author": "쫌밈",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "들어오면서부터 고양이를 보고 기분이 좋았어요:)\n\n바닐라빈 라떼도 좋고, 보늬밤 샷 크림 라떼에 크림이 넉넉하게 얹어져 있어서 달달하니 맛있습니다ㅎㅎ 바스크 치즈케이크도 꾸덕하니 맛있어요! 추천!",
+      "char_count": 86,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 20,
+      "author": "tla****",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "각 좌석들이 뷰가 다 이뻐서 어디 앉을지 한참 고민했어요!\n시그니처로 보이는 보늬밤라떼도 너무 마음에 들었습니다.\n입구에 고양이들이 식빵 꿉고있어요 ㅋㅋㅋ공주 분위기 만끽하러 오시는 분들은 분명 만족하실 듯",
+      "char_count": 89,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이, 여행",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 21,
+      "author": "밥풀과자05",
+      "date": "2026-02-18",
+      "date_raw": "2026년 2월 18일 수요일",
+      "content": "가보고 싶었던 곳이었는데 인테리어도 음료,디저트도 뭔가 좀 아쉬운 느낌",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상"
+      ],
+      "keywords": [
+        "아늑해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 22,
+      "author": "rak****",
+      "date": "2026-02-14",
+      "date_raw": "2026년 2월 14일 토요일",
+      "content": "진짜 릴리릴리 존맛탱 카페입니다\n공주 올 때마다 무조건 들려요!!\n밤 들어간 거, 일반 커피 가릴 거 없이 다 넘 맛나요\n특히 바스크 치즈케이크 최고 말모말모...\n오늘도 와서 2개 먹고 갑니다...\n사장님 번창하시고 평생 팔아주세요ㅠㅠ❤️",
+      "char_count": 101,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 24,
+      "author": "ber****",
+      "date": "2026-01-20",
+      "date_raw": "2026년 1월 20일 화요일",
+      "content": "바닐라라떼 먹고 두쫀쿠도 샀어요!♡",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 25,
+      "author": "dms****",
+      "date": "2025-12-28",
+      "date_raw": "2025년 12월 28일 일요일",
+      "content": "서리태라떼... 오늘도 맛있다ㅎㅎㅎ\n보늬밤치즈케이크ㅎㅎ\n달달하니 서리태보다는 커피랑 더 어울릴거같다\n\n맛좋네잉ㅎㅎ 다음엔 보늬티라미수 먹기",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 26,
+      "author": "도야30",
+      "date": "2025-12-26",
+      "date_raw": "2025년 12월 26일 금요일",
+      "content": "원래 가려던 유명카페는 사람이 많길래 플랜B로 정해뒀던 곳인데, 너어어ㅓ어어ㅓ어어어어무 좋았어요!!!!!!\n공주에서 제일 좋았던 공간이에요 ~ 손님이 저희밖에 없어서 사진 오조오억개 찍은 듯 ㅋㅋㅋ\n밤라떼랑 밤크림라떼? 둘다 부드럽고 너무너무너무 맛있었어요 :)\n공주 다시 가면 또 가고싶은 따뜻한 공간이었어요~\n2월에 군밤축제갈건데 또 가야겠어요 >_<\n다시가도 핫플카페보다 소솜으로 갈 것 같아요 :) 힣힣\n사장님도 친절하시고 화장실도 깨끗~\n입구엔 고양이들도 있어요!(중요!!)",
+      "char_count": 214,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 27,
+      "author": "JaneBirkin7",
+      "date": "2025-12-24",
+      "date_raw": "2025년 12월 24일 수요일",
+      "content": "너무너무 오랜만에 왔는데 여전히 사장님 친절하시고 커피도 맛있고 디저트도 맛있어요!!!!\n집이 가까웠으면 더 자주 왔을텐데ㅠㅠ 넘 아늑한 카페에요🧡🧡",
+      "char_count": 66,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 28,
+      "author": "480123456789069",
+      "date": "2025-11-09",
+      "date_raw": "2025년 11월 9일 일요일",
+      "content": "입구에서부터 고양이가 있어서 못들어갈 뻔했는데 다행히 길을 내주어서 무사히 들어갔어요. 밤이 들어간 메뉴들은 품절이라서 먹지 못했고 다른 카페에 없는 음료들이 있어서 고민하다가 서리태라떼와 말차바스크케이크를 주문했는데 케이크는 꾸덕했고 말차맛이 너무 달지도 쓰지도 않고 은은하게 났고 서리태라떼는 딱 생각했던 맛이었어요. 디저트보다는 음료쪽이 더 취향이었는데 다른음료도 먹어보고 싶어요. 그리고 좌석간 간격이 널찍해서 편하게 쉬기 좋은것 같고 손님이 나갈때마다 챙겨서 인사해주세요. 왜 친절하다는 리뷰가 많았는지 알것같았어요.",
+      "char_count": 233,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "오래 머무르기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 29,
+      "author": "HL남녀",
+      "date": "2025-10-26",
+      "date_raw": "2025년 10월 26일 일요일",
+      "content": "냥이들이 냐옹냐옹...\n자는 냥, 낯 가리는 냥, 어슬렁 냥...",
+      "char_count": 28,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 30,
+      "author": "ReMii",
+      "date": "2025-10-24",
+      "date_raw": "2025년 10월 24일 금요일",
+      "content": "공주 놀러갔다가 또 방문한 카페소솜! 전에 방문했을땐 비가 왔었는데 이번엔 날이 좋아서 또 다른 느낌~! 편안하면서도 고즈넉한 한옥 분위기랑 창문 밖 뷰가 예뻐서 힐링하며 잘 쉬다 갑니당☺️",
+      "char_count": 80,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 31,
+      "author": "린에스테틱a",
+      "date": "2025-10-19",
+      "date_raw": "2025년 10월 19일 일요일",
+      "content": "카페소솜💜\n💙정기휴무::매주수요일 휴무\n💙영업시간: 11:00~20:00\n💙한옥을 개조한카페라서 고즈넉하고아늑한분위기에 감성카페\n💙마당이있고 길냥이 펀치와 뭉치가 마당에 놀고있어요\n💙메뉴가다양해요 헤이즐넛아메리카노4500 밤라떼6000 카푸치노5500 서리태크림라떼6500\n퍼플소르베모히또7000 레몬소르베7000\n카페라떼5000 밤치즈케이크 7000\n💙우린 카페라떼 아메리카노 커피향이좋고 담백해서\n좋았어요ㆍ퍼플소르베모히또는 힐링맛 건강한 느낌\n밤치즈케이크는 달콤하고부드러운 사랑의맛입니다\n💙주차는 인근 공영주차장을 이용해주세요\n💙사장님! 넘 친절합니다\n💙분위기가 좋아아서 또 방문하고싶어요",
+      "char_count": 284,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자, 지인・동료, 아이"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 32,
+      "author": "natalri",
+      "date": "2025-10-18",
+      "date_raw": "2025년 10월 18일 토요일",
+      "content": "겁 많은 고양이가 자리잡고 있는곳.\n태이블은 몇개 안되지만 커피도 맛있고 고양이 구경하는 재미까지 소소하게 있는 카페 🐱",
+      "char_count": 51,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 33,
+      "author": "009ri",
+      "date": "2025-10-10",
+      "date_raw": "2025년 10월 10일 금요일",
+      "content": "찾아오기 쉬워요 한옥분위기가 좋아요",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 34,
+      "author": "ber****",
+      "date": "2025-10-07",
+      "date_raw": "2025년 10월 7일 화요일",
+      "content": "복숭아아이스티\n복숭아얼그레이에이드 고급진 맛♡",
+      "char_count": 22,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 35,
+      "author": "짜누61",
+      "date": "2025-09-21",
+      "date_raw": "2025년 9월 21일 일요일",
+      "content": "오늘 카페투어하는데 소솜사장님 진짜 친절하세요❤️\n\n소솜 만석이라 근처 카페가서 불친절해서 기분 나빴었는데 소솜사장님께 치유받기 ㅠㅠ\n\n저녁먹기 전 사람 빠져서 다시 왔는데 안왔음 후회할뻔했어요 ㅠㅠ\n밤 티라미수 진짜 최고에요 ㅠㅠ\n밤 치즈케이크 먹으러 다시 오께요 ㅠㅠ 품절이라 너무 아쉬웠어요 ㅠㅠ",
+      "char_count": 128,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료, 아이"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 36,
+      "author": "dms****",
+      "date": "2025-09-13",
+      "date_raw": "2025년 9월 13일 토요일",
+      "content": "몸을 감싸는 그런 쇼파가 있어 더 여유롭게 느껴지고 밖의 풍경이 보여 좋은 자리!ㅎㅎ\n서리태 라떼 건강하면서 달콤한 맛.. 츄릅 맛있다\n빵도 밤이 있어 좋고 역시 맛좋다ㅎㅎ\n친구의 서리태 라떼 먹고 반해 1일2방문했는데 그때 서리태 라떼 먹었답니다\n그리고 너무 색감이 이쁜 레드소르베딸기\n잘 저어 먹으니 맛있어...\n모두 다 성공적 쿠폰도 5개 찍으면 2천원 할인\n좋다좋아",
+      "char_count": 155,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 37,
+      "author": "레인보우1071",
+      "date": "2025-09-06",
+      "date_raw": "2025년 9월 6일 토요일",
+      "content": "생크림처럼 부드러운 바스크 치즈케이크와 가볍지 않은 묵직한 맛의 고급진 밤티라미슈(바밤바 생각 안나요.ㅋ), 그리고 아이스티 가루에 물만 탄게 아닌 리얼 복숭아가 톡톡 씹히는 복숭아 톡톡 아이스티 까지 진짜 디저트에 진심이 느껴지는 곳이에요.\n공주에 여기저기 가봤지만 바스크치즈케이크는 이집이 원탑입니다.\n커피는 산미가 없어서 저는 갠적으로 좋았고 바닐라빈 라떼도 우유와 커피의 밸런스도 좋았어요.\n다들 여기와서 먹어봤음 좋겠어요.\n후회하지 않을꺼예요~~",
+      "char_count": 200,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 38,
+      "author": "Dduduu420",
+      "date": "2025-08-15",
+      "date_raw": "2025년 8월 15일 금요일",
+      "content": "가게 분위기도 너무 좋고 밤 디저트도 파는데 무엇보다 마당냥이들이 너무 귀여워서 방문했어요!\n오후 5시 넘어서 갔더니 밤티라미수는 품절ㅠ 다행히 밤치케는 있어서 먹어봤어용\n밤치케 너무 부드럽구 맛있어요!!! 치즈케이크인데 밤맛이 진하게 느껴져용\n근처에 있다면 매주 가고싶을 정도로 너무 좋았어요🩷🩷",
+      "char_count": 130,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 40,
+      "author": "어스름늑대",
+      "date": "2025-07-17",
+      "date_raw": "2025년 7월 17일 목요일",
+      "content": "공주 여행 중에 방문했습니다\n\n아담한 한옥카페로 조용하게 이야기하며 커피 또는 음료를 즐길 수 있습니다\n\n공주 제민천 인근에 유명한 카페들이 많지만 커피나 음료 맛도 무난하고 조용한 시간을 보내길 원한다면 추천하는 카페입니다",
+      "char_count": 94,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "부모님"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 43,
+      "author": "1n0n1y",
+      "date": "2025-06-06",
+      "date_raw": "2025년 6월 6일 금요일",
+      "content": "시그니처 크림라떼가 맛있어 보여서 왔어요. 아이스 아메리카노, 수제 보늬밤 샷 크림라떼 맛있어요! 퍼플 소르베 모히또 에이드도 많이 달지 않고 새콤하니 맛있었어요. 크림라떼엔 밤이 엄청 많이 씹히고, 에이드도 찐하고 맛있어요! 밤치즈케이크에 취향 저격당해서 한 입 먹자마자 하나 더 포장했어요. 졸인 밤?이 하나 통째로 올라가 있는데, 고소하고 달달해서 맛있고.. 치즈케이크 자체도 많이 느끼하지 않고 부드럽고 맛있어요. 흔한 맛이 아니에요! 내부가 엄청 넓진 않지만, 분위기 좋고 느낌있어요. 밖에 있는 고양이도 쪼꼼 꼬질하긴 해서 씻겨주고 싶지만 귀여워요 ㅎㅎㅎ 다시 올게요!",
+      "char_count": 249,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "부모님"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 45,
+      "author": "쵸쵸쓰",
+      "date": "2025-05-25",
+      "date_raw": "2025년 5월 25일 일요일",
+      "content": "두번째 방문인데 공주올때마다 카페 소솜에 오고싶어져요! 주변 동네도 조용하고 공간도 아늑해서 좋아요. 음료랑 디저트도 무척 맛있어요!",
+      "char_count": 59,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 46,
+      "author": "Jin Y",
+      "date": "2025-05-22",
+      "date_raw": "2025년 5월 22일 목요일",
+      "content": "출장 중 발견한 보늬밤 라떼 맛 집~\n상상 이상의 맛 ♡\n사실 크림 잘못 먹으면 속 안 좋고 힘들어요\n심하면 두통까지 ~\n와~ 서울 올라가는\n내내 속 편하고 한잔 더 사러 가고 싶은 마음뿐...\n공주에 또! 간다면 들려보겠습니다\n친절하게 맞이해 주셔서 감사합니다 🙏",
+      "char_count": 106,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 47,
+      "author": "야홍홍홍홍",
+      "date": "2025-05-17",
+      "date_raw": "2025년 5월 17일 토요일",
+      "content": "공주 놀러 왔다가 찾아온 카페에요^^\n보늬밤치즈케잌이랑 라떼 달지않아 좋아요❤️\n요거 먹으러 다시 올꾸야😍",
+      "char_count": 47,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "지인・동료"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 48,
+      "author": "als****",
+      "date": "2025-05-12",
+      "date_raw": "2025년 5월 12일 월요일",
+      "content": "사장님이 친절하시고\n카페 분위기가 조용하고 편안해요!\n오고나서 후회 절대 안합니다!!",
+      "char_count": 38,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 49,
+      "author": "ci****",
+      "date": "2025-05-10",
+      "date_raw": "2025년 5월 10일 토요일",
+      "content": "비오는날 고즈넉한 한옥이 분위기 있을꺼 같아 방문했는데 역시나 너무 좋네요\n커피도 맛있고 보늬밤티라미수도 진짜 맛있어요 ㅎㅎㅎ귀여운 냥이도 볼수 있는 느좋카페\n여유로운 분위기에서 힐링 제대로 하고 가네요",
+      "char_count": 88,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 50,
+      "author": "ber****",
+      "date": "2025-05-10",
+      "date_raw": "2025년 5월 10일 토요일",
+      "content": "치즈케이크가 정말 남다릅니다. 추추천!",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 51,
+      "author": "배수민40",
+      "date": "2025-04-29",
+      "date_raw": "2025년 4월 29일 화요일",
+      "content": "수제 보늬밤 샷 크림 라떼를 먹었는데 너무 맛있고 밤이 크고 음료랑 잘 어울려요! 분위기도 너무 좋고 음료도 맛있고 힐링하고 갑니다🥰",
+      "char_count": 55,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목, 나들이, 일상",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "뷰가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 52,
+      "author": "주윤하76",
+      "date": "2025-04-29",
+      "date_raw": "2025년 4월 29일 화요일",
+      "content": "크림라떼 주문했는데 너무 맛있고 카페 분위기도 좋아서 친구랑 편하게 이야기 하고 갔어요!",
+      "char_count": 38,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 53,
+      "author": "레인보우1071",
+      "date": "2025-04-25",
+      "date_raw": "2025년 4월 25일 금요일",
+      "content": "먹다가 깜놀해서 급 리뷰 올려요.\n바스크 치즈케이크가~~\n공주에서 최고 촉촉크리미한 바스크 치즈케이크에요.\n안에 생크림인줄~~\n꼭!!드셔보세요.\n그리고 전 카페인 못먹어서 디카페인 콜드브루 시켰는데 이것 또한 깔끔하고 묵직한 뒷끝이 너무 맛있네요.\n구석에 있어서 지나가면 보기만 했지...\n이런 보석 같은곳을 이제야 발견하네요~",
+      "char_count": 145,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 54,
+      "author": "ysj****",
+      "date": "2025-04-19",
+      "date_raw": "2025년 4월 19일 토요일",
+      "content": "여자친구랑 재밋게 놀다가요~ 분위기 좋아여~",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 56,
+      "author": "skt****",
+      "date": "2025-04-05",
+      "date_raw": "2025년 4월 5일 토요일",
+      "content": "보니밤 치즈케이크가 너무 맛있어요!\n꽃차도 직접 만드신다는데 향이 완전 좋아요☺️\n커피도 맛있네요!!\n남자친구랑 잘 있다가 갑니당",
+      "char_count": 57,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 57,
+      "author": "Yoni8",
+      "date": "2025-04-01",
+      "date_raw": "2025년 4월 1일 화요일",
+      "content": "너무맛있게 먹었습니다 분위기좋아요 ㅎ",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 58,
+      "author": "minsun95",
+      "date": "2025-03-31",
+      "date_raw": "2025년 3월 31일 월요일",
+      "content": "카페 분위기도 좋고,\n음료도 맛있네요!👌",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 59,
+      "author": "애징이다",
+      "date": "2025-03-30",
+      "date_raw": "2025년 3월 30일 일요일",
+      "content": "가게가 아늑하고 고양이도 많이 놀러옵니다! 혼자 오기도 편하고 좋은 카페인 거 같아용 ~.~",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "혼자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 60,
+      "author": "숑4360",
+      "date": "2025-03-28",
+      "date_raw": "2025년 3월 28일 금요일",
+      "content": "사진에 잘 안담겨 아쉽지만\n디저트가 너무 예쁘고 맛도 최고였어요!\n음료도 다 맛있어요~^^",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 61,
+      "author": "달동동",
+      "date": "2025-03-28",
+      "date_raw": "2025년 3월 28일 금요일",
+      "content": "분위기도 편하고\n한번 와보면 또 생각나서 오게되요\n3회차~~음료는 여전히 맛나요\n(보늬밤크림라떼 와 아메리카노)",
+      "char_count": 50,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 62,
+      "author": "9kwon7h",
+      "date": "2025-03-24",
+      "date_raw": "2025년 3월 24일 월요일",
+      "content": "분위기 맛집 보늬밤크림라떼 존맛....",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 63,
+      "author": "원8122",
+      "date": "2025-03-23",
+      "date_raw": "2025년 3월 23일 일요일",
+      "content": "분위기 최고ㅎㅎㅎㅎ 밤케이크도 맛있고 커피도 꼬숩꼬숩해요🧡",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 나들이",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 64,
+      "author": "mini27",
+      "date": "2025-03-23",
+      "date_raw": "2025년 3월 23일 일요일",
+      "content": "공주 나들이 왔다가 들린 곳인데 한옥 카페라 너무 예쁘고 안에도 조용하고 아늑해서 힐링하기 좋았어요💚\n보늬밤치즈케이크도 엄청 부드럽고 맛있고 커피랑 꽃차도 너무 이쁘고 괜찮았어요!",
+      "char_count": 78,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 나들이, 일상",
+        "부모님"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 65,
+      "author": "이고은11",
+      "date": "2025-03-23",
+      "date_raw": "2025년 3월 23일 일요일",
+      "content": "조용해서 대화하기 좋고 인테리어도 너무 예뻐요. 한옥카페의 정석! 햇살도 잘 들고 아늑해요 추천합니다",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 66,
+      "author": "Bixxnim",
+      "date": "2025-03-23",
+      "date_raw": "2025년 3월 23일 일요일",
+      "content": "지나가다가 들어온건데 분위기도 너무 좋고 음료랑 디저트 맛도 너무너무 좋았어요 조용하고 노래 분위기가 너무 제 취향이라 오래 있고 싶을정도 였어요..🥺 다음에 또 여기로 올 거 같아요!!!🤤🤤",
+      "char_count": 82,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 67,
+      "author": "arl****",
+      "date": "2025-03-23",
+      "date_raw": "2025년 3월 23일 일요일",
+      "content": "따뜻한 일요일에 방문한 카페소솜♥︎ 오자마자 귀여운 고양이가 반겨주었어요. 한옥이라 내부 분위기가 고즈넉하고 편안합니다. 아메리카노는 산미없이 상쾌하고 밤티라미수는 많이 달지 않고 맛있습니다!! 혼자 왔어도 편안하게 즐길 수 있는 분위기입니다 담에 친구들이랑 또 올게요!",
+      "char_count": 120,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 68,
+      "author": "cut****",
+      "date": "2025-03-10",
+      "date_raw": "2025년 3월 10일 월요일",
+      "content": "한옥카페 좋아해서 리스트에 올려놨던 곳이예요~ 오늘 드디어 와봤는데 넘 예뻐요^^뜨아 커피맛도 좋네요~ 푸릇푸릇해지면 더 예쁘곳이 되겠네요🤍",
+      "char_count": 63,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 69,
+      "author": "나무9825",
+      "date": "2025-03-09",
+      "date_raw": "2025년 3월 9일 일요일",
+      "content": "음료 디저트도 맛있고\n분위기도 포근하고 좋았어요~\n다음에 또 방문할게요",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "기타"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 70,
+      "author": "llIlIllIi",
+      "date": "2025-03-02",
+      "date_raw": "2025년 3월 2일 일요일",
+      "content": "일단 보늬밤크림라떼가 너무 맛있어요\n조용하고 분위기 느좋..\n치즈고양이 뷰맛집이에요ㅠ",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 71,
+      "author": "라이트하이라이트",
+      "date": "2025-03-01",
+      "date_raw": "2025년 3월 1일 토요일",
+      "content": "공주여행으로 왔는데 수제 보늬밤 크림라떼, 밤 티라미수, 아아 다 맛있어요!!\n특히 카페 공간이 너무 예뻐요ㅠㅠ",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 72,
+      "author": "이진권39",
+      "date": "2025-02-28",
+      "date_raw": "2025년 2월 28일 금요일",
+      "content": "보늬밤티라미수 너무 맛있어용!!!! 재방문 했는데 또올게요!❤️",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 73,
+      "author": "ber****",
+      "date": "2025-02-22",
+      "date_raw": "2025년 2월 22일 토요일",
+      "content": "앉아있으면 마음이 편안해지는 카페예요.",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 75,
+      "author": "리세티",
+      "date": "2025-02-14",
+      "date_raw": "2025년 2월 14일 금요일",
+      "content": "조용하고 아늑한 카페입니다. 생각보다는 작아서 놀랐지만 손님들이 계속 오는 이유를 알 것 같았습니다. 사장님 친절하시고 화장실 깨끗하고 밤크림라떼 풍부하게 맛있었어요🤎",
+      "char_count": 74,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 76,
+      "author": "JaneBirkin7",
+      "date": "2025-02-02",
+      "date_raw": "2025년 2월 2일 일요일",
+      "content": "애정하는 카페🫶🏻✨ 처음 시켜보는 메리골드꽃차 정말 괜찮네요. 강추해요!!",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 77,
+      "author": "오늘 간 곳은",
+      "date": "2025-01-28",
+      "date_raw": "2025년 1월 28일 화요일",
+      "content": "공주 시내 안쪽 골목에 자그맣게 자리잡은 카페 소솜입니다! 엄마가 좋아하는 카페라 친정 온김에 가봤는데 아늑하고 너무 좋았어요. 눈까지 와서 더 포근한 느낌이었어요~ 커피는 산미없고 끝맛이 고소해서 딱 제\n취향이었어요👍사진이 없는데ㅜㅜㅜ바스크치즈케이크 꼭 드시구요! 담엔 밤치즈케이크도 먹어보려구요~\n밤라떼(아이스만 됩니다)도 적당히 달아서 추천합니다~~ 꼭 가보세요!!!",
+      "char_count": 167,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "연인・배우자, 아이, 부모님"
+      ],
+      "keywords": [
+        "뷰가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 78,
+      "author": "이껌정",
+      "date": "2025-01-04",
+      "date_raw": "2025년 1월 4일 토요일",
+      "content": "보늬밤 티라미수는 가을과 겨울 시즌에 딱 맞는 따뜻한 디저트 느낌을 주었고, 아이스 아메리카노와의 궁합도 완벽했습니다. 단맛과 쌉싸름한 맛의 조화가 디저트를 즐기는 시간을 더욱 풍요롭게 만들어줬어요. 다음에도 꼭 다시 먹고 싶을 정도로 만족스러웠습니다!",
+      "char_count": 110,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 79,
+      "author": "너의온기",
+      "date": "2025-01-04",
+      "date_raw": "2025년 1월 4일 토요일",
+      "content": "예쁜 한옥카페 발견! 커피도 꼬숩고\n밤치즈케이크항 밤티라미수 진짜 짱맛이예용!",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "사진이 잘 나와요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 81,
+      "author": "mok****",
+      "date": "2025-01-04",
+      "date_raw": "2025년 1월 4일 토요일",
+      "content": "분위기 좋고 딸기라떼랑 보늬밤라떼 먹었는데 넘나 맛있어요:)",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 82,
+      "author": "JaneBirkin7",
+      "date": "2025-01-01",
+      "date_raw": "2025년 1월 1일 수요일",
+      "content": "커피도 맛있고 초코케익도 맛있어요!!! 디저트맛집임✨✨❤️💛🎈",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 83,
+      "author": "감성리뷰달인",
+      "date": "2024-12-28",
+      "date_raw": "2024년 12월 28일 토요일",
+      "content": "공주의 맛과 풍경이 여기 카페, 소솜",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 84,
+      "author": "ITSME87",
+      "date": "2024-12-28",
+      "date_raw": "2024년 12월 28일 토요일",
+      "content": "고즈넉한 실내 분위기가 넘 좋은것..",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 85,
+      "author": "yenyudiesle",
+      "date": "2024-12-28",
+      "date_raw": "2024년 12월 28일 토요일",
+      "content": "여행와서 들렀는데 밤이 들어간 메뉴들도 많고 맛있어요 편안한 분위기의 카페입니다 ! 커피도 맛있어요",
+      "char_count": 43,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 86,
+      "author": "91847",
+      "date": "2024-12-28",
+      "date_raw": "2024년 12월 28일 토요일",
+      "content": "고앵이도 귀엽고 건물 인테리어 음료 디저트 다 짱이에용 사장님도 넘 친절해요 다음에 공주오면 또 방문할게용~~",
+      "char_count": 47,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 87,
+      "author": "djl****",
+      "date": "2024-12-28",
+      "date_raw": "2024년 12월 28일 토요일",
+      "content": "시나몬크림라떼 넘 맛있어서 다른 메뉴도 궁금해서 다음날 또 왔어요 아메리카노랑 초코라떼도 부드럽고 좋아요",
+      "char_count": 46,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 88,
+      "author": "빈이what",
+      "date": "2024-12-27",
+      "date_raw": "2024년 12월 27일 금요일",
+      "content": "초코케이크가 진짜 맛있어요 .. 올때마다 보늬밤라떼 마셨는데 이번엔 시나몬 라떼? 이것도 맛나네요🤤 잘먹고 잘 쉬다 가요!!",
+      "char_count": 54,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "지인・동료"
+      ],
+      "keywords": [
+        "대화하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 89,
+      "author": "앵갈루시아",
+      "date": "2024-12-26",
+      "date_raw": "2024년 12월 26일 목요일",
+      "content": "두번째 방문입니다.\n편안한 나무 의자와 책상이 있어요.\n한옥의 고즈넉한 분위기가 집중하기에도 대화를 나누기에도 참 좋아요.\n저번에 왔을 때엔 만나지 못했던 고양이 두 마리도 볼 수 있어서 좋았어요 :)",
+      "char_count": 85,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 90,
+      "author": "bla****",
+      "date": "2024-12-26",
+      "date_raw": "2024년 12월 26일 목요일",
+      "content": "입구에서 보이는 작은 간판과 마당으로 들어가면 햇빛에 녹아있는 고양이들이 너무 귀여워요. 해가 굉장히 잘 들어서 추운 겨울에 몸 녹이고 힐링하고 갑니다. 시나몬 크림라떼 주문해서 마셔봤는데, 크림라떼인데도 양이 많고 약간 술 향이 나는 독특한 맛있었어요. 오묘한 맛에 다음에 와도 이 음료를 먹을 것 같아요",
+      "char_count": 129,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 91,
+      "author": "shd****",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "카페 분위기도 좋고 커피도 너무 고소하고 맛있어요! 사장님도 짱 친절하셔서 준조카로 추천합니당!! ㅎㅎㅎ",
+      "char_count": 46,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목, 나들이",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 93,
+      "author": "sss****",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "헠 너무 맛있어요\n크리스마스에 방문했는데 친절하시고 밤메뉴 맛있어요! 카페 앞 골목도 예뻐요☘️",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자, 혼자"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 95,
+      "author": "소영4921",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "붐비는 서울을 피해 내려온 공주인데 여행 목적에 맞게 아늑하구 좋은 공간을 찾았어요 ! 보늬밤이 들어간 메뉴들이 많구 특히 저 보늬밤 크림라떼•• 제가 아메리카노 외엔 진짜 안 먹는데 너무 맛있게 잘 먹었어요! 달기보다 고소하고 은은한 밤맛이 나는 게 바밤바 고급버전🩷🌰\n커피도, 티라미수도 다 맛있게 먹었습니다! 사장님 메리크리스마스입니다 즐거운 연말 보내세요☃️🎄",
+      "char_count": 157,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 96,
+      "author": "뭉치언니20",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "진짜 케이크 넘넘 맛있어요!!!!!\n밤 디저트 맛집이에요!!!!!",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 97,
+      "author": "강병준0",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "커피랑 티라미수 판나코타 맛있네요 다음에도 재방문할거같아요!",
+      "char_count": 28,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 98,
+      "author": "pia****",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "공간이 아늑하고 좋습니다 :)\n귀여운 치즈냥을 보며 맛있는 커피를 마실수 있어요-!",
+      "char_count": 36,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "뷰가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 99,
+      "author": "zzyyyyz",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "먹어본 밤티라미수 중에 젤 맛있었어요🥹🤍",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 100,
+      "author": "쿵푸후",
+      "date": "2024-12-24",
+      "date_raw": "2024년 12월 24일 화요일",
+      "content": "너무 예쁜 한옥카페인데 분위기도 좋고 밤을 이용한 음료, 디저트 모두 맛있었어요! 귀여운 고양이까지😻",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 101,
+      "author": "박수진1579",
+      "date": "2024-12-24",
+      "date_raw": "2024년 12월 24일 화요일",
+      "content": "사장님이 친절하시고 점심시간에 종종 들르는데\n리프레쉬돼서 넘 좋아요",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 102,
+      "author": "shootingstar94",
+      "date": "2024-12-24",
+      "date_raw": "2024년 12월 24일 화요일",
+      "content": "라떼와 샤베트 전부 너무 맛있었어요. 특히 보늬밤 크림라떼는 꼭 드셔보쇼요",
+      "char_count": 32,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 103,
+      "author": "묑구",
+      "date": "2024-12-23",
+      "date_raw": "2024년 12월 23일 월요일",
+      "content": "고양이가 너무 귀여워요ㅎㅎ 커피맛도 좋아요~~🫡",
+      "char_count": 22,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 104,
+      "author": "노란 단무지",
+      "date": "2024-12-23",
+      "date_raw": "2024년 12월 23일 월요일",
+      "content": "우연히 알게 된 공주 카페 소솜! 커피랑 디저트 모두 맛나네요. 맛이 간도 딱 알 맞고, 커피 디카페인 콜드브루까지 있어요. 콜드므루 답게 텁텁하지 않고, 깔끔합니다. 추천이요.",
+      "char_count": 75,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 105,
+      "author": "린린3382",
+      "date": "2024-12-22",
+      "date_raw": "2024년 12월 22일 일요일",
+      "content": "공주 오시면 여기와서 보니밤 크림라떼는 무조건 먹어야해요ㅜㅜ 진짜 인생 밤 라떼입니다 하루에 세잔씩 먹고싶은 맛이에요... 밤 좋아하시는 분들은 꼭 드셔보세요!!👍",
+      "char_count": 72,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 107,
+      "author": "mealllllong",
+      "date": "2024-12-22",
+      "date_raw": "2024년 12월 22일 일요일",
+      "content": "음료랑 티라미수가 진짜 맛있고 카페 분위기도 너무 예쁘고 좋아요👍👍",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 108,
+      "author": "Jjjen",
+      "date": "2024-12-21",
+      "date_raw": "2024년 12월 21일 토요일",
+      "content": "넘 맛있어용\n특히저 시그니처 밤라떼 꼭 드시길 바랍니당❤️\n다음에 남자친구랑 재방문 할거에요~~~",
+      "char_count": 43,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 109,
+      "author": "이진권39",
+      "date": "2024-12-21",
+      "date_raw": "2024년 12월 21일 토요일",
+      "content": "너무 예쁘고 맛도 좋아요~~!!!",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 110,
+      "author": "매운섀우",
+      "date": "2024-12-21",
+      "date_raw": "2024년 12월 21일 토요일",
+      "content": "네이버 검색해서 뜻하지 않게 온 곳인데 알밤치즈케이크 진짜 맛있어요..\n꼭 드세요 강추입니다ㅠㅠ",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 111,
+      "author": "ash****",
+      "date": "2024-12-21",
+      "date_raw": "2024년 12월 21일 토요일",
+      "content": "보늬밤 크림라떼 진짜 맛있어요!! 밖에 고양이들도 너무 귀여워요…♡ 눈이 많이 오는 날이었는데 사장님께서 눈 맞지 말라고 우산도 빌려주셨어요…🥹🥹 친절하신 사장님 덕분에 기분 좋은 하루였어요 꼭 재방문하고 싶은 카페입니다😽",
+      "char_count": 97,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행, 일상",
+        "혼자"
+      ],
+      "keywords": [
+        "뷰가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 112,
+      "author": "eun****",
+      "date": "2024-12-20",
+      "date_raw": "2024년 12월 20일 금요일",
+      "content": "분위기가 너무 좋고 추운 겨울에 따뜻하고 포근한 공간에서 밤 디저트를 즐길 수 있어서 좋았어요",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 113,
+      "author": "방울방울45",
+      "date": "2024-12-20",
+      "date_raw": "2024년 12월 20일 금요일",
+      "content": "편안한 장소에서 잘 쉬고 가요🤗💛 보늬밤 티라미수 넘 맛있어요!!",
+      "char_count": 28,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 116,
+      "author": "hdhsuwu8",
+      "date": "2024-12-14",
+      "date_raw": "2024년 12월 14일 토요일",
+      "content": "커피랑 티라미수 둘다 달달하니 넘 맛있어요☺️\n근처에서 점심먹고 디저트 먹으러 오기 딱인 것 같아요!\n노래 플리도 완전 취저곡만 나와서 친구랑 잘 즐기다 왔네용ㅎㅎ",
+      "char_count": 69,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 117,
+      "author": "JaneBirkin7",
+      "date": "2024-12-14",
+      "date_raw": "2024년 12월 14일 토요일",
+      "content": "티라미수는 처음 먹어보는데 새로우면서도 맛있어요!! 역시 카페소솜🫶🏻✨❣️💛🫶🏻",
+      "char_count": 38,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 118,
+      "author": "실화소니",
+      "date": "2024-12-14",
+      "date_raw": "2024년 12월 14일 토요일",
+      "content": "수제보늬밤크림라떼 주문했는데 달달고소하니 너무 맛있어요!\n문앞에 문지기도 너무 귀엽고 카페가 인테리어도 이쁘고 따듯히니 좋았습니다 :)",
+      "char_count": 61,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 119,
+      "author": "ske****",
+      "date": "2024-12-13",
+      "date_raw": "2024년 12월 13일 금요일",
+      "content": "사장님도 친절하고 밤 크림라떼가 특히 너무 달지 않고 맛있어여 밤치즈케이크도 맛있어요ㅎㅎ 공주 밤 최고에요 양산에서 온 보람이 있습니다^^",
+      "char_count": 60,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 120,
+      "author": "미야집사",
+      "date": "2024-12-02",
+      "date_raw": "2024년 12월 2일 월요일",
+      "content": "처음 방문했을때 밤티라미수를 너무너무너무 맛있게 먹었어서 가족들에게 영업하려고 또 왔어요🥹 아쉽게도 이 날은 티라미수를 먹진 못 했지만 초콜릿 케이크도 맛있었어요!! 찐 수제 느낌,,, 마치 누군가에게 선물받아서 먹는 것 같은 느낌이었어요🥰 런던포그라는 밀크티는 처음 마셔보는데 향긋하고 너무 달지 않아서 좋았어요! 가벼운 밀크티 느낌! 사장님께서 친절하셔서 사장님 뵈러 다시 가고싶기도 해요ㅋㅋㅋㅋ 꼭 더 많은 사람들에게 이 집의 티라미수를 성공적으로 영업하고 말겟습니다.....",
+      "char_count": 211,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "부모님, 친척・형제자매"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 121,
+      "author": "앵비",
+      "date": "2024-11-30",
+      "date_raw": "2024년 11월 30일 토요일",
+      "content": "커피 맛있고! 밤 바치케 크림에서도 밤맛나요!\n고영님 간식타임도 구경하고\n인테리어 이쁘고 조용해서 좋았어요!!",
+      "char_count": 49,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 122,
+      "author": "JaneBirkin7",
+      "date": "2024-11-24",
+      "date_raw": "2024년 11월 24일 일요일",
+      "content": "너무너무 좋아하는 카페에요!!! 오랜만에 와서 힐링하고 가요❤️✨💛",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 124,
+      "author": "jan****",
+      "date": "2024-11-17",
+      "date_raw": "2024년 11월 17일 일요일",
+      "content": "우연히 지나가다가 들리게 되었는데 카페 분위기 커피 맛 음료 맛 디저트까지 모두 맛있고 좋았습니다!\n밤도 짱 커요!!!",
+      "char_count": 50,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 125,
+      "author": "ber****",
+      "date": "2024-11-16",
+      "date_raw": "2024년 11월 16일 토요일",
+      "content": "주택가에 있어서 조용하고 좋아요.",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 126,
+      "author": "jeo****",
+      "date": "2024-11-15",
+      "date_raw": "2024년 11월 15일 금요일",
+      "content": "오랜만에 사대부고 들릴 겸 공주 놀러왔어요! 근처에 카페가 너무 많아서 고민하다가 왔는데 정말 잘 산택한거 같아요🍀 음료도 다 맛있고 단거 좋아하시면 판나코타도 강추입니다 ㅎㅎ 카페 내부 분위기도 잔잔하니 좋고 창가에 햇살이 너무 예쁘게 잘 들어와요! 공주 특유의 소소하고 따뜻한 감성이 잘 구현된 카페인 것 같아서 너무 만족합니다! 다음에는 다른 메뉴 먹으러 재방문하고싶어요🥰",
+      "char_count": 160,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 127,
+      "author": "수경528",
+      "date": "2024-11-15",
+      "date_raw": "2024년 11월 15일 금요일",
+      "content": "카페가 한옥스타일로 너무 예쁘게 생겼어요ㅎㅎㅎ\n커피도 참 맛있습니당\n창밖으로 보이는 뷰가 예뽀요💚",
+      "char_count": 43,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 128,
+      "author": "나초5",
+      "date": "2024-11-14",
+      "date_raw": "2024년 11월 14일 목요일",
+      "content": "너무 예쁘고 커피랑 음료도 맛있어요!\n특히 에이드 너무 예쁘고 상큼하고 최고 ,,!\n그리고 티라미수도 너무너무 맛있었어요 꼭 먹어야함!마당에 고양이들도 오고, 사장님도 친절하시고, 단골 될 것 같아요 💗",
+      "char_count": 87,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 129,
+      "author": "사코상",
+      "date": "2024-11-11",
+      "date_raw": "2024년 11월 11일 월요일",
+      "content": "너무 예쁘고 아늑한 한옥 카페에요, 매뉴도 너무 맛있어요 *^^* 🌰💛✨",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "혼자"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 130,
+      "author": "ZIDD97",
+      "date": "2024-11-11",
+      "date_raw": "2024년 11월 11일 월요일",
+      "content": "보늬밤 크림라떼 진짜 맛있어요ㅠㅠ 너무 안달고 깔끔해서 계속 마시게 되는 중독적인 맛이에요..! 내년 가을 공주 밤이 제철일때 또 방문할거에요😊😊 사장님도 너무 친절하고 가게도 넘 이뻐용",
+      "char_count": 80,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이, 여행",
+        "혼자"
+      ],
+      "keywords": [
+        "뷰가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 131,
+      "author": "nightofsun10",
+      "date": "2024-11-10",
+      "date_raw": "2024년 11월 10일 일요일",
+      "content": "뷰도 좋고 음료도 예쁘고 참 사랑스러운 곳이네요.",
+      "char_count": 21,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 133,
+      "author": "2432123",
+      "date": "2024-11-10",
+      "date_raw": "2024년 11월 10일 일요일",
+      "content": "커피 맛있어요 ㅎㅎㅎ매장도 대화하기 좋고 다시 올게요 ~",
+      "char_count": 24,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목, 나들이, 여행",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 134,
+      "author": "아리137",
+      "date": "2024-11-10",
+      "date_raw": "2024년 11월 10일 일요일",
+      "content": "여름부터 오고싶었던 공주 한옥카페\n가을되서야 왔는데 기대그이상으로\n인테리어도 편안하고\n4종류 다르게 시킨 음료 모두 다 맛있어요\n재방문의사 가득한 즐거운 카페에요~^^\n\n주변에 공영주차장들도 있어서 주차하기 편했어요",
+      "char_count": 95,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 135,
+      "author": "지이이도",
+      "date": "2024-11-10",
+      "date_raw": "2024년 11월 10일 일요일",
+      "content": "카페가 너무 예뻐서 앉아있기만해도 힐링됐어요! 음료도 맛있구 매장 안이 시끄럽지 않아서 너무 좋았어요",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "부모님"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 136,
+      "author": "SO람",
+      "date": "2024-11-09",
+      "date_raw": "2024년 11월 9일 토요일",
+      "content": "조용하고 한적한 비밀 카페를 찾은 기분이에요!\n볕도 좋고 조용하니 힐링하기 좋은 카페이고\n고양이가 친절해요😺",
+      "char_count": 47,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 137,
+      "author": "밀주",
+      "date": "2024-11-08",
+      "date_raw": "2024년 11월 8일 금요일",
+      "content": "분위기도 좋고 메뉴도 맛있어서 또 방문했어요! 밤 치즈케이크 너무너무 맛있어요! 치즈케이크가 입에서 살살 녹아요🤤🤤 음료도 모두 맛있습니다! 조용하고 분위기 좋은 카페 찾으면 완전 추천드려요!!",
+      "char_count": 85,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 138,
+      "author": "hometownflower",
+      "date": "2024-11-08",
+      "date_raw": "2024년 11월 8일 금요일",
+      "content": "밤 치즈케이크와 목련차가 한 테이블에 있으니 가을과 봄이 다 들어간 기분입니다. 한옥카페 특유의 분위기는 가을이랑 너무 잘 어울리고, 향긋한 차 그리고 달달한 케이크와 판나코타가 조화로워섰습니다. 여행와서 여유로운 시간 보내다가 갑니다:)",
+      "char_count": 104,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 139,
+      "author": "qot****",
+      "date": "2024-11-08",
+      "date_raw": "2024년 11월 8일 금요일",
+      "content": "지난번 방문하고 밤치즈케이크랑 음료맛을 잊을 수 없어서 재방문했어요ㅎㅎㅎ 꽃차도 향긋하고 여러가지 음료도 먹어보는것마다 다 맛있어요 최고👍🏻",
+      "char_count": 63,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 140,
+      "author": "nof****",
+      "date": "2024-11-08",
+      "date_raw": "2024년 11월 8일 금요일",
+      "content": "남편이 보늬밤라떼 너무 맛있데용!!\n뷰도 좋코 힐링 하기 딱입니당 ㅎㅎ\n넘 조아용",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 142,
+      "author": "JaneBirkin7",
+      "date": "2024-11-04",
+      "date_raw": "2024년 11월 4일 월요일",
+      "content": "너무 좋아하는 카페라 사촌까지 데리고 왔어요ㅎㅎㅎ 한적하니 좋아요 🎈💛",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 143,
+      "author": "전주희",
+      "date": "2024-11-02",
+      "date_raw": "2024년 11월 2일 토요일",
+      "content": "밤라떼 너무 고소하고 맛있네요. 아메리카노도 맛있네요. 카페도 너무 예뻐서 사진찍기도 좋은 곳 같아요.",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 144,
+      "author": "네모납작",
+      "date": "2024-11-02",
+      "date_raw": "2024년 11월 2일 토요일",
+      "content": "아담하고 이쁜 곳 ❤ ️\n나만 알고 싶은 곳 💛\n배달어플 소리 없고, 사장님도 좋은 🌼",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 145,
+      "author": "릴스",
+      "date": "2024-11-02",
+      "date_raw": "2024년 11월 2일 토요일",
+      "content": "새로 생겨서 지나는길에 왔는데 커피도 맛나고 디저트도 고급지네요 ~~",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 147,
+      "author": "JaneBirkin7",
+      "date": "2024-10-27",
+      "date_raw": "2024년 10월 27일 일요일",
+      "content": "진짜진짜 주1회 오는 애정하는 카페💛 세종에서 오기에도 가깝고 분위기도 좋고 디저트가 다 맛있는 곳이에요!!! 최고✨🎈",
+      "char_count": 52,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 148,
+      "author": "제갈석류",
+      "date": "2024-10-26",
+      "date_raw": "2024년 10월 26일 토요일",
+      "content": "사장님께서 정성껏 만드신 디저트도 맛있고 커피도 향긋하니 좋습니다..! 분위기가 포근하고 따뜻해요. 가을에 오기 정말 좋습니다 👍🏻👍🏻",
+      "char_count": 60,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 149,
+      "author": "ber****",
+      "date": "2024-10-22",
+      "date_raw": "2024년 10월 22일 화요일",
+      "content": "커피 맛있어요.\n공간이 아담합니다.",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 150,
+      "author": "tearoom",
+      "date": "2024-10-20",
+      "date_raw": "2024년 10월 20일 일요일",
+      "content": "날씨가 선선하고 햇살이 좋아서 마루(?)에 앉았네요.\n커피는 물론 디저트도 제 입에 너무 맞았어요. 고양이 집에서 쉬는 고양이 옆에 나란히 앉아 바라보는 뷰가 참 이뻐요. 상냥하신 사장님, 푸릇푸릇한 동네, 제주 돌담길의 어느 작은 카페같은 이곳에서 오늘도 잘 쉬고 갑니다.🌿☘️🌱",
+      "char_count": 120,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 151,
+      "author": "JaneBirkin7",
+      "date": "2024-10-19",
+      "date_raw": "2024년 10월 19일 토요일",
+      "content": "보니밤샷크림라떼, 딸기라떼 다 맛있어요!! 🤍\n주 1회 오는 애정하는 곳🫶🏻🫶🏻🫶🏻",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 152,
+      "author": "뼝허닝",
+      "date": "2024-10-13",
+      "date_raw": "2024년 10월 13일 일요일",
+      "content": "조용하고 분위기 좋았어요 ㅎㅎ\n음료랑 디저트도 맛있게 먹었습니다.\n밤으로 된 디저트 종류가 다양하니까 꼭 한번 드셔보세요!",
+      "char_count": 53,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 친목, 여행",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 154,
+      "author": "bda****",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "야외에서 먹을수도 있고 조용하게 커피먹기 좋아요~ 분위기 굿 데이트로 추천합니다",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 155,
+      "author": "꽃니",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "한옥거리. 예쁘고, 고즈넉하니 예쁘네요.\n공주가 밤이 유명해서 밤으로 만든 음료 마시고 싶어서 찾은 소솜카페. 커피도 맛집이네요.",
+      "char_count": 57,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 156,
+      "author": "쪼이8268",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "좁은 골목을 지나 찾아오기까지 살짝 헤맸지만 도착후 맞이한 아기자기한 공간이 맘에 쏙 들었습니다.\n작은 카페가 여럿 모여있는 골목에 카페투어하시는 분들도 계시는 듯 하네요.\n한옥 주택을 살린 작은 마당도 귀여웠고, 특히 인기있는 음료인 시나몬크림라떼의 시나몬 향이 입가에 맴도네요. 아이들 딸기라떼의 딸기도 실하네요🙂",
+      "char_count": 137,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이, 여행, 일상, 가족모임",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "사진이 잘 나와요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 157,
+      "author": "정주영31",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "한옥에서 햇살받으면서 맛있는 커피와 케익 먹으며 친구와 소소한 대화하기 딱 좋은 곳이네여^^\n사장님 너무 친절하세여! 다음에 또 놀러오겠습니다.",
+      "char_count": 63,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 158,
+      "author": "ehdfozsks",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "우연히 찾은 카페인데 커피도 맛있고 분위기도 넘 좋아요..♡",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 159,
+      "author": "qot****",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "우연히 인스타에서보고 세종에서 찾아왔어요. 공주밤 너무 좋아하는데 밤디저트, 밤음료, 커피까지 완벽해요! 제 최애카페 등극😍😍\n분위기도 차분하고 카페도 주변 골목이랑 잘어울려요. 다음에도 또 오려구요ㅎㅎㅎ",
+      "char_count": 92,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 나들이, 일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 160,
+      "author": "쩡뭉쩡",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "한옥 느낌 너무 예쁘구요 밤 메뉴들이 달달고소해용🌰🫶🏻",
+      "char_count": 24,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 162,
+      "author": "연주시차",
+      "date": "2024-10-11",
+      "date_raw": "2024년 10월 11일 금요일",
+      "content": "공주 신상카페라 다녀왔는데 작고 아담한 한옥카페에 작은 마당도 잘 가꿔져있어서 커피 마시는 내내 너무 기분좋았어요~! 시나몬크림라떼는 처음 마셔보는거였는데 시나몬의 맛이 크림이랑 너무 잘어울리더라구요~! 고즈넉히 쉬고싶은 날엔 종종 방문하려구요~!",
+      "char_count": 111,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 163,
+      "author": "유나5238",
+      "date": "2024-10-11",
+      "date_raw": "2024년 10월 11일 금요일",
+      "content": "지인 추천으로 방문해봤는데 분위기도 좋네요~",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 164,
+      "author": "tearoom",
+      "date": "2024-10-11",
+      "date_raw": "2024년 10월 11일 금요일",
+      "content": "아담하고 편안해서 가끔 혼자서도 옵니다. 여기만의 편안한 분위기와 상냥한 사장님 때문에 이제 단골이 되었네요.\n무료공영주차장도 많아서 편해요.",
+      "char_count": 63,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 165,
+      "author": "김수아44",
+      "date": "2024-10-11",
+      "date_raw": "2024년 10월 11일 금요일",
+      "content": "초가을 선선한 날씨에 한옥카페에서 딸기라떼와 푸른 주변 식물들로 아늑한 시간 보내다 갑니다 -\n\n무엇보다 사장님이 친절하셔서 좋아요!\n\n운이 좋다면 밥 먹으러 오는 당당한 고양이도 볼 수 있답니다 😺\n\n기분 좋은 공간입니다. 종종 놀러올게요 -",
+      "char_count": 100,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음료가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 166,
+      "author": "끼융00",
+      "date": "2024-10-10",
+      "date_raw": "2024년 10월 10일 목요일",
+      "content": "옆에 있는 ㅂㅁ에서 아이스크림 먹고 돌아가는 길에 우연히 발견한 카페에요. 한옥의 아늑한 느낌에 반해서 홀린 듯 들어왔어요. 마당 볼 수 있는 쇼파에 앉으니 편안한 마음이 들어서 녹는 느낌이네요. 따뜻한 목련차까지 마시니 힐링 제대로. 내일 또 방문 예정. 공주 와서 예쁜 카페들 열심히 가주고 있는데, 지금까지는 제 마음속 원탑이에요~!!!",
+      "char_count": 144,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 167,
+      "author": "꼼꼼냥33",
+      "date": "2024-10-10",
+      "date_raw": "2024년 10월 10일 목요일",
+      "content": "공주 여행하다 우연히 들렀는데 조용하고 분위기 좋은 카페였어요.\n바닐라 라떼도 맛있었어요~",
+      "char_count": 40,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 168,
+      "author": "도로시1105",
+      "date": "2024-10-10",
+      "date_raw": "2024년 10월 10일 목요일",
+      "content": "조용히 오후시간 보내고싶은 카베예요\n메뉴도 모도 맛있었어요!",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 169,
+      "author": "JaneBirkin7",
+      "date": "2024-10-09",
+      "date_raw": "2024년 10월 9일 수요일",
+      "content": "수제 초코케익 존맛탱이에요… 👍🏻 음료들도 맛있는데 여긴 디저트들이 최고인 집이에요!! 최고최고 🎈💛",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 172,
+      "author": "또봉하우스",
+      "date": "2024-10-09",
+      "date_raw": "2024년 10월 9일 수요일",
+      "content": "맛없는 메뉴가 없는 조용한 카페에요!\n밤라떼가 보통 바밤바 맛이 나고 느끼한데 여기는 그렇지 않아서 좋네요..은은해서 다 먹을 수 있어요ㅋㅋㅋㅋ\n다 수제라 더 맛있나봐요...👍💚\n\n공주 다른 유명한 카페보다 여기 방문 추천해요.",
+      "char_count": 97,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    }
+  ],
+  "excluded": [
+    {
+      "id": 18,
+      "author": "백수현1879",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목, 나들이, 여행",
+        "친구"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 23,
+      "author": "꿈아92",
+      "date": "2026-01-25",
+      "date_raw": "2026년 1월 25일 일요일",
+      "content": "두쫀쿠 포장 1인 1개",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 39,
+      "author": "쪼꼬빠나나킥",
+      "date": "2025-08-14",
+      "date_raw": "2025년 8월 14일 목요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 41,
+      "author": "ki63",
+      "date": "2025-06-07",
+      "date_raw": "2025년 6월 7일 토요일",
+      "content": ".",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 42,
+      "author": "ber****",
+      "date": "2025-06-07",
+      "date_raw": "2025년 6월 7일 토요일",
+      "content": "좋은 카페 소솜♡",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 44,
+      "author": "gysldyd",
+      "date": "2025-05-31",
+      "date_raw": "2025년 5월 31일 토요일",
+      "content": "맛있어요! 좋아요",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 55,
+      "author": "gysldyd",
+      "date": "2025-04-07",
+      "date_raw": "2025년 4월 7일 월요일",
+      "content": "좋아요!",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 74,
+      "author": "abbccc",
+      "date": "2025-02-16",
+      "date_raw": "2025년 2월 16일 일요일",
+      "content": "고양이뷰맛집입니다",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 80,
+      "author": "gun****",
+      "date": "2025-01-04",
+      "date_raw": "2025년 1월 4일 토요일",
+      "content": "맛도 분위기도 너무 좋네요~",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 92,
+      "author": "유윤123",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 94,
+      "author": "홍홍746",
+      "date": "2024-12-25",
+      "date_raw": "2024년 12월 25일 수요일",
+      "content": "사장님이 엄청 친절하세요!",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "연인・배우자, 친구"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 106,
+      "author": "qwertyuidjeb",
+      "date": "2024-12-22",
+      "date_raw": "2024년 12월 22일 일요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 114,
+      "author": "예림564",
+      "date": "2024-12-19",
+      "date_raw": "2024년 12월 19일 목요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "사진이 잘 나와요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 115,
+      "author": "retty1013",
+      "date": "2024-12-17",
+      "date_raw": "2024년 12월 17일 화요일",
+      "content": "맛있고 대화하기 좋아요",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이, 여행",
+        "지인・동료"
+      ],
+      "keywords": [
+        "디저트가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 123,
+      "author": "ber****",
+      "date": "2024-11-24",
+      "date_raw": "2024년 11월 24일 일요일",
+      "content": "커피도 맛있고 조용해서 좋아요.",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 132,
+      "author": "남양먹쨩",
+      "date": "2024-11-10",
+      "date_raw": "2024년 11월 10일 일요일",
+      "content": "분위기 좋고 맛있어용",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목, 나들이, 여행",
+        "친구"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 141,
+      "author": "dlt****",
+      "date": "2024-11-08",
+      "date_raw": "2024년 11월 8일 금요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "지인・동료"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 146,
+      "author": "맛있는거뇸뇸",
+      "date": "2024-11-02",
+      "date_raw": "2024년 11월 2일 토요일",
+      "content": "커피가 맛있어요!",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 153,
+      "author": "houes728",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "너무 아늑하니 좋아요🩷",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "뷰가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 161,
+      "author": "dig****",
+      "date": "2024-10-12",
+      "date_raw": "2024년 10월 12일 토요일",
+      "content": "제민천 분좋카☕️🌰🍀",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 170,
+      "author": "땅콩2442",
+      "date": "2024-10-09",
+      "date_raw": "2024년 10월 9일 수요일",
+      "content": "커피 맛집입니당!",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 171,
+      "author": "ro****",
+      "date": "2024-10-09",
+      "date_raw": "2024년 10월 9일 수요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 177,
+      "author": "팝콘콜팝",
+      "date": "2024-10-06",
+      "date_raw": "2024년 10월 6일 일요일",
+      "content": "무난하게 들리기 좋았어요",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "대화하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 180,
+      "author": "ㅇㅅㅇㅇㅂㅇ",
+      "date": "2024-10-05",
+      "date_raw": "2024년 10월 5일 토요일",
+      "content": "맛있어요~~",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "커피가 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_naver_count": 228,
+    "total_loaded": 180,
+    "total_collected": 150,
+    "count_within_3m": 19,
+    "count_3m_to_12m": 18,
+    "count_12m_to_24m": 113,
+    "recency_bonus_count": 19,
+    "recency_penalty_count": 113,
+    "total_excluded": 24,
+    "excluded_paid": 0,
+    "excluded_insincere": 24,
+    "excluded_too_old": 0,
+    "quality_bonus_count": 92,
+    "date_oldest": "2024-10-09",
+    "date_newest": "2026-06-08",
+    "target_met": true
+  }
+}

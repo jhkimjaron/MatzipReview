@@ -1,0 +1,1059 @@
+{
+  "restaurant": "북경탕수육",
+  "place_id": "20296394",
+  "confirm_id": "20296394",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "20296394",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "북경탕수육",
+    "category": "음식점 > 중식 > 중국요리",
+    "address": "충남 공주시 중동1길 5-18 1층",
+    "phone": "041-857-9991",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": "인근 중동 공영주차타워 이용 권장, 주말 및 공휴일 무료 개방",
+    "facilities": [
+      "주차",
+      "포장가능",
+      "배달가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.1,
+    "total_kakao_reviews": 112,
+    "total_blog_reviews": 205,
+    "menus": [
+      {
+        "name": "고구마김치치즈탕수육 (대)",
+        "price": "29,000원",
+        "description": null
+      },
+      {
+        "name": "김치치즈탕수육 (대)",
+        "price": "28,000원",
+        "description": null
+      },
+      {
+        "name": "고구마김치치즈탕수육 (미니)",
+        "price": "19,000원",
+        "description": null
+      },
+      {
+        "name": "고구마김치치즈탕수육 (소)",
+        "price": "22,000원",
+        "description": null
+      },
+      {
+        "name": "고구마김치치즈탕수육 (중)",
+        "price": "25,000원",
+        "description": null
+      },
+      {
+        "name": "고구마김치치즈탕수육 (특대)",
+        "price": "32,000원",
+        "description": null
+      },
+      {
+        "name": "고구마치즈탕수육 (대)",
+        "price": "28,000원",
+        "description": null
+      },
+      {
+        "name": "고구마치즈탕수육 (미니)",
+        "price": "18,000원",
+        "description": null
+      },
+      {
+        "name": "고구마치즈탕수육 (소)",
+        "price": "21,000원",
+        "description": null
+      },
+      {
+        "name": "고구마치즈탕수육 (중)",
+        "price": "24,000원",
+        "description": null
+      },
+      {
+        "name": "고구마치즈탕수육 (특대)",
+        "price": "31,000원",
+        "description": null
+      },
+      {
+        "name": "김치치즈탕수육 (미니)",
+        "price": "18,000원",
+        "description": null
+      },
+      {
+        "name": "김치치즈탕수육 (소)",
+        "price": "21,000원",
+        "description": null
+      },
+      {
+        "name": "김치치즈탕수육 (중)",
+        "price": "24,000원",
+        "description": null
+      },
+      {
+        "name": "김치치즈탕수육 (특대)",
+        "price": "31,000원",
+        "description": null
+      },
+      {
+        "name": "치즈탕수육 (대)",
+        "price": "27,000원",
+        "description": null
+      },
+      {
+        "name": "치즈탕수육 (미니)",
+        "price": "17,000원",
+        "description": null
+      },
+      {
+        "name": "치즈탕수육 (소)",
+        "price": "20,000원",
+        "description": null
+      },
+      {
+        "name": "치즈탕수육 (중)",
+        "price": "23,000원",
+        "description": null
+      },
+      {
+        "name": "치즈탕수육 (특대)",
+        "price": "30,000원",
+        "description": null
+      },
+      {
+        "name": "치즈탕수육 (싱글)",
+        "price": "14,000원",
+        "description": null
+      },
+      {
+        "name": "김치치즈탕수육 (싱글)",
+        "price": "15,000원",
+        "description": null
+      },
+      {
+        "name": "고구마치즈탕수육 (싱글)",
+        "price": "15,000원",
+        "description": null
+      },
+      {
+        "name": "고구마김치치즈탕수육 (싱글)",
+        "price": "16,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15757919,
+      "author": "아기백로..총총",
+      "date": "2026-06-16",
+      "date_raw": "2026-06-16 06:17:41",
+      "content": "이거 먹으러 공주 감 그리고 포장해옴ㅎㅎ토욜 기준 오픈런기준 10시 딱 도착시 웨이팅50팀 존재했습니다. 사전정보로 포장시 웨이팅 줄어듦을 공부해왔기에 바로 포장(웨이팅 대기명단 적지말고 바로 문 열고 당당히 포장주문이요~ 하세요)1인 기준 싱글 시켜도 양이 엄청 많습니다. 참고하시구여~ 주차는 공휴일 무료주차가능한 중동공영주차타워에 하심됨. 김치?? 탕슉? 김치?? 이런 느낌이나  두번 먹으니 이거 먹으러 공주간단 말이 이해됩니다ㅎㅎ잘 섞으세요~고구마는 맛탕인듯",
+      "char_count": 207,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 4,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 2,
+      "review_id": 15743470,
+      "author": "ㅎㅇㅎㅇ",
+      "date": "2026-06-14",
+      "date_raw": "2026-06-14 12:00:11",
+      "content": "맛은있습니다 지금까지 먹은 김피탕은 진짜 쓰레기였어요 ㅠ\n다만 주방에서 아드님이 뭔가 ㅆ욕하시고 화가 많으세요 ㅠㅠ",
+      "char_count": 50,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 3,
+      "review_id": 15742869,
+      "author": "🐢안🐢경🐢준🐢",
+      "date": "2026-06-14",
+      "date_raw": "2026-06-14 10:45:45",
+      "content": "맛있다 특이 아이가 너무 좋아한다 나도 맛있게 먹었으나 자주먹을건 아니다",
+      "char_count": 31,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 4,
+      "review_id": 15734506,
+      "author": "loveable",
+      "date": "2026-06-13",
+      "date_raw": "2026-06-13 11:45:28",
+      "content": "토요일 11시반에 왓는데 재료소진 마감 ㅜㅜ",
+      "char_count": 19,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 5,
+      "review_id": 15720113,
+      "author": "qwert",
+      "date": "2026-06-11",
+      "date_raw": "2026-06-11 13:46:34",
+      "content": "초딩입맛 음식…니맛내맛도 아닌 ㅠㅠ",
+      "char_count": 16,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 7,
+      "review_id": 15684232,
+      "author": "초코송이",
+      "date": "2026-06-06",
+      "date_raw": "2026-06-06 17:54:57",
+      "content": "앞 손님 나가고 테이블 치울때 물티슈로 슥슥 하심..\n김피탕 맛은 있음..",
+      "char_count": 31,
+      "rating": 2,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 8,
+      "review_id": 15683522,
+      "author": "서당개",
+      "date": "2026-06-06",
+      "date_raw": "2026-06-06 16:46:45",
+      "content": "대단한 맛은 아니고 고기아니고 닭입니다.\n주방장분의 욕설이 인상깊은 곳입니다.",
+      "char_count": 35,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 2,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 9,
+      "review_id": 15682380,
+      "author": "맛있으면 구르는 감자",
+      "date": "2026-06-06",
+      "date_raw": "2026-06-06 14:43:58",
+      "content": "데구르르르르르를데굴데구르를르르데굴루루를",
+      "char_count": 21,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 2,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 10,
+      "review_id": 15681425,
+      "author": "아임헤이터",
+      "date": "2026-06-06",
+      "date_raw": "2026-06-06 13:18:38",
+      "content": "원래는 공주 김피탕은 알고 있었는데 풍자 또간집 나와서 호다닥 방문해 봄\n\n여자, 남자 사장님 모두 친절\n맛도 양도 가성비 최고 김피탕 안접해봤냐면서 스몰톡도 하고 좋았어요 근데 개 큰 유일한 단점이 있음\n\n주방장님? 아드님 같으신데 홀에 안들릴거라 생각하셨나 엄청 크게 욕을 하세요 아씨 이런게 아니고 뭔*끼 어쩌고 등등 정말 얼탱이 없는건 그 대상자가 부모님 ㅋㅋㅋ 내 귀가 잘못된거겠지 수십번 생각함 ㅠ \n제발 부모님이 아니시기를 차라리 바람.. \n\n두분도 자주 있는 일이라는 듯 그냥 넘기시는데 저*끼 어쩌고 듣자마자 마음이 핵 불편해짐.. 같이 들은 옆 테이블 손님이랑도 서로 눈치봄.. ㅈㅂ 멈춰...",
+      "char_count": 251,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 1,
+      "like_count": 10,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 11,
+      "review_id": 15658095,
+      "author": "빵순이",
+      "date": "2026-06-03",
+      "date_raw": "2026-06-03 13:10:08",
+      "content": "탕수육이 닭고기라 좋았고 고구마맛탕도 맛있었는데\n김치가 중국산인 게 좀 그랬어요 \n여자 둘이선 싱글로도 충분해요",
+      "char_count": 48,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 3,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 13,
+      "review_id": 15588908,
+      "author": "와우",
+      "date": "2026-05-25",
+      "date_raw": "2026-05-25 13:00:18",
+      "content": "맛이 너무 좋고 사장님이 친절 하셨어요.",
+      "char_count": 17,
+      "rating": 5,
+      "strength_ids": [
+        2
+      ],
+      "keywords": [
+        "친절"
+      ],
+      "tags": [
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 14,
+      "review_id": 15525056,
+      "author": "정정",
+      "date": "2026-05-17",
+      "date_raw": "2026-05-17 13:38:43",
+      "content": "친절하시고 남은 음식 포장도 되니 너무 좋아요!\n맛도 있어요",
+      "char_count": 25,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 15,
+      "review_id": 15482691,
+      "author": "덴",
+      "date": "2026-05-11",
+      "date_raw": "2026-05-11 20:55:09",
+      "content": "가성비, 맛은 있는데 주방 젊은 분? 아드님? 이 계속 할머니,할아버지 직원분께 소리지르시고 화내셔서 식사시간이 불편했습니다ㅠㅠ",
+      "char_count": 57,
+      "rating": 2,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 7,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 16,
+      "review_id": 15435678,
+      "author": "콩",
+      "date": "2026-05-05",
+      "date_raw": "2026-05-05 21:39:27",
+      "content": "고구마김치치즈 주문\n공휴일 10시 50분 도착, 20분 대기\n직관적으로 맛있는 맛! 치즈 양 많고 고구마가 정말 맛있다 떡은 살짝 아쉬움\n밥도 없이 맨입에 김피탕을 먹나? 싶었지만 괜찮았음\n콜라, 피클 기본제공이라 가격도 괜찮다 느껴진다",
+      "char_count": 100,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 19,
+      "review_id": 15218213,
+      "author": "김밥",
+      "date": "2026-04-08",
+      "date_raw": "2026-04-08 20:03:21",
+      "content": "주말에 방문해서 번호표받고 기다려서 먹었습니다 양 많고 여기서만 먹는 맛이라 갠춘했는데 그 다른 후기에서처럼 사람이 많아 주문이 잘못들어갔는데 주방에 젊은 남자직원이 쌍욕을 하면서 불평을 늘어놓더라고요, 놀라서 쳐다보고 옆에 있는 테이블도 쳐다보고 주방괴 가까워서 다 들려서 빠르게 먹고 나왔습니다. 다른분들도 참고하시길 바라는 마음으로 적어요",
+      "char_count": 150,
+      "rating": 1,
+      "strength_ids": [
+        1
+      ],
+      "keywords": [
+        "가성비"
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "photo_count": 1,
+      "like_count": 11,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 20,
+      "review_id": 15093765,
+      "author": "허참나",
+      "date": "2026-03-22",
+      "date_raw": "2026-03-22 21:55:45",
+      "content": "맛은 여기가 찐임. 여기만 다니다가 유명한곳 있다길래\n갔었는데 별로였음 .",
+      "char_count": 32,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 21,
+      "review_id": 14903565,
+      "author": "ffoodyy",
+      "date": "2026-02-24",
+      "date_raw": "2026-02-24 19:29:43",
+      "content": "약간은 불량식품같기도한 메뉴라 이걸 맛있다라고 평가하기가 개인적으론 조금 애매하긴합니다.\n그래도 양 많고 색다른 맛에다가 사장님도 친절하신편이라 한번쯤 먹어보는 것도 괜찮긴 할거 같아요.",
+      "char_count": 83,
+      "rating": 4,
+      "strength_ids": [
+        1,
+        2
+      ],
+      "keywords": [
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 22,
+      "review_id": 14858246,
+      "author": "김성혜",
+      "date": "2026-02-19",
+      "date_raw": "2026-02-19 00:51:03",
+      "content": "맛있음 묘하게중독적 양많음 혈당스파이크 바로옴 ㅋㅋㅋ",
+      "char_count": 24,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 25,
+      "review_id": 13928608,
+      "author": "0",
+      "date": "2025-10-12",
+      "date_raw": "2025-10-12 15:36:14",
+      "content": "첫째아드님같은데 아버님이주문잘못받아서 3천원손해봤다고 시옷리을 기부하냐 등등계속욕짓거리에 먹는대 체하는줄알았어요... 주방근처는앉지마세요",
+      "char_count": 68,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 6,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 28,
+      "review_id": 13355813,
+      "author": "냠냠냠",
+      "date": "2025-08-01",
+      "date_raw": "2025-08-01 13:17:51",
+      "content": "가족끼리 운영하는것 같은데\n요리하시는 분이 부모님께 욕설+소리지르기...\n방문할 때 마다 그런 거 보니 평소에도 그러는듯\n\n맛은 있지만 주방 분위기 눈치보여서 빨리 먹고 나오게 돼요...ㅋㅋ\n\n근데 그사람빼곤 다 친절함~",
+      "char_count": 94,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 12,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 29,
+      "review_id": 13336886,
+      "author": "kc",
+      "date": "2025-07-30",
+      "date_raw": "2025-07-30 05:47:00",
+      "content": "재밌네 요기!?\n재방문의사, 추천할의사 있음!\n양은 정말 많음\n두명이면 제일 작은거 시켜도됨",
+      "char_count": 40,
+      "rating": 4,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 31,
+      "review_id": 13208970,
+      "author": "먹도령",
+      "date": "2025-07-13",
+      "date_raw": "2025-07-13 17:44:40",
+      "content": "김피탕을 매장에서 먹은건 처음인데 자극적이니 맛있었어요. 치즈도 밑에 많이 들어있고 새콤하니 좋았네요. \n고기는 닭고기고 콜라 500ml, 피클은 1개 기본 제공 됩니다.",
+      "char_count": 74,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 2,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 32,
+      "review_id": 13208006,
+      "author": "ej",
+      "date": "2025-07-13",
+      "date_raw": "2025-07-13 15:47:36",
+      "content": "ㅋㅋㅋㅋ웃긴데 맛있긴함\n둘이서 싱글먹었는데 딱 맞음\n근처가면 또 올거같음",
+      "char_count": 32,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 33,
+      "review_id": 12895156,
+      "author": "코코사랑❤️",
+      "date": "2025-06-01",
+      "date_raw": "2025-06-01 14:38:24",
+      "content": "어? 이거 아는맛인데...!\n뒤돌면 계속 생각나는 맛..!\n맛있어요 ㅎㅎ",
+      "char_count": 32,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 35,
+      "review_id": 12701044,
+      "author": "돈까스경찰관",
+      "date": "2025-05-05",
+      "date_raw": "2025-05-05 14:35:27",
+      "content": "(1) 공휴일 12시40분에 재료 모두 소진으로\n웨이팅 마감\n(2) 안에 조리하는 아저씨들 한테서\n땀 & 음식 쩔은 꼬린내가 진동\n(3) 주방에서 요리하면서 욕설이 난무\n(4) 음식은 굉장히 대충하는것 같으나 의외로\n맛은 있긴 한데 굳이…",
+      "char_count": 100,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 36,
+      "review_id": 12694239,
+      "author": "맛🏠만 리뷰한다",
+      "date": "2025-05-04",
+      "date_raw": "2025-05-04 19:16:13",
+      "content": "김피탕 너무 맛있게 잘먹었습니다. 가격도 저렴하고 양 너무 많고 다음에 재방문하겠습니다",
+      "char_count": 38,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    }
+  ],
+  "excluded": [
+    {
+      "id": 6,
+      "review_id": 15685891,
+      "author": "즐겨랑",
+      "date": "2026-06-06",
+      "date_raw": "2026-06-06 20:05:08",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 12,
+      "review_id": 15650528,
+      "author": "댓알바1점재방문맛집5점",
+      "date": "2026-06-02",
+      "date_raw": "2026-06-02 12:32:58",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 17,
+      "review_id": 15330646,
+      "author": "김용현",
+      "date": "2026-04-23",
+      "date_raw": "2026-04-23 20:59:41",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 18,
+      "review_id": 15249035,
+      "author": "이용주",
+      "date": "2026-04-12",
+      "date_raw": "2026-04-12 19:54:26",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 23,
+      "review_id": 14511662,
+      "author": "n",
+      "date": "2026-01-02",
+      "date_raw": "2026-01-02 01:00:54",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 24,
+      "review_id": 14346937,
+      "author": "가스펠",
+      "date": "2025-12-10",
+      "date_raw": "2025-12-10 12:35:17",
+      "content": "아~~ 또 먹고 싶은 맛♡",
+      "char_count": 10,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 26,
+      "review_id": 13676375,
+      "author": "냠",
+      "date": "2025-09-09",
+      "date_raw": "2025-09-09 19:46:23",
+      "content": "고구마피탕 최고\n양도 진짜 푸짐함",
+      "char_count": 14,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 27,
+      "review_id": 13484519,
+      "author": "콕",
+      "date": "2025-08-16",
+      "date_raw": "2025-08-16 14:20:59",
+      "content": "꼭 다시 가서 먹어야지✨",
+      "char_count": 10,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 30,
+      "review_id": 13209390,
+      "author": "상현",
+      "date": "2025-07-13",
+      "date_raw": "2025-07-13 18:36:01",
+      "content": "김피탕에 소스분리하면 존맛",
+      "char_count": 12,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 34,
+      "review_id": 12761270,
+      "author": "상추",
+      "date": "2025-05-13",
+      "date_raw": "2025-05-13 10:13:06",
+      "content": "영업한다해서 갔는데 문 닫았어요",
+      "char_count": 14,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 112,
+    "average_score_overall": 4.1,
+    "total_collected": 26,
+    "total_loaded": 36,
+    "count_within_3m": 16,
+    "count_3m_to_12m": 7,
+    "count_12m_to_24m": 3,
+    "recency_bonus_count": 16,
+    "recency_penalty_count": 3,
+    "quality_bonus_count": 13,
+    "rating_distribution": {
+      "1": 2,
+      "2": 2,
+      "3": 4,
+      "4": 6,
+      "5": 12
+    },
+    "avg_rating_collected": 3.92,
+    "total_excluded": 10,
+    "excluded_paid": 0,
+    "excluded_insincere": 10,
+    "excluded_too_old": 0,
+    "date_oldest": "2025-05-04",
+    "date_newest": "2026-06-16",
+    "target_met": false
+  }
+}

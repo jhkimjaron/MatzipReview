@@ -1,0 +1,5368 @@
+{
+  "restaurant": "우시장국밥",
+  "place_id": "31061873",
+  "collected_at": "2026-06-18T15:34:27+09:00",
+  "review_type": "visitor",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "place_info": {
+    "place_id": "31061873",
+    "collected_at": "2026-06-18T15:34:27+09:00",
+    "name": "우시장국밥",
+    "category": null,
+    "address": "충남 공주시 번영3로 25",
+    "phone": "0507-1406-1321",
+    "homepage": "https://www.instagram.com/woosizang/",
+    "hours": [
+      {
+        "day": "목",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "금",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "토",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "일",
+        "open": "06:00",
+        "close": "21:00"
+      },
+      {
+        "day": "월",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "화",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "수",
+        "open": "06:00",
+        "close": "23:00"
+      }
+    ],
+    "break_time": null,
+    "last_order": "22:30",
+    "regular_holiday": null,
+    "parking": "주차",
+    "facilities": [
+      "주차",
+      "배달",
+      "예약",
+      "무선 인터넷",
+      "포장",
+      "단체 이용 가능"
+    ],
+    "naver_booking": false,
+    "total_visitor_reviews": null,
+    "total_blog_reviews": null,
+    "menus": [
+      {
+        "name": "우시장국밥",
+        "price": "10,000원",
+        "description": "우시장국밥의 시그니처 메뉴, 담백한 소머리와 고소한 소내장,부드러운 선지의 콜라보"
+      },
+      {
+        "name": "소머리국밥",
+        "price": "10,000원",
+        "description": "가마솥에서 직접 삷은 한우소머리국밥"
+      },
+      {
+        "name": "육사시미",
+        "price": "10,000원",
+        "description": "한우 1++ 우둔살"
+      },
+      {
+        "name": "소내장탕",
+        "price": "11,000원",
+        "description": "곱창과 깐양 그리고 막내장 등 다양한 소내장이 들어간 고소한 내장탕"
+      },
+      {
+        "name": "시래기국밥",
+        "price": "10,000원",
+        "description": "한우소머리와 시래기의 콜라보 국밥, 고기보다 시래기가 많이 들어있어요"
+      },
+      {
+        "name": "순대국밥",
+        "price": "9,000원",
+        "description": "구수한 순대국밥"
+      },
+      {
+        "name": "소곰탕",
+        "price": "11,000원",
+        "description": "흰 육수의 담백한 한우소머리 곰탕"
+      },
+      {
+        "name": "선지해장국",
+        "price": "8,000원",
+        "description": "신선한 선지 국밥"
+      },
+      {
+        "name": "소머리수육 미니",
+        "price": "9,000원",
+        "description": "한우소머리 수육"
+      },
+      {
+        "name": "소머리수육 소",
+        "price": "18,000원",
+        "description": null
+      },
+      {
+        "name": "소머리수육 대",
+        "price": "33,000원",
+        "description": null
+      },
+      {
+        "name": "미니족발 소",
+        "price": "12,000원",
+        "description": null
+      },
+      {
+        "name": "미니족발 중",
+        "price": "23,000원",
+        "description": null
+      },
+      {
+        "name": "소곱창전골 소(2-3인)",
+        "price": "35,000원",
+        "description": null
+      },
+      {
+        "name": "소곱창전골 대(3-4인)",
+        "price": "45,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": "목 06:00 - 23:00\n22:30 라스트오더\n금 06:00 - 23:00\n22:30 라스트오더\n토 06:00 - 23:00\n22:30 라스트오더\n일 06:00 - 21:00\n20:30 라스트오더\n월 06:00 - 23:00\n22:30 라스트오더\n화 06:00 - 23:00\n22:30 라스트오더\n수 06:00 - 23:00\n22:30 라스트오더",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "author": "aki****",
+      "date": "2026-06-14",
+      "date_raw": "2026년 6월 14일 일요일",
+      "content": "일단 정말 맛있습니다 김치와 깍두기도 너무 맛있습니다~블로그보고 간건데 찐 맛집이에요ㅎ ㅎㅎ",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 2,
+      "author": "Veritas Guide",
+      "date": "2026-06-11",
+      "date_raw": "2026년 6월 11일 목요일",
+      "content": "우시장국밥이 생각나 다시 찾게 되었다. 처음 먹었을 때도 인상이 깊었지만, 이 근처를 오면 가장 먼저 떠오르는 집 중 하나가 되었다. 무엇보다 국물 맛이 정말 좋다. 진하면서도 깔끔한 감칠맛이 살아 있어 원래는 염분 섭취를 줄이려고 국물을 남기는 편인데, 여기서는 어느새 바닥까지 비우고 있는 경우가 많다. 그만큼 중독성이 있다. 오늘은 선지가 지난번보다 조금 단단하게 느껴졌다. 개인적으로는 좀 더 부드러운 식감을 선호하지만 먹기에 불편한 정도는 아니었다. 내장도 넉넉하게 들어 있어 건더기를 건져 먹는 재미가 있고, 양도 상당히 푸짐하다. 국밥 한 그릇만으로도 충분히 배가 차서 사이드 메뉴를 따로 주문할 생각이 들지 않았다. 든든하게 한 끼 해결하고 싶을 때 자연스럽게 찾게 되는 곳이다.",
+      "char_count": 291,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상, 여행",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 3,
+      "author": "gol****",
+      "date": "2026-06-03",
+      "date_raw": "2026년 6월 3일 수요일",
+      "content": "오래된 식당 이라고해서 들렸는데 해장국이 내용물도 맛있고\n좋았습니다\n조금 아쉬운 부분은 육사시미를\n시켰는데 없다고 하네요\n그날그날 상황에 따라서 다른다고 하네요\n조금 아쉬었지만\n잘먹고왔어요 ^^",
+      "char_count": 85,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 4,
+      "author": "hach****",
+      "date": "2026-04-30",
+      "date_raw": "2026년 4월 30일 목요일",
+      "content": "가격도 저렴하고 국밥 내용물도 알차고 맛있어요\n친구와 방문해서 맛있게 먹었답니다",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 5,
+      "author": "Veritas Guide",
+      "date": "2026-04-21",
+      "date_raw": "2026년 4월 21일 화요일",
+      "content": "오일장이 서는 풍경과 맞물려 어린 시절 아버지와 마주했던 국밥의 기억을 자연스럽게 환기시키는 곳이다. 국물은 불필요한 탁함 없이 맑고 정제된 맛을 유지하며, 첫맛은 담백하게 열리고 이후 시원한 감칠맛이 길게 이어진다. 지방의 무거움이나 잡미가 과도하게 남지 않아 전반적인 균형이 안정적이다. 곁들인 사시미는 숙성 상태가 적절해 결이 단단하고 점성이 살아 있으며, 씹을수록 은은한 단맛이 배어난다. 전체적으로 과장 없이 기본에 충실한 완성도를 보여준다.",
+      "char_count": 194,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "비즈니스",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 6,
+      "author": "Iam 너의별",
+      "date": "2026-04-06",
+      "date_raw": "2026년 4월 6일 월요일",
+      "content": "주문한 내역은 소머리국밥, 내장탕, 육사시미\n우시장국밥 공주에 출장 내려와 첫끼를 먹었습니다!\n\n와 맛있어요 👍\n소머리국밥은 내용물이 많이들은건 아니지만 단백한국물과 쫄깃한고기가 청량고추를 넣어 밥을 말아 먹으니 최고네요!\n\n육사시미는 한우 2+ 졸깃함과 동시에 입에서 사르르 녹네요! 맛있어요~\n잘먹었습니다 ~\n내일 또 가려구요^^",
+      "char_count": 145,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "비즈니스",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 7,
+      "author": "푸르매B612",
+      "date": "2026-03-29",
+      "date_raw": "2026년 3월 29일 일요일",
+      "content": "우시장+소머리 국밥 맛있게 잘 먹었습니다.\n혀에 효도하고 갑니다.",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 9,
+      "author": "서피그와헬짱덕",
+      "date": "2026-03-13",
+      "date_raw": "2026년 3월 13일 금요일",
+      "content": "깔끔하고 시원한 국밥입니다\n해장으로 너무 좋구요\n냄새도 안나서 맛있게 먹었습니다\n\n직원분과 사장님도 친절하세요",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 10,
+      "author": "SI33",
+      "date": "2026-03-12",
+      "date_raw": "2026년 3월 12일 목요일",
+      "content": "맛있습니다.!! 일하시는 분도 친절하시고요.",
+      "char_count": 21,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 13,
+      "author": "맛잘알대학교박사",
+      "date": "2026-03-06",
+      "date_raw": "2026년 3월 6일 금요일",
+      "content": "처음 가는 사람은 소머리나우 시장국밥 먹으면 되고 나는 느끼한 거 저녁에 소화 안 될 거 같아서 그냥 선지 먹었음.. 가게 문부터 맛집 이라고 써져 있고 완전 노포 시장 오래된 맛집 느낌이고 사장님 직원 분들 친절하시고 음식 훌륭 했고 공주시가 인정한 맛집 이라는 명패 걸려 있음. 이제 “공주”가👑 인정한 맛집타이틀까지얻음.. 갈 때마다 선지국밥 시켜 먹을거에요💜 늦게까지 여는 식당이어서 좋고\n아침 일찍 여는 식당이이어서 좋고 깔끔하게 잘 되어 있고 공주가 작은데 그중에서도 한 식으로는 탑! 조금 양해 해 주셔야 되는 요청을 드렸는데도 흔쾌히 해 주셔서 감사 마음으로 밥 먹고 나왔어요 . 앞으로도 자주 갈 예정입니다.",
+      "char_count": 257,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 14,
+      "author": "at mumu",
+      "date": "2026-03-01",
+      "date_raw": "2026년 3월 1일 일요일",
+      "content": "공주 여행 가서 먹었습니다. 메뉴에서 육사시미도 있어서 이 집을 갔었는데 저녁 6시에 솔드아웃이라서 밥만 먹었고 메인 메뉴 우시장국밥 맛있었어요",
+      "char_count": 62,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 15,
+      "author": "123****",
+      "date": "2026-02-16",
+      "date_raw": "2026년 2월 16일 월요일",
+      "content": "외국인 언니가 낋여주는 국밥 한사발\n들어간 내용물들이 거를 타선 하나 없이 모두 맜있고\n태평소국밥 뺨치는 갓성비 육사시미 꼭 함께 주문하세요",
+      "char_count": 59,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 16,
+      "author": "kvj****",
+      "date": "2026-02-15",
+      "date_raw": "2026년 2월 15일 일요일",
+      "content": "국밥에서 벌레나와서 대충 건져서 밥먹었는데요\n계산하면서 벌레나왔다고 얘기하니까 아 네 이러고 말더라고요?\n서빙하면서 저한테 물 뿌리셔서 이야기하니까 그것도 아 네 이러고 마심. 음식은 맛있었는데 두번은 안가겠네요.",
+      "char_count": 94,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 17,
+      "author": "해인여행",
+      "date": "2026-02-12",
+      "date_raw": "2026년 2월 12일 목요일",
+      "content": "공주에서 국밥 맛집으로 알려진 우시장국밥에 다녀왔습니다. 아침 시간인데도 손님이 계속 들어올 만큼 인기가 많았어요. 주문한 국밥은 국물이 진하고 깊은 맛이 인상적이었습니다. 잡내 없이 깔끔하면서도 구수한 육향이 살아 있어 밥 한 공기를 금세 비우게 됩니다. 고기도 푸짐하게 들어 있어 든든한 한 끼로 충분했고, 함께 나온 깍두기와 김치도 국밥과 잘 어울렸습니다. 매장 내부는 오래된 맛집 분위기지만 깔끔하게 관리되고 있었고, 직원분들도 친절하게 응대해 주셔서 기분 좋게 식사할 수 있었습니다. 공주에서 따뜻한 국밥 한 그릇 생각날 때 다시 찾고 싶은 곳입니다.",
+      "char_count": 237,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 18,
+      "author": "토토로4796",
+      "date": "2026-02-08",
+      "date_raw": "2026년 2월 8일 일요일",
+      "content": "군밤축제 갔다가 들렀는데 너무 맛있네요. 국밥은 말할 것도 없고 미니소머리수육이랑 육사시미도 시켜봤는데 대만족이에요. 강추!!!\n다른 후기에 직원 불친절하다해서 걱정했는데 걱정이 무색하게 직원분들 다 너무 친절하심!!!\n사람이 4명이라 추천메뉴 다 못먹어봐서 아쉽 재방문 의사 있음!!",
+      "char_count": 126,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 20,
+      "author": "시매킴",
+      "date": "2026-01-31",
+      "date_raw": "2026년 1월 31일 토요일",
+      "content": "내장도 들어있고. 얼큰하기도 하고. 국밥인만큼 엄청나다!! 이런걸 기대하시면 안되고요. 기본에 충실한 국밥이었어요. 만원이었는데 초큼 아쉬웠다...",
+      "char_count": 68,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "잡내가 적어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 21,
+      "author": "ojh****",
+      "date": "2026-01-25",
+      "date_raw": "2026년 1월 25일 일요일",
+      "content": "부부동반 모임으로 방문 해서 정말 맛있게먹고왔어요\n양도 푸짐해요!!",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자, 친구, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 22,
+      "author": "행복한보금자리",
+      "date": "2026-01-25",
+      "date_raw": "2026년 1월 25일 일요일",
+      "content": "담번에 ㆍ공주갈일잇음 우시장국밥으로 먹어야 겠어요ᆢ양드 글코. 내장탕보단ㆍ가격적으론ㆍ더 저렴한국밥이 날 듯. 맛은있었어요 그리고 물 줄땐 알바생이 쾅소리 던지듯 주어서 ㄱㅣ분이 상했습니다",
+      "char_count": 85,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 25,
+      "author": "Zach Lee",
+      "date": "2025-12-20",
+      "date_raw": "2025년 12월 20일 토요일",
+      "content": "우시장국밥에 다녀왔는데 소머리국밥이 정말 인상적이었어요. 국물은 잡내 없이 정말 깔끔하면서도 깊은 맛이 나고, 소머리 고기는 푹 삶아져서 부드럽고 쫄깃한 식감이 잘 살아 있었어요.\n처음 받았을 때는 정말 맑아서 이게 맞나 했는데 맛이 최고였습니다. ㅎㅎ\n한 숟갈 뜰 때마다 진한 고기 맛이 느껴져서 해장용으로도, 든든한 한 끼로도 손색없었고요. 기본 반찬들도 국밥이랑 잘 어울려서 끝까지 맛있게 먹었습니다.\n\n소머리국밥 좋아하신다면 꼭 가볼 만한 곳이에요. 추천입니다~~ 😁",
+      "char_count": 202,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 26,
+      "author": "iambomna",
+      "date": "2025-11-22",
+      "date_raw": "2025년 11월 22일 토요일",
+      "content": "몇 개월 전에 공주 여행갔다가 반한 곳이에요.\n이번에 다시 공주 왔는데 제일 먼저 온 곳이구요! 증!멜!루! 집 근처에도 생기면 좋겠는 곳이에요...🤎\n너무 맛있어서 감동이 되는 곳!",
+      "char_count": 77,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 28,
+      "author": "해피랏소",
+      "date": "2025-11-09",
+      "date_raw": "2025년 11월 9일 일요일",
+      "content": "공주 첫여행의 첫끼 너무 좋았어요~",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상, 여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 30,
+      "author": "앞뚱이",
+      "date": "2025-11-03",
+      "date_raw": "2025년 11월 3일 월요일",
+      "content": "8시도 안되어 나름 일찍 방문했다고 생각했는데 벌써 많은분들이 아침을 드시고 계셨어요. 저는 소머릿고기나 선지, 기타 부속등을 못 먹는 관계로 시래기 국밥, 일행은 우시장국밥을 시켰는데 진짜 맛있었어요. 이 날 공주가 영하날씨로 한파주의보에 바람까지 불어 추웠는데 날씨까지 이러니 더더 금상첨화!! 우시장국밥에 들어있던 고기 몇 점 뺏어먹었는데 누린내도 없고 맛있었습니다.",
+      "char_count": 162,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 31,
+      "author": "요미요미00",
+      "date": "2025-11-02",
+      "date_raw": "2025년 11월 2일 일요일",
+      "content": "공주 지나가다가 또 간집!\n얼큰한 우시장국밥 생각나서 점심시간 지나서 방문!\n그런데.. 장사가 너무 잘되시나보아여~~\n육사시미 다 떨어졌데요~~ㅠㅠ\n그래서 국밥만 먹었다능~\n얼큰한 국밥과 새콤시큼 깍두기가 정말 맛있어요~~\n육사시미 못먹은 아쉬움에 미니족발 포장해서 집으로 고고~~",
+      "char_count": 125,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 32,
+      "author": "hab****",
+      "date": "2025-10-31",
+      "date_raw": "2025년 10월 31일 금요일",
+      "content": "큰 길에서는 잘 안보이는 골목안에 있는 진짜 숨어있는 맛집이다.\n양, 선지, 고기가 적절하게 들어가 있고 고추를 넣은 양념장에 찍어먹으면 환상적이로다. 술을 부르는데 출근을 해야해서 다음 기회로 미뤘다. 아~ 맛있다.",
+      "char_count": 93,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 33,
+      "author": "느낌데로",
+      "date": "2025-10-30",
+      "date_raw": "2025년 10월 30일 목요일",
+      "content": "우시장국밥주문 머릿고기,곱창,선지등등 여러가지가 들어있어요",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 34,
+      "author": "챠챠엄마",
+      "date": "2025-10-21",
+      "date_raw": "2025년 10월 21일 화요일",
+      "content": "리뷰보고 방문했는데 실망하지 않고 맛있게 잘먹었습니다",
+      "char_count": 24,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 35,
+      "author": "요미요미00",
+      "date": "2025-10-19",
+      "date_raw": "2025년 10월 19일 일요일",
+      "content": "찐 맛집! 나만 알고 싶은 곳! 가성비 좋은 곳!\n우시장 국밥 진짜 맛있어요~ 국물맛이 깊고, 간도 딱 적당!! 대박 맛집이네요~ 게다가 육사시미 시켜 먹으면 양이 많아서 조금 망설여지는데, 여기는 100그람 시켜서 국밥과 함께 먹기 딱 좋네요~가격도 착하고 맛도 있는 곳~ 아직 소문이 많이 안난거 같은데, 소문나면 여기 웨이팅 할 것 같아요~ ㅠㅠ\n소문 많이 나도 맛과 가격은 제발 유지해 주시길~\n공주 지나가는 길은 꼭 들리려구요~~",
+      "char_count": 181,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 36,
+      "author": "꼴용이",
+      "date": "2025-10-13",
+      "date_raw": "2025년 10월 13일 월요일",
+      "content": "요기 소머리국밥 땡초넣어서 먹으니\n국물 칼칼하니 맛나유~~^^",
+      "char_count": 28,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 37,
+      "author": "lov****",
+      "date": "2025-10-10",
+      "date_raw": "2025년 10월 10일 금요일",
+      "content": "백제문화제 구경하다가 우시장국밥이 있어서 매장 가서 먹어봤어요! 빨간 국물인데 생각보다 맑아요. 후추 뿌려먹으니까 더 맛있었어요😋",
+      "char_count": 58,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "매장이 넓어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 42,
+      "author": "app****",
+      "date": "2025-10-06",
+      "date_raw": "2025년 10월 6일 월요일",
+      "content": "1만원에 먹기좋은 국밥 저렴한 편이에요",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 43,
+      "author": "이찌이찌이찌",
+      "date": "2025-10-06",
+      "date_raw": "2025년 10월 6일 월요일",
+      "content": "공주 축제 가서 국밥 한 그릇~\n구경하기 바쁜 와중에 따뜻하게 한 끼 했어요.",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "아이, 부모님"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 44,
+      "author": "마가렛54",
+      "date": "2025-10-03",
+      "date_raw": "2025년 10월 3일 금요일",
+      "content": "백제문화제 축제시 이용했어요.\n맛있게 먹었어요.",
+      "char_count": 22,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 48,
+      "author": "농촌사랑",
+      "date": "2025-09-13",
+      "date_raw": "2025년 9월 13일 토요일",
+      "content": "공주 시외버스 터미널 인근 우시장국밥 맛있게 먹었어요",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 50,
+      "author": "어리냥",
+      "date": "2025-08-03",
+      "date_raw": "2025년 8월 3일 일요일",
+      "content": "항상 먹던 선지국밥 대신 오늘은 우시장국밥을 시켰네요.\n예상대로 맛있고 푸짐하고 밥,국물 남김없이 다 마시고 왔어요.\n정말 맛있습니다~~~~~~",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 51,
+      "author": "ID007",
+      "date": "2025-07-28",
+      "date_raw": "2025년 7월 28일 월요일",
+      "content": "25년 첫 공주여행 중 식사 할 곳 검색 중 후기가 좋아서 방문하였습니다. 우시장국밥. 시레기 국밥, 아들녀석은 육사시미 200g을 시켜 먹었습니다. 우시장국밥은 소머리와 내장, 시레기가 어울러진 특유의 향이 있고, 육사시미는 우둔살 부위인 듯 하며 잡내 없이 고소했습니다. 한끼 맛있게 잘 먹었습니다.",
+      "char_count": 130,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "재료가 신선해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 53,
+      "author": "영구o9",
+      "date": "2025-06-28",
+      "date_raw": "2025년 6월 28일 토요일",
+      "content": "소머리국밥 칼칼하니 깊은 맛이고\n육사시미도 짱맛있음...🫶 손님 많네요!!",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 54,
+      "author": "고독미한식가",
+      "date": "2025-06-14",
+      "date_raw": "2025년 6월 14일 토요일",
+      "content": "육사시미는 정말 부드럽고 괜찮아요.\n국밥의 뚝배기가 작아서 양이 적어 살짝 아쉬웠어요.\n특으로 시키시는걸 추천드려요. 맛있게 잘 먹었습니다.",
+      "char_count": 62,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 56,
+      "author": "나도나님",
+      "date": "2025-05-25",
+      "date_raw": "2025년 5월 25일 일요일",
+      "content": "아삭한 식감이 없을 정도로 많이 삭은 깍두기, 국밥 안에 든 곱창마다 이상하게 비리고 제각각인 맛이 좀 아쉬웠어요. 그래도 국밥 자체는 시원한 편인데다가 건더기도 푸짐하더라구요! 특히 매콤한 배추김치가 국밥과 잘 어울렸어요",
+      "char_count": 95,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 57,
+      "author": "미정3214",
+      "date": "2025-05-16",
+      "date_raw": "2025년 5월 16일 금요일",
+      "content": "지난번 공주여행때 우연히 오게된 식당인데 남자친구가 또 생각난다그래서 또왔어요!ㅎㅎ 식당깨끗하고 직원분들 센스만점 맛도 국물이 진국입니당:) 사시미도 신선하고 맛있게 먹고갑니다~",
+      "char_count": 81,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 58,
+      "author": "호또찌맘",
+      "date": "2025-05-02",
+      "date_raw": "2025년 5월 2일 금요일",
+      "content": "공주 사시는 분들 부럽네요..\n인생 국밥입니다ㅠㅠ",
+      "char_count": 22,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 59,
+      "author": "dsa****",
+      "date": "2025-04-28",
+      "date_raw": "2025년 4월 28일 월요일",
+      "content": "너무맛있어요최고에요 짱맛있어요",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 61,
+      "author": "몬트리",
+      "date": "2025-04-06",
+      "date_raw": "2025년 4월 6일 일요일",
+      "content": "일찍 오픈해서 아침식사가 가능한 식당으로 현지인, 나들이객 들이 알음알음 찾아오는 맛집인것 같습니다.\n우시장국밥은 소머리, 선지, 내장, 시래기 등 여러가지가 들어있는 칼칼한 맛이고\n기호에 따라 청양고추 다대기 등을 셀프로 가져와서 추가하면 됩니다.\n육사시미도 쫄깃한 생고기를 겨자 올려서 마늘기름장에 찍어먹으니, 국밥에 곁들여 먹기에 괜찮았어요.",
+      "char_count": 153,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 64,
+      "author": "d2****",
+      "date": "2025-03-30",
+      "date_raw": "2025년 3월 30일 일요일",
+      "content": "새벽에 계룡산 신원사에 갔다가 공주 맛집 우시장 국밥에 아침 먹으러 다녀왔어요\n8시밖에 안됐는데도 만석~\n제일 인기좋은 우시장 국밥과 육사시미 주문..\n찐한 국물과 곱창부터 소머리 고기, 선지까지 푸짐해서 아침부터 든든한 술안주로 최고네요~😅\n오늘도 맛있게 잘 먹었습니다~^^♡",
+      "char_count": 121,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 65,
+      "author": "비밀이야13",
+      "date": "2025-03-23",
+      "date_raw": "2025년 3월 23일 일요일",
+      "content": "남자친구랑 데이트와서 맛있게 잘 먹고 갑니다.\n개인적으로 메뉴는 우시장국밥 추천해요. 배부르게 잘 먹고 왔어요ㅎㅎ 회전율 빨라서 좋네요🩷 다음에 또 올게요",
+      "char_count": 67,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 67,
+      "author": "neijoe",
+      "date": "2025-03-02",
+      "date_raw": "2025년 3월 2일 일요일",
+      "content": "너무 맛있게 잘먹어서\n다음날 재방문 했어요.",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 68,
+      "author": "neijoe",
+      "date": "2025-03-01",
+      "date_raw": "2025년 3월 1일 토요일",
+      "content": "먹다가 찍게되서ㅎ\n국밥에 잡내없고 수육이 너무 부드러워요.\n자꾸 생각나는맛이에요.",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 70,
+      "author": "어리냥",
+      "date": "2025-02-08",
+      "date_raw": "2025년 2월 8일 토요일",
+      "content": "매일 오고싶은 국밥집~\n올때마다 먹을때마다 선지국밥 선지가 정~말 맛있고 부드럽고 잡내없고 넘 좋은가게\n모르시는분들을 위하여.\n드셔보셨으면 하는 맘으로 리뷰 올리네요~~^^",
+      "char_count": 77,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 72,
+      "author": "빵이네tv",
+      "date": "2025-02-01",
+      "date_raw": "2025년 2월 1일 토요일",
+      "content": "공주 으뜸 맛집 우시장 국밥에 다녀왔습니다.\n이른 아침부터 영업을 해서 아침 식사하러 왔는데 아 정말 뜨끈한 국밥 너무 맛있더라고요.\n\n살짝 칼칼한 국물이었는데 선지하고 내장, 소머리까지 가득 들어 있고요.\n\n워낙에 맛집이다 보니까 아침부터 손님들도 많으시더라고요.\n\n바로 옆에 주차장도 있어서 주차하고 식사했습니다.\n\n공주 맛집을 찾으신다면 아침 식사도 가능한 우시장국밥에서 식사 한번 해 보시는 걸 추천해 드립니다. 잘 먹었습니다.\n감사합니다.",
+      "char_count": 190,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 73,
+      "author": "한Lr봉",
+      "date": "2025-01-31",
+      "date_raw": "2025년 1월 31일 금요일",
+      "content": "공주 여행중에 아침밥으로 들렀던 식당이에요 ㅎㅎ\n양 많고 맛있어요~\n손님들이 많더라구요!",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 78,
+      "author": "유유자적교",
+      "date": "2024-12-09",
+      "date_raw": "2024년 12월 9일 월요일",
+      "content": "혼자 가서도 먹고 가족, 친구들이랑도 자주 가는 곳.\n해장하러 갔다가 한 잔 더 하게 되는 곳이기도 해요.\n언제 가도 사람도 많아요.\n아침 일찍 열고 저녁 늦게 닫아서 항상 찾아갈 수 있는 것도 좋아요.\n국밥 먹었는데도 입안 깔끔하고 속 펀한 곳이라\n아플 때나 아플거 같은 날 가서 먹고 옵니다.\n다른집 국밥처럼 느끼하구 속 부대끼는 것 없어요.\n다대기 안 넣어도 맛있고\n들어간 고명들도 모두 신선해서 내장 좋아하지 않는 분들도 좋아해요. 우시장국밥에선 다흔 메뉴들도 맛있지만 우시장국밥이랑 육사시미 꼭 드서보세요.",
+      "char_count": 213,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 79,
+      "author": "귀찮은 소",
+      "date": "2024-11-30",
+      "date_raw": "2024년 11월 30일 토요일",
+      "content": "공주 터미널 신관동 맛집 우시장국밥\n소머리국밥 , 우시장국밥 , 육사시미 주문하였고 우시장국밥 상태 좋은 선지가 팍팍!!❤️👍 국물도 시원하니 좋고 맛있습니다,, 소머리국밥도 고기 부드럽고 국물 좋고 ㅎㅎ 일반으로 먹으면 양이 좀 적당한 느낌이라 다음엔 2천원 추가해서 특이 땡기네욬ㅋㅋㅋ 육사시미도 맛보기로 먹으니까 좋네욬ㅋㅋㅋ😃😃",
+      "char_count": 146,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 80,
+      "author": "ddurubddu",
+      "date": "2024-11-16",
+      "date_raw": "2024년 11월 16일 토요일",
+      "content": "소곰탕 고기가 너무 부드러워서 좋아요오",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "대기 시간 바로 입장",
+        "여행",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 81,
+      "author": "Choi지지",
+      "date": "2024-11-10",
+      "date_raw": "2024년 11월 10일 일요일",
+      "content": "공주 놀러왔다가 아침으로 먹은 국밥집! 아침 일찍부터 문열어서 온 곳인데 술 안먹는 사람도 술이 생각날 정도로 너-무 맛있게 먹은 곳. 육사시미 한판에 만원이라 놀랐고, 고기 질도 좋고 부드러워서 한입 먹고 또 오려고 저장해놓은 집!",
+      "char_count": 97,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "집중하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 84,
+      "author": "빵빵빵427",
+      "date": "2024-10-22",
+      "date_raw": "2024년 10월 22일 화요일",
+      "content": "출장갔다 맛난집을 찾았네요 맛있어요",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "비즈니스",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 86,
+      "author": "dan****",
+      "date": "2024-10-08",
+      "date_raw": "2024년 10월 8일 화요일",
+      "content": "잘먹었습니다\n우시장국밥 소머리국밥 모두 맛나요",
+      "char_count": 21,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 87,
+      "author": "나의온기",
+      "date": "2024-10-08",
+      "date_raw": "2024년 10월 8일 화요일",
+      "content": "와이프가 선지국이 맛있다고 합니다",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "포장·배달 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 88,
+      "author": "쏘울4810",
+      "date": "2024-10-02",
+      "date_raw": "2024년 10월 2일 수요일",
+      "content": "첨에 왓을때 맛있어서 또 와봤는데 그때 맛이 안나네요ㅜ 특 시켯는데 굳이 돈 추가하면서 까지 시킬 정도는 아닌거 같습니다",
+      "char_count": 50,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 89,
+      "author": "mp2621",
+      "date": "2024-09-28",
+      "date_raw": "2024년 9월 28일 토요일",
+      "content": "평타 이상 맛을 내는집! 주차하기가 어려운점 빼고는 좋은 식당",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 91,
+      "author": "마시께묵짜",
+      "date": "2024-09-22",
+      "date_raw": "2024년 9월 22일 일요일",
+      "content": "뜨끈한 국밥 한그릇 뚝딱하니 든든하네여.",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 92,
+      "author": "돌문어21",
+      "date": "2024-09-22",
+      "date_raw": "2024년 9월 22일 일요일",
+      "content": "애들은 곰국시켜주고 저는 소머리국밥 먹었는데 올해먹은 소머리 중 젤 맛있었어요! 공주 갈때마다 생각날듯",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 93,
+      "author": "303alfl",
+      "date": "2024-09-21",
+      "date_raw": "2024년 9월 21일 토요일",
+      "content": "국밥 너무 맛있었어요! 내용물도 엄청 많고 다양해서 평소보다 많이 먹었어요😁 공주 갈 일 있으면 또 가고싶어요",
+      "char_count": 46,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 94,
+      "author": "두부키친",
+      "date": "2024-09-18",
+      "date_raw": "2024년 9월 18일 수요일",
+      "content": "매번올때마다 완뚝 !!! 공주에서 국밥은 요기입니다~~~",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 98,
+      "author": "내돈내산주의",
+      "date": "2024-08-30",
+      "date_raw": "2024년 8월 30일 금요일",
+      "content": "우시장국밥\n사골같은 찐득한 느낌X\n소고기무국 베이스에 고기 잔뜩+야채 잔뜩+많이 맵지는 않지만 빨간맛 약간…?\n슴슴하면서 재료 본연의 맛이 잘 느껴짐\n옛날에 1박2일 강호동이 어느 시장 노상에서 천막치고 먹었던 3천원짜리 국밥이 왠지 이런 느낌이었을 것 같음 ㅎㅎ\n원래 선지 못 먹는데(경험은 있으나 불호였음) 우시장국밥에 선지가 들어있어서 걱정했으나 남김없이 다 먹음. 비린내 1도 없이 고소한, 순대 간 먹는것같은 식감과 맛이었음\n양이 많지 않아 대식가 기준 배터지게X적당히 맛있게 먹은 느낌\n이런 옛날스타일의 국밥을 먹어보고싶어서 일부러 찾아간 곳, 좋은 경험이었음.\n\n육사시미는 가끔 질겨서 먹다 뱉는 곳들 있는데 여긴 정말 부드럽고 냄새없고 고소했음\n맛보기 느낌으로 저렴한 가격에 부담없이 먹기 좋음",
+      "char_count": 302,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 101,
+      "author": "roskfl305",
+      "date": "2024-07-25",
+      "date_raw": "2024년 7월 25일 목요일",
+      "content": "넘 맛있어서 완뚝에 밥2그릇 뚝딱!",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "지인・동료"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 102,
+      "author": "hmj****",
+      "date": "2024-07-24",
+      "date_raw": "2024년 7월 24일 수요일",
+      "content": "시레기좋아하는1인은 시레기국밥.육사시미100g.밤막걸리한통먹기딱.고기가 넘부드럽고 맛있어서 기분업!\n공주오면 드셔보세요.강강추",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 103,
+      "author": "나7217",
+      "date": "2024-07-22",
+      "date_raw": "2024년 7월 22일 월요일",
+      "content": "꼭 한번 먹어봐야할 인생국밥.\n기록 남기려고 리뷰쓰게 만드는집.\n왜 이런데가 맛집 1위가 아닌건지....",
+      "char_count": 46,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 107,
+      "author": "lov****",
+      "date": "2024-06-25",
+      "date_raw": "2024년 6월 25일 화요일",
+      "content": "국밥류 맛있고 사장님도 친절하시네요",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    }
+  ],
+  "excluded": [
+    {
+      "id": 8,
+      "author": "cdh543651",
+      "date": "2026-03-23",
+      "date_raw": "2026년 3월 23일 월요일",
+      "content": "깔끔한 맛이 너무 좋았어요!!",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "비즈니스",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 11,
+      "author": "달콤솜사탕74",
+      "date": "2026-03-09",
+      "date_raw": "2026년 3월 9일 월요일",
+      "content": "뜨끈하고 선지가득주시네요",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 12,
+      "author": "식이맘",
+      "date": "2026-03-07",
+      "date_raw": "2026년 3월 7일 토요일",
+      "content": "맛있어요~\n재료가 신선해요",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 19,
+      "author": "mp2621",
+      "date": "2026-02-07",
+      "date_raw": "2026년 2월 7일 토요일",
+      "content": "맛난 국밥집",
+      "char_count": 5,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 23,
+      "author": "무념무상68",
+      "date": "2026-01-08",
+      "date_raw": "2026년 1월 8일 목요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 24,
+      "author": "데이빗량",
+      "date": "2025-12-22",
+      "date_raw": "2025년 12월 22일 월요일",
+      "content": "내장이 좀 질겨서.",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 27,
+      "author": "진짜멋진",
+      "date": "2025-11-13",
+      "date_raw": "2025년 11월 13일 목요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 29,
+      "author": "으라차차43",
+      "date": "2025-11-08",
+      "date_raw": "2025년 11월 8일 토요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 38,
+      "author": "천하무적윤박사아내",
+      "date": "2025-10-09",
+      "date_raw": "2025년 10월 9일 목요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 39,
+      "author": "희희진선미",
+      "date": "2025-10-08",
+      "date_raw": "2025년 10월 8일 수요일",
+      "content": "사장님이 친절하게 대해 주시네요",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 40,
+      "author": "부팅이99",
+      "date": "2025-10-08",
+      "date_raw": "2025년 10월 8일 수요일",
+      "content": "맛있었어요",
+      "char_count": 5,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 41,
+      "author": "snd****",
+      "date": "2025-10-08",
+      "date_raw": "2025년 10월 8일 수요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 45,
+      "author": "아이리스0819",
+      "date": "2025-10-02",
+      "date_raw": "2025년 10월 2일 목요일",
+      "content": "든든하게 한끼 잘먹었습니다",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "비즈니스",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 46,
+      "author": "생태찌개밀키트세트",
+      "date": "2025-09-27",
+      "date_raw": "2025년 9월 27일 토요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 47,
+      "author": "의지가생기다",
+      "date": "2025-09-14",
+      "date_raw": "2025년 9월 14일 일요일",
+      "content": "가성비 맛 좋아요",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 49,
+      "author": "꼬이이이",
+      "date": "2025-08-16",
+      "date_raw": "2025년 8월 16일 토요일",
+      "content": "저는 그냥 그랫어요 ㅎㅎㅎ",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 52,
+      "author": "kiy****",
+      "date": "2025-07-08",
+      "date_raw": "2025년 7월 8일 화요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 55,
+      "author": "whd****",
+      "date": "2025-06-02",
+      "date_raw": "2025년 6월 2일 월요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "대기 시간 바로 입장",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 60,
+      "author": "맛집 수배자는 나",
+      "date": "2025-04-20",
+      "date_raw": "2025년 4월 20일 일요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 62,
+      "author": "XxXxX654",
+      "date": "2025-04-06",
+      "date_raw": "2025년 4월 6일 일요일",
+      "content": "그냥 저냥 괜찮아요",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 63,
+      "author": "연두4536",
+      "date": "2025-04-05",
+      "date_raw": "2025년 4월 5일 토요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 66,
+      "author": "빵꾸똥꾸야14",
+      "date": "2025-03-02",
+      "date_raw": "2025년 3월 2일 일요일",
+      "content": "육사시미 너무 맛있어요 :)",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "포장·배달 이용"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 69,
+      "author": "덕분에 eyou",
+      "date": "2025-02-24",
+      "date_raw": "2025년 2월 24일 월요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 71,
+      "author": "Big Kahuna Burger",
+      "date": "2025-02-02",
+      "date_raw": "2025년 2월 2일 일요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 74,
+      "author": "히로3110",
+      "date": "2025-01-30",
+      "date_raw": "2025년 1월 30일 목요일",
+      "content": "너무 맛있어요! 국밥 깔끔해여",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "부모님, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 75,
+      "author": "강철새잎",
+      "date": "2025-01-18",
+      "date_raw": "2025년 1월 18일 토요일",
+      "content": "맛 좋음!!!",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 76,
+      "author": "박미애3613",
+      "date": "2025-01-17",
+      "date_raw": "2025년 1월 17일 금요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "양이 많아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 77,
+      "author": "봄찰떡",
+      "date": "2024-12-16",
+      "date_raw": "2024년 12월 16일 월요일",
+      "content": "맛있게 잘먹었습니다",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 82,
+      "author": "jsk****",
+      "date": "2024-10-23",
+      "date_raw": "2024년 10월 23일 수요일",
+      "content": "조아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 83,
+      "author": "사랑하며꿈꾸며",
+      "date": "2024-10-23",
+      "date_raw": "2024년 10월 23일 수요일",
+      "content": "조아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 85,
+      "author": "pig****",
+      "date": "2024-10-14",
+      "date_raw": "2024년 10월 14일 월요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 90,
+      "author": "츄르츄르해",
+      "date": "2024-09-26",
+      "date_raw": "2024년 9월 26일 목요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 95,
+      "author": "내배는빵빵",
+      "date": "2024-09-15",
+      "date_raw": "2024년 9월 15일 일요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 96,
+      "author": "SJRPOU",
+      "date": "2024-09-15",
+      "date_raw": "2024년 9월 15일 일요일",
+      "content": "국밥 맛있어요",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 97,
+      "author": "미스터후",
+      "date": "2024-09-02",
+      "date_raw": "2024년 9월 2일 월요일",
+      "content": "소머리 국밥 맛잇어요",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 99,
+      "author": "푸른창공6",
+      "date": "2024-07-28",
+      "date_raw": "2024년 7월 28일 일요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 100,
+      "author": "제주현시",
+      "date": "2024-07-28",
+      "date_raw": "2024년 7월 28일 일요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 104,
+      "author": "푸른창공6",
+      "date": "2024-07-22",
+      "date_raw": "2024년 7월 22일 월요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 105,
+      "author": "pig****",
+      "date": "2024-07-17",
+      "date_raw": "2024년 7월 17일 수요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 106,
+      "author": "together1920",
+      "date": "2024-06-30",
+      "date_raw": "2024년 6월 30일 일요일",
+      "content": "꽤나 맛있어요",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 108,
+      "author": "이랴챠챠",
+      "date": "2024-06-15",
+      "date_raw": "2024년 6월 15일 토요일",
+      "content": "우시장국밥 맛있어요 ! 육사시미도 맛있어요",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "부모님, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 109,
+      "author": "roroy21",
+      "date": "2024-06-02",
+      "date_raw": "2024년 6월 2일 일요일",
+      "content": "우시장국밥!\n메뉴 라인업에있는\n선지,양,곱창,소머리의 맛을 다맛볼수있음\n국내산재료에 최근먹은 국밥중 최고\n어제먹고왔는데 또생각나는맛\n세종에서 찾아갔는데\n월1회이상.정기방문각!\n다양한 안주류메뉴도 신뢰감\n진심담아 영업하시는 사장님 리스펙!",
+      "char_count": 111,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "매장이 청결해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 110,
+      "author": "애프리a",
+      "date": "2024-06-02",
+      "date_raw": "2024년 6월 2일 일요일",
+      "content": "우시장국밥 맛있어요 :)",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 111,
+      "author": "쏘울4810",
+      "date": "2024-05-28",
+      "date_raw": "2024년 5월 28일 화요일",
+      "content": "공주에서 국밥 드실거면 여기가서 드세요 진짜 맛있네요",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 112,
+      "author": "bongz",
+      "date": "2024-05-14",
+      "date_raw": "2024년 5월 14일 화요일",
+      "content": "국물진하고 다양한 부위가 들어있어요.넘 맛있어요!",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 113,
+      "author": "alt****",
+      "date": "2024-04-28",
+      "date_raw": "2024년 4월 28일 일요일",
+      "content": "친절해요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "매장이 넓어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 114,
+      "author": "열혈 후기",
+      "date": "2024-04-15",
+      "date_raw": "2024년 4월 15일 월요일",
+      "content": "금강신관공원 한 바퀴 돌고\n검색해서 찾아 갔어요.\n선지가 들어가니 저처럼 못 드시는 분은\n빼달라고 하셔여.\n들어간 거 몰라서 기겁하고 얼릉 뺐네요;;;\n얼큰하고 다양한 고기 들어가서 좋아요!\n아침부터 해장술 하는 분도 계시더라구요!",
+      "char_count": 99,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 115,
+      "author": "혀니이사랑",
+      "date": "2024-04-14",
+      "date_raw": "2024년 4월 14일 일요일",
+      "content": "잡내도 없고 맛있어요\n맛집 인정👍",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 116,
+      "author": "zbgjsldbqmdgccsrae",
+      "date": "2024-04-12",
+      "date_raw": "2024년 4월 12일 금요일",
+      "content": "고기에서 잡내나요. 간이 안 맞아요. 소스 있어서 그거 찍어 먹으면 좀 나아요.",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 117,
+      "author": "리뷰우먼 달려라",
+      "date": "2024-04-11",
+      "date_raw": "2024년 4월 11일 목요일",
+      "content": "간단히 먹기 좋아요",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 118,
+      "author": "nyskay",
+      "date": "2024-04-10",
+      "date_raw": "2024년 4월 10일 수요일",
+      "content": "지도 보다가 알게 되어 방문했는데 너무 맛있어서 놀랐습니다. 기본 메뉴인 우시장국밥은 소머리곰탕과 내장탕을 맛깔나게 블렌딩한 맛입니다. 육사시미는 굉장히 부드러웠구요. 자주 방문해서 메뉴 하나하나 다 먹어봐야겠습니다.",
+      "char_count": 97,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 119,
+      "author": "haho rabbits",
+      "date": "2024-03-31",
+      "date_raw": "2024년 3월 31일 일요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 120,
+      "author": "돌도리33",
+      "date": "2024-03-28",
+      "date_raw": "2024년 3월 28일 목요일",
+      "content": "국밥이 맛있고 친절해요",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 121,
+      "author": "별빛이내린다98",
+      "date": "2024-03-24",
+      "date_raw": "2024년 3월 24일 일요일",
+      "content": "친절하고 맛도 좋아요",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 122,
+      "author": "krs****",
+      "date": "2024-03-24",
+      "date_raw": "2024년 3월 24일 일요일",
+      "content": "맛있게 잘 먹었어요",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 123,
+      "author": "leejaey0127",
+      "date": "2024-03-05",
+      "date_raw": "2024년 3월 5일 화요일",
+      "content": "친구들이랑 밥 먹으러 갔는데 음식이 너무 맛있었어요!!!\n다음에도 또 가서 먹을만한 맛집!",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 124,
+      "author": "정진규79",
+      "date": "2024-03-02",
+      "date_raw": "2024년 3월 2일 토요일",
+      "content": "인생국밥을 찾았습니다",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 125,
+      "author": "열린결말",
+      "date": "2024-02-29",
+      "date_raw": "2024년 2월 29일 목요일",
+      "content": "혼밥으로 소머리국밥 보통에 소주한병 시켰습니다.\n국물은 라면 국물같고 소머리고기는..뭐 보시면 아실듯합니다. 블로그에 현혹되지마시고\n저 가격에 저정도 구성이 되어야 타산이 맞는지 모르겠습니다.\n그냥 저 가격에 저맛에 구성이면 다른거 먹겠습니다.",
+      "char_count": 109,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 126,
+      "author": "씽하351",
+      "date": "2024-02-07",
+      "date_raw": "2024년 2월 7일 수요일",
+      "content": "공주 신관동 국밥 맛집으로 강추드려요!!\n\n우시장국밥 시켰는데\n착한 가격에 소내장이랑 고깃살 선지 가득가득\n알차게 들어있고\n국물이 정말 얼큰하고 적당히 느끼하니\n넘 맛있게 먹었습니다🤩\n\n김치도 아삭하고 정말 맛있는 김치예요!!\n\n국밥 드시고 싶으실 때 우시장국밥 강추드립니다!!",
+      "char_count": 119,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 127,
+      "author": "amodo",
+      "date": "2024-01-24",
+      "date_raw": "2024년 1월 24일 수요일",
+      "content": "국밥 육사시미 노무 맛있고 친절하시고 서비스도 좋았어요!! 김치도 꿀맛 다음에 또 꼭 갈게용",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 128,
+      "author": "whit177",
+      "date": "2024-01-01",
+      "date_raw": "2024년 1월 1일 월요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 129,
+      "author": "blessing5",
+      "date": "2023-12-27",
+      "date_raw": "2023년 12월 27일 수요일",
+      "content": "국밥 굿",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 130,
+      "author": "키키383838",
+      "date": "2023-12-05",
+      "date_raw": "2023년 12월 5일 화요일",
+      "content": "맛있여용👍🏻👍🏻👍🏻",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 131,
+      "author": "한국국민",
+      "date": "2023-11-26",
+      "date_raw": "2023년 11월 26일 일요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 132,
+      "author": "sgy1212",
+      "date": "2023-11-22",
+      "date_raw": "2023년 11월 22일 수요일",
+      "content": "맛있는 국밥과 가성비 있는 육사시미로 반주하기 딱 좋았습니다 너무 맛있게 한끼했습니다\n재방문 의사 100%, 번창하세요 사장님:)",
+      "char_count": 57,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "매장이 청결해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 133,
+      "author": "블로거 와구와구",
+      "date": "2023-11-16",
+      "date_raw": "2023년 11월 16일 목요일",
+      "content": "굿굿",
+      "char_count": 2,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 134,
+      "author": "혜린이라궁",
+      "date": "2023-11-11",
+      "date_raw": "2023년 11월 11일 토요일",
+      "content": "얼큰하니 해장이 잘됐어요!!! 구웃",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 135,
+      "author": "yo****",
+      "date": "2023-10-28",
+      "date_raw": "2023년 10월 28일 토요일",
+      "content": "👍",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 136,
+      "author": "제이얌얌",
+      "date": "2023-10-27",
+      "date_raw": "2023년 10월 27일 금요일",
+      "content": "냄새가 하나도 안나고 너무 맛있어요\n국물도 맛있고 건더기들도 잡내 하나도 없어서 너무 좋아요! 국밥 맛집답게 김치도 맛있어요ㅎㅎ\n완뚝하고 왔습니다! 우시장국밥 강추요ᰔᩚ",
+      "char_count": 74,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 137,
+      "author": "시나브로8762",
+      "date": "2023-10-23",
+      "date_raw": "2023년 10월 23일 월요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 138,
+      "author": "한국국민",
+      "date": "2023-10-20",
+      "date_raw": "2023년 10월 20일 금요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 139,
+      "author": "han****",
+      "date": "2023-10-08",
+      "date_raw": "2023년 10월 8일 일요일",
+      "content": "콩나물 국밥은 이벤트로 4천원, 가성비 좋아요. 아쉽지만 우시장 국밥은 내용물 양이 적었어요.\n아침 간단히 먹기는 괜찮아요.",
+      "char_count": 54,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 140,
+      "author": "아프지말어95",
+      "date": "2023-10-07",
+      "date_raw": "2023년 10월 7일 토요일",
+      "content": "흠 양이 넘 적네여 만원인데 시골 음식가격보고 깜놀 김치는맛있어요. 와이프는 우시장국밥먹었는데 양과 고기에서 냄새가약간납니다 씨래기국밥인 저는 고기없이 씨래기만잇어서 놀란 ㅋ",
+      "char_count": 78,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 141,
+      "author": "sso****",
+      "date": "2023-10-06",
+      "date_raw": "2023년 10월 6일 금요일",
+      "content": "곱창전골이 먹고싶어 검색하다 와봤어요! 개인적으로 걸죽한 국물을 좋아해서 들깨가루 조금\n더 넣고 푹 끓였더니 와와와유와아아ㅠㅠ 제발 술 좋아하시는분들 곱창전골 꼭 먹어주세여 ㅠㅠㅠㅠ 최고최고!!! 곱창이 먹어도먹어도 계속나오고 두툼한 새송이버섯도 너무 맛있어요!!",
+      "char_count": 118,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 142,
+      "author": "fate40",
+      "date": "2023-10-03",
+      "date_raw": "2023년 10월 3일 화요일",
+      "content": "담배들고 김치 담구 시네요\n다신 안갈거 같습니다",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 143,
+      "author": "파로우시아",
+      "date": "2023-10-03",
+      "date_raw": "2023년 10월 3일 화요일",
+      "content": "기다린 이유가 있네요",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 144,
+      "author": "돌도리33",
+      "date": "2023-10-01",
+      "date_raw": "2023년 10월 1일 일요일",
+      "content": "국밥이 맛나요",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 145,
+      "author": "새내기주부",
+      "date": "2023-09-30",
+      "date_raw": "2023년 9월 30일 토요일",
+      "content": "국밥이 진짜로 맛있어요.\n공주갈땐 꼭 꼭 드셔보세요.",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 146,
+      "author": "phk****",
+      "date": "2023-09-28",
+      "date_raw": "2023년 9월 28일 목요일",
+      "content": "선지국밥 맛있게 잘 먹었어요.김치 굿",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 147,
+      "author": "cjeu",
+      "date": "2023-09-28",
+      "date_raw": "2023년 9월 28일 목요일",
+      "content": "추석에 아침일찍 영업하는 식당 검색해서 방문하였는데 이미 홀은 거의 꽉 참.\n사람많아서 조금있다가 주문받는다고 하셔서 기다림. 사람이 빠졌는데도 주문은 안 받으셔서 물어보니 밥이 없다고 하심.(이 때 나갔어야했음.기다리는 동안 오픈형 주방이길래 보니 계산하시다가 주방가셔서 맨손으로 국밥 고기랑 재료들 담으심. 어차피 뜨거운 국물 들어가면 소독된다...는 생각으로 이해함. )\n근데 한참후에 받은 음식은..하..\n만원짜리 소머리국밥인데..8천원도 아까움.\n기다린 시간과 돈이 너무 아까워서 억지로 밥이랑 몇 점 없는 건더기만 먹음.\n추석 연휴동안 방문한 공주,부여 식당 중 최악이었음.",
+      "char_count": 256,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 148,
+      "author": "Knock2",
+      "date": "2023-09-24",
+      "date_raw": "2023년 9월 24일 일요일",
+      "content": "김치맛이 아주 좋습니다",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 149,
+      "author": "파이9692",
+      "date": "2023-09-23",
+      "date_raw": "2023년 9월 23일 토요일",
+      "content": "가성비굿 서울보다 국밥이 맛나고 저렴",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 150,
+      "author": "가을가을가을행복",
+      "date": "2023-09-10",
+      "date_raw": "2023년 9월 10일 일요일",
+      "content": "맛있고 친절해요 ♡♡",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 151,
+      "author": "귀엽구마동석",
+      "date": "2023-09-08",
+      "date_raw": "2023년 9월 8일 금요일",
+      "content": "크.. 고기종류 다양하구 맛있어요 완전 잘 먹었습니다...",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 152,
+      "author": "lee****",
+      "date": "2023-09-07",
+      "date_raw": "2023년 9월 7일 목요일",
+      "content": "음식이 맛있어요.",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "재료가 신선해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 153,
+      "author": "어린왕자4629",
+      "date": "2023-08-30",
+      "date_raw": "2023년 8월 30일 수요일",
+      "content": "한우국밥이 깔끔하고 맛이 좋아요",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 154,
+      "author": "신사재윤",
+      "date": "2023-08-29",
+      "date_raw": "2023년 8월 29일 화요일",
+      "content": "우시장국밥 찐 맛집 아쉬운건 특인데 양은 생각보다 적었어요 맛은 대박",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 155,
+      "author": "도유운쓰",
+      "date": "2023-08-27",
+      "date_raw": "2023년 8월 27일 일요일",
+      "content": "굳",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "특별한 날 가기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 156,
+      "author": "그랑설기",
+      "date": "2023-08-26",
+      "date_raw": "2023년 8월 26일 토요일",
+      "content": "ㆍ",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 157,
+      "author": "철판43",
+      "date": "2023-08-20",
+      "date_raw": "2023년 8월 20일 일요일",
+      "content": "고향이 공주라 처음 생길 때부터 먹었고, 가끔 포장해다 먹고 있습니다. 처음 사장님께서 장사하실 때에는 포장해다 먹으면서 풍성한 건더기 양에 아주 흡족하곤 했는데요, 젊은 사장님으로 바뀌어서인지 그 전부터인지는 모르겠지만 눈에 띌 정도로 건더기 양이 줄었네요. 가격은 오르고 양은 줄었으니 두 배 정도 비싸진 느낌입니다. 여전히 맛은 있지만 굳이 만 원 돈을 내면서 먹지는 않을 것 같다는 생각이 듭니다. 오래 다니며 공주의 대표 맛집 중 하나라고 생각했는데 조금 아쉽군요.",
+      "char_count": 199,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 158,
+      "author": "굴티남자",
+      "date": "2023-08-13",
+      "date_raw": "2023년 8월 13일 일요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 159,
+      "author": "핑쿠69",
+      "date": "2023-08-13",
+      "date_raw": "2023년 8월 13일 일요일",
+      "content": "국밥도 맛있는데 육사시미가 맛있어요",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 160,
+      "author": "busy51",
+      "date": "2023-08-09",
+      "date_raw": "2023년 8월 9일 수요일",
+      "content": ".",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 161,
+      "author": "별아05",
+      "date": "2023-08-02",
+      "date_raw": "2023년 8월 2일 수요일",
+      "content": "국밥도 맛있고 곰탕도 맛있었어요^_^",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 162,
+      "author": "쫑e",
+      "date": "2023-07-30",
+      "date_raw": "2023년 7월 30일 일요일",
+      "content": "맛있어요~ 잘 ㅁ먹었어요! 육사시미 가성비 넘치구요~~",
+      "char_count": 25,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 163,
+      "author": "굿플 투어가",
+      "date": "2023-07-28",
+      "date_raw": "2023년 7월 28일 금요일",
+      "content": "참 맛납디다^~^",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 164,
+      "author": "천억님",
+      "date": "2023-07-24",
+      "date_raw": "2023년 7월 24일 월요일",
+      "content": "진짜 최악이네요 아침에 밥먹을곳 없서서 들어갔는데 소곰탕을 시켰는데 소머리국밥이 나오고 깍두기 달랑주고 배추김치 달라니깐 떨어졌으니 그냥 먹으라하고 아저씨가 대충장사 하네요 바쁘니깐 방은 들어가지 말라고하고 맛은 진짜 최악이네요 냉장고에서 고기오래 되었는지 쿰쿰한 냄새나고 ㅜㅜ 공주 다시는 가기싫으네요 지나가는 길이지만 에효 캭퇴",
+      "char_count": 146,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 165,
+      "author": "애플8585",
+      "date": "2023-07-09",
+      "date_raw": "2023년 7월 9일 일요일",
+      "content": "50년 전통 소머리국밥 우시장국밥\n공주대근처 혼밥하기 좋은 국밥집이네요\n가격도 가성비 괜찮고 신메뉴 육사시미도 양 많고\n맛있었습니다",
+      "char_count": 58,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "매장이 청결해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 166,
+      "author": "쫑쫑이뿡뿡이",
+      "date": "2023-07-02",
+      "date_raw": "2023년 7월 2일 일요일",
+      "content": "공주터미널 국밥 맛집~ 괜히 50년 전통이 아니네요~ 찐맛집~!! 육사시미는 꼭 드셔보세요~ 너무너무 고소하고 맛있어요~",
+      "char_count": 54,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 167,
+      "author": "냐냐냐70",
+      "date": "2023-06-25",
+      "date_raw": "2023년 6월 25일 일요일",
+      "content": "부모님이랑 공주여행가서 아침 먹을 만한 곳 찾다가 갔었는데 김치도 맛있고 국밥도 맛있었고! 너무 잘 먹고 왔어요! 젊은 사장님이 만들고 계셨던 기억",
+      "char_count": 62,
+      "rating": null,
+      "tags": [
+        "아침에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 168,
+      "author": "joy****",
+      "date": "2023-06-24",
+      "date_raw": "2023년 6월 24일 토요일",
+      "content": "쏘쏘",
+      "char_count": 2,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 169,
+      "author": "hss****",
+      "date": "2023-06-20",
+      "date_raw": "2023년 6월 20일 화요일",
+      "content": "공산성에 가기전에 우시장국밥을 먹었어요\n아주 맛있게 잘먹었습니다. 국물이 시원하고 깔끔한맛이었음",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 170,
+      "author": "mymjjm",
+      "date": "2023-06-16",
+      "date_raw": "2023년 6월 16일 금요일",
+      "content": "사장님 및 직원분 친절하시고\n특히 음식이 너무 맛있어요!\n국밥.곰탕 김치등등 숨은맛집발견^^",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 171,
+      "author": "펭수러뷰",
+      "date": "2023-06-07",
+      "date_raw": "2023년 6월 7일 수요일",
+      "content": "굿굿굿",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 172,
+      "author": "아줌마 0909",
+      "date": "2023-06-05",
+      "date_raw": "2023년 6월 5일 월요일",
+      "content": "소머리국밥 맛있어요~~",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 173,
+      "author": "프레드릭0",
+      "date": "2023-05-19",
+      "date_raw": "2023년 5월 19일 금요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 174,
+      "author": "jluka",
+      "date": "2023-05-03",
+      "date_raw": "2023년 5월 3일 수요일",
+      "content": "터미널 바로 앞에 있어서 위치도 좋고 무엇보다 국밥이 진짜 맛있어요!! 해장할때나 든든한거 먹고 싶을때 오면 딱입니다ㅠㅠ 선지,머릿고기,내장 다양하게 들어있어서 넘넘 좋아용 공주 국밥 맛집입니당 🫶🏻🫶🏻",
+      "char_count": 89,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "주차하기 편해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 175,
+      "author": "애플쥬스짱",
+      "date": "2023-04-29",
+      "date_raw": "2023년 4월 29일 토요일",
+      "content": "고기양이 좀 아쉽지만 맛있습니다.\n쬰득한 소머리고기가 맛있었어요",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "화장실이 깨끗해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 176,
+      "author": "윤버블",
+      "date": "2023-04-15",
+      "date_raw": "2023년 4월 15일 토요일",
+      "content": "공주 국밥 맛집이라고해서 다녀왔는데\n국밥이 진짜 맛있었어요\n우시장국밥 안에 고기도 듬뿍 들어있었고\n국물이 정말 진국이였어요\n곰탕안에 당면도 맛있었고\n고기도 부들부들해서 좋았어요!",
+      "char_count": 79,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 177,
+      "author": "jjo6039",
+      "date": "2023-04-13",
+      "date_raw": "2023년 4월 13일 목요일",
+      "content": "조아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 178,
+      "author": "산골소녀57",
+      "date": "2023-04-12",
+      "date_raw": "2023년 4월 12일 수요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 179,
+      "author": "rec****",
+      "date": "2023-04-09",
+      "date_raw": "2023년 4월 9일 일요일",
+      "content": "잡내 안나고 존맛탱",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 180,
+      "author": "im****",
+      "date": "2023-04-09",
+      "date_raw": "2023년 4월 9일 일요일",
+      "content": "오늘도 여전히 맛있네요~!\n다시 보니 소 그림도 귀여워요\n번창하세요~~~",
+      "char_count": 32,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 181,
+      "author": "브흐스",
+      "date": "2023-04-09",
+      "date_raw": "2023년 4월 9일 일요일",
+      "content": "졸업한지 한참됐는데도 종종 국밥먹으러 옵니다~!\n오늘도 여전히 사장님이 친절하고 국밥이 맛있어요😁👍\n든든하고 뜨끈하게 일요일 시작합니다!!!",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "양이 많아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 182,
+      "author": "재구와이프",
+      "date": "2023-04-03",
+      "date_raw": "2023년 4월 3일 월요일",
+      "content": "고기푸짐히 담아주시고 맛있어요\n여행길에 해장하러들렀어요",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 183,
+      "author": "맛집뿌시기1235",
+      "date": "2023-04-02",
+      "date_raw": "2023년 4월 2일 일요일",
+      "content": "공주여행왔다가 넘넘 맛있는국밥집 발견! 국물깊고 진짜맛있어요 해장이절루됨",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "재료가 신선해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 184,
+      "author": "김유진90",
+      "date": "2023-03-31",
+      "date_raw": "2023년 3월 31일 금요일",
+      "content": "맛있습니다!",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 185,
+      "author": "포반장",
+      "date": "2023-03-27",
+      "date_raw": "2023년 3월 27일 월요일",
+      "content": "음식이 맛있으며 친절하십니다",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 186,
+      "author": "kch6059",
+      "date": "2023-02-26",
+      "date_raw": "2023년 2월 26일 일요일",
+      "content": "소~~소",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 187,
+      "author": "츄츄5969",
+      "date": "2023-02-19",
+      "date_raw": "2023년 2월 19일 일요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 188,
+      "author": "입력한닉네임",
+      "date": "2023-02-16",
+      "date_raw": "2023년 2월 16일 목요일",
+      "content": "넘 맛있는 국밥이어서 종종 찾을것 같아요. 특히 우시장국밥 내용물이 너무 알차서 깜짝놀랐어요!",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "재료가 신선해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 189,
+      "author": "멋따라 맛따라 딴따라",
+      "date": "2023-02-09",
+      "date_raw": "2023년 2월 9일 목요일",
+      "content": "국물의 아우라 있습니다! 공주에서 얼큰한 소 국밥 드시고 싶다면 추천합니다",
+      "char_count": 32,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 190,
+      "author": "Kelly7275",
+      "date": "2023-01-28",
+      "date_raw": "2023년 1월 28일 토요일",
+      "content": "맛있다",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "가성비가 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 191,
+      "author": "BiiNNN",
+      "date": "2023-01-04",
+      "date_raw": "2023년 1월 4일 수요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 192,
+      "author": "yik****",
+      "date": "2022-12-17",
+      "date_raw": "2022년 12월 17일 토요일",
+      "content": "술 마신 다음날 해장으로 굿",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 193,
+      "author": "wng****",
+      "date": "2022-12-11",
+      "date_raw": "2022년 12월 11일 일요일",
+      "content": "그냥그럼",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 194,
+      "author": "개리6861",
+      "date": "2022-12-04",
+      "date_raw": "2022년 12월 4일 일요일",
+      "content": "맛있고 양도 많고 저렴하고 친절해서 자주 가는 곳",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 195,
+      "author": "늘봄8232",
+      "date": "2022-11-28",
+      "date_raw": "2022년 11월 28일 월요일",
+      "content": "국물이 좋아요",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 196,
+      "author": "naymnayoung",
+      "date": "2022-11-04",
+      "date_raw": "2022년 11월 4일 금요일",
+      "content": "빨간소머리국밥",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 197,
+      "author": "v최장군이v",
+      "date": "2022-10-30",
+      "date_raw": "2022년 10월 30일 일요일",
+      "content": "훈남 직원분들이 친절하세요\n그리고 국물맛도 참 좋았습니다 ^^\n\n다만 건더기가 아쉬웠어요;;;\n\n살코기보다 비계부분이 많았었어서^^;\n비계를 좋아하는 저이지만👉👈👉👈\n\n첫 방문인지라 어줍잖은 후기입니다~~~",
+      "char_count": 92,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 198,
+      "author": "kkj****",
+      "date": "2022-10-08",
+      "date_raw": "2022년 10월 8일 토요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 199,
+      "author": "크로와상32",
+      "date": "2022-09-24",
+      "date_raw": "2022년 9월 24일 토요일",
+      "content": "소문 듣고 갔는데 진한맛이네요 ~~\n선질 좋아해서 따로 추가 주문했는데\n양도 많이 주시고 ㅎㅎ맛있게 잘 먹었어요",
+      "char_count": 47,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 200,
+      "author": "god****",
+      "date": "2022-09-11",
+      "date_raw": "2022년 9월 11일 일요일",
+      "content": "다짜고짜 사랑한다고 말해도 되나요\n진짜 국밥 너무 맛있고요...\n국물 한입 먹자마자 상투스 울렸습니다\n건더기도 짱 많고요👍🏻👍🏻👍🏻국물 미쳤어요\n강추합니다...믿고 먹는 우시장국밥!!!!!!\n계룡에서 방문한건데 공주 또 갈겁니다\n우시장국밥 짱!!! 그리고 우시장국밥에는 멍순이도 있는데요 세상 순하고...진짜 사랑둥이요 정말 미치도록 귀엽습니다\n연휴 힐링 제대로...💕💕💕\n사장님 대박나세요!!!!",
+      "char_count": 181,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 201,
+      "author": "주머니우쨜",
+      "date": "2022-09-11",
+      "date_raw": "2022년 9월 11일 일요일",
+      "content": "저번에 먹어보고 맛있어서 가족들이랑 또 왔어요~ 엄마아빠도 입맛에 잘 맞는다며 뚝딱 비웠습니다! 밑반찬인 깍두기도 존맛이고 특제소스 중독성 무엇..👍 3대째 내려오는 공주맛집답네요! 설날에 많이 바쁘셨는지 좀만 늦었으면 재료소진으로 못 먹을뻔 했어요 럭키데이입니다✨ 멍순이는 오늘도 너무 순하고 귀엽고 사랑스러워요🥲🫴🐶 친절하고 맛있는 우시장국밥 더욱 번창하세요",
+      "char_count": 161,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 202,
+      "author": "aso****",
+      "date": "2022-09-04",
+      "date_raw": "2022년 9월 4일 일요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 203,
+      "author": "ns****",
+      "date": "2022-09-03",
+      "date_raw": "2022년 9월 3일 토요일",
+      "content": "좋아요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 204,
+      "author": "그래그랭58",
+      "date": "2022-09-02",
+      "date_raw": "2022년 9월 2일 금요일",
+      "content": "우시장국밥 처음 먹어보는데 소머리, 곱창, 천엽, 선지, 살코기 등등 다양하게 들어가있고 국물도 칼칼하고 시원하고 진짜 맛있게 잘 먹었습니다.\n국밥 국물까지 클리어한거 여기가 처음 같아요 진짜 맛있음 추천추천",
+      "char_count": 90,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 205,
+      "author": "다섯냥냥",
+      "date": "2022-08-21",
+      "date_raw": "2022년 8월 21일 일요일",
+      "content": "괜찮아요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "양이 많아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 206,
+      "author": "영규59",
+      "date": "2022-08-15",
+      "date_raw": "2022년 8월 15일 월요일",
+      "content": "자주 가는 곳인데 사장님이 친절하고 음식도 맛있습니다.",
+      "char_count": 24,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 207,
+      "author": "서리맘",
+      "date": "2022-08-06",
+      "date_raw": "2022년 8월 6일 토요일",
+      "content": "맛이 별루 없네여…\n고기에 냄새도 나구요..\n다음엔 안갈래요",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "매장이 넓어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 208,
+      "author": "초록마니아",
+      "date": "2022-07-29",
+      "date_raw": "2022년 7월 29일 금요일",
+      "content": "보통",
+      "char_count": 2,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "혼밥하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 209,
+      "author": "can****",
+      "date": "2022-07-22",
+      "date_raw": "2022년 7월 22일 금요일",
+      "content": "맛있습니다.\n제가 평소에 국밥을 잘 먹지 않는데\n우시장 국밥은 정말 맛있네요.\n오랜만에 공주에 들려서 처음 들린 가게인데\n맛있습니다. 추처드려요.",
+      "char_count": 63,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 210,
+      "author": "mis****",
+      "date": "2022-07-17",
+      "date_raw": "2022년 7월 17일 일요일",
+      "content": "공주 갈때 종종 들리는 국밥집입니다ㅎㅎ\n터미널이랑도 가깝고 가게 앞에 주차장도 있어서👍\n전날에 술한잔해서 해장겸 들렸습니다.\n추천이라고 적혀 있어서 우시장국밥을 먹었는데 이것저것 다양하게 다 들어 있어서 맛있게 먹었습니다! 내장이랑 선지랑 다 들어있더라구여\n다음번에는 콩나물국밥이나 선지해장국 같은 다른 메뉴도 먹어보고 싶네요ㅋㅋ 김치랑 깍두기도 맛있었어요!\n계산하고 나오는 길에 마주한 하얀색 강아지 한마리가 아주 졸귀입니다ㅋㅋ 다음에 공주에 방문하면 다시 들릴게요!",
+      "char_count": 207,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 211,
+      "author": "핼렁",
+      "date": "2022-07-08",
+      "date_raw": "2022년 7월 8일 금요일",
+      "content": "우시장 국밥 너무 맛있어요!!! 😆😆\n김치부터 맛있어서 찐맛집이구나 싶었는데 국밥도 당연히 맛있지만 소스가 정말 존.맛.탱 입니다!!! 사장님 비법 훔쳐가고 싶은맛 ㅠ 감칠맛이 대단해요 🥹 소스넣어서 먹었더니 한그릇 뚝딱했습니당 ~! 그리구 넘 친절하세요!!\n우시장국밥이 좋은건 밖에 짱귀여운 강쥐도 있다는거 ㅠㅠ 넘 순해요 !!!😚 잘먹었습니다 사장님 공주맛집 찜찜!",
+      "char_count": 161,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 212,
+      "author": "아자아자화이",
+      "date": "2022-07-02",
+      "date_raw": "2022년 7월 2일 토요일",
+      "content": "수육 전자렌지 돌려서 주시네요",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 213,
+      "author": "vkf****",
+      "date": "2022-07-01",
+      "date_raw": "2022년 7월 1일 금요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "밤에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 214,
+      "author": "hdu****",
+      "date": "2022-07-01",
+      "date_raw": "2022년 7월 1일 금요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "밤에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 215,
+      "author": "hsu****",
+      "date": "2022-07-01",
+      "date_raw": "2022년 7월 1일 금요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "밤에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 216,
+      "author": "hsw****",
+      "date": "2022-07-01",
+      "date_raw": "2022년 7월 1일 금요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "밤에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 217,
+      "author": "영규59",
+      "date": "2022-06-24",
+      "date_raw": "2022년 6월 24일 금요일",
+      "content": "퇴근하고 들려서 맛있게 먹고 갑니다.\n내장탕이 특히 맛있어요~~@@",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 218,
+      "author": "im****",
+      "date": "2022-06-23",
+      "date_raw": "2022년 6월 23일 목요일",
+      "content": "소머리국밥을 처음 먹어봤는데 잡내 안나고고기도 부드럽고 국물도 진하고 맛있게 먹었습니다. 알바생 너무 잘생겼어요👍",
+      "char_count": 51,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 219,
+      "author": "주머니우쨜",
+      "date": "2022-06-12",
+      "date_raw": "2022년 6월 12일 일요일",
+      "content": "우시장국밥이랑 소머리국밥 먹었는데 양 많고 신선하고 엄청 맛있어요! 사장님이 만드신 수제소스랑 먹으면 밥 두그릇 뚝딱입니다 공주 1등 국밥집 인정👍 터미널 앞에 있어서 위치도 좋고 너무 친절해요!!! 멍순이도 너무 순하고 너무너무 귀엽고 너무너무너무 예쁘고 사랑스러워요😭진짜 최고의 강쥐😭 우시장국밥 당신, 재력과 명예를 모두 가지시길. 무조건 번창하세요~~",
+      "char_count": 157,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 220,
+      "author": "영규59",
+      "date": "2022-06-02",
+      "date_raw": "2022년 6월 2일 목요일",
+      "content": "운동하고 집가다가 들렸는데 남김없이 잘 먹었습니다.",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 221,
+      "author": "torvs795",
+      "date": "2022-06-01",
+      "date_raw": "2022년 6월 1일 수요일",
+      "content": "분명 있었는데 없어졌어요..!!\n\n정말 맛있습니다!!",
+      "char_count": 24,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 222,
+      "author": "kkh****",
+      "date": "2022-06-01",
+      "date_raw": "2022년 6월 1일 수요일",
+      "content": "진짜 ㅈㄹ맛있어요..! 공주 터미널 근처 맛집은 그냥 고민없이 여기 오세여.. 😭\n특히 우시장 국밥은 안에 소머리, 선지, 곱창?, 양 이런게 다 들어가있는데 숙성된건지 아님 그냥 재료가 좋은건지 씹을수록 달짝지근하더라구요🤤 여기에다가 소주 한 잔 하면 크으으~ 취한다!🥴\n왠만하면 영수증 리뷰는 안남기는데 감동해서 장문으로 적어대고 있네요 ㅋㅋㅋㅋ\n안에도 깔끔하구 김치가 존맛탱..! 사장님한테 물어보니까 직접 담그신다고...🥰\n터미널 시간 남아서 기다리는 김에 어쩌다보니 왔는데 담에 올 일 있으면 또 올래여...! 사장님 부디 쭉 열심히 일해주세여!!(나만 알고싶은데 그럼 담에 못올테니까..)",
+      "char_count": 261,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 223,
+      "author": "dls****",
+      "date": "2022-05-29",
+      "date_raw": "2022년 5월 29일 일요일",
+      "content": "국물이 깔끔하고 맛있어요",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 224,
+      "author": "플레이유니",
+      "date": "2022-05-09",
+      "date_raw": "2022년 5월 9일 월요일",
+      "content": "몇년째 단골입니다 항상 변함 없는맛 국밥 생각 날때면 항상 우시장입니다 오늘도 맛있게 잘 먹고갑니다 ~^^",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 225,
+      "author": "날뛰는고라니",
+      "date": "2022-05-08",
+      "date_raw": "2022년 5월 8일 일요일",
+      "content": "남김없이 다먹었습니다 아주 맛이 좋네요",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 226,
+      "author": "이동우48",
+      "date": "2022-05-06",
+      "date_raw": "2022년 5월 6일 금요일",
+      "content": "아니 맛있어서 욕나와요. 솔직히 감동 백종원 숟가락5개 드립니다. 재료도 맛있고 우설도 처음 먹어 봤는데 여기 때문에 중독 됐어요. 음식으로 쾌락 느껴보는 건 오랜만이네요 ㄷㄷ",
+      "char_count": 75,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 227,
+      "author": "sun****",
+      "date": "2022-04-30",
+      "date_raw": "2022년 4월 30일 토요일",
+      "content": "그리운 맛 입니다.. 뭔가 20년전으로 돌아가서 옛 친구들과 그 시절, 그 시간에 함께했던 것 같았습니다. 오랜 친구들과 분위기에 취해 너무 좋은시간 보냈네요.. 시간가는줄 몰랐습니다. 사장님께서 친절하게 서비스 해주셔서 마음 편하게 식사했습니다. 자주 찾아갈거 같아요. 국밥에 많은 영양소가 들어간 재료가 맛이 깊었고 반찬도 맛있습니다. 너무 허겁지겁 먹으면 입이 다칠수도 있으니 조심하세요! 한번 오셔서 그리움을 느껴보시기 바랍니다..",
+      "char_count": 191,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 228,
+      "author": "asdfghjl7",
+      "date": "2022-04-30",
+      "date_raw": "2022년 4월 30일 토요일",
+      "content": "우연히 서울에서 공주 놀러가게되서 인터넷 검색하다가 국밥먹고싶어서 갔는데 국물하고 반찬으로 나온 김치가 진짜 너무너무 맛있었어요!! 제가 원래 선지를 좋아하지않는데도 불구하고 비린내도 안나고 크기도 적당하고 진짜 맛있습니다~ 옆 테이블 아저씨분들는 국밥 하나에 소주를 5병?은 드신거같더라구요 계속 주문하시던데 그만큼 국물이 맛있다는 말이겠죠ㅎㅎ 가게옆에 강아지도 너무 귀여웠고 주차하기 편해서도 좋았습니다! 잘먹고 갑니다:)",
+      "char_count": 190,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 229,
+      "author": "zzu****",
+      "date": "2022-04-22",
+      "date_raw": "2022년 4월 22일 금요일",
+      "content": "직접 소머리를 끓이시고 그걸 육수로 사용하시는것 같더라구요 선도도 좋고 맛 있었습니다.\n터미널 앞에 있어서 가끔 공주오며 편하게 먹기 좋습니다",
+      "char_count": 61,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "주차하기 편해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 230,
+      "author": "levis135",
+      "date": "2022-04-18",
+      "date_raw": "2022년 4월 18일 월요일",
+      "content": "제가 흥분해서 리뷰를 심하게 작성한것 같네요 사과드립니다.세상에서 가장 아까운건 개연성없이 쓴 지출이라고 생각하는데 너무 개연성이 없었어요 사장님. 제 의중은 이해하셨으리라 보고 다음부터 저처럼 기분나빠하면서 나가는 손님은 없었으면좋겠네요 수고하세요",
+      "char_count": 112,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 231,
+      "author": "디자인셀럽",
+      "date": "2022-03-07",
+      "date_raw": "2022년 3월 7일 월요일",
+      "content": "다른곳 왔다가 문닫아서 그냥 아무데나 가자하고 왔어요. 맛은 괜찮아요\n근데 다른 리뷰처럼 정말 불친절의 끝판이네요\n엄청난 친절을 바라는건 아니고 그냥 적당히 식당에서 기대하는정도면 되는데 이건 뭐 사장 부부같은데 둘다 나가는데도 인사도 없고.. 얻어먹으러 왔다해도 이정도는 아니겠어요. 공주 일정 시작인데 진짜 기분 잡쳤네요. 기분 상하는거 감안할만큼 맛나지는 않아요. 좋은건 주차 편한정도네요",
+      "char_count": 171,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "주차하기 편해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 232,
+      "author": "유후4115",
+      "date": "2021-12-13",
+      "date_raw": "2021년 12월 13일 월요일",
+      "content": "가격이 비싸게 느껴졌어요 조금 더 친절하셨으면 기분좋게 식사할 수 있을것 같아요",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    },
+    {
+      "id": 233,
+      "author": "36차원 소녀",
+      "date": "2021-11-16",
+      "date_raw": "2021년 11월 16일 화요일",
+      "content": "진짜 맛있어요!",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "밤에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 234,
+      "author": "성질더러번놈",
+      "date": "2021-10-10",
+      "date_raw": "2021년 10월 10일 일요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 235,
+      "author": "khdhsj",
+      "date": "2021-08-10",
+      "date_raw": "2021년 8월 10일 화요일",
+      "content": "맛있어요~",
+      "char_count": 5,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 236,
+      "author": "ch****",
+      "date": "2021-06-14",
+      "date_raw": "2021년 6월 14일 월요일",
+      "content": "맛있었어요",
+      "char_count": 5,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 237,
+      "author": "잡곡좋아",
+      "date": "2021-06-14",
+      "date_raw": "2021년 6월 14일 월요일",
+      "content": "맛있어요^~^",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 238,
+      "author": "워니하튜",
+      "date": "2020-11-10",
+      "date_raw": "2020년 11월 10일 화요일",
+      "content": "맛있어요~~~!!!",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 239,
+      "author": "알콩달콩사월이랑몌랑",
+      "date": "2020-10-26",
+      "date_raw": "2020년 10월 26일 월요일",
+      "content": "맛나요",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 240,
+      "author": "rkw****",
+      "date": "2020-09-14",
+      "date_raw": "2020년 9월 14일 월요일",
+      "content": "잘 다녀갑니다",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 241,
+      "author": "rkw****",
+      "date": "2020-09-14",
+      "date_raw": "2020년 9월 14일 월요일",
+      "content": "우시장 국밥~~^^",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 242,
+      "author": "sun****",
+      "date": "2020-08-22",
+      "date_raw": "2020년 8월 22일 토요일",
+      "content": "조금 싱겁네요 제입엔",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 243,
+      "author": "달써니75",
+      "date": "2020-06-10",
+      "date_raw": "2020년 6월 10일 수요일",
+      "content": "혼자먹어야 할때 부담스럽지 않고 좋아요",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "too_old:24개월_초과"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_naver_count": 243,
+    "total_loaded": 243,
+    "total_collected": 67,
+    "count_within_3m": 7,
+    "count_3m_to_12m": 29,
+    "count_12m_to_24m": 31,
+    "recency_bonus_count": 7,
+    "recency_penalty_count": 31,
+    "total_excluded": 176,
+    "excluded_paid": 0,
+    "excluded_insincere": 106,
+    "excluded_too_old": 70,
+    "quality_bonus_count": 40,
+    "date_oldest": "2024-06-25",
+    "date_newest": "2026-06-14",
+    "target_met": false
+  }
+}

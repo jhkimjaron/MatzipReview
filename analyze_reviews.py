@@ -5,7 +5,7 @@
       Claude Code는 이 출력만 읽고 정성 분석을 수행한다(전체 JSON을 컨텍스트에 올리지 않음).
 
 사용:
-    python analyze_reviews.py "피탕김탕\\피탕김탕_visitor_raw.json"
+    python analyze_reviews.py "reviews_json\\피탕김탕_naver_visitor.json"
     python analyze_reviews.py <json경로> [--samples 12]
 
 원칙(CLAUDE.md §3,§4 준수):

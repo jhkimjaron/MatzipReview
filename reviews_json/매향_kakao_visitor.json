@@ -1,0 +1,869 @@
+{
+  "restaurant": "매향",
+  "place_id": "9031230",
+  "confirm_id": "9031230",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "9031230",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "매향",
+    "category": "음식점 > 한식 > 냉면",
+    "address": "충남 공주시 백미고을길 18 1층",
+    "phone": "041-881-3161",
+    "homepage": null,
+    "hours": [
+      {
+        "day": "월",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      {
+        "day": "수",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      {
+        "day": "목",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      {
+        "day": "금",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      {
+        "day": "토",
+        "open": "10:30",
+        "close": "15:00"
+      },
+      {
+        "day": "일",
+        "open": "10:30",
+        "close": "15:00"
+      },
+      {
+        "day": "",
+        "open": "10:30",
+        "close": "15:00"
+      }
+    ],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": "매주 화요일",
+    "parking": "매장 자체 주차장 없음, 근처 공영주차장 이용 가능",
+    "facilities": [
+      "공주",
+      "냉면",
+      "메밀",
+      "주차장없음",
+      "포장가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.0,
+    "total_kakao_reviews": 288,
+    "total_blog_reviews": 808,
+    "menus": [
+      {
+        "name": "편육무침",
+        "price": "20,000원",
+        "description": null
+      },
+      {
+        "name": "비빔막국수",
+        "price": "12,000원",
+        "description": null
+      },
+      {
+        "name": "물막국수",
+        "price": "12,000원",
+        "description": null
+      },
+      {
+        "name": "순메밀밤쿠키",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "평양냉면",
+        "price": "12,000원",
+        "description": null
+      },
+      {
+        "name": "비빔냉면",
+        "price": "12,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": "월 11:00 ~ 15:00\n수 11:00 ~ 15:00\n목 11:00 ~ 15:00\n금 11:00 ~ 15:00\n토 10:30 ~ 15:00\n일 10:30 ~ 15:00\n10:30 ~ 15:00",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15770379,
+      "author": "이애응",
+      "date": "2026-06-17",
+      "date_raw": "2026-06-17 19:02:45",
+      "content": "편육이 없다면 이정도의 임팩트는 없을 것임",
+      "char_count": 18,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "review_id": 15767988,
+      "author": "민서",
+      "date": "2026-06-17",
+      "date_raw": "2026-06-17 14:15:00",
+      "content": "편육무침이 미쳤어요!\n꼭먹어야하는 메뉴중 하나입니다~~~",
+      "char_count": 27,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 4,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 4,
+      "review_id": 15735305,
+      "author": "이딱이맛이다",
+      "date": "2026-06-13",
+      "date_raw": "2026-06-13 13:06:17",
+      "content": "수육 맛도리 소스가 고소새콤하니 편육보다는 제육 식감이다. 막국수는 무난하고 사장님이 정말 친절하심.  날씨 더운 토요일 12시 기준 30분 대기 함",
+      "char_count": 63,
+      "rating": 3,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 6,
+      "review_id": 15690895,
+      "author": "dr. hopkins",
+      "date": "2026-06-07",
+      "date_raw": "2026-06-07 13:51:12",
+      "content": "맛있긴 한데 주말은 피하시는 게…밥숟갈 놓자마자 주인장이 식탁 치워도 되냐고 물어옴. 그만큼 사람들이 줄서서 기다리기 때문에 눈치가 보여 여유롭게 천천히 먹는 시간을 즐긴 순 없어요.",
+      "char_count": 78,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 3,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 7,
+      "review_id": 15685592,
+      "author": "피아노샘",
+      "date": "2026-06-06",
+      "date_raw": "2026-06-06 19:37:27",
+      "content": "줄서서 먹을 음식은 아님 봉평 메밀 생각하면 크나큰 오산임",
+      "char_count": 24,
+      "rating": 2,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 8,
+      "review_id": 15658876,
+      "author": "정주나안정주나늘정주",
+      "date": "2026-06-03",
+      "date_raw": "2026-06-03 14:04:17",
+      "content": "개맛있슴다. 코박고 먹느라 사진도 못찍었슴다. 국수 마니아로서 인정 박고 갑니다. 물막국수랑 비빔막국수에 편육무침 먹었는데 설거지하고 왔슴다. 공주오면 또옵니다.",
+      "char_count": 73,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 9,
+      "review_id": 15637198,
+      "author": "오늘도 감사",
+      "date": "2026-05-31",
+      "date_raw": "2026-05-31 16:05:06",
+      "content": "먹어본 막국수 중 제일 맛없음\n기름 맛 ~~ㅠㅠ",
+      "char_count": 19,
+      "rating": 1,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 10,
+      "review_id": 15618979,
+      "author": ".",
+      "date": "2026-05-29",
+      "date_raw": "2026-05-29 13:32:45",
+      "content": "비빔막국수는 새콤할 줄 알았더니 슴슴\n편육무침도 슴슴\n무절임도 슴슴\n동치미도 슴슴\n근데 그 만의 매력있음",
+      "char_count": 44,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 11,
+      "review_id": 15605815,
+      "author": "slda",
+      "date": "2026-05-27",
+      "date_raw": "2026-05-27 15:01:29",
+      "content": "먹다가 국수에서 실리카겔 알갱이들이 잔뜩 나옴,,, 줄 서먹을 만한 맛 절대 아님. 비추!!",
+      "char_count": 39,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 12,
+      "review_id": 15593857,
+      "author": "(매심)한 광수",
+      "date": "2026-05-25",
+      "date_raw": "2026-05-25 19:58:18",
+      "content": "이런 음식에 웨이팅이 왜 있는건지 이해가 정말 않되네요.",
+      "char_count": 24,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 13,
+      "review_id": 15592120,
+      "author": "내돈내산찐후기🥸",
+      "date": "2026-05-25",
+      "date_raw": "2026-05-25 17:26:08",
+      "content": "공휴일 오픈30분전에 갔는데 한시간 기다려서 먹음\n편육무침 평양냉면 비빔막국수 먹었는데 셋다 너무맛있고 반찬 동치미도 진짜 맛있었음!!\n편육무침은 걍 필수로 시키시길...",
+      "char_count": 76,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 15,
+      "review_id": 15565964,
+      "author": "무무",
+      "date": "2026-05-22",
+      "date_raw": "2026-05-22 22:11:17",
+      "content": "소고기 편육 꼭 시키셔야합니다\n사장님 자부심이 장난 아님 근데 솔직히 그럴만해요 서울 엥간한 평냉집보다 여기가 더 근본있음. 메밀 100%이기때문에 맛도 맛이고 메밀향이 너어어무 좋아요!! 예전보다 줄이 길어진게 조금 슬프지만.. 공주 가면 꼭 들르세요",
+      "char_count": 109,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 2,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 16,
+      "review_id": 15514468,
+      "author": "son",
+      "date": "2026-05-16",
+      "date_raw": "2026-05-16 11:38:12",
+      "content": "진짜 메밀 맛으로 자주 가는 곳인데,\n오늘(5.16. 토) 11시 10분에 갔더니만\n오픈시간인데도 역대급으로 줄이 50m가 넘네요. \n그냥 뒤돌아 나왔습니다.\nㅠ 이제 주말은 못갈것같네요.",
+      "char_count": 82,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 17,
+      "review_id": 15499983,
+      "author": "뭐요",
+      "date": "2026-05-14",
+      "date_raw": "2026-05-14 12:16:27",
+      "content": "예상 가능한 맛!  20분 이상 기다리실 필요는 없습니다..\n그 이상 충분히 맛있는 맛집은 많아요\n하지만 진짜 100% 메밀을 찾는분들은 좋아하실듯 합니다. 아이가 먹기에도 들기름 막국수는 슴슴하니 괜찮았어요. 편육과 비빔국수가 간이 좀 있는편입니다.",
+      "char_count": 108,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 18,
+      "review_id": 15488699,
+      "author": "찐",
+      "date": "2026-05-12",
+      "date_raw": "2026-05-12 18:05:41",
+      "content": "음.. 다시 올 정도의 맛은 아닙니다! 기대를 너무 했던 탓일 수도 있습니다. 가격은 서울 가격과 비슷하고, 맛있게 먹었다는 아니어서 아쉽습니다🥲",
+      "char_count": 62,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 19,
+      "review_id": 15461720,
+      "author": "용꼉",
+      "date": "2026-05-09",
+      "date_raw": "2026-05-09 13:44:30",
+      "content": "매향 먹으러 공주 갈 정도\n사장님 직원분들 다 친절하고 편육이랑 면메뉴 모두 맛있음.",
+      "char_count": 35,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 20,
+      "review_id": 15448006,
+      "author": ".",
+      "date": "2026-05-07",
+      "date_raw": "2026-05-07 17:05:47",
+      "content": "맛은 예상가능한 맛입니다. 주인 아저씨 굉장히 친절하세요. 메밀은 맛이 슴슴하고 편육? 고기는 간이 좀 셉니다. 한여름 더울 때는 기다리시기엔 좀 힘들 것 같아요",
+      "char_count": 68,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 21,
+      "review_id": 15372221,
+      "author": "꿀벌",
+      "date": "2026-04-29",
+      "date_raw": "2026-04-29 00:19:59",
+      "content": "한여름에 30분 웨이팅했는데 아쉽지않을 맛",
+      "char_count": 19,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 22,
+      "review_id": 15367417,
+      "author": "병건",
+      "date": "2026-04-28",
+      "date_raw": "2026-04-28 13:44:55",
+      "content": "들기름막국수 12,000원.\n4점 - 근처에 있을 때 재방문할 만한 식당.\n\n여기는 국수의 간보다는 면 자체로 승부보는 곳인 것 같습니다.\n면은 수준급입니다. 다만 면 자체가 아닌 막국수의 전반적인 맛(아마 들기름의 맛)은 아주 특별하지는 않습니다.\n\n2인 테이블이 있어 혼밥도 무리 없습니다.\n온누리상품권(상생페이백) 결제 가능합니다!",
+      "char_count": 145,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 23,
+      "review_id": 12308373,
+      "author": "=^ㅅ^=",
+      "date": "2025-03-12",
+      "date_raw": "2025-03-12 13:42:43",
+      "content": "자가제작한 대형 멧돌로 메밀을 제분해서 바로 면을 뽑아주는 메밀순면 전문점. 메밀맛을 극대화해서 즐겨보고싶으면 육향 좋은 육수에 슴슴하게 만든 평양냉면을 드셔보시고 동치미 국물에 슴슴하게 시원하게 드셔보시고프면 막국수를 권합니다. 또 매일 자가착유하는 들기름과 김가루로 감칠감칠 고소한 들기름막국수도 좋아하는 분들에겐 극호 메뉴입니다. 편육무침도 들기름 듬뿍 올려나와서 좋은 맛입니다.\n면을 살짝 익혀서 순면임에도 어느 정도 탄력은 가지지만 툭툭 끓기는 메밀면이고 메밀의 향을 느껴볼 수 있는 거의 유일무이한 가게인 듯 합니다. 웨이팅이 매일 생깁니다. 두시 넘어서나 웨이팅이 없어지는데 오후 세시까지만 영업합니다.\n\n추가) 겨울방학 끝내고 다시 영업개시했습니다 2025년 3월 (해마다 동절기 휴무기간이 있어요)\n\n추가) 제가 미각이 예민한 편인데 매향에서 첫 입은 아무 맛이 안납니다 그런데 한입씩 씹다보면 향이 연하게 점점 올라와서 다 먹어갈 때는 은은한 향이 중독적입니다\n서그럭 씹히는 식감과 무향인 면맛에 놀라지 마시고 계속 씹어보세요 대체불가한 이 가게의 맛입니다",
+      "char_count": 420,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 2,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 24,
+      "review_id": 15268096,
+      "author": "뿡뿡추진",
+      "date": "2026-04-15",
+      "date_raw": "2026-04-15 13:58:15",
+      "content": "메밀면이 좋았다.  사장님 직원들도 아주 친절함.\n비빔막국수 물막국수 들기름 중에 비빔막국수가 제일 맛있었고 \n음식이 전체적으로 달다.. 멀리서 찾아올 만큼은 아니고(잘하는 집이 너무 많음) 근처에 왔다면 먹을만 함 ㅎㅎ 웨이팅은 안했고 할만한 가치가 있는지는 모르겠음. 웨이팅 하라고 하면 고민될거 같다.",
+      "char_count": 131,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 25,
+      "review_id": 15244114,
+      "author": "쓸때없이까다로운사람",
+      "date": "2026-04-12",
+      "date_raw": "2026-04-12 11:55:12",
+      "content": "여기 별 백개짜리임. 위생 친절 맛 특색 모두 백점. ○○○ㅈㄴ 맛있다. 이거 먹으러 공주 또 올꺼임. 테이블링 같은거 없어서 줄길게 서는거 불편하다 생각했는데 생각보다 줄잘 빠지고 한입먹는순간 줄선거 까먹음",
+      "char_count": 88,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 28,
+      "review_id": 15089741,
+      "author": "슈슈",
+      "date": "2026-03-22",
+      "date_raw": "2026-03-22 14:41:15",
+      "content": "주말에 3~40분정도 기다림. 맛이 예전같지 않음 아쉽다",
+      "char_count": 25,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    }
+  ],
+  "excluded": [
+    {
+      "id": 3,
+      "review_id": 15767739,
+      "author": "아봉",
+      "date": "2026-06-17",
+      "date_raw": "2026-06-17 13:50:55",
+      "content": "정말 맛있어요",
+      "char_count": 6,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 5,
+      "review_id": 15697374,
+      "author": "🩵",
+      "date": "2026-06-08",
+      "date_raw": "2026-06-08 11:06:06",
+      "content": "ㄹㅇ 맛있음 편육무침 꼭 드세여",
+      "char_count": 13,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 14,
+      "review_id": 15578221,
+      "author": "fishingzang",
+      "date": "2026-05-24",
+      "date_raw": "2026-05-24 12:20:07",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 26,
+      "review_id": 15236565,
+      "author": "김도경",
+      "date": "2026-04-11",
+      "date_raw": "2026-04-11 12:54:30",
+      "content": "",
+      "char_count": 0,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 27,
+      "review_id": 15162390,
+      "author": "gogogogoggo",
+      "date": "2026-04-01",
+      "date_raw": "2026-04-01 12:00:16",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 29,
+      "review_id": 14953064,
+      "author": "평점깎는노인",
+      "date": "2026-03-03",
+      "date_raw": "2026-03-03 02:29:50",
+      "content": "편육 무침이 맛있었어요",
+      "char_count": 10,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 288,
+    "average_score_overall": 4.0,
+    "total_collected": 23,
+    "total_loaded": 29,
+    "count_within_3m": 22,
+    "count_3m_to_12m": 0,
+    "count_12m_to_24m": 1,
+    "recency_bonus_count": 22,
+    "recency_penalty_count": 1,
+    "quality_bonus_count": 14,
+    "rating_distribution": {
+      "1": 3,
+      "2": 1,
+      "3": 5,
+      "4": 3,
+      "5": 11
+    },
+    "avg_rating_collected": 3.78,
+    "total_excluded": 6,
+    "excluded_paid": 0,
+    "excluded_insincere": 6,
+    "excluded_too_old": 0,
+    "date_oldest": "2025-03-12",
+    "date_newest": "2026-06-17",
+    "target_met": false
+  }
+}

@@ -29,5 +29,9 @@ desktop.ini
 .vscode/
 .idea/
 
-# raw txt는 사람 확인용이라 제외 (json만 유지)
+# txt는 사람 확인용이라 제외 (분석 입력 json만 유지)
+reviews_txt/
 raw/*.txt
+
+# 1회성 생성/변환 스크립트 (언더스코어 임시)
+_*.py

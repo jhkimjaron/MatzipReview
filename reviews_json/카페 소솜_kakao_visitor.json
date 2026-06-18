@@ -1,0 +1,544 @@
+{
+  "restaurant": "카페 소솜",
+  "place_id": "1107149318",
+  "confirm_id": "1107149318",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "api_end:마지막페이지_도달",
+  "place_info": {
+    "confirm_id": "1107149318",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "카페 소솜",
+    "category": "음식점 > 카페",
+    "address": "충남 공주시 제민2길 1-2",
+    "phone": "0503-7153-6912",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": null,
+    "facilities": [
+      "공주데이트",
+      "공주여행",
+      "공주카페",
+      "디저트카페",
+      "한옥카페",
+      "조용한카페",
+      "포장가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.5,
+    "total_kakao_reviews": 13,
+    "total_blog_reviews": 93,
+    "menus": [
+      {
+        "name": "보늬밤티라미수",
+        "price": "8,000원",
+        "description": null
+      },
+      {
+        "name": "보늬밤크림라떼",
+        "price": "7,000원",
+        "description": null
+      },
+      {
+        "name": "밤라떼",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "바스크치즈케이크",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "바닐라빈라떼",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "헤이즐넛라떼",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "헤이즐넛 아메리카노",
+        "price": "4,500원",
+        "description": null
+      },
+      {
+        "name": "복숭아 톡톡 아이스티",
+        "price": "4,000원",
+        "description": null
+      },
+      {
+        "name": "연유라떼",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "카라멜마끼아또",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "카페라떼",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "카푸치노",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "메리골드꽃차",
+        "price": "7,000원",
+        "description": null
+      },
+      {
+        "name": "초코라떼",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "카페모카",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "아메리카노",
+        "price": "4,000원",
+        "description": null
+      },
+      {
+        "name": "서리태라떼",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "딸기라떼",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "시나몬크림라떼",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "보늬밤샷크림라떼",
+        "price": "7,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15657883,
+      "author": "빵순이",
+      "date": "2026-06-03",
+      "date_raw": "2026-06-03 12:52:31",
+      "content": "밤 바치케 너무 맛있었어요... 또 먹고싶다",
+      "char_count": 19,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 3,
+      "review_id": 13776095,
+      "author": "뉴누",
+      "date": "2025-09-23",
+      "date_raw": "2025-09-23 18:12:52",
+      "content": "사장님 진짜 진철 ㅜㅜ\n밤티라미수 완저누맛있어요!",
+      "char_count": 22,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 5,
+      "review_id": 13680058,
+      "author": "크립스",
+      "date": "2025-09-10",
+      "date_raw": "2025-09-10 13:10:16",
+      "content": "초록초록 분위기도 너무 좋고\n커피도 아주 맛있는 곳!",
+      "char_count": 22,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 6,
+      "review_id": 12917819,
+      "author": "Jean-Carl Coux",
+      "date": "2025-06-04",
+      "date_raw": "2025-06-04 13:43:14",
+      "content": "한옥에서 느긋하게 식후 공주의 시간과 정취를 보내기 좋다.",
+      "char_count": 25,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 2,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 7,
+      "review_id": 12715569,
+      "author": "찐",
+      "date": "2025-05-06",
+      "date_raw": "2025-05-06 21:38:31",
+      "content": "내부는 작은 편이지만 조용한 골목에 위치해있고\n잔잔하게 불어오는 바람이 너무 좋았어요\n라떼도 맛있었구,,\n고양이,, 짱귀,,,",
+      "char_count": 56,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 8,
+      "review_id": 12427989,
+      "author": "알라뷰",
+      "date": "2025-03-30",
+      "date_raw": "2025-03-30 09:05:25",
+      "content": "음...카페 좋아해서 이곳저곳 찾아댕기는 사람으로써는....\n상대적으로 좋은곳이 너무 많아서 굳이 이곳을 두번 찾아가고 싶은느낌은 안드네요.\n우선 공간이 생각보다 너무 협소하고(사진만 볼때는 이정도일줄 몰랐는데...)\n시그니처(왕밤라떼)도 큰 밤하나 위에 있는거 말고는 큰 특별함이 없고...\n건물 인테리어를 찍으려다 뭘 찍어야할지 몰라 좀 애매함.\n원래 점수 5점은 거의안주고 재방문에 만족하면 4점주는 사람입니다.( 점수 좀 짜게 올리는사람)\n사장님이 그래도 좀 친절하신분이라 1점주려다2점 드립니다. 3점 안드린이유는 좋은 느낌보다는 아쉬움과 실망이 커서 이렇게 드렸어요.\n참고로 원래 점수 5점은 거의안주고 재방문에 만족하면 4점주는 사람입니다.( 점수 좀 짜게 올리는사람)",
+      "char_count": 302,
+      "rating": 2,
+      "strength_ids": [
+        2
+      ],
+      "keywords": [
+        "친절"
+      ],
+      "tags": [
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 10,
+      "review_id": 12239426,
+      "author": "카카오리뷰가 찐리뷰라던데",
+      "date": "2025-03-02",
+      "date_raw": "2025-03-02 12:31:25",
+      "content": "곰골식당 갔다가 근처 카페 중 평점 소솜 방문, 보니밤라떼 only ice 💡👍🤗🩷 대충 찍은 사진이지만, 맛있어용 ! 밖에서 보이는 모습은 어두워서 휴일인줄 착각할뻔 했어요!",
+      "char_count": 75,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 11,
+      "review_id": 11972115,
+      "author": "여행덕후",
+      "date": "2025-01-23",
+      "date_raw": "2025-01-23 18:59:09",
+      "content": "내돈내산 찐 리뷰\n밤치즈케이크는 진짜 인생 치즈케잌이고\n밤 라떼도 넘 맛있어요,,\n분위기 좋고 조용하고 감성 있는 카페 원하신다면 딱이에요!!\n다음에도 놀러오면 무조건 올거에요 진짜!!!!",
+      "char_count": 82,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 13,
+      "review_id": 11421220,
+      "author": "밤비",
+      "date": "2024-11-13",
+      "date_raw": "2024-11-13 22:30:37",
+      "content": "공주에 역시 밤을 이용한 다양한 디저트의 카페들이 많길래 고민고민하다가 갔는데 대만족이에요! 영수증이 없어서 ㄴㅇ버에 못 남기는데 카카오맵으로라도 남기고 싶은 마음 아시나요?ㅠ 밤라떼랑 밤 바스크치즈케이크 먹었는데 진짜진짜 맛있었어요! 밤라떼는 위에 크림이 진짜 맛있었고, 밤 바스크치즈케이크도 오리지널이랑 뭔가 다른데 치즈맛도 나는 것이 엄청 부드럽더라구요🥺💗 먹으면서 새삼 밤으로 유명한 공주에 왔구나 싶었어요ㅋㅋ ‼️단 거 별로 안 좋아하시면 아메리카노+바스크치즈케이크 조합 추천드리고, 배불러서 음료만 먹어야겠다 하시는 달달러버 분들은 밤라떼 단품이라도 드세요ㅋㅋ 저는 평소 카페가면 디저트+아메리카노or차 / 달달한 음료 좋아하는 사람인데 여기는 둘다 포기 못해서 저렇게 먹었는데도 맛있었어요ㅋㅋㅋ 사장님도 친절하셨고 화장실도 깨끗해요! 다음번 공주 여행 때까지 꼭 자리 보전해주셨으면 하는 마음으로 리뷰 남깁니다...🙏🙏",
+      "char_count": 369,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 3,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    }
+  ],
+  "excluded": [
+    {
+      "id": 2,
+      "review_id": 14953067,
+      "author": "평점깎는노인",
+      "date": "2026-03-03",
+      "date_raw": "2026-03-03 02:32:25",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 4,
+      "review_id": 13739042,
+      "author": "@",
+      "date": "2025-09-18",
+      "date_raw": "2025-09-18 17:33:00",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 9,
+      "review_id": 12382586,
+      "author": "밥빙기",
+      "date": "2025-03-23",
+      "date_raw": "2025-03-23 11:56:58",
+      "content": "",
+      "char_count": 0,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 12,
+      "review_id": 11537763,
+      "author": "단산사람",
+      "date": "2024-11-30",
+      "date_raw": "2024-11-30 23:57:18",
+      "content": "",
+      "char_count": 0,
+      "rating": 4,
+      "strength_ids": [
+        3
+      ],
+      "keywords": [
+        "분위기"
+      ],
+      "tags": [
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 13,
+    "average_score_overall": 4.5,
+    "total_collected": 9,
+    "total_loaded": 13,
+    "count_within_3m": 1,
+    "count_3m_to_12m": 2,
+    "count_12m_to_24m": 6,
+    "recency_bonus_count": 1,
+    "recency_penalty_count": 6,
+    "quality_bonus_count": 5,
+    "rating_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 2,
+      "5": 6
+    },
+    "avg_rating_collected": 4.44,
+    "total_excluded": 4,
+    "excluded_paid": 0,
+    "excluded_insincere": 4,
+    "excluded_too_old": 0,
+    "date_oldest": "2024-11-13",
+    "date_newest": "2026-06-03",
+    "target_met": false
+  }
+}

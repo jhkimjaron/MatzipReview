@@ -1,0 +1,4386 @@
+{
+  "restaurant": "우케타",
+  "place_id": "1135883963",
+  "collected_at": "2026-06-18T16:27:27+09:00",
+  "review_type": "visitor",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "place_info": {
+    "place_id": "1135883963",
+    "collected_at": "2026-06-18T16:27:27+09:00",
+    "name": "우케타",
+    "category": null,
+    "address": "충남 공주시 번영1로 54-6 1층 우케타",
+    "phone": "0507-1340-2505",
+    "homepage": "https://www.instagram.com/uketa_tendong",
+    "hours": [
+      {
+        "day": "목",
+        "open": "11:00",
+        "close": "20:30"
+      },
+      {
+        "day": "금",
+        "open": "11:00",
+        "close": "20:30"
+      },
+      {
+        "day": "토",
+        "open": "11:00",
+        "close": "20:30"
+      },
+      {
+        "day": "월",
+        "open": "11:00",
+        "close": "20:30"
+      },
+      {
+        "day": "화",
+        "open": "11:00",
+        "close": "20:30"
+      },
+      {
+        "day": "수",
+        "open": "11:00",
+        "close": "20:30"
+      }
+    ],
+    "break_time": "15:00 - 17:00",
+    "last_order": "14:30",
+    "regular_holiday": "정기휴무 (매주 일요일)",
+    "parking": null,
+    "facilities": [
+      "무선 인터넷",
+      "예약",
+      "단체 이용 가능",
+      "대기공간",
+      "포장",
+      "배달"
+    ],
+    "naver_booking": false,
+    "total_visitor_reviews": null,
+    "total_blog_reviews": null,
+    "menus": [
+      {
+        "name": "기스텐동",
+        "price": "13,500원",
+        "description": "보리멸(흰살생선),새우1,오징어,연근,단호박,꽈리고추,김,팽이,온천계란"
+      },
+      {
+        "name": "가라아게동",
+        "price": "12,500원",
+        "description": "갈릭마요에 할라피뇨를 더한 화이트소스가 뿌려지는 가라아게동 입니다."
+      },
+      {
+        "name": "메밀소바",
+        "price": "10,000원",
+        "description": "우케타만의 메밀소바, 새우튀김과 꽈리고추가 제공됩니다."
+      },
+      {
+        "name": "덴푸라 우동",
+        "price": "9,000원",
+        "description": "일본 도쿄식 우동 새우튀김1p,단호박튀김1p"
+      },
+      {
+        "name": "스페셜 텐동",
+        "price": "16,500원",
+        "description": "장어,새우2,오징어,가지,연근,단호박,꽈리고추,김,팽이,온천계란"
+      },
+      {
+        "name": "우케텐동",
+        "price": "10,000원",
+        "description": "새우2,오징어,가지,연근,꽈리고추,김,팽이,온천계란"
+      },
+      {
+        "name": "에비텐동",
+        "price": "13,000원",
+        "description": "새우4,연근,단호박,꽈리고추,김,팽이,온천계란"
+      },
+      {
+        "name": "아나고텐동",
+        "price": "15,000원",
+        "description": "장어,새우2,가지,연근,꽈리고추,김,팽이,온천계란"
+      },
+      {
+        "name": "세트미니소바",
+        "price": "4,500원",
+        "description": "텐동과 세트로 주문가능한 미니소바(단품주문x)"
+      },
+      {
+        "name": "세트 미니우동",
+        "price": "4,500원",
+        "description": "텐동과 세트로 드실 수 있는 미니우동입니다."
+      },
+      {
+        "name": "방울토마토 절임",
+        "price": "4,000원",
+        "description": "매실청으로 절인 달콤한 토마토절임"
+      },
+      {
+        "name": "메론소다",
+        "price": "4,500원",
+        "description": "메론 셔벗이 올라간 메론소다"
+      },
+      {
+        "name": "매실차(ICE)",
+        "price": "3,000원",
+        "description": "직접 청을 담굼 수제매실차"
+      },
+      {
+        "name": "매실차(HOT)",
+        "price": "3,000원",
+        "description": "직접 청을 담군 수제매실차"
+      }
+    ],
+    "raw_hours_text": "목 11:00 - 20:30\n15:00 - 17:00 브레이크타임\n14:30, 20:00 라스트오더\n금 11:00 - 20:30\n15:00 - 17:00 브레이크타임\n14:30, 20:00 라스트오더\n토 11:00 - 20:30\n15:00 - 17:00 브레이크타임\n14:30, 20:00 라스트오더\n일 정기휴무 (매주 일요일)\n월 11:00 - 20:30\n15:00 - 17:00 브레이크타임\n14:30, 20:00 라스트오더\n화 11:00 - 20:30\n15:00 - 17:00 브레이크타임\n14:30, 20:00 라스트오더\n수 11:00 - 20:30\n15:00 - 17:00 브레이크타임\n14:30, 20:00 라스트오더",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "author": "los****",
+      "date": "2026-06-18",
+      "date_raw": "2026년 6월 18일 목요일",
+      "content": "여자친구랑 공주 여행와서 들렀는데 너무 맛있어요! 김피탕 버금가는 공주 여행 필수코스",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "author": "haehahe",
+      "date": "2026-06-18",
+      "date_raw": "2026년 6월 18일 목요일",
+      "content": "간이 적당하고 튀김이 바삭하고 맛있어요~\n소바랑 같이 세트로 먹으니까 더 맛있네요!!",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 3,
+      "author": "dbs****",
+      "date": "2026-06-17",
+      "date_raw": "2026년 6월 17일 수요일",
+      "content": "여행중에 우연히 찾아 왔는데 너무 맛집입니다~~ 양도 많고 아이들도 좋아하고\n맛있게 잘 먹어요!!",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 4,
+      "author": "경76123",
+      "date": "2026-06-17",
+      "date_raw": "2026년 6월 17일 수요일",
+      "content": "일잔 매장으 너무 예쁘고 텐동이랑 메밀소바 짱 맛있어요 숙소 근처라 와봤는데 완전 만족만족 입니당👍",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 6,
+      "author": "himiz06",
+      "date": "2026-06-15",
+      "date_raw": "2026년 6월 15일 월요일",
+      "content": "여자친구랑 방문했어요! 항상 너무 맛있습니다 ㅎㅎ 추천하는 공주 맛집이에요!! 우케텐동이랑 에비텐동 먹었는데 다음에는 다른것도 먹어보고싶어요",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 7,
+      "author": "My winter",
+      "date": "2026-06-15",
+      "date_raw": "2026년 6월 15일 월요일",
+      "content": "N번째 방문입니다~ 텐동 너무 맛있어요!!!",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 8,
+      "author": "kmpart12",
+      "date": "2026-06-15",
+      "date_raw": "2026년 6월 15일 월요일",
+      "content": "분위기도 아늑하고 텐동도 맛있네요👍",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "사진이 잘 나와요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 9,
+      "author": "lh****",
+      "date": "2026-06-13",
+      "date_raw": "2026년 6월 13일 토요일",
+      "content": "텐푸라가 다 큼직하고 바삭바삭 정말 맛있어요!!!!!!\n공주 올 때마다 들러야겠습니다 :)",
+      "char_count": 40,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 나들이, 일상",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 10,
+      "author": "Grinch17",
+      "date": "2026-06-13",
+      "date_raw": "2026년 6월 13일 토요일",
+      "content": "엄마랑 같이 왔는데 튀김을 좋아하셔서 엄청 좋아하셨어요. 예약 없이 와서 웨이팅이 있긴 했지만 기다리길 잘했네요. 소바도 새우튀김을 같이 줘서 좋았어요",
+      "char_count": 65,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "여행",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 11,
+      "author": "PH hj",
+      "date": "2026-06-13",
+      "date_raw": "2026년 6월 13일 토요일",
+      "content": "음식이 맛있고 매장도 넓어요. 주문즉시 조리해주셔서 좋네요",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 12,
+      "author": "Oo냠냠oO",
+      "date": "2026-06-12",
+      "date_raw": "2026년 6월 12일 금요일",
+      "content": "우케 텐동이랑 아나고 텐동 먹었는데 너무 맛있어요😍 오랜만에 와서 더 좋아요 또 오고싶어요 너무 느좋이에요 ㅠㅠ",
+      "char_count": 47,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 13,
+      "author": "geenzn",
+      "date": "2026-06-11",
+      "date_raw": "2026년 6월 11일 목요일",
+      "content": "기본텐동도 알차고 맛있네요\n다음엔 아나고텐동 ㄱㄱ",
+      "char_count": 22,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "비즈니스",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 14,
+      "author": "kszin",
+      "date": "2026-06-10",
+      "date_raw": "2026년 6월 10일 수요일",
+      "content": "텐동 먹고싶어서 우케타 왔어요!!~~ 너무 맛있고 사이드 메뉴들도 양 넉넉하고 좋아요 🤩🩷 공주 일등 텐동집!!",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 16,
+      "author": "노는아이11",
+      "date": "2026-06-09",
+      "date_raw": "2026년 6월 9일 화요일",
+      "content": "가성비가 너무 좋아요ㅡ\n\n맛도 물론^^\n\n꼭재방문의사 있음ㅎ",
+      "char_count": 25,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 17,
+      "author": "olivvv1",
+      "date": "2026-06-09",
+      "date_raw": "2026년 6월 9일 화요일",
+      "content": "우케타텐동이 오늘 너무 먹고싶어서\n무조건 먹어야된다하고 왔습니다\n역시너무맛잇어용💕💕💕",
+      "char_count": 40,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 18,
+      "author": "fly****",
+      "date": "2026-06-08",
+      "date_raw": "2026년 6월 8일 월요일",
+      "content": "텐동이 진짜 맛있어요 너무 맛있는거 같아요 다음에 와서 또 먹고 싶어요",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 19,
+      "author": "서국현",
+      "date": "2026-06-08",
+      "date_raw": "2026년 6월 8일 월요일",
+      "content": "생각날때마다 대전에서 오고있어요\n맛도맛이고 가격도 혜자입니다\n정말 맛있어요~~",
+      "char_count": 36,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 20,
+      "author": "goo****",
+      "date": "2026-06-08",
+      "date_raw": "2026년 6월 8일 월요일",
+      "content": "공주여행와서 맛집 검색하다가 왔는데 완전맛도리였어요!!",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행, 나들이",
+        "아이"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 21,
+      "author": "wue****",
+      "date": "2026-06-06",
+      "date_raw": "2026년 6월 6일 토요일",
+      "content": "공주에 텐동 맛집이 있다고 해서 와봤는데 너무 좋아요!!!!! 알밤가루로 반죽한 텐동이라구,, 완전 공주 맞춤 맛집 인 것 같아요❤️ 너무 맛있고 추천입니다!!!!!",
+      "char_count": 72,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 22,
+      "author": "즐랙사",
+      "date": "2026-06-06",
+      "date_raw": "2026년 6월 6일 토요일",
+      "content": "공주 맛집이라고 들려봤는데\n\n웨이팅이 많으걸로 보아 리뷰선 맛집 콕\n\n믿고 기다리는 텐동 한번씩 들려보세요\n\n가격도 착함\n\n#공주맛집#텐동#데이트#착한가격",
+      "char_count": 66,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "재료가 신선해요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 24,
+      "author": "kittenijub20",
+      "date": "2026-06-06",
+      "date_raw": "2026년 6월 6일 토요일",
+      "content": "텐동 소바 유자향 단무지까지 모든 음식이 주인장의 내공이 느껴지는 식당입니다. 공주에 오면 꼭 방문하는 곳",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 25,
+      "author": "WD37",
+      "date": "2026-06-06",
+      "date_raw": "2026년 6월 6일 토요일",
+      "content": "가족여행와서 아이들과 맛있게 먹었어요",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이, 연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 27,
+      "author": "jiy****",
+      "date": "2026-06-03",
+      "date_raw": "2026년 6월 3일 수요일",
+      "content": "공주에서 제일 좋아하는 텐동집입니다! 항상 오면 우케 텐동 먹어용 ㅎㅁㅎ 최고",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 29,
+      "author": "siiree",
+      "date": "2026-06-03",
+      "date_raw": "2026년 6월 3일 수요일",
+      "content": "튀김도 맛있고 소스도 적당히 조화롭고 맛있어요",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "기념일",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 30,
+      "author": "nav****",
+      "date": "2026-06-03",
+      "date_raw": "2026년 6월 3일 수요일",
+      "content": "오늘 처음 방문한 우케타!\n손님도 많고 다들 행복한 모습입니다^^\n맛도 기대가 되는군요.\n식사후 소감 남겨드리겠습니다^^",
+      "char_count": 53,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 31,
+      "author": "dinya1004",
+      "date": "2026-06-03",
+      "date_raw": "2026년 6월 3일 수요일",
+      "content": "가족들과 점심에 방문 했는데 조금 일찍 오니 사람 없이 여유롭게 식사를 했어요. 매번 먹는 곳인데, 너무 맛있고 재료도 신선해요 또 방문 하겠습니다.",
+      "char_count": 62,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 32,
+      "author": "abbccc",
+      "date": "2026-06-03",
+      "date_raw": "2026년 6월 3일 수요일",
+      "content": "튀김 바삭하고 너무 맛있습니다\n예약하고 오니까 웨이팅 없이 식사가능해서 좋았어요",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 33,
+      "author": "예쁘면 다 언니",
+      "date": "2026-06-02",
+      "date_raw": "2026년 6월 2일 화요일",
+      "content": "진짜 맛있고 양도 많아요 ㅎㅎ 재방문 했고 앞으로도 계속 해서 오고 싶은 곳이에요!! 직원분들도 다 너무 친절하세요🫶",
+      "char_count": 49,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 34,
+      "author": "Florence4",
+      "date": "2026-05-30",
+      "date_raw": "2026년 5월 30일 토요일",
+      "content": "항상 맛있게 먹는 곳이에요 ~ 곳곳에 소품도 넘 귀여워요 ㅎㅎ 튀김 크고 맛있어용!",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 35,
+      "author": "만두9119",
+      "date": "2026-05-30",
+      "date_raw": "2026년 5월 30일 토요일",
+      "content": "처음 와봤는데 친절하시고 음식도 맛있어서 또 방문할 것 같아요!!\n여름이라 토마토 절임 시켰는데 맛있었어요☺️",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 36,
+      "author": "hul****",
+      "date": "2026-05-29",
+      "date_raw": "2026년 5월 29일 금요일",
+      "content": "너무 맛있어요 가격도 괜찮고 분위기도 좋아요",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 37,
+      "author": "gaia21",
+      "date": "2026-05-28",
+      "date_raw": "2026년 5월 28일 목요일",
+      "content": "매번 찾아오능 맛집이에요 넘 맛있어용!",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 38,
+      "author": "isu****",
+      "date": "2026-05-28",
+      "date_raw": "2026년 5월 28일 목요일",
+      "content": "너무 맛있습니다 다음에 또 오고싶어요",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 40,
+      "author": "감자94",
+      "date": "2026-05-28",
+      "date_raw": "2026년 5월 28일 목요일",
+      "content": "가게가 깔끔하고 직원분들도 친절해요.\n양도 무지 많고 맛있어요!!ㅎㅎ",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 41,
+      "author": "kwk****",
+      "date": "2026-05-27",
+      "date_raw": "2026년 5월 27일 수요일",
+      "content": "텐동 가격에 비해 푸짐하고 맛도 있어요\n매장 깔끔하도 직원 분들도 친절해요",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 44,
+      "author": "수빵e",
+      "date": "2026-05-25",
+      "date_raw": "2026년 5월 25일 월요일",
+      "content": "텐동의 바삭함이 진짜 미쳤어요!! 🙀\n한입 먹자마자 감탄했어요,, 공주 오면 꼭 들려야하는 맛집입니다 🫶🏻🫶🏻",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 45,
+      "author": "우슬링",
+      "date": "2026-05-25",
+      "date_raw": "2026년 5월 25일 월요일",
+      "content": "공주에서 가고 싶었던 우케타.\n드뎌 왔어요~\n스페셜텐동, 가라아게동 일단 양도 푸짐~\n맛나요~맛나~^^",
+      "char_count": 46,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 46,
+      "author": "you****",
+      "date": "2026-05-23",
+      "date_raw": "2026년 5월 23일 토요일",
+      "content": "우와~~~맛집입니다~~~ 배아푸다고 안 먹겠다는 아이가 갑자기 맛있다며 폭풍흡입합니다.",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "데이트, 나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 47,
+      "author": "ksl****",
+      "date": "2026-05-23",
+      "date_raw": "2026년 5월 23일 토요일",
+      "content": "흔하지 않은 텐동 맛집 여라가지 사이드도 맛있어요",
+      "char_count": 21,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 48,
+      "author": "goals00",
+      "date": "2026-05-23",
+      "date_raw": "2026년 5월 23일 토요일",
+      "content": "튀김이 바싹바싹 맛있어요~\n사진은 못찍었지만 메밀소바도 맛있어요~",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 49,
+      "author": "sksdkfka123",
+      "date": "2026-05-22",
+      "date_raw": "2026년 5월 22일 금요일",
+      "content": "저번에 와서 먹었었는데 너무 맛있어서 또 왔어요. 특히 김이랑 팽이버섯의 식감이 너무 좋아요. 맛있었어요. 배달로도 시켜 먹어봐야 할거 같아요. 또 올께요. ^^",
+      "char_count": 69,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 50,
+      "author": "별님달님햇님이",
+      "date": "2026-05-22",
+      "date_raw": "2026년 5월 22일 금요일",
+      "content": "오늘 아내와 같이 재방문 하게 되었습니다.\n맛집이라 조금 웨이팅이 있었지만 역시 기대한대로 음식은 항상 맛있고 처음으로 가라아게동 시켰는데, 맛있게 잘 먹었습니다 :)\n공주에 일식 맛집은 여기뿐인것 같아요!\n다음에도 오겠습니다😀🥰",
+      "char_count": 100,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 52,
+      "author": "wit****",
+      "date": "2026-05-22",
+      "date_raw": "2026년 5월 22일 금요일",
+      "content": "날이더워서 텐동이랑 소바 먹었습니다. 바삭하고 맛있네요. 점심시간엔 만석이었는데 곧 빠졌어요. 맛있게 먹고 갑니다",
+      "char_count": 51,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 53,
+      "author": "이성호79",
+      "date": "2026-05-21",
+      "date_raw": "2026년 5월 21일 목요일",
+      "content": "진짜 자주오는 공주 맛집 서울에 있는 이름 있는 텐동집들보다 훨 맛있어요 강추드립니다 진심으로!!",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 55,
+      "author": "베리2471",
+      "date": "2026-05-19",
+      "date_raw": "2026년 5월 19일 화요일",
+      "content": "맛맛맛도리집\n진심 너무 맛있어요\n일본갈필요가 없음\n또 오겠습니다",
+      "char_count": 28,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 56,
+      "author": "rla****",
+      "date": "2026-05-18",
+      "date_raw": "2026년 5월 18일 월요일",
+      "content": "늘 만족하면서 먹는 곳\n데이트하기 좋아요",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 57,
+      "author": "ldjh01114",
+      "date": "2026-05-16",
+      "date_raw": "2026년 5월 16일 토요일",
+      "content": "공주 여행 중 와봤는데 텐동 진짜 맛있네요 ㅎㅎ\n가성비도 좋고 분위기도 좋아요👍",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 58,
+      "author": "문소연6028",
+      "date": "2026-05-16",
+      "date_raw": "2026년 5월 16일 토요일",
+      "content": "흰살생선이랑 장어로 먹었는데 지인짜 맛있어요\n텐동 중에 제일 맛있게 먹었어요!!",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 59,
+      "author": "뚜앙71",
+      "date": "2026-05-16",
+      "date_raw": "2026년 5월 16일 토요일",
+      "content": "일주일에 두번 온 맛집!!!\n타지역 사람인데 처음 먹어보고 완전 반해버려서 다른멤버로 또왔어요 ㅋㅋㅋ 기스텐동 강추...\n저는 바로입장했지만 바로바로 차더라고요. 인기 많으니 예약전화 해보셔도 좋을것같아요.\n새우튀김 넘 맛있어서 추가주문했고, 이렇게 맛있는 팽이버섯은 처음이에요 ㅋㅋㅋㅋ\n소바세트도 강추!!! 맛있어서 뚝딱합니다..",
+      "char_count": 149,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 60,
+      "author": "Okiiy",
+      "date": "2026-05-15",
+      "date_raw": "2026년 5월 15일 금요일",
+      "content": "재방문 여러번 하고 있어요! 제 인생 텐동집..ㅠㅠ 맛있게 먹고 왔어요!",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 61,
+      "author": "이서진200",
+      "date": "2026-05-15",
+      "date_raw": "2026년 5월 15일 금요일",
+      "content": "튀김 하나하나가 굉장히 부드럽고 바삭해요! 튀김 하나에 정성들여 만든 것 같은 느낌이 들 정도로 완전 맛있었어요!! 특히 여기는 스페셜 텐동이 맛있는데 양이 진짜 푸짐해서 튀김 잘 드시는 분은 완전 강추! 여기는 메밀소바가 또 맛있어서 메밀 소바 꼭 추가해서 드세요~ 아주 맛있게 잘 먹었습니다 :) 매장이 완전 청결하고 깔끔해서 친구, 연인이랑 오기에 너무 좋은 곳 같아요! 완전 강추 ㅎ.ㅎ",
+      "char_count": 163,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 62,
+      "author": "seawolf5638",
+      "date": "2026-05-15",
+      "date_raw": "2026년 5월 15일 금요일",
+      "content": "신선하고 바삭한 튀김에 깔끔한 장국까지 공주에 오면 꼭 방문하는 집입니다",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 63,
+      "author": "진진223",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "공주 맛집 찾아 보고왔는데 너무 맜있네요\n텐동 맛집이에요!!\n아나고 텐동 가라아게 텐동인데 추천",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 64,
+      "author": "헤헤89",
+      "date": "2026-05-09",
+      "date_raw": "2026년 5월 9일 토요일",
+      "content": "튀김이 바삭하니 넘 맛있어용ㅎㅎㅎ",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이, 여행",
+        "부모님, 연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 65,
+      "author": "yoo****",
+      "date": "2026-05-08",
+      "date_raw": "2026년 5월 8일 금요일",
+      "content": "양 엄청 많고 엄청 맛있습니다!! 공주에 오면 꼭 오세용!!",
+      "char_count": 25,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 66,
+      "author": "pyi****",
+      "date": "2026-05-07",
+      "date_raw": "2026년 5월 7일 목요일",
+      "content": "음식이 너무 맛잇어요 !!!\n친구들과 오기 너무 좋네요 ! 공주 맛집 !",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 70,
+      "author": "msc****",
+      "date": "2026-05-05",
+      "date_raw": "2026년 5월 5일 화요일",
+      "content": "후기도 너무 좋고 인스타추천 보고 왔는데 기대됩니당^^ 가게 분위기도 굿굿굿!!!",
+      "char_count": 36,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 71,
+      "author": "foqlt1234",
+      "date": "2026-05-05",
+      "date_raw": "2026년 5월 5일 화요일",
+      "content": "튀김이 너무 맛있고 양도 많아서 든든해요!",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 72,
+      "author": "우공이산이공우",
+      "date": "2026-05-05",
+      "date_raw": "2026년 5월 5일 화요일",
+      "content": "대전에서 유명한 텐동집을 가봣는데 웨이팅도 길고 그런데 아직 이곳은 웨이팅이 길진 않아요 매장이 넓어서 그런거 같아요 공주와보시면 데이트하기 좋고 맛집으로 가기 딱인거같습니다. good",
+      "char_count": 81,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 73,
+      "author": "khl****",
+      "date": "2026-05-05",
+      "date_raw": "2026년 5월 5일 화요일",
+      "content": "배달시켜도 맛있던 곳 실제 오니 더 맛나요!",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 74,
+      "author": "오슝",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "너무 맛있어요 공주오면 또 올거예요 😆😆",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 75,
+      "author": "포골페골",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "텐동을 많이 먹어보지 않았지만 튀김이 바삭하고 음식 간이 잘 맞아서 맛있었습니다. 토마토 절임은 우메보시를 토마토로 한 것 같은 느낌인데 우메보시나 썬드라이 토마토와는 또다른 맛이면서 튀김을 물리지 않게 해주어서 좋았습니다. 텐동의 온천계란은 살짝 튀겨져 있었는데 어떻게 온천계란을 튀겼는지 신기했습니다.\n공주에 일식(돈까스, 초밥, 라멘 등등)이 많지 않은 것 같은데 공주 식도락을 다채롭게 해주는 가게 같습니다.\n참고로 주차는 공영주차장이 가까운(100m내) 곳에 있어서 바로 금방 주차 할 수 있었습니다.",
+      "char_count": 221,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 76,
+      "author": "하정호58",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "공주놀러왔다가 방문했어요. 맛있어요^^",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 77,
+      "author": "jan****",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "재료가 신선하고 튀김 식감이 좋아요\n푸짐해서 배부르게 잘 먹었습니다",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 78,
+      "author": "maj****",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "졸업해서도 계속 생각나는 텐동 먹으러 또 왔어요😋",
+      "char_count": 21,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 79,
+      "author": "맛집카페여행",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "텐동집 꽤나 다녀봤는데 우케타가 속이 제일 편하고 다먹을때까지 물리지않아요!!! 소바육수가 지난번 보다 좀 달달했지만 그래도 맛있어서 싹싹 긁어먹었어요~~",
+      "char_count": 69,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "여행",
+        "부모님, 친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 80,
+      "author": "roy****",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "오늘 여행 온 김에 처음왔는데 진짜 맛있고 직원분들도 굉장히 친절하십니다👍🔥🔥",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 81,
+      "author": "빈734",
+      "date": "2026-05-04",
+      "date_raw": "2026년 5월 4일 월요일",
+      "content": "공주에서 마지막 끼니로 정한 텐동!\n너무 맛있게 먹고갑니당\n비주얼에 1차 놀라고 맛에 2차 놀라는! ㅎㅎ\n너무 친절하셔서 만족스러운 식사였어용~",
+      "char_count": 62,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 82,
+      "author": "별별별39",
+      "date": "2026-05-02",
+      "date_raw": "2026년 5월 2일 토요일",
+      "content": "공주 여행와서 들렸어요 아이들과 뭐 먹을까 고민하다가 텐동먹으러왔는데 너무 맛있어요\n새우튀김이랑 단호박 튀김 정말 맛있어요\n와사비기가 정말 맛있어서 더 달라고 했네요",
+      "char_count": 72,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이, 여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 84,
+      "author": "j1182",
+      "date": "2026-05-02",
+      "date_raw": "2026년 5월 2일 토요일",
+      "content": "처음 왔는데 성공.메뉴 모두 만족스러워요",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 85,
+      "author": "dbr****",
+      "date": "2026-05-02",
+      "date_raw": "2026년 5월 2일 토요일",
+      "content": "비주얼 짱! 음식도 맛있고 가게도 깔끔해요",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 86,
+      "author": "lee****",
+      "date": "2026-05-02",
+      "date_raw": "2026년 5월 2일 토요일",
+      "content": "가게도 예쁘고 음식도 맛있어요! 공주오면 또 올 것 같아요👍🏻",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 87,
+      "author": "룸머",
+      "date": "2026-05-01",
+      "date_raw": "2026년 5월 1일 금요일",
+      "content": "우와~~~~~~~~~ 너무 맛있어요\n내부 인테리어부터 이국적으로 잘 꾸며주셔서 눈이 즐거웠고 음식은 정말 제가 지금껏 먹은 텐동 중에 최고입니다🤤\n느끼하지도 짜지도 않은 입이 편안한 맛!!\n보리멸 튀김 추천입니다ㅎㅎ 담백하구 맛나요",
+      "char_count": 101,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 89,
+      "author": "뇸뇸이이이이",
+      "date": "2026-05-01",
+      "date_raw": "2026년 5월 1일 금요일",
+      "content": "유명하다고 와서 한시간달려서왔는데 너무 맛있고 직원분들도 친절하세용 !!",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 90,
+      "author": "대박이아빠35",
+      "date": "2026-04-30",
+      "date_raw": "2026년 4월 30일 목요일",
+      "content": "늘 맛있는곳!\n아이 시험 끝나고 또왔네요. 아들이 너무 좋아해요.\n매장도 깨끗하고 공주의 보물같은 곳입니다.",
+      "char_count": 47,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 91,
+      "author": "dm****",
+      "date": "2026-04-29",
+      "date_raw": "2026년 4월 29일 수요일",
+      "content": "공주에서 텐동 생각날때마다 들르는 곳이에요\n맛있고 가성비도 좋아요 굿굿",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 92,
+      "author": "이즈집사",
+      "date": "2026-04-29",
+      "date_raw": "2026년 4월 29일 수요일",
+      "content": "너무 맛있어요!!!! 여기 완점 추천!",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 94,
+      "author": "꾸나사랑",
+      "date": "2026-04-28",
+      "date_raw": "2026년 4월 28일 화요일",
+      "content": "텐동이 엄청 푸짐하네요. 공주 여행왔다가 들어왔는데 만족합니다.\n주차공간이 없어 100앞 공용 주차장을 아용하시면 좋아요.",
+      "char_count": 55,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 95,
+      "author": "이성호79",
+      "date": "2026-04-28",
+      "date_raw": "2026년 4월 28일 화요일",
+      "content": "진짜 언제 먹어도 맛있네요 ㅠㅠㅠ 대한민국 최고 텐동집 아닐까 생각이듭니다 진심으로",
+      "char_count": 36,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 96,
+      "author": "메렁메렁39",
+      "date": "2026-04-28",
+      "date_raw": "2026년 4월 28일 화요일",
+      "content": "공주 최고 텐동맛집!!! 주기적으루 한번씩 와줘야댐....너무 맛있어용",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 97,
+      "author": "gre****",
+      "date": "2026-04-27",
+      "date_raw": "2026년 4월 27일 월요일",
+      "content": "튀김이 정말 바삭하고 밤 반죽이라서 그런지 고소하더라구요 ㅎㅎ\n다음에 또 올 것 같아요!",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 98,
+      "author": "정영민6794",
+      "date": "2026-04-25",
+      "date_raw": "2026년 4월 25일 토요일",
+      "content": "타지로 이사갔지만\n공주 올때마다 오는 텐동집입니다.\n오늘도 너무 맛있네요.",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 99,
+      "author": "쁘로꼴리",
+      "date": "2026-04-25",
+      "date_raw": "2026년 4월 25일 토요일",
+      "content": "안짜고 맛있어용 가라아게동 드세용 두번드세여 감사합니다🤗",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 100,
+      "author": "8o****",
+      "date": "2026-04-23",
+      "date_raw": "2026년 4월 23일 목요일",
+      "content": "가게에 들어서자마자 느껴지는 깔끔한 분위기와 정돈된 인테리어가 인상적이었고, 직원분들도 친절하게 응대해주셔서 기분 좋게 식사를 시작할 수 있었습니다.\n대표 메뉴인 텐동은 바삭하게 튀겨진 튀김이 가장 큰 매력이었습니다. 특히 새우튀김은 속은 촉촉하고 겉은 바삭해서 식감이 훌륭했고, 함께 올라간 가지, 단호박, 김 등의 채소 튀김도 기름지지 않고 담백하게 잘 튀겨져 있었습니다. 밥 위에 뿌려진 간장 베이스의 소스도 짜지 않고 적당히 달콤해서 전체적인 조화를 잘 이뤘습니다.\n전체적으로 가성비와 맛을 모두 만족시키는 텐동집이었고, 바삭한 튀김이 생각날 때 다시 방문하고 싶은 곳입니다.",
+      "char_count": 251,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 102,
+      "author": "tru_th_",
+      "date": "2026-04-21",
+      "date_raw": "2026년 4월 21일 화요일",
+      "content": "자주 오고 있어요. 튀김이 느끼하지도 않고 기름 오래된 맛도 안 나고 정말 맛있어요 잘 먹고 갑니다!!",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 103,
+      "author": "찌롱이7667",
+      "date": "2026-04-21",
+      "date_raw": "2026년 4월 21일 화요일",
+      "content": "가까운 곳에 턴동가게가 있어서 너무 좋아요.\n예약하면 적극적으로 응대해주시는 사장님\n최고 !!",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 104,
+      "author": "Rainbowfish22",
+      "date": "2026-04-18",
+      "date_raw": "2026년 4월 18일 토요일",
+      "content": "정신없이 먹다보니 사진못찍어서 먹던중에… ㅎㅎ",
+      "char_count": 21,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트, 친목, 나들이, 여행",
+        "연인・배우자, 친구, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 105,
+      "author": "chung 용",
+      "date": "2026-04-18",
+      "date_raw": "2026년 4월 18일 토요일",
+      "content": "공주여행와서 맛집 검색해서 들어왔는데, 운 좋게 대기도 없었어요~~! 정말 맛도리입니다😊👍",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 107,
+      "author": "우왕우와아",
+      "date": "2026-04-18",
+      "date_raw": "2026년 4월 18일 토요일",
+      "content": "공주 맛집!! 양도 많고 인테리어며 맛도 좋아요~\n너무 맛있게 잘 먹었어요^^!",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 108,
+      "author": "릴라릴라고릴라아",
+      "date": "2026-04-18",
+      "date_raw": "2026년 4월 18일 토요일",
+      "content": "공주 텐동검색하니까 우케타가 제일 많이나와서 와봤는데 맛있어요!! 잘먹었습니당🍀",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 109,
+      "author": "오찬영97",
+      "date": "2026-04-17",
+      "date_raw": "2026년 4월 17일 금요일",
+      "content": "친구가 맛집있다고 해서 왔어요! 너무 맛있게 먹고가요ㅜ 감사합니다!",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 110,
+      "author": "HelloGate",
+      "date": "2026-04-17",
+      "date_raw": "2026년 4월 17일 금요일",
+      "content": "공주에서 먹은 텐동 기대 이상의 퀄리티에 깜짝 놀랐습니다.\n튀김의 온도나 바삭함의 정도조 적당하고 튀김옷도 깔끔해서 안에 재료의 본 맛이 살아 있고\n밥과 소스의 조합이 튀김과 어울리게 조화롭게 느껴집니다.\n소바는 살짝 짭짤하면서 달달하고 면도 금방 조리해서 뭉치거나 하지 않아서 좋았습니다.",
+      "char_count": 124,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 111,
+      "author": "입력한닉네임",
+      "date": "2026-04-17",
+      "date_raw": "2026년 4월 17일 금요일",
+      "content": "공주에서 우케타가 텐동맛집으로 유명하다구 해서 왔는대 넘 만족스러운 식사였습니다! 튀김 종류도 다양하고 바삭하고 너무 맛잇엇어요🤍",
+      "char_count": 58,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 112,
+      "author": "stu****",
+      "date": "2026-04-16",
+      "date_raw": "2026년 4월 16일 목요일",
+      "content": "처음 와보는데 굉장히 맛있어요 튀김도 바삭하고 간도 딱 맞아서 마음에 들었습니다 공주에 이런곳이 있는걸 이제 알았네욥.. 또 올거같아요~",
+      "char_count": 59,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 113,
+      "author": "포카혼타",
+      "date": "2026-04-15",
+      "date_raw": "2026년 4월 15일 수요일",
+      "content": "먹음직스럽게 나와요\n맛 좋아요\n추천합니다",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 115,
+      "author": "mz_st2629",
+      "date": "2026-04-13",
+      "date_raw": "2026년 4월 13일 월요일",
+      "content": "아기자기한 인테리어와 음식 모두 만족입니다!",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 116,
+      "author": "집 가고싶 다",
+      "date": "2026-04-13",
+      "date_raw": "2026년 4월 13일 월요일",
+      "content": "전체적으로 가성비가 좋고 맛있어요! 튀김도 바삭하고 양도 많아요",
+      "char_count": 28,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "비즈니스",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 117,
+      "author": "유쾌상쾌0",
+      "date": "2026-04-11",
+      "date_raw": "2026년 4월 11일 토요일",
+      "content": "맛있어요. 튀김이 특히 맛있어요.\n인테리어도 예쁘고 깔끔해요.만족했어요",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 118,
+      "author": "윤이3923",
+      "date": "2026-04-11",
+      "date_raw": "2026년 4월 11일 토요일",
+      "content": "오랜만에 방문했어요~\n조금 일찍 왔더니 대기없이 바로 먹을 수 있어서 좋네요😊\n공주 텐동은 우케타👍\n오늘도 잘 먹고 갑니다!",
+      "char_count": 52,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 120,
+      "author": "용느님51",
+      "date": "2026-04-11",
+      "date_raw": "2026년 4월 11일 토요일",
+      "content": "가성비 너무 좋고 맛있고 친절합니다 !\n공주 놀러오시면 꼭 드셔보세요!",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 121,
+      "author": "착한나무55",
+      "date": "2026-04-10",
+      "date_raw": "2026년 4월 10일 금요일",
+      "content": "아들 추천으로 처음 와봤는데 맛있네요.\n튀김 바삭바삭 너무 좋습니다.\n저는 우케텐동으로도 양푸짐하고 가격도 혜자스럽네요~~~^^\n다음에는 다른 메뉴 먹으러 다시 와야겠어요~~",
+      "char_count": 78,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 123,
+      "author": "gamcy999",
+      "date": "2026-04-08",
+      "date_raw": "2026년 4월 8일 수요일",
+      "content": "어제에\n이어 두번째 방문~~^^\n가족투표로 또가자고 해서 점심예약했어요.\n공주속의 일본 맛도 인테리어도 친절도 다 잡은 맛집입니다. 공주여행 중 리스트에 꼭 넣어보세요~",
+      "char_count": 74,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 124,
+      "author": "rlo****",
+      "date": "2026-04-08",
+      "date_raw": "2026년 4월 8일 수요일",
+      "content": "공주맛집치면 여기가 댓글제일 많이 있어서 와봤는데 미쳤어요 너무 맛있어요 소바도 추천!",
+      "char_count": 38,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 125,
+      "author": "tru_th_",
+      "date": "2026-04-07",
+      "date_raw": "2026년 4월 7일 화요일",
+      "content": "정말 맛있어요. 튀김이 느끼하지도 않고 신선해요\n양도 많고 만족스러운 식사였어요!",
+      "char_count": 36,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 126,
+      "author": "gamcy999",
+      "date": "2026-04-07",
+      "date_raw": "2026년 4월 7일 화요일",
+      "content": "공주 여행중 첫끼였는데 기대이상으로 맛있었어요.\n텐동, 메밀 다 맛있고 간이 쎄지 않고 건강한 맛이 나는 찐 맛집입니다~~ 흔히 다른 가게에서는 손이안가는 반찬도 여기는 맛있어요. 단무지가 이렇게 맛있디니 ~~~직접하시는거 같아요. 매장도 깔끔하고 인테리어도 멋진데 직원분들도 매우 친절하십니다. 공주오면 들러보세요~~",
+      "char_count": 141,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 127,
+      "author": "hyu****",
+      "date": "2026-04-06",
+      "date_raw": "2026년 4월 6일 월요일",
+      "content": "튀김이 바삭하고 너무 맛있어요!\n추천드려용",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 128,
+      "author": "달의뒷편54",
+      "date": "2026-04-06",
+      "date_raw": "2026년 4월 6일 월요일",
+      "content": "텐동 좋아하는데 근처에 왔다가 맛집 검색으로 왔어요.\n평일이라 대기없이 입장해서\n잘먹고 갑니다.\n텐동은 스페셜로 먹어야 제맛입니다.ㅋ",
+      "char_count": 59,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 129,
+      "author": "MINTARI",
+      "date": "2026-04-04",
+      "date_raw": "2026년 4월 4일 토요일",
+      "content": "공주에 텐동집이 생겼는데 맛있다고 해서 찾아 왔는데 바삭바삭 튀김맛있고 대학가라 그런지 밥도 많이 주고 맛있어요~ 소바랑, 우동 중 소바가 더 맛있고 토마토절임도 맛있네요. 주차가 불편한거 빼고 좋아요🙂",
+      "char_count": 87,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자, 부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 130,
+      "author": "살찐비버",
+      "date": "2026-04-04",
+      "date_raw": "2026년 4월 4일 토요일",
+      "content": "공주 볼일 보러왔다가 리뷰가 많아서 왔는데 과장 1도 없이 돈값하고 충분히 맛있습니다. 자극적이지 않고 튀김 퀄리티도 진짜 좋았습니다. 재방문 의사 있는 곳이에요.",
+      "char_count": 70,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "연인・배우자, 부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 131,
+      "author": "긍정냥이v",
+      "date": "2026-04-04",
+      "date_raw": "2026년 4월 4일 토요일",
+      "content": "어디로 갈까 고민하다가 기대감으로 방문했는데 너무 맛있었습니다, 조금 기다리긴했지만 바삭함이 너무 좋아서 아이도 어른들도 맛있게 잘먹었습니다! 센스있으신 직원분이 요청하지도 않았는데 아이가 먹을 수 있게 집게와 가위를 주셔서 더욱 기분좋게 먹을 수 있었습니다, 수도권에서 텐동 많이 먹어봤는데 다녔던 곳보다 여기가 더 신선하고 맛있어서 놀랐네요, 또 먹으러 가겠습니다!",
+      "char_count": 161,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "나들이",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 132,
+      "author": "0카르페디엠0",
+      "date": "2026-04-04",
+      "date_raw": "2026년 4월 4일 토요일",
+      "content": "양많고 튀김 바삭하고 맛있어요!!! 맛집!!",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "기념일",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 133,
+      "author": "이서영9836",
+      "date": "2026-04-03",
+      "date_raw": "2026년 4월 3일 금요일",
+      "content": "지인한테 제일 맛있는 곳이라고 추천받고 왔는데 새우가 너무 통통하니 맛있었구 기회되면 항상 오고싶은 곳입니다😻",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 134,
+      "author": "bread",
+      "date": "2026-04-01",
+      "date_raw": "2026년 4월 1일 수요일",
+      "content": "텐동을 좋아하는 남편 덕에 오게 됐어요ㅎㅎ 온천 계란이 킥이고 튀김들이 다 바삭해요ㅎㅎ 인상적인 텐동🥰🥹",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 136,
+      "author": "귀신이고칼로리로리",
+      "date": "2026-03-30",
+      "date_raw": "2026년 3월 30일 월요일",
+      "content": "공주에 이런 곳이 있다는 게 참 놀랍고 감사합니다.\n존맛!!!!!!!!! 입이 즐거워요",
+      "char_count": 38,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 137,
+      "author": "한량777",
+      "date": "2026-03-28",
+      "date_raw": "2026년 3월 28일 토요일",
+      "content": "아나고텐동 시켰는데 사이즈가 진짜 크고 맛있네요 가게도 엄청 깔끔합니다",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 139,
+      "author": "oh5653",
+      "date": "2026-03-27",
+      "date_raw": "2026년 3월 27일 금요일",
+      "content": "매장기름냄새도안나고 튀김도 깰끔하고고소하고 맛있어요!",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 140,
+      "author": "olivvv1",
+      "date": "2026-03-26",
+      "date_raw": "2026년 3월 26일 목요일",
+      "content": "또 친구랑 우케타 왔어요!!\n친구랑 데이트하기 너무 좋은 장소입니다\n너무 맛있어요💕💕💕",
+      "char_count": 38,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 141,
+      "author": "토끼냥이26",
+      "date": "2026-03-23",
+      "date_raw": "2026년 3월 23일 월요일",
+      "content": "맛있어요!!!!! 다음에도 또 올게요!!!",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 142,
+      "author": "크크크38",
+      "date": "2026-03-23",
+      "date_raw": "2026년 3월 23일 월요일",
+      "content": "맛집이어서 웨이팅이 있긴 하지만 그만큼 맛있습니다!\n기다릴 가치가 있어요\n재방문의사 있습니다👍",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 143,
+      "author": "bok****",
+      "date": "2026-03-21",
+      "date_raw": "2026년 3월 21일 토요일",
+      "content": "가족들과 함께왔어요\n맛도좋고 양도 엄청 푸짐하고 좋아요~^^",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 144,
+      "author": "su****",
+      "date": "2026-03-21",
+      "date_raw": "2026년 3월 21일 토요일",
+      "content": "음식이 진짜맛있고 친철해요 또오고 싶은곳이예요",
+      "char_count": 21,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 146,
+      "author": "kwo****",
+      "date": "2026-03-20",
+      "date_raw": "2026년 3월 20일 금요일",
+      "content": "진짜 맛있어요!!!! 공주 또간집입니다 꼭 가세요!!!!!",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 147,
+      "author": "달콤솜사탕74",
+      "date": "2026-03-20",
+      "date_raw": "2026년 3월 20일 금요일",
+      "content": "텐동맛집있어서 방문했어요. 소바와우동까지 너무 맛있어요~^^",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 148,
+      "author": "가노가노58",
+      "date": "2026-03-20",
+      "date_raw": "2026년 3월 20일 금요일",
+      "content": "처음 들어왔을 때 가게가 이쁘고 큰 오픈형 주방이어서 놀랐습니다!\n오픈주방이다보니 청결에 대해 더 믿음이 가서 좋았습니다.\n텐동이 느끼하지 않고 양도 푸짐해 맛있게 먹었고, 사이드로 시킨 우동과 소바도 맛있게 먹었습니다:)",
+      "char_count": 96,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 150,
+      "author": "Kuhn64",
+      "date": "2026-03-18",
+      "date_raw": "2026년 3월 18일 수요일",
+      "content": "텐동집인데도 가게가 깔끔하고 바닥도 쾌적해서 좋아요",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 151,
+      "author": "양양2458",
+      "date": "2026-03-18",
+      "date_raw": "2026년 3월 18일 수요일",
+      "content": "텐동 튀김너무 바삭하고 느끼하지않고 깔끔하고 양도 많고 맛있어여 세종에서 온 보람이 있네요",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 152,
+      "author": "050****",
+      "date": "2026-03-16",
+      "date_raw": "2026년 3월 16일 월요일",
+      "content": "튀김 바삭하구 기름지지 않고 맛있어요!",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 153,
+      "author": "1채소",
+      "date": "2026-03-14",
+      "date_raw": "2026년 3월 14일 토요일",
+      "content": "우케타는 유명한 텐동 맛집임 •••",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 154,
+      "author": "듀강",
+      "date": "2026-03-13",
+      "date_raw": "2026년 3월 13일 금요일",
+      "content": "맛있어요!\n두번째 방문인데 오늘은 아나고 텐동 먹아봤는데 맛있네용🫶",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 155,
+      "author": "hbzzz",
+      "date": "2026-03-13",
+      "date_raw": "2026년 3월 13일 금요일",
+      "content": "최고의 맛입니다. 오래오래해주세요.",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 156,
+      "author": "rkd****",
+      "date": "2026-03-13",
+      "date_raw": "2026년 3월 13일 금요일",
+      "content": "원래 튀김 별로 안 좋아하는데 여기 튀김은 아주 싹싹 김치해요;;\n너무너무 맛있고 직원분들이 친절합니다!",
+      "char_count": 45,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 158,
+      "author": "유블리32",
+      "date": "2026-03-09",
+      "date_raw": "2026년 3월 9일 월요일",
+      "content": "언젠간 와봐야지와봐야지 하면서\n드디어 와봤네요!\n기대했던 것 만큼 너무 맛있었어요 :)\n튀김도 바삭바삭 반찬도 맛있었고\n인테리어도 너무 느낌있는 곳이에요\n다음에 또 방문할께요",
+      "char_count": 76,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 159,
+      "author": "jup****",
+      "date": "2026-03-07",
+      "date_raw": "2026년 3월 7일 토요일",
+      "content": "튀김이 바삭하고 양도 많고 너무 맛있었습니다",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 162,
+      "author": "엘리700",
+      "date": "2026-03-05",
+      "date_raw": "2026년 3월 5일 목요일",
+      "content": "양이 많고 맛있어요. 토마토 절임 맛있어요.",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "회식",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 163,
+      "author": "dam****",
+      "date": "2026-03-04",
+      "date_raw": "2026년 3월 4일 수요일",
+      "content": "텐동 맛있는 우케타 또 방문합니다!\n튀김의 색감도 그렇고 다른 텐동집보다 더 맛있어보이고\n실제로도 맛납니다!!\n다들 와서 드셔보길 추천드립니다!!",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 165,
+      "author": "웅으이이잉이이이이이이잉잉ㅇ",
+      "date": "2026-03-03",
+      "date_raw": "2026년 3월 3일 화요일",
+      "content": "텐동이 정말 맛있어요 자주 오는데에는 다 이유가 있습니다 먹어본 텐동중에 제일 맛잇어요",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 166,
+      "author": "seryung",
+      "date": "2026-03-03",
+      "date_raw": "2026년 3월 3일 화요일",
+      "content": "튀김이 바삭하고 기름지지 않아서 끝까지 맛있게 먹었어용 새우랑 야채 튀김이 가득 올라가 있어서 좋았구 간장 소스가 밥이랑 잘 어울려서 한 그릇 금방 비웠습니다!",
+      "char_count": 67,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 167,
+      "author": "geu****",
+      "date": "2026-03-03",
+      "date_raw": "2026년 3월 3일 화요일",
+      "content": "스페셜 텐동과 우동 시켰는데 둘다 맛있고 깔끔합니다!\n장어도 들어 있습니당! 맛있어용 추천합니다~~",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 168,
+      "author": "김단아2426",
+      "date": "2026-03-02",
+      "date_raw": "2026년 3월 2일 월요일",
+      "content": "자주 오는 맛집입니다 ~.~\n튀김옷이 바삭하고 고소해요 진짜 튀김맛집임 ( ´∀｀) 특히 새우튀김이 항상 맛있어용 .. 보리멸도 맛어용 .. 제 원픽임\n담에또올게요~~👍",
+      "char_count": 73,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "양이 많아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 169,
+      "author": "yun****",
+      "date": "2026-03-02",
+      "date_raw": "2026년 3월 2일 월요일",
+      "content": "비오는날 텐동이 땡겨서 동네 텐동집으로 방문했습니다. 예상외로 동네집 같지않고 세련된 일본식당 같았습니다. 재방문의사 있구요 추천드립니다!",
+      "char_count": 63,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 172,
+      "author": "joow97",
+      "date": "2026-03-02",
+      "date_raw": "2026년 3월 2일 월요일",
+      "content": "공주 밤가루가 들어간 텐동이에요\n인테리어도 귀엽구 가격도 저렴한데 맛도 있어요\n오늘같이 비오는날 오기 딱 좋아요",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 173,
+      "author": "눈물자욱9",
+      "date": "2026-03-02",
+      "date_raw": "2026년 3월 2일 월요일",
+      "content": "공주 텐동 맛집 분위기도 좋고 맛있어요^^*",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 174,
+      "author": "전조현",
+      "date": "2026-02-28",
+      "date_raw": "2026년 2월 28일 토요일",
+      "content": "음식 맛있고 직원분들 친절하세요\n재방문 의사 100% 또 올게요",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 176,
+      "author": "조수현870213",
+      "date": "2026-02-26",
+      "date_raw": "2026년 2월 26일 목요일",
+      "content": "먹느라 바빠서 사진도 못찍을만큼 너무맛있었어요 ^^\n잘먹고갑니디😊",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 178,
+      "author": "김소라6179",
+      "date": "2026-02-24",
+      "date_raw": "2026년 2월 24일 화요일",
+      "content": "맛있어용!!\n텐동 좋아하는데\n다른 지역가도 요기가 제일\n빠삭하고 맛있고\n결국은 우케타가 최고인듯\n야채류 변경도되고 짱짱 좋아요❤️❤️❤️",
+      "char_count": 61,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 179,
+      "author": "윤이3923",
+      "date": "2026-02-23",
+      "date_raw": "2026년 2월 23일 월요일",
+      "content": "배달로도 자주 먹는 곳이에요!\n오랜만에 방문해거서 먹으니 더 바삭하니 맛있어요😊\n잘 먹고 갑니다😁",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 180,
+      "author": "Stay2053",
+      "date": "2026-02-23",
+      "date_raw": "2026년 2월 23일 월요일",
+      "content": "저번에 배달로 먹고서 너무 맛나서 이번에는 직접 먹으러 왔어요!! 배달도 맛나지만, 현장에서 먹으니까 훨씬 더 맛나요!!!!!",
+      "char_count": 55,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "양이 많아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 181,
+      "author": "김지예467",
+      "date": "2026-02-23",
+      "date_raw": "2026년 2월 23일 월요일",
+      "content": "공주에 유일한 텐동 맛집ㅠㅠ\n진짜 너무 맛있어용ㅠㅠ\n친구가 공주로 편입했는뎀!! 처음으로 데려간 곳이 우케타입니담!!ㅎㅎ\n진짜 튀김이 너무 맛있어요ㅠㅠㅠ\n꼭꼭 드셔보셔용!!",
+      "char_count": 77,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 182,
+      "author": "wkd****",
+      "date": "2026-02-21",
+      "date_raw": "2026년 2월 21일 토요일",
+      "content": "알밤 가루로 튀김 텐동이라고 해서 기대하면서 왔는데 너무 맛있어요! 인테리어도 아기자기 귀엽고 데이트 코스로 좋은것 같아요!!",
+      "char_count": 55,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 183,
+      "author": "뚱먀",
+      "date": "2026-02-21",
+      "date_raw": "2026년 2월 21일 토요일",
+      "content": "너무 바삭하고 맛있어요 자주와요 🥰",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    }
+  ],
+  "excluded": [
+    {
+      "id": 5,
+      "author": "히히히히용",
+      "date": "2026-06-16",
+      "date_raw": "2026년 6월 16일 화요일",
+      "content": "텐동맛있어요!",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 15,
+      "author": "그냥8845",
+      "date": "2026-06-10",
+      "date_raw": "2026년 6월 10일 수요일",
+      "content": "오~~~\n최고입니다!!!!",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 23,
+      "author": "Ellen9646",
+      "date": "2026-06-06",
+      "date_raw": "2026년 6월 6일 토요일",
+      "content": "매우 양이 많고 좋아요\n굳",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 26,
+      "author": "요나나나",
+      "date": "2026-06-04",
+      "date_raw": "2026년 6월 4일 목요일",
+      "content": "너무 맛있어요!!!🙌",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 28,
+      "author": "bum****",
+      "date": "2026-06-03",
+      "date_raw": "2026년 6월 3일 수요일",
+      "content": "아나고 텐동 너무 좋와오",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 39,
+      "author": "씽호파파",
+      "date": "2026-05-28",
+      "date_raw": "2026년 5월 28일 목요일",
+      "content": "정말 맛있어요 적극추천합니다",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 42,
+      "author": "hye****",
+      "date": "2026-05-26",
+      "date_raw": "2026년 5월 26일 화요일",
+      "content": "공주 최고의 텐동집",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 43,
+      "author": "doroci",
+      "date": "2026-05-25",
+      "date_raw": "2026년 5월 25일 월요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "친척・형제자매, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 51,
+      "author": "wjd****",
+      "date": "2026-05-22",
+      "date_raw": "2026년 5월 22일 금요일",
+      "content": "너무맛있어요!! 대박나세요",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 54,
+      "author": "영진라면",
+      "date": "2026-05-21",
+      "date_raw": "2026년 5월 21일 목요일",
+      "content": "너무 맛있어요!! 또 올게요!!",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 67,
+      "author": "깝개",
+      "date": "2026-05-05",
+      "date_raw": "2026년 5월 5일 화요일",
+      "content": "맛있어요!",
+      "char_count": 5,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상, 가족모임",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 68,
+      "author": "seu****",
+      "date": "2026-05-05",
+      "date_raw": "2026년 5월 5일 화요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 69,
+      "author": "don****",
+      "date": "2026-05-05",
+      "date_raw": "2026년 5월 5일 화요일",
+      "content": "튀김이 엄청맛있습니다",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 83,
+      "author": "상kuk",
+      "date": "2026-05-02",
+      "date_raw": "2026년 5월 2일 토요일",
+      "content": "맛있어요 잘 먹겠습니다",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 88,
+      "author": "Iyoor",
+      "date": "2026-05-01",
+      "date_raw": "2026년 5월 1일 금요일",
+      "content": "맛있아요!!! 텐동 좋아요",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "데이트, 일상",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 93,
+      "author": "no3211",
+      "date": "2026-04-29",
+      "date_raw": "2026년 4월 29일 수요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 101,
+      "author": "눈뉴징",
+      "date": "2026-04-22",
+      "date_raw": "2026년 4월 22일 수요일",
+      "content": "세번째방문.. 넘 맛잇습미다요",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 106,
+      "author": "줄리엣48",
+      "date": "2026-04-18",
+      "date_raw": "2026년 4월 18일 토요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 114,
+      "author": "nh****",
+      "date": "2026-04-13",
+      "date_raw": "2026년 4월 13일 월요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 119,
+      "author": "인태현43",
+      "date": "2026-04-11",
+      "date_raw": "2026년 4월 11일 토요일",
+      "content": "직원분들 친절하세요",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 122,
+      "author": "공오공이이",
+      "date": "2026-04-10",
+      "date_raw": "2026년 4월 10일 금요일",
+      "content": "양이 많고 맛있어요^^",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 135,
+      "author": "eh0****",
+      "date": "2026-03-31",
+      "date_raw": "2026년 3월 31일 화요일",
+      "content": "맛있고 분위기가 좋아요😍",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 138,
+      "author": "ksj****",
+      "date": "2026-03-28",
+      "date_raw": "2026년 3월 28일 토요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 145,
+      "author": "jam****",
+      "date": "2026-03-21",
+      "date_raw": "2026년 3월 21일 토요일",
+      "content": "너무좋아요. 맛있고 친절해요.",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 149,
+      "author": "딤소",
+      "date": "2026-03-19",
+      "date_raw": "2026년 3월 19일 목요일",
+      "content": "맛있게 먹었습니다ㅎㅎ",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 157,
+      "author": "Sigro",
+      "date": "2026-03-11",
+      "date_raw": "2026년 3월 11일 수요일",
+      "content": "맛있습니다 짱짱짱~!!",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 160,
+      "author": "dor****",
+      "date": "2026-03-06",
+      "date_raw": "2026년 3월 6일 금요일",
+      "content": "마싯어용!!!",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 161,
+      "author": "qwerty048",
+      "date": "2026-03-05",
+      "date_raw": "2026년 3월 5일 목요일",
+      "content": "깔끔하고 맛있어요 ^^",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 164,
+      "author": "초연161",
+      "date": "2026-03-03",
+      "date_raw": "2026년 3월 3일 화요일",
+      "content": "최고다",
+      "char_count": 3,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 170,
+      "author": "ksj****",
+      "date": "2026-03-02",
+      "date_raw": "2026년 3월 2일 월요일",
+      "content": "맛있었습니다",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 171,
+      "author": "inb****",
+      "date": "2026-03-02",
+      "date_raw": "2026년 3월 2일 월요일",
+      "content": "맛있습니다",
+      "char_count": 5,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "가족모임",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 175,
+      "author": "HaLee",
+      "date": "2026-02-28",
+      "date_raw": "2026년 2월 28일 토요일",
+      "content": "맛있어요\n양도 많네요",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "아침에 방문"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 177,
+      "author": "혜랑",
+      "date": "2026-02-25",
+      "date_raw": "2026년 2월 25일 수요일",
+      "content": "가라아게텐동 강추드려요!",
+      "char_count": 12,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_naver_count": 1045,
+    "total_loaded": 190,
+    "total_collected": 150,
+    "count_within_3m": 124,
+    "count_3m_to_12m": 26,
+    "count_12m_to_24m": 0,
+    "recency_bonus_count": 124,
+    "recency_penalty_count": 0,
+    "total_excluded": 33,
+    "excluded_paid": 0,
+    "excluded_insincere": 33,
+    "excluded_too_old": 0,
+    "quality_bonus_count": 65,
+    "date_oldest": "2026-02-21",
+    "date_newest": "2026-06-18",
+    "target_met": true
+  }
+}

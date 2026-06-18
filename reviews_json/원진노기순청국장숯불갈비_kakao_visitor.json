@@ -1,0 +1,330 @@
+{
+  "restaurant": "원진노기순청국장숯불갈비",
+  "place_id": "24786926",
+  "confirm_id": "24786926",
+  "collected_at": "2026-06-18T16:31:06+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-18",
+  "cutoff_12m": "2025-06-18",
+  "cutoff_24m": "2024-06-18",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "24786926",
+    "collected_at": "2026-06-18T16:31:06+09:00",
+    "name": "원진노기순청국장숯불갈비",
+    "category": "음식점 > 한식",
+    "address": "서울 성북구 안암로9가길 94 1층",
+    "phone": "02-925-5733",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": "매장 앞 주차 가능, 건물 뒤편 공영주차장 무료 이용 가능",
+    "facilities": [
+      "점심식사",
+      "주차",
+      "주차가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.5,
+    "total_kakao_reviews": 21,
+    "total_blog_reviews": 21,
+    "menus": [
+      {
+        "name": "청국장",
+        "price": "11,000원",
+        "description": null
+      },
+      {
+        "name": "삼겹살(180g)",
+        "price": "17,000원",
+        "description": null
+      },
+      {
+        "name": "목살(180g)",
+        "price": "17,000원",
+        "description": null
+      },
+      {
+        "name": "항정살(180g)",
+        "price": "18,000원",
+        "description": null
+      },
+      {
+        "name": "한우꽃등심(150g)",
+        "price": "33,000원",
+        "description": null
+      },
+      {
+        "name": "한우갈비살(150g)",
+        "price": "35,000원",
+        "description": null
+      },
+      {
+        "name": "냉면",
+        "price": "8,000원",
+        "description": null
+      },
+      {
+        "name": "돼지갈비(230g)",
+        "price": "18,000원",
+        "description": null
+      },
+      {
+        "name": "돼지고기김치찌개",
+        "price": "11,000원",
+        "description": null
+      },
+      {
+        "name": "참치김치찌개",
+        "price": "11,000원",
+        "description": null
+      },
+      {
+        "name": "우거지갈비탕",
+        "price": "14,000원",
+        "description": null
+      },
+      {
+        "name": "양념게장",
+        "price": "15,000원",
+        "description": null
+      },
+      {
+        "name": "녹두전",
+        "price": "10,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 2,
+      "review_id": 14848408,
+      "author": "김지원",
+      "date": "2026-02-17",
+      "date_raw": "2026-02-17 18:55:05",
+      "content": "설 연휴에 영업하시더라구요!\n청국장 냄새 많이 안 나고 돼지갈비도 맛있었어요😄\n잘 먹었습니다.",
+      "char_count": 41,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 3,
+      "review_id": 14674339,
+      "author": "개인택시 맛집도사(구독자2만유튜버)",
+      "date": "2026-01-25",
+      "date_raw": "2026-01-25 06:52:00",
+      "content": "청국장이 너무 맛있어요\n후식서비스로 나오는 숭늉도 다른 청국장집과 차별화된 정이 듬뿍담긴 후식이었어요~\n자주 재방문해서 다른 메뉴도 먹어보고싶네요~",
+      "char_count": 66,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 6,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 5,
+      "review_id": 11705813,
+      "author": "hh",
+      "date": "2024-12-28",
+      "date_raw": "2024-12-28 00:17:21",
+      "content": "부모님 모시고 갔는데 다들 가브리살 맛있다고 하셨어요~ 갈비도 맛있구요! 반찬 쌈야채 모자란거있음 알아서 챙겨주시고 친절해서 너무 만족스러운 식사였습니다 또 방문의사있습니다👍",
+      "char_count": 78,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 6,
+      "review_id": 11055308,
+      "author": "개솔직후기",
+      "date": "2024-09-21",
+      "date_raw": "2024-09-21 17:36:49",
+      "content": "전에 어머니 오셔서 소고기 먹으려고 방문했는데 최악이었어요 ㅋㅋ 냉동인지 뭔지 모르겠는데 잡내 엄청나고 질겼음 ㅠ",
+      "char_count": 49,
+      "rating": 1,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    }
+  ],
+  "excluded": [
+    {
+      "id": 1,
+      "review_id": 15705248,
+      "author": "미추",
+      "date": "2026-06-09",
+      "date_raw": "2026-06-09 12:52:52",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 4,
+      "review_id": 14154164,
+      "author": "투투",
+      "date": "2025-11-12",
+      "date_raw": "2025-11-12 21:12:29",
+      "content": "식사만족도 좋아요",
+      "char_count": 8,
+      "rating": 4,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 7,
+      "review_id": 10540987,
+      "author": "사탕수수",
+      "date": "2024-07-13",
+      "date_raw": "2024-07-13 16:50:21",
+      "content": "",
+      "char_count": 0,
+      "rating": 4,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 21,
+    "average_score_overall": 4.5,
+    "total_collected": 4,
+    "total_loaded": 7,
+    "count_within_3m": 0,
+    "count_3m_to_12m": 2,
+    "count_12m_to_24m": 2,
+    "recency_bonus_count": 0,
+    "recency_penalty_count": 2,
+    "quality_bonus_count": 4,
+    "rating_distribution": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "avg_rating_collected": 4.0,
+    "total_excluded": 3,
+    "excluded_paid": 0,
+    "excluded_insincere": 3,
+    "excluded_too_old": 0,
+    "date_oldest": "2024-09-21",
+    "date_newest": "2026-02-17",
+    "target_met": false
+  }
+}

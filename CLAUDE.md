@@ -13,20 +13,34 @@
 ```
 C:\Users\jh960\Desktop\리뷰분석\
 ├── CLAUDE.md                              ← 이 파일 (Claude가 관리)
-├── naver_ReviewCollector.py               ← **통합 수집 스크립트** (매장정보 + 방문자 + 블로그)
-├── analyze_reviews.py                     ← 분석 전처리 스크립트 (Claude가 재사용)
-├── raw\                                   ← **수집된 raw 파일 저장 폴더 (수집기가 자동 저장)**
-│   ├── {음식점 이름}_visitor_raw.json     (방문자 리뷰 + place_info, **분석 입력**)
-│   ├── {음식점 이름}_visitor_raw.txt      (사람 확인용)
-│   ├── {음식점 이름}_blog_raw.json        (블로그 리뷰 + place_info, 있을 경우만)
-│   └── {음식점 이름}_blog_raw.txt
-└── analyzeReport\                         ← 분석 리포트 HTML 저장 폴더
+├── naver_ReviewCollector.py               ← **네이버 통합 수집기** (매장정보 + 방문자 + 블로그, Playwright)
+├── kakao_ReviewCollector.py               ← **카카오 통합 수집기** (매장정보 + 후기 + 블로그, urllib/API)
+├── analyze_reviews.py                     ← 분석 전처리 스크립트 (네이버·카카오 공용 재사용)
+├── reviews_json\                          ← **분석 입력용 JSON 폴더 (수집기가 자동 저장)**
+│   ├── {음식점 이름}_naver_visitor.json   (네이버 방문자 리뷰 + place_info, **분석 입력**)
+│   ├── {음식점 이름}_naver_blog.json      (네이버 블로그 리뷰(전문) + place_info, 있을 경우만)
+│   ├── {음식점 이름}_kakao_visitor.json   (**카카오맵 후기** + place_info, 별점★ 보유)
+│   └── {음식점 이름}_kakao_blog.json      (카카오 연동 블로그 리뷰 **전문** + place_info)
+├── reviews_txt\                           ← **사람 확인용 TXT 폴더 (분석 입력 아님)**
+│   ├── {음식점 이름}_naver_visitor.txt
+│   ├── {음식점 이름}_naver_blog.txt
+│   ├── {음식점 이름}_kakao_visitor.txt
+│   └── {음식점 이름}_kakao_blog.txt
+└── Place_Report\                          ← 분석 리포트 HTML 저장 폴더
     └── {음식점 이름}_분석리포트.html
 ```
 
-- 사용자가 **"{음식점 이름} 분석해줘"** 라고 하면 `raw\` 폴더의 `*_raw.json`을 읽어 분석한다.
-- **`.txt`는 분석 입력으로 절대 사용하지 않는다.** 단, 사용자가 직접 요청하거나 특별히 필요한 경우에만 참조한다.
-- 실제 파일 위치는 분석 직전 `Glob`로 확인한다 (`raw\**\*_raw.json`).
+> **폴더 분리(2026-06)**: 분석 입력 JSON은 `reviews_json\`, 사람 확인용 TXT는 `reviews_txt\`에
+> 각각 저장된다(수집기 `JSON_DIR`/`TXT_DIR`). 분석은 **`reviews_json\`만** 읽는다.
+
+> **출처 구분**: 파일명을 `{이름}_{플랫폼}_{종류}` 형식으로 통일한다 —
+> `_naver_visitor` / `_naver_blog` / `_kakao_visitor`(카카오 후기) / `_kakao_blog`.
+> 같은 음식점을 네이버·카카오 양쪽에서 수집해도 파일이 충돌하지 않는다.
+> JSON 내부 `review_type`은 `visitor`/`blog`/`kakao`로 식별한다(파일명과 별개).
+
+- 사용자가 **"{음식점 이름} 분석해줘"** 라고 하면 `reviews_json\` 폴더의 해당 음식점 `*.json`을 읽어 분석한다.
+- **`reviews_txt\`의 `.txt`는 분석 입력으로 절대 사용하지 않는다.** 단, 사용자가 직접 요청하거나 특별히 필요한 경우에만 참조한다.
+- 실제 파일 위치는 분석 직전 `Glob`로 확인한다 (`reviews_json\**\*.json`).
 
 ---
 
@@ -85,13 +99,14 @@ C:\Users\jh960\Desktop\리뷰분석\
 | `author` | 작성자 |
 | `date` / `date_raw` | 작성일 `YYYY-MM-DD` / 원본 한글 날짜 |
 | `content` | 리뷰 본문 전문 |
-| `char_count` | 공백 제외 글자 수 |
+| `char_count` | **공백 포함** 글자 수 (2026-06 변경) |
 | `rating` | 별점 (방문자 리뷰는 항상 `null`) |
 | `tags` / `keywords` | 네이버 제공 태그·키워드 |
-| `recency_penalty` | `true`면 18개월 초과 → weight ×0.5 적용됨 |
-| `quality_bonus` | `true`면 120자 이상 → weight ×1.5 적용됨 |
+| `recency_bonus` | `true`면 3개월 이내 → ×1.3 |
+| `recency_penalty` | `true`면 12~24개월 → ×0.5 |
+| `quality_bonus` | `true`면 40자↑ → ×1.2 / 100자↑ → ×1.5 (공백포함 티어) |
 | `weight` | 위 조건이 곱연산된 **최종 가중치** |
-| `exclude_reason` | (보통 `excluded[]`에만 존재) `paid:*` / `insincere` / `too_old:*` |
+| `exclude_reason` | (보통 `excluded[]`에만 존재) `paid:*` / `insincere`(15자 미만) / `too_old:*` |
 
 ### (B) 블로그 리뷰 객체 — `review_type: "blog"`
 수집기: `naver_BlogReviewCollector.py` (**플레이스 GraphQL `fsasReviews` API**, 2026-06 재작성)
@@ -103,26 +118,32 @@ C:\Users\jh960\Desktop\리뷰분석\
 | `date` / `date_raw` | 작성일 `YYYY-MM-DD` / 원본(`createdString` 예: "26.6.10.수") |
 | `title` | 블로그 글 제목 (HTML 엔티티 디코딩됨) |
 | `url` / `blog_id` / `log_no` | 원문 링크 및 식별자 |
-| `body` | 블로그 본문 — **API 프리뷰(~1300자 상한)**. 짧은 글은 전문, 긴 글은 앞부분만 |
+| `body` | 블로그 본문 — **blog.naver.com 원문 전문**(2026-06 변경). 최대 12000자 |
+| `body_source` | `"fulltext"`(전문 추출 성공) / `"preview"`(실패→API 프리뷰 폴백, `flags`에 `fulltext_failed`) |
 | `char_count` | 공백 제외 글자 수 |
 | `image_count` | 첨부 이미지 수(`thumbnailCount`) — 자동 감점 안 함, 메타데이터 |
 | `hashtag_count` / `has_phone` | 해시태그 수 / 전화번호 포함 여부 (협찬 판단 보조) |
 | `has_naver_reservation` | 네이버예약 연동 글 여부 |
-| `recency_penalty` | `true`면 18개월 초과 → weight ×0.5 |
+| `recency_bonus` | `true`면 3개월 이내 → ×1.3 |
+| `recency_penalty` | `true`면 12~24개월 → ×0.5 |
 | `weight` | 최종 가중치 (**블로그는 신선도만 반영**, 길이 보너스 없음) |
-| `flags` | `paid_suspect:*`(의심·제외 안 함) / `extraction_warning:N자`(본문 추출 의심) |
-| `exclude_reason` | (보통 `excluded[]`에만 존재) `paid_hard:*` |
+| `flags` | `paid_suspect:*`(의심·제외 안 함) / `extraction_warning:N자` / `fulltext_failed` |
+| `exclude_reason` | (보통 `excluded[]`에만 존재) `paid_hard:*` / `too_old:24개월_초과` |
 
-> ⚠️ 블로그 본문(`body`)은 전문이 아니라 프리뷰일 수 있다(긴 글). 메뉴·감성·운영정보 추출엔 충분하나,
-> "본문에 X가 없다"는 단정은 피한다. `content`가 아니라 **`body`** 필드임에 주의.
-> `analyze_reviews.py`는 visitor의 `content`를 읽으므로, 블로그 분석 시 `body`를 함께 처리하도록 보강 필요.
+> ⚠️ 블로그 신선도 가중치는 방문자와 동일(2026-06): 3개월 이내 ×1.3 / 12~24개월 ×0.5 / 24개월 초과 제외.
+> `body`는 **전문**이다(blog.naver.com 직접 추출). `body_source: "preview"`인 글만 프리뷰 폴백이므로
+> 그 경우에만 "긴 글 앞부분만"이 적용된다. `content`가 아니라 **`body`** 필드임에 주의.
+> `analyze_reviews.py`는 `body`를 `content`로 정규화해 함께 처리한다.
 
 ### `summary` 객체
-- **공통**: `target`, `total_excluded`, `date_oldest`, `date_newest`, `count_within_18m`, `count_18m_to_24m`
+- **공통**: `target`, `total_excluded`, `date_oldest`, `date_newest`,
+  `count_within_3m`, `count_3m_to_12m`, `count_12m_to_24m`,
+  `recency_bonus_count`, `recency_penalty_count`(= `count_12m_to_24m`, analyze_reviews 신뢰도용),
+  `quality_bonus_count`
   - `target` = 수집 시 사용자가 지정한 **유효 리뷰 목표 개수**(미입력 시 기본값 방문자 150 / 블로그 50).
     `reviews[]`는 정확히 이 개수로 맞춰져 있다(초과 수집분은 최신순 뒤쪽부터 잘림). 목표보다 적으면 데이터 부족.
-- **방문자**: `total_collected`, `total_loaded`, `excluded_paid`, `excluded_insincere`, `excluded_too_old`,
-  `quality_bonus_count`, `target_met`, `extended_to_24m`, `extended_to_24m_reason`
+- **방문자**: `total_collected`, `total_loaded`, `excluded_paid`, `excluded_insincere`(15자미만),
+  `excluded_too_old`, `target_met`
 - **블로그**: `total_valid`, `excluded_paid_hard`, `flag_paid_suspect`, `flag_extraction_warn`,
   `has_naver_reservation_count`, `phase2_entered`, `phase2_reason`, `target_met`
   (최상위에 `source: "place_graphql_fsasReviews"`, `stop_reason`도 포함)
@@ -130,15 +151,85 @@ C:\Users\jh960\Desktop\리뷰분석\
 > ⚠️ 수집 개수 변경(2026-06): `naver_ReviewCollector.py`는 실행 시 방문자/블로그 **유효 리뷰 목표 개수**를
 > 한 번만 입력받아(빈 입력=기본값) 모든 음식점에 동일 적용한다. 입력 N은 **광고·불성실 등 제외 후의
 > 분석 대상 리뷰** 기준이며, 수집기가 N개의 유효 리뷰가 모일 때까지 로딩한 뒤 정확히 N개로 잘라 저장한다.
-> 따라서 `reviews[]` 길이 ≈ `summary.target`이다. 구버전 블로그 `min_target_met`/`max_target_met`는 폐기되고
-> 단일 `target_met`으로 통합됐다.
+> 따라서 `reviews[]` 길이 ≈ `summary.target`이다.
 
 > ⚠️ 블로그는 네이버 API가 **최근순 약 128개(`maxItemCount`)까지만** 접근 허용. total이 수천이어도
-> 그 이상은 못 받는다 → 18~24개월 목표 수집엔 충분하나 "전수"가 아님을 신뢰도 메모에 반영한다.
+> 그 이상은 못 받는다 → 신뢰도 메모에 반영한다.
 
-> ⚠️ 스키마 변경(2026-06): 구버전 방문자 `recency_penalty_count`는 더 이상 없다.
-> 18개월 초과 비율은 `count_18m_to_24m`(또는 리뷰별 `recency_penalty` 합)로 계산하고,
-> 신뢰도 메모는 `count_within_18m` / `date_range`를 우선 근거로 삼는다.
+> ⚠️ 가중치 기준 변경(2026-06): 방문자·카카오 날짜 기준이 18M→12M(감점)/3M이내(보너스)로 변경됐다.
+> `recency_penalty_count`는 12~24개월 리뷰 수이며 analyze_reviews.py가 신뢰도 메모에 사용한다.
+> 분석 시 12개월 초과 비율이 높으면 주의 명시. `char_count`는 **공백포함** 기준으로 변경됐다.
+
+---
+
+## 2-K. 카카오 스키마 (kakao_ReviewCollector.py, 2026-06 신설)
+
+수집기: `kakao_ReviewCollector.py` — **카카오 내부 API(`place-api.map.kakao.com`) 직접 호출**.
+브라우저·로그인 불필요(순수 `urllib`). 헤더 `pf:PC` / `appversion` / `Accept` / `Referer` 필수.
+네이버와 **출력 스키마를 의도적으로 호환**시켜 `analyze_reviews.py`를 그대로 재사용한다.
+
+### 최상위 (네이버와 공통 + 카카오 추가)
+- `place_id` = `confirm_id`(카카오 플레이스 ID). `confirm_id` 필드도 별도 보유.
+- `review_type` = `"kakao"`(카카오 후기) 또는 `"blog"`(카카오 연동 블로그).
+- `source` = `"place_api_kakaomap_reviews"` / `"place_api_blog_reviews"`, `stop_reason` 포함.
+
+### place_info (네이버와 동일 키 + 카카오 추가)
+- 네이버와 같은 키: `category`(대>중>소 경로), `address`, `phone`, `hours[]`, `break_time`,
+  `regular_holiday`(예: "매주 일요일, 공휴일"), `parking`, `facilities[]`, `menus[]`, `raw_hours_text`, `errors[]`.
+- **카카오 추가**: `average_score`(전체 평균 별점), `total_kakao_reviews`, `total_blog_reviews`, `kakao_booking`.
+- ⚠️ `homepage`/`last_order`는 카카오 panel3에서 안 나올 수 있다(보통 `null`).
+
+### (C) 카카오 후기 객체 — `review_type: "kakao"`
+| 필드 | 의미 |
+|------|------|
+| `id` / `review_id` | 순번 / 카카오 리뷰 고유 ID |
+| `author` | 작성자 닉네임 |
+| `date` / `date_raw` | `YYYY-MM-DD` / 원본 `registered_at`("YYYY-MM-DD HH:MM:SS", **정확한 일시**) |
+| `content` | 후기 본문 (보통 짧음, 한두 줄 많음) |
+| `char_count` | 공백 제외 글자 수 |
+| **`rating`** | **별점 ★1~5 (네이버 방문자는 항상 null이던 값 — 카카오는 채워짐)** |
+| `strength_ids` / `keywords` / `tags` | 강점태그 id / 이름(맛·가성비·친절·분위기·주차). keywords·tags는 분석 재사용용 동일 값 |
+| `photo_count` / `like_count` | 첨부 사진 수 / 좋아요 수 (메타데이터, 가중치 미반영) |
+| `is_owner_pick` | 사장님픽 여부 |
+| `recency_bonus` | `true`면 3개월 이내 → ×1.3 |
+| `recency_penalty` | `true`면 12~24개월 → ×0.5 |
+| `quality_bonus` | `true`면 공백제외 40자↑ → ×1.2 / 100자↑ → ×1.5 |
+| `weight` | 위 조건이 곱연산된 **최종 가중치** |
+| `exclude_reason` | (`excluded[]`에만) `paid:*` / `insincere`(공백제외 15자 미만) / `too_old:*` |
+
+> ⚠️ **카카오 후기와 네이버 방문자는 동일한 가중치 기준을 사용한다(2026-06 통합).**
+> 별점은 *의견*이므로 weight가 아니라 `rating`으로 분리한다(영향력≠의견 원칙).
+> 작성자 신뢰도/사진 가중치는 네이버에서 구할 수 없어 폐기.
+> weight는 수집 단계 값을 그대로 사용(재계산 금지). `char_count`는 **공백제외** 기준.
+
+### (D) 카카오 블로그 객체 — `review_type: "blog"`, `source: place_api_blog_reviews`
+- 네이버 블로그와 거의 동일: `id`, `blog_id`/`log_no`(origin_url=blog.naver.com에서 파싱), `url`,
+  `date`/`date_raw`, `title`, `author`, `body`, `body_source`, `char_count`, `image_count`,
+  `hashtag_count`, `has_phone`, `recency_bonus`, `recency_penalty`, `weight`,
+  `flags`(`paid_suspect`/`extraction_warning`/`fulltext_failed`),
+  `exclude_reason`(`paid_hard:*` / `too_old:24개월_초과`). 협찬·신선도 로직은 네이버 블로그와 동일.
+- **신선도 가중치는 방문자와 동일**: 3개월 이내 ×1.3 / 12~24개월 ×0.5 / 24개월 초과 제외.
+- **`body`는 전문(全文)이다(2026-06 변경)**: 수집기가 `blog.naver.com` 모바일 페이지에 직접 접속해
+  본문을 추출한다(카카오 API 프리뷰가 아님). 최대 `B_FULLTEXT_CAP`(12000자)까지 저장.
+- **`body_source`**: `"fulltext"`(전문 추출 성공) / `"preview"`(추출 실패 → 카카오 프리뷰 폴백, `flags`에 `fulltext_failed`).
+  → 전문이므로 `paid_hard` 협찬 감지가 정확해지고(글 하단 고지까지 포착), 메뉴·감성 추출 근거가 강해진다.
+
+### summary (카카오)
+- **공통**: `target`, `total_collected`, `count_within_3m`, `count_3m_to_12m`, `count_12m_to_24m`,
+  `recency_bonus_count`, **`recency_penalty_count`**(=12~24개월 수, analyze_reviews 신뢰도 메모용),
+  `date_oldest`, `date_newest`, `target_met`, `total_excluded`.
+- **카카오 후기**: `total_kakao_count`, `average_score_overall`, `avg_rating_collected`,
+  `rating_distribution`(★1~5 개수), `quality_bonus_count`, `excluded_paid/insincere/too_old`.
+- **카카오 블로그**: `total_blog_count`, `total_valid`, `excluded_paid_hard`, `excluded_too_old`, `flag_paid_suspect`, `flag_extraction_warn`,
+  `fulltext_count`(전문 추출 성공 수), `fulltext_failed_count`(프리뷰 폴백 수), `phase2_entered`.
+
+> ⚠️ **페이지네이션 한계**: 카카오 후기는 `previous_last_review_id` 커서(20개/페이지), 블로그는 `page` 파라미터(10개/페이지).
+> 둘 다 `order=LATEST` 최신순으로 24개월 벽 또는 목표 도달까지 수집. 네이버 블로그의 128개 하드 상한 같은
+> 제약은 확인되지 않았으나, 매우 깊은 과거까지의 전수 보장은 아니다 → 신뢰도 메모에 반영.
+
+> ⚠️ **분석 시**: 카카오는 `rating`이 채워지므로 `analyze_reviews.py`의 `avg_rating_weighted`가 유효하다.
+> 네이버 방문자(별점 null)와 비교 시 이 차이를 감안한다. 카카오 본문은 짧아 감성 사전 1차 추정이
+> 중립으로 쏠리기 쉬우니, 별점 분포·강점태그(`tags`)·대표 샘플 본문을 함께 근거로 삼는다.
 
 ---
 
@@ -176,7 +267,7 @@ C:\Users\jh960\Desktop\리뷰분석\
 
 실행 예:
 ```
-python analyze_reviews.py "피탕김탕\피탕김탕_visitor_raw.json"
+python analyze_reviews.py "reviews_json\피탕김탕_naver_visitor.json"
 ```
 
 ---
