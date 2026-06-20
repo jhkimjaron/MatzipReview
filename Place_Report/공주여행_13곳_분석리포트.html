@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>공주여행 14곳 리뷰 분석 리포트 (일~월)</title>
+    <title>공주여행 18곳 리뷰 분석 리포트 (일~월)</title>
     <style>
       :root {
         --bg: #f6f5f1;
@@ -134,6 +134,13 @@
       }
       tr:last-child td {
         border-bottom: none;
+      }
+      tr.grp td {
+        background: var(--accent);
+        color: #fff;
+        text-align: left;
+        font-weight: 800;
+        letter-spacing: 0.02em;
       }
       .yes {
         color: var(--good);
@@ -890,8 +897,8 @@
   <body>
     <div class="wrap" id="top">
       <header class="top">
-        <h1>🌰 공주여행 맛집·카페 13곳 리뷰 분석</h1>
-        <p>여행 일정: <b>일요일 ~ 월요일</b> · 분석 기준일 2026-06-18</p>
+        <h1>🌰 공주여행 맛집·카페 18곳 리뷰 분석</h1>
+        <p>여행 일정: <b>일요일 ~ 월요일</b> · 분석 기준일 2026-06-21</p>
         <p>
           네이버 방문자·블로그 + 카카오 후기·블로그 (가중치·신선도 반영,
           광고/불성실 제외)
@@ -904,31 +911,107 @@
           ><a href="#피탕김탕">피탕김탕</a><a href="#매향">매향</a
           ><a href="#시장정육점식당">시장정육점식당</a
           ><a href="#우시장국밥">우시장국밥</a
-          ><a href="#북경탕수육">북경탕수육</a><a href="#원진">원진</a>
+          ><a href="#북경탕수육">북경탕수육</a><a href="#원진">원진</a
+          ><a href="#까우">까우</a>
         </div>
         <div class="toc-row">
           <span class="toc-gl">☕ 카페·디저트</span><a href="#곡물집">곡물집</a
           ><a href="#루치아의뜰">루치아의 뜰</a><a href="#카페소솜">카페 소솜</a
           ><a href="#바므">바므</a><a href="#베이커리밤마을">베이커리 밤마을</a
-          ><a href="#로컬커피">로컬커피</a><a href="#빵빵빵하우스">빵빵빵하우스</a>
+          ><a href="#로컬커피">로컬커피</a><a href="#빵빵빵하우스">빵빵빵하우스</a
+          ><a href="#부자떡집">부자떡집</a><a href="#마롱드공주">마롱드공주</a
+          ><a href="#커피인터뷰신관">커피인터뷰 신관</a>
         </div>
       </div>
 
       <!-- ① 요약 -->
       <h2 class="sec" id="summary">① 일·월 방문 한눈 요약</h2>
       <p class="note">
-        ★평점 옆 (n)은 <b>카카오 전체 후기 수</b>=평점 모수. n이 작으면 평점
-        신뢰도 낮음. 일·월 영업부터 확인하세요.
+        여행지 / 음식점 / 카페·디저트로 분류했습니다. ★평점 옆 (n)은
+        <b>카카오 전체 후기 수</b>=평점 모수(n 작으면 신뢰도 낮음)이며,
+        <b>여행지는 평점 없이 영업·휴무만</b> 표기. 일·월 영업부터 확인하세요.
       </p>
       <div class="tscroll">
         <table>
           <tr>
-            <th>음식점</th>
+            <th>이름</th>
             <th>종류</th>
             <th>일요일</th>
             <th>월요일</th>
             <th>★평점(모수)</th>
             <th>한줄 메모</th>
+          </tr>
+
+          <tr class="grp">
+            <td colspan="6">🏰 여행지 (8곳)</td>
+          </tr>
+          <tr>
+            <td class="l"><b>공산성</b></td>
+            <td>백제 산성</td>
+            <td class="yes">09:00~18:00</td>
+            <td class="yes">09:00~18:00</td>
+            <td>—</td>
+            <td class="l">연중무휴 · 미르섬 뷰</td>
+          </tr>
+          <tr>
+            <td class="l"><b>무령왕릉과 왕릉원</b></td>
+            <td>백제 고분</td>
+            <td class="yes">09:00~18:00</td>
+            <td class="yes">09:00~18:00</td>
+            <td>—</td>
+            <td class="l">연중무휴 · 입장마감 17:30</td>
+          </tr>
+          <tr>
+            <td class="l"><b>국립공주박물관</b></td>
+            <td>박물관</td>
+            <td class="yes">09:00~18:00</td>
+            <td class="no">휴무</td>
+            <td>—</td>
+            <td class="l">입장마감 17:30 · <b>월 휴무→일요일</b></td>
+          </tr>
+          <tr>
+            <td class="l"><b>충청남도역사박물관</b></td>
+            <td>박물관</td>
+            <td class="yes">10:00~18:00</td>
+            <td class="no">휴무</td>
+            <td>—</td>
+            <td class="l"><b>월 휴무→일요일</b></td>
+          </tr>
+          <tr>
+            <td class="l"><b>나태주풀꽃문학관</b></td>
+            <td>문학관</td>
+            <td class="yes">10:00~17:00</td>
+            <td class="no">휴무</td>
+            <td>—</td>
+            <td class="l">12~13시 휴게 · <b>월 휴무→일요일</b></td>
+          </tr>
+          <tr>
+            <td class="l"><b>미르섬</b></td>
+            <td>야외·꽃</td>
+            <td class="yes">상시</td>
+            <td class="yes">상시</td>
+            <td>—</td>
+            <td class="l">꽃 개화 시즌 · 공산성 뷰</td>
+          </tr>
+          <tr>
+            <td class="l"><b>공주 메타세콰이어길</b></td>
+            <td>야외·산책</td>
+            <td class="yes">상시</td>
+            <td class="yes">상시</td>
+            <td>—</td>
+            <td class="l">시골길 · 주변 편의 적음(메리트 下)</td>
+          </tr>
+          <tr>
+            <td class="l"><b>공주한옥마을</b></td>
+            <td>야외·한옥</td>
+            <td class="yes">상시</td>
+            <td class="yes">상시</td>
+            <td>—</td>
+            <td class="l">산책·체험 위주(체험·숙박은 시설별 상이)</td>
+          </tr>
+
+          <tr class="grp">
+            <td colspan="6">🍽 음식점 (8곳)</td>
           </tr>
           <tr>
             <td class="l"><b>우케타</b></td>
@@ -939,16 +1022,6 @@
               <span class="star">★4.7</span><span class="nrev"> (61)</span>
             </td>
             <td class="l">평점 1위 · <b>월요일만</b> · 예약 권장</td>
-          </tr>
-          <tr>
-            <td class="l"><b>빵빵빵하우스</b></td>
-            <td>베이커리·브런치</td>
-            <td class="yes">10:00~21:00</td>
-            <td class="no">휴무</td>
-            <td>
-              <span class="star">★4.0</span><span class="nrev"> (3·참고)</span>
-            </td>
-            <td class="l">금강뷰 대형카페 · <b>일요일만</b></td>
           </tr>
           <tr>
             <td class="l"><b>시장정육점식당</b></td>
@@ -1011,6 +1084,30 @@
             <td class="l">새벽 영업 · 아침/늦밤 든든</td>
           </tr>
           <tr>
+            <td class="l"><b>까우</b></td>
+            <td>양식·파스타</td>
+            <td class="yes">11:00~21:00</td>
+            <td class="yes">11:00~21:00</td>
+            <td>
+              <span class="star">★4.6</span><span class="nrev"> (22)</span>
+            </td>
+            <td class="l">블루리본 양식 · 네이버예약 가능 · 웨이팅 잦음</td>
+          </tr>
+
+          <tr class="grp">
+            <td colspan="6">☕ 카페·디저트 (10곳)</td>
+          </tr>
+          <tr>
+            <td class="l"><b>빵빵빵하우스</b></td>
+            <td>베이커리·브런치</td>
+            <td class="yes">10:00~21:00</td>
+            <td class="no">휴무</td>
+            <td>
+              <span class="star">★4.0</span><span class="nrev"> (3·참고)</span>
+            </td>
+            <td class="l">금강뷰 대형카페 · <b>일요일만</b></td>
+          </tr>
+          <tr>
             <td class="l"><b>곡물집</b></td>
             <td>한옥카페</td>
             <td class="yes">11:00~19:00</td>
@@ -1058,19 +1155,59 @@
             <td><span class="star">별점부족</span></td>
             <td class="l">밤아이스크림 / 서비스 평 갈림</td>
           </tr>
+          <tr>
+            <td class="l"><b>로컬커피</b></td>
+            <td>한옥 밤 카페</td>
+            <td class="yes">12:00~18:00</td>
+            <td class="no">휴무</td>
+            <td><span class="star">별점부족</span></td>
+            <td class="l">밤라떼 · 한옥 · <b>월 휴무</b></td>
+          </tr>
+          <tr>
+            <td class="l"><b>부자떡집</b></td>
+            <td>떡집(디저트)</td>
+            <td class="yes">09:00~18:30</td>
+            <td class="yes">09:00~18:30</td>
+            <td>
+              <span class="star">★4.1</span><span class="nrev"> (15)</span>
+            </td>
+            <td class="l">산성시장 알밤모찌 · 주말 오픈런</td>
+          </tr>
+          <tr>
+            <td class="l"><b>마롱드공주</b></td>
+            <td>밤디저트 카페</td>
+            <td class="yes">09:00~21:00</td>
+            <td class="yes">09:00~21:00</td>
+            <td>
+              <span class="star">★4.9</span><span class="nrev"> (18)</span>
+            </td>
+            <td class="l">제민천 수제밤잼 · <b>수요일 휴무</b></td>
+          </tr>
+          <tr>
+            <td class="l"><b>커피인터뷰 신관</b></td>
+            <td>베이커리 카페</td>
+            <td class="yes">10:00~21:00</td>
+            <td class="yes">10:00~21:00</td>
+            <td>
+              <span class="star">★4.0</span><span class="nrev"> (1·참고)</span>
+            </td>
+            <td class="l">터미널 근처 대형 · 두바이소금빵·카공</td>
+          </tr>
         </table>
       </div>
       <p class="legend">
-        ⚠️ <b>일요일 휴무</b>: 우케타 &nbsp;|&nbsp; <b>월요일 휴무</b>:
-        빵빵빵하우스·시장정육점식당·원진·북경탕수육(월·목) &nbsp;|&nbsp; 나머지
-        7곳 일·월 영업.
+        ⚠️ <b>월요일 휴무</b>: 빵빵빵하우스·시장정육점식당·원진·북경탕수육(월·목)·로컬커피
+        &nbsp;·&nbsp; <b>여행지</b> 국립공주박물관·충청남도역사박물관·나태주풀꽃문학관
+        → 모두 <b>일요일에</b> &nbsp;|&nbsp; <b>일요일 휴무</b>: 우케타(월요일만)
+        &nbsp;|&nbsp; <b>수요일 휴무</b>: 마롱드공주(일·월은 영업) &nbsp;|&nbsp;
+        나머지는 일·월 영업(까우·부자떡집·커피인터뷰 신관·공산성·무령왕릉 등).
       </p>
 
       <!-- ② 예약·웨이팅 -->
       <h2 class="sec" id="resv">② 예약 가능 여부 & 웨이팅</h2>
       <p class="note">
-        13곳 모두 네이버예약 버튼 없음. 원격 대기는 <b>캐치테이블</b>(원격
-        줄서기 앱) — 리뷰 언급량으로 실사용 판정.
+        <b>까우</b>만 네이버예약 버튼 있음, 나머지는 없음. 원격 대기는
+        <b>캐치테이블</b>(원격 줄서기 앱) — 리뷰 언급량으로 실사용 판정.
       </p>
       <div class="tscroll">
         <table>
@@ -1140,6 +1277,30 @@
             <td>🟢 여유</td>
             <td class="l">좌석 여유(빵빵빵 홀케이크는 네이버 예약)</td>
           </tr>
+          <tr>
+            <td class="l"><b>까우</b></td>
+            <td><span class="pill p-go">네이버예약 + 현장 웨이팅</span></td>
+            <td>🔴 피크 혼잡</td>
+            <td class="l">공주대·터미널 근처 · "웨이팅 1시간"도 · 저녁엔 빨리 빠짐</td>
+          </tr>
+          <tr>
+            <td class="l"><b>부자떡집</b></td>
+            <td><span class="pill p-no">현장 줄서기(포장)</span></td>
+            <td>🔴 주말 혼잡</td>
+            <td class="l">주말 아침 오픈런 · 평일은 대체로 바로 구매</td>
+          </tr>
+          <tr>
+            <td class="l"><b>마롱드공주</b></td>
+            <td><span class="pill p-no">현장</span></td>
+            <td>🟡 좌석 협소</td>
+            <td class="l">대기 바로 입장 多지만 공간 좁아 자리 경쟁</td>
+          </tr>
+          <tr>
+            <td class="l"><b>커피인터뷰 신관</b></td>
+            <td><span class="pill p-no">현장</span></td>
+            <td>🟢 여유</td>
+            <td class="l">약 70평 대형 · 자리 여유 · 카공 좋음</td>
+          </tr>
         </table>
       </div>
       <p class="legend">
@@ -1151,7 +1312,7 @@
       <!-- ③ 가게별 세부분석 -->
       <h2 class="sec" id="detail">③ 가게별 세부 분석</h2>
 
-      <h3 class="subh">식사 (7곳)</h3>
+      <h3 class="subh">식사 (8곳)</h3>
 
       <section class="rest-sec" id="우케타">
         <div class="rest-hd">
@@ -2768,7 +2929,234 @@
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
 
-      <h3 class="subh">카페 (7곳)</h3>
+      <section class="rest-sec" id="까우">
+        <div class="rest-hd">
+          <div class="rest-hd-l">
+            <h3 class="rest-name">
+              까우 (CCOW) <span class="rest-cat">양식</span
+              ><span class="rest-sub"> · 이탈리안·파스타 (블루리본)</span>
+            </h3>
+            <span class="rev-cnt"
+              >N방문자 150 · N블로그 50 · K후기 22 · K블로그 50</span
+            >
+          </div>
+          <div class="hd-maps">
+            <a
+              class="m-naver"
+              href="https://map.naver.com/p/entry/place/1934883905"
+              target="_blank"
+              >네이버지도</a
+            ><a
+              class="m-kakao"
+              href="https://place.map.kakao.com/797932040"
+              target="_blank"
+              >카카오맵</a
+            >
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">영업 정보</div>
+          <div class="biz-info">
+            <div class="bi-hours">
+              <b class="bi-lab">영업시간</b> 연중무휴
+              <span class="yes">11:00~21:00</span>
+            </div>
+            <div class="bi-etc">
+              <b class="bi-lab">브레이크타임</b> 15:00 - 17:00<span
+                class="bi-sep"
+              >
+                · </span
+              ><b class="bi-lab">라스트오더</b> 20:00<span class="bi-sep">
+                · </span
+              ><b class="bi-lab">주차</b> 신관공영주차장/골목
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">전반적 평가</div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >네이버 리뷰 <span class="n-cnt">(150건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 79.1%"></div>
+              <div class="bar-neu" style="width: 13.7%"></div>
+              <div class="bar-neg" style="width: 7.1%"></div>
+            </div>
+            <span class="sent-nums">긍정 79.1% / 중립 13.7% / 부정 7.1%</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >카카오 리뷰 <span class="n-cnt">(22건 · ★4.6)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 71.9%"></div>
+              <div class="bar-neu" style="width: 12.6%"></div>
+              <div class="bar-neg" style="width: 15.5%"></div>
+            </div>
+            <span class="sent-nums">긍정 71.9% / 중립 12.6% / 부정 15.5%</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >블로그 리뷰 <span class="n-cnt">(100건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 96.1%"></div>
+              <div class="bar-neu" style="width: 3.9%"></div>
+              <div class="bar-neg" style="width: 0%"></div>
+            </div>
+            <span class="sent-nums">긍정 96.1% / 중립 3.9% / 부정 0%</span>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">메뉴 추천</div>
+          <div class="menu-q">
+            <div class="mq-box mq-box-sig">
+              <span class="mq-tag mq-sig">시그니처</span
+              ><b>버섯크림 트러플 뇨끼</b>
+              <span class="mq-price">16,900원</span> —
+              <q>진짜 최상의 맛</q>. 트러플향이 과하지 않고 조화롭다는 평이 반복.
+              <b>라구 아란치니</b>(15,900원)와 함께 까우의 대표 시그니처.
+            </div>
+            <div class="mq-box mq-box-rec">
+              <span class="mq-tag mq-rec">소비자 추천</span>
+              <ul class="mq-list">
+                <li>
+                  <span class="mq-name">차돌오일 링귀니</span>
+                  <span class="mq-price">15,900원</span> —
+                  <q>뇨끼와 환상적</q>, <q>기억에 남는다</q>
+                </li>
+                <li>
+                  <span class="mq-name">치킨 크림커리 리조또</span>
+                  <span class="mq-price">15,900원</span> — 탱글한 밥알·수비드
+                  닭고기, <q>닭다리 추가 꼭</q>
+                </li>
+                <li>
+                  <span class="mq-name">매운새우크림</span> —
+                  <q>매콤한데 맛있는 매콤함</q>
+                </li>
+                <li>
+                  <span class="mq-name">불고기피자(또띠아 씬피자)</span> —
+                  <q>한입 베어물면 입안 가득 불고기</q>, <q>무조건 시켜야</q>
+                </li>
+              </ul>
+            </div>
+            <div class="mq-box mq-box-combo">
+              <span class="mq-tag mq-combo">추천 조합</span
+              ><b>파스타 + 리조또 + 피자</b> — 2인이면 2디쉬가 적당(양 많음),
+              일행이 많으면 피자 추가. 에이드·자몽에이드는 수제로 호평.
+            </div>
+            <div class="mq-box mq-box-surp">
+              <span class="mq-tag mq-surp">생각보다</span
+              ><q>서울 맛집 빰치는 정도, 대도시에 있었어도 잘 됐을 집</q>
+              <q>물가 생각하면 너무 저렴한데 양도 많음</q> — 가성비 호평이 다수.
+            </div>
+            <div class="mq-box mq-box-miss">
+              <span class="mq-tag mq-miss">주의</span>일부
+              <b>간이 짜다</b>(<q>모든 음식이 짜서 물을 엄청…</q>),
+              <b>토마토라구는 호불호</b>(<q>비추</q>도 있음). 평이 갈리는 메뉴는
+              피하고 시그니처 위주로.
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주문팁 (2인 기준)</div>
+          <ul class="otips">
+            <li>2인 추천: 트러플 뇨끼 + 차돌오일 링귀니(또는 리조또) 2디쉬</li>
+            <li>동시 입장·주문 순서대로 서빙 → 메뉴 미리 정하고 가면 빠름</li>
+            <li>피크엔 웨이팅 길어 네이버예약 활용 또는 저녁 늦게 방문</li>
+          </ul>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">리뷰 트렌드</div>
+          <p class="trend-p">
+            2024년 10월부터 1년 8개월간 꾸준히 리뷰 축적(150건). 네이버 긍정률
+            전반기 79.8% → 최신 78.8%로 큰 변화 없이 안정적. 블로그는 96% 호평
+            유지.
+          </p>
+          <div class="neg-trend flat">
+            📈 <b>추세 안정(부정 낮음)</b> — 네이버 긍정 79%, 블로그 96%로 호평
+            지속. 다만 카카오(22건) 최신 구간에서 <q>평범하다·웨이팅 아깝다</q>
+            식 지적이 일부 늘어, <b>"유명세에 따른 기대치 상승·회전 압박"</b>이
+            관전 포인트.
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">예약·대기 방식</div>
+          <p class="resv-p">
+            <b>네이버예약 가능</b> + 현장 웨이팅. 공주대·터미널 인근이라 피크엔
+            <q>웨이팅 1시간</q>도, 저녁엔 금방 빠지기도.
+          </p>
+          <div class="waiting-tag">🔴 피크 혼잡 (저녁은 빨리 빠짐)</div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주요 부정 이슈</div>
+          <div class="neg-box">
+            <p class="neg-minor">
+              구조적 불만은 적으나 반복 확인되는 참고 지적:
+            </p>
+            <div class="neg-single">
+              <div class="ns-h">⏳ 웨이팅 · 회전 압박</div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 6월</span> "메뉴도 많이 시켰고 1시간 좀
+                넘었는데 안 나간다고 눈치줘서 이젠 안 갈랍니다 — 유명해져서
+                배부른듯"
+              </div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 5월 ★2</span> "30분 웨이팅하고 먹었는데
+                여느 양식집과 다를 바 없는 평범한 맛… 굳이 웨이팅할 곳은 아닌
+                듯" — 기대치 대비 평가가 갈리는 지점.
+              </div>
+            </div>
+            <div class="neg-single">
+              <div class="ns-h">🧂 간(짠맛) · 메뉴 편차</div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 5월</span> "너무 짜요… 모든 음식이
+                짜서 물을 엄청 마셨어요" — 일부 메뉴 간이 셈. 토마토라구는
+                <q>비추</q> 평도 있어 시그니처 위주 주문 권장.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">요약 정리</div>
+          <div class="tips3col">
+            <div class="t3 t3-good">
+              <b>추천</b>
+              <ul>
+                <li>블루리본 양식 · 가성비 호평</li>
+                <li>트러플 뇨끼·아란치니·피자 시그니처</li>
+                <li>연중무휴 · 네이버예약 가능</li>
+              </ul>
+            </div>
+            <div class="t3 t3-bad">
+              <b>비추천</b>
+              <ul>
+                <li>피크 웨이팅 1시간 · 회전 압박</li>
+                <li>일부 메뉴 짠맛 · 토마토라구 호불호</li>
+                <li>오래 머물며 먹기엔 부담</li>
+              </ul>
+            </div>
+            <div class="t3 t3-tip">
+              <b>이용팁</b>
+              <ul>
+                <li>네이버예약 또는 저녁 늦게 방문</li>
+                <li>2인 2디쉬 + 시그니처 위주</li>
+                <li>메뉴 미리 정해두면 서빙 빠름</li>
+              </ul>
+            </div>
+          </div>
+          <div class="verdict-box">
+            <b>종합의견</b> — 공주 대표 블루리본 양식. 트러플 뇨끼·아란치니·피자가
+            시그니처이고 가성비 호평이 두텁다. 네이버 79%·블로그 96% 긍정으로
+            안정적이나, 피크 웨이팅과 회전 압박·일부 짠맛이 약점. 연중무휴라 일·월
+            아무 때나 배치 가능.
+          </div>
+        </div>
+        <a class="totop" href="#top">▲ 목차로</a>
+      </section>
+
+      <h3 class="subh">카페·디저트 (10곳)</h3>
 
       <section class="rest-sec" id="곡물집">
         <div class="rest-hd">
@@ -4276,6 +4664,664 @@
         <a class="totop" href="#top">▲ 목차로</a>
       </section>
 
+      <section class="rest-sec" id="부자떡집">
+        <div class="rest-hd">
+          <div class="rest-hd-l">
+            <h3 class="rest-name">
+              부자떡집 <span class="rest-cat">디저트</span
+              ><span class="rest-sub"> · 산성시장 떡집 (블루리본 13개)</span>
+            </h3>
+            <span class="rev-cnt"
+              >N방문자 150 · N블로그 50 · K후기 15 · K블로그 50</span
+            >
+          </div>
+          <div class="hd-maps">
+            <a
+              class="m-naver"
+              href="https://map.naver.com/p/entry/place/13327117"
+              target="_blank"
+              >네이버지도</a
+            ><a
+              class="m-kakao"
+              href="https://place.map.kakao.com/10471794"
+              target="_blank"
+              >카카오맵</a
+            >
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">영업 정보</div>
+          <div class="biz-info">
+            <div class="bi-hours">
+              <b class="bi-lab">영업시간</b> 연중무휴
+              <span class="yes">09:00~18:30</span>
+            </div>
+            <div class="bi-etc">
+              <b class="bi-lab">주차</b> 산성시장 공영주차장 바로 옆<span
+                class="bi-sep"
+              >
+                · </span
+              ><b class="bi-lab">결제</b> 공주페이/지역화폐 불가
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">전반적 평가</div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >네이버 리뷰 <span class="n-cnt">(150건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 60.6%"></div>
+              <div class="bar-neu" style="width: 27.8%"></div>
+              <div class="bar-neg" style="width: 11.6%"></div>
+            </div>
+            <span class="sent-nums">긍정 60.6% / 중립 27.8% / 부정 11.6%</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >카카오 리뷰 <span class="n-cnt">(15건 · ★4.1)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 76.8%"></div>
+              <div class="bar-neu" style="width: 16.5%"></div>
+              <div class="bar-neg" style="width: 6.7%"></div>
+            </div>
+            <span class="sent-nums">긍정 76.8% / 중립 16.5% / 부정 6.7%</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >블로그 리뷰 <span class="n-cnt">(100건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 79%"></div>
+              <div class="bar-neu" style="width: 10%"></div>
+              <div class="bar-neg" style="width: 11%"></div>
+            </div>
+            <span class="sent-nums">긍정 79% / 중립 10% / 부정 11%</span>
+          </div>
+          <p class="trend-p" style="margin-top: 6px">
+            ※ 네이버 중립 비율(27.8%)이 높은 건 "맛있음" 한두 줄 짧은 후기가
+            많아서이며, 부정과는 다름. 본문 호평은 압도적.
+          </p>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">메뉴 추천</div>
+          <div class="menu-q">
+            <div class="mq-box mq-box-sig">
+              <span class="mq-tag mq-sig">시그니처</span
+              ><b>알밤모찌</b> — 쫀득한 찹쌀 안에 공주 알밤과 팥앙금이 통째로.
+              <q>안 좋아하는 것 투성인데 너무 맛있어서 순삭</q>. 공주 여행 필수
+              기념품으로 가장 많이 언급.
+            </div>
+            <div class="mq-box mq-box-rec">
+              <span class="mq-tag mq-rec">소비자 추천</span>
+              <ul class="mq-list">
+                <li>
+                  <span class="mq-name">부자떡</span> — 견과류가 잔뜩,
+                  <q>여러 종류 중 제일 맛있었다</q>
+                </li>
+                <li>
+                  <span class="mq-name">흑임자인절미</span> —
+                  <q>결론: 흑임자인절미가 찐</q> (유튜버·블로그 추천)
+                </li>
+                <li>
+                  <span class="mq-name">쑥밤시루 · 호밤시루</span> —
+                  <q>알밤모찌보다 오히려 더 맛있었다</q>는 평도 다수
+                </li>
+                <li>
+                  <span class="mq-name">단호박설기 · 말차초코설기</span> — 시루떡
+                  계열 호평
+                </li>
+              </ul>
+            </div>
+            <div class="mq-box mq-box-combo">
+              <span class="mq-tag mq-combo">추천 조합</span
+              ><b>알밤모찌 8구 이상 + 부자떡/시루떡 몇 종</b> —
+              <q>3구짜리 사면 백퍼 후회</q>, 양 대비 8구 이상 권장. 갓 쪄낸 시루떡은
+              따끈할 때 바로.
+            </div>
+            <div class="mq-box mq-box-surp">
+              <span class="mq-tag mq-surp">생각보다</span
+              ><q>떡 별로 안 좋아하는데 비주얼이 다 맛있어 보여…</q>
+              <q>왜 줄 서는지 알겠다, 더 사 올 걸 후회 중</q>.
+            </div>
+            <div class="mq-box mq-box-miss">
+              <span class="mq-tag mq-miss">주의</span><b>가격대가 있는 편</b>(찹쌀떡
+              3구 4,500원, 골라 담으면 금방 5만 원), <b>단맛이 강함</b>(찰떡·모찌),
+              인절미 콩고물이 살짝 쓰다는 평. <b>알밤모찌 조기 품절</b> 가능.
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주문팁</div>
+          <ul class="otips">
+            <li>알밤모찌는 3구 말고 8구 이상으로 (금방 동남)</li>
+            <li>주말 아침은 오픈런 각오 · 평일은 대체로 바로 구매</li>
+            <li>공주페이/지역화폐 불가 — 현금·카드 준비</li>
+            <li>못 먹으면 냉동 보관 후 해동·전자레인지 데움 추천</li>
+          </ul>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">리뷰 트렌드</div>
+          <p class="trend-p">
+            리뷰가 2026년 3월 이후 집중(블로그 50건 전부 6월) — 산성시장 필수
+            코스로 최근 급부상. 네이버 긍정 전반 55% → 최신 65%로 상승세, 부정은
+            10~13%로 낮게 유지.
+          </p>
+          <div class="neg-trend flat">
+            📈 <b>최근 화제·상승세</b> — "공주 = 부자떡집" 인지도가 빠르게 확산.
+            구조적 불만은 적고, 주된 마찰은 <b>주말 웨이팅·가격·단맛</b> 정도.
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">예약·대기 방식</div>
+          <p class="resv-p">
+            현장 줄서기(포장 전문). 주말 아침 10시대엔 줄이 길지만
+            <q>생각보다 빨리 빠진다</q>는 평. 평일은 대체로 바로 구매.
+          </p>
+          <div class="waiting-tag">🔴 주말 혼잡 (평일 여유)</div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주요 부정 이슈</div>
+          <div class="neg-box">
+            <p class="neg-minor">단발성 위주, 반복 확인되는 참고 지적:</p>
+            <div class="neg-single">
+              <div class="ns-h">💸 가격 · 단맛</div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 6월</span> "선뜻 사기엔 가격이 좀 세더라…
+                찹쌀떡 3구에 4,500원" / "떡값만 5만 원 ㅋ"
+              </div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 5월 ★4</span> "밤모찌·찰떡은 맛있지만 좀
+                달다 — 오히려 쑥개떡·쑥밤시루가 더 맛있었다"
+              </div>
+            </div>
+            <div class="neg-single">
+              <div class="ns-h">😐 기대치 · 호불호</div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 5월 ★3</span> "내가 맛있는 떡을 많이
+                먹어봐서인지… 평범하고 찰기·쫄깃함이 부족, 가격은 안 저렴. 한
+                번 경험으로 충분" — 떡 미식가에겐 평이 갈림.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">요약 정리</div>
+          <div class="tips3col">
+            <div class="t3 t3-good">
+              <b>추천</b>
+              <ul>
+                <li>공주 대표 기념품 알밤모찌</li>
+                <li>떡 종류 다양 · 갓 쪄낸 신선함</li>
+                <li>연중무휴 · 공영주차장 인접</li>
+              </ul>
+            </div>
+            <div class="t3 t3-bad">
+              <b>비추천</b>
+              <ul>
+                <li>주말 오픈런 · 가격 부담</li>
+                <li>단맛 강함 · 미식가 호불호</li>
+                <li>지역화폐 불가</li>
+              </ul>
+            </div>
+            <div class="t3 t3-tip">
+              <b>이용팁</b>
+              <ul>
+                <li>알밤모찌 8구↑ + 시루떡 조합</li>
+                <li>주말은 오전 일찍 · 평일이 편함</li>
+                <li>흑임자인절미·쑥밤시루도 꼭</li>
+              </ul>
+            </div>
+          </div>
+          <div class="verdict-box">
+            <b>종합의견</b> — 산성시장 필수 코스, 블루리본 13개의 알밤모찌 명소.
+            떡 종류와 신선도에서 호평이 두텁고 선물용으로 강력. 주말 웨이팅·가격·
+            강한 단맛이 약점이고 떡 미식가에겐 호불호가 갈리지만, 공주 기념품으로는
+            1순위급. 연중무휴라 일·월 모두 가능.
+          </div>
+        </div>
+        <a class="totop" href="#top">▲ 목차로</a>
+      </section>
+
+      <section class="rest-sec" id="마롱드공주">
+        <div class="rest-hd">
+          <div class="rest-hd-l">
+            <h3 class="rest-name">
+              마롱드공주 <span class="rest-cat">카페</span
+              ><span class="rest-sub"> · 밤 디저트·수제 밤잼 (제민천)</span>
+            </h3>
+            <span class="rev-cnt"
+              >N방문자 150 · N블로그 50 · K후기 18 · K블로그 50</span
+            >
+          </div>
+          <div class="hd-maps">
+            <a
+              class="m-naver"
+              href="https://map.naver.com/p/entry/place/2003769344"
+              target="_blank"
+              >네이버지도</a
+            ><a
+              class="m-kakao"
+              href="https://place.map.kakao.com/412124158"
+              target="_blank"
+              >카카오맵</a
+            >
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">영업 정보</div>
+          <div class="biz-info">
+            <div class="bi-hours">
+              <b class="bi-lab">영업시간</b> 수
+              <span class="no">휴무</span> &nbsp;/&nbsp; 그 외
+              <span class="yes">09:00~21:00</span>
+            </div>
+            <div class="bi-etc">
+              <b class="bi-lab">주차</b> 가능(제민천 공영주차장 연계)<span
+                class="bi-sep"
+              >
+                · </span
+              >1·2층 운영(2층 뷰)
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">전반적 평가</div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >네이버 리뷰 <span class="n-cnt">(150건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 85.6%"></div>
+              <div class="bar-neu" style="width: 13.7%"></div>
+              <div class="bar-neg" style="width: 0.7%"></div>
+            </div>
+            <span class="sent-nums">긍정 85.6% / 중립 13.7% / 부정 0.7%</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >카카오 리뷰 <span class="n-cnt">(18건 · ★4.9)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 84.4%"></div>
+              <div class="bar-neu" style="width: 15.6%"></div>
+              <div class="bar-neg" style="width: 0%"></div>
+            </div>
+            <span class="sent-nums">긍정 84.4% / 중립 15.6% / 부정 0%</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >블로그 리뷰 <span class="n-cnt">(100건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 94.9%"></div>
+              <div class="bar-neu" style="width: 1%"></div>
+              <div class="bar-neg" style="width: 4.1%"></div>
+            </div>
+            <span class="sent-nums">긍정 94.9% / 중립 1% / 부정 4.1%</span>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">메뉴 추천</div>
+          <div class="menu-q">
+            <div class="mq-box mq-box-sig">
+              <span class="mq-tag mq-sig">시그니처</span
+              ><b>밤잼슈페너</b>
+              <span class="mq-price">6,000원</span> —
+              <q>크림이 단짠단짠이라 막 퍼먹고 싶다, 개찐</q>. 직접 만든
+              <b>수제 밤잼</b>이 모든 메뉴의 핵심.
+            </div>
+            <div class="mq-box mq-box-rec">
+              <span class="mq-tag mq-rec">소비자 추천</span>
+              <ul class="mq-list">
+                <li>
+                  <span class="mq-name">밤잼라떼</span>
+                  <span class="mq-price">6,500원</span> —
+                  <q>지나치게 달지 않아 밸런스가 좋다</q>
+                </li>
+                <li>
+                  <span class="mq-name">밤잼 밀푀유</span>
+                  <span class="mq-price">6,800원</span> —
+                  <q>밀푀유 맛에 반해 재방문</q>
+                </li>
+                <li>
+                  <span class="mq-name">버터떡 &amp; 밤잼연유</span>
+                  <span class="mq-price">6,500원</span> —
+                  <q>충격받아 천안에서 공주까지 두 번</q>
+                </li>
+                <li>
+                  <span class="mq-name">밤잼크림 휘낭시에</span>
+                  <span class="mq-price">3,600원</span> — <q>특색 있고 맛있다</q>
+                </li>
+              </ul>
+            </div>
+            <div class="mq-box mq-box-combo">
+              <span class="mq-tag mq-combo">추천 조합</span
+              ><b>밤잼슈페너 + 밀푀유(또는 휘낭시에)</b> — 음료·디저트 모두 밤잼
+              베이스. 당도 조절·밤잼 리필을 사장님이 챙겨주는 후기 다수.
+            </div>
+            <div class="mq-box mq-box-surp">
+              <span class="mq-tag mq-surp">생각보다</span
+              ><q>공주 시민이라 밤에 질렸는데 밤잼이 대박</q>
+              <q>흔하고 뻔한 밤맛 생각했다가 놀랐다</q> — 현지인도 인정.
+            </div>
+            <div class="mq-box mq-box-miss">
+              <span class="mq-tag mq-miss">주의</span><b>공간이 좁아</b> 피크엔 자리
+              잡기 어렵고, <b>2층은 소리가 울린다</b>는 평. 밤라떼는
+              <q>밤맛이 약하다</q>는 취향 의견도 일부.
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주문팁</div>
+          <ul class="otips">
+            <li>뷰·테이블 큰 2층 자리 추천 (단, 소리 울림)</li>
+            <li>밤잼 리필·당도 조절 요청 가능</li>
+            <li><b>수요일 휴무</b> — 일·월엔 영업하니 일정 배치 자유</li>
+          </ul>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">리뷰 트렌드</div>
+          <p class="trend-p">
+            2025년 하반기 오픈 후 2026년 들어 리뷰 급증(데이터 대부분
+            2026-03~06). 네이버 긍정률 80%대 중반, 부정 0.7%로 13곳 중 최상위권
+            안정.
+          </p>
+          <div class="neg-trend flat">
+            📈 <b>신생 인기 카페 · 호평 집중</b> — 밤잼 디저트와 친절·청결로 평이
+            거의 균일하게 좋음. 구조적 불만 패턴 없음(공간 협소만 참고).
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">예약·대기 방식</div>
+          <p class="resv-p">
+            현장(예약 없음). 대기 없이 바로 입장하는 경우가 많지만, 공간이 좁아
+            피크엔 자리 경쟁이 있음.
+          </p>
+          <div class="waiting-tag">🟡 좌석 협소 (대기 자체는 적음)</div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주요 부정 이슈</div>
+          <div class="neg-box">
+            <p class="neg-minor">
+              부정 후기 자체가 드묾. 참고할 단발 지적:
+            </p>
+            <div class="neg-single">
+              <div class="ns-h">🪑 공간 · 음향</div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 6월 ★4</span> "카페 공간이 좁아 자리
+                잡기가 힘들었지만 분위기는 좋았다" / "2층 공간 넓긴 한데 소리가
+                울리는 게 굳이 찾은 흠"
+              </div>
+            </div>
+            <div class="neg-single">
+              <div class="ns-h">🌰 밤맛 강도(취향)</div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 6월</span> "밤이 들어간 라떼 맛이 약해서
+                조금 더 진했으면" — 진한 밤맛 원하면 슈페너·밀푀유 쪽 추천.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">요약 정리</div>
+          <div class="tips3col">
+            <div class="t3 t3-good">
+              <b>추천</b>
+              <ul>
+                <li>수제 밤잼 디저트 · 현지인도 인정</li>
+                <li>친절·청결·통창 뷰 (사진 맛집)</li>
+                <li>긍정률 최상위 · 09시부터 영업</li>
+              </ul>
+            </div>
+            <div class="t3 t3-bad">
+              <b>비추천</b>
+              <ul>
+                <li>공간 협소 · 2층 음향 울림</li>
+                <li>밤라떼 밤맛 약하다는 취향 의견</li>
+                <li>수요일 휴무</li>
+              </ul>
+            </div>
+            <div class="t3 t3-tip">
+              <b>이용팁</b>
+              <ul>
+                <li>슈페너·밀푀유로 진한 밤맛</li>
+                <li>2층 자리 + 밤잼 리필 요청</li>
+                <li>제민천 산책·소품샵과 연계</li>
+              </ul>
+            </div>
+          </div>
+          <div class="verdict-box">
+            <b>종합의견</b> — 제민천 밤 디저트 감성 카페. 직접 만든 수제 밤잼을
+            앞세운 슈페너·밀푀유·버터떡이 시그니처로, 네이버 긍정 85.6%·블로그
+            95%에 카카오 ★4.9까지 평이 거의 균일하게 좋다. 공간 협소만 감안하면
+            일·월 어느 때나 들르기 좋은 강력 추천 카페(수요일만 휴무).
+          </div>
+        </div>
+        <a class="totop" href="#top">▲ 목차로</a>
+      </section>
+
+      <section class="rest-sec" id="커피인터뷰신관">
+        <div class="rest-hd">
+          <div class="rest-hd-l">
+            <h3 class="rest-name">
+              커피인터뷰 신관 <span class="rest-cat">카페</span
+              ><span class="rest-sub"> · 대형 베이커리·스페셜티 (신관동)</span>
+            </h3>
+            <span class="rev-cnt"
+              >N방문자 80 · N블로그 49 · K후기 1 · K블로그 49</span
+            >
+          </div>
+          <div class="hd-maps">
+            <a
+              class="m-naver"
+              href="https://map.naver.com/p/entry/place/2051999622"
+              target="_blank"
+              >네이버지도</a
+            ><a
+              class="m-kakao"
+              href="https://place.map.kakao.com/2085032013"
+              target="_blank"
+              >카카오맵</a
+            >
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">영업 정보</div>
+          <div class="biz-info">
+            <div class="bi-hours">
+              <b class="bi-lab">영업시간</b> 연중무휴
+              <span class="yes">10:00~21:00</span>
+            </div>
+            <div class="bi-etc">
+              <b class="bi-lab">주차</b> 가능(공주종합버스터미널 인근)<span
+                class="bi-sep"
+              >
+                · </span
+              ><b class="bi-lab">결제</b> 공주페이 가능
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">전반적 평가</div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >네이버 리뷰 <span class="n-cnt">(80건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 83%"></div>
+              <div class="bar-neu" style="width: 14.5%"></div>
+              <div class="bar-neg" style="width: 2.5%"></div>
+            </div>
+            <span class="sent-nums">긍정 83% / 중립 14.5% / 부정 2.5%</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >카카오 리뷰 <span class="n-cnt">(1건)</span>
+              <span class="warn-tag">⚠</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-neu" style="width: 100%"></div>
+            </div>
+            <span class="sent-nums">표본 1건(★4) — 통계 의미 없음, 참고 불가</span>
+          </div>
+          <div class="sent-bar-wrap">
+            <span class="sent-label"
+              >블로그 리뷰 <span class="n-cnt">(98건)</span></span
+            >
+            <div class="bar-track">
+              <div class="bar-pos" style="width: 90.9%"></div>
+              <div class="bar-neu" style="width: 8.1%"></div>
+              <div class="bar-neg" style="width: 1%"></div>
+            </div>
+            <span class="sent-nums">긍정 90.9% / 중립 8.1% / 부정 1%</span>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">메뉴 추천</div>
+          <div class="menu-q">
+            <div class="mq-box mq-box-sig">
+              <span class="mq-tag mq-sig">시그니처</span
+              ><b>두바이초코소금빵</b>
+              <span class="mq-price">6,000원</span> — 카다이프 식감의 소금빵.
+              그리고 <b>누룽판단라떼</b>(6,500원) —
+              <q>누룽지의 구수함을 그대로</q> 느껴지는 시그니처 음료.
+            </div>
+            <div class="mq-box mq-box-rec">
+              <span class="mq-tag mq-rec">소비자 추천</span>
+              <ul class="mq-list">
+                <li>
+                  <span class="mq-name">쪽파크림소금빵</span> —
+                  <q>소금빵 별로 안 좋아하는 남편도 극찬</q>
+                </li>
+                <li>
+                  <span class="mq-name">플로팅아일랜드</span>
+                  <span class="mq-price">7,000원</span> — 시그니처 디저트
+                </li>
+                <li>
+                  <span class="mq-name">리얼블루베리바나나 스무디</span> —
+                  <q>말 그대로의 진한 맛</q>
+                </li>
+                <li>
+                  <span class="mq-name">갈릭러스크 · 스페셜티 커피</span> —
+                  <q>카푸치노가 다른 카페보다 맛있다</q>
+                </li>
+              </ul>
+            </div>
+            <div class="mq-box mq-box-combo">
+              <span class="mq-tag mq-combo">추천 조합</span
+              ><b>소금빵류 + 스페셜티 커피</b> 또는 <b>누룽판단라떼 + 디저트</b> —
+              빵 종류가 많아 골라 담는 재미. 약 70평 대형 공간이라 일행·카공 모두 OK.
+            </div>
+            <div class="mq-box mq-box-surp">
+              <span class="mq-tag mq-surp">생각보다</span
+              ><q>가운데 판다 테라리움이 귀엽다</q>
+              <q>북적일 줄 알았는데 생각보다 조용해서 더 좋았다</q> — 넓고
+              쾌적한 카공 환경.
+            </div>
+            <div class="mq-box mq-box-miss">
+              <span class="mq-tag mq-miss">주의</span><b>두바이소금빵</b>은
+              <q>피스타치오 맛이 약하다</q>·<q>껍질이 섞여 나왔다</q>는 지적,
+              <b>누룽판단라떼</b>는 <q>커피향이 세서 판단향이 약하다</q>는 평.
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주문팁 (카공)</div>
+          <ul class="otips">
+            <li>벽쪽 칸막이 좌석 + 콘센트 → 노트북·작업 좋음</li>
+            <li>약 70평 대형이라 자리 여유 · 일행 모임도 가능</li>
+            <li>공주페이 사용 가능 · 연중무휴 10시 오픈</li>
+          </ul>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">리뷰 트렌드</div>
+          <p class="trend-p">
+            신관점은 2025년 6월 오픈 → 오픈 직후(25년 6~8월) 리뷰가 집중되고
+            이후 완만. 네이버 긍정 83%, 블로그 91%로 꾸준한 호평. (방문자 표본
+            80건으로 목표 150엔 미달, 카카오 후기는 1건뿐.)
+          </p>
+          <div class="neg-trend flat">
+            📈 <b>안정적 호평 · 카페 본업 충실</b> — 넓은 공간·인테리어·빵
+            종류·카공 환경이 강점. 부정은 1~2% 수준. 카카오 평점 모수가 1건이라
+            별점보다 네이버·블로그 본문을 근거로 볼 것.
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">예약·대기 방식</div>
+          <p class="resv-p">
+            현장(예약 없음). 약 70평 대형이라 자리 여유가 있고
+            <q>생각보다 조용</q>하다는 평이 많음.
+          </p>
+          <div class="waiting-tag">🟢 여유 (넓은 공간)</div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">주요 부정 이슈</div>
+          <div class="neg-box">
+            <p class="neg-minor">
+              구조적 불만은 거의 없음. 메뉴 디테일 단발 지적:
+            </p>
+            <div class="neg-single">
+              <div class="ns-h">🥐 시그니처 메뉴 편차</div>
+              <div class="neg-q">
+                <span class="neg-qd">25년 7월</span> "두바이초코소금빵은 카다이프
+                식감은 좋은데 피스타치오 페이스트 맛이 안 나서 아쉬워요"
+              </div>
+              <div class="neg-q">
+                <span class="neg-qd">26년 1월</span> "피스타치오 껍질이 4조각
+                나왔다… 그래도 수제 스프레드라 맛있다" — 수제라 편차 존재.
+              </div>
+            </div>
+            <div class="neg-single">
+              <div class="ns-h">📊 표본 한계</div>
+              <div class="neg-q">
+                카카오 후기 <b>1건</b>으로 카카오 별점은 참고 불가. 네이버 방문자도
+                80건으로 다른 곳(150건)보다 표본이 작음.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rs-sec">
+          <div class="rs-title">요약 정리</div>
+          <div class="tips3col">
+            <div class="t3 t3-good">
+              <b>추천</b>
+              <ul>
+                <li>약 70평 대형 · 카공 최적(콘센트·칸막이)</li>
+                <li>빵 종류 多 · 스페셜티 커피</li>
+                <li>연중무휴 · 터미널 근처 · 공주페이</li>
+              </ul>
+            </div>
+            <div class="t3 t3-bad">
+              <b>비추천</b>
+              <ul>
+                <li>두바이소금빵·판단라떼 밸런스 호불호</li>
+                <li>카카오 표본 1건 — 별점 참고 불가</li>
+                <li>구도심(제민천)과 거리 있음(신관동)</li>
+              </ul>
+            </div>
+            <div class="t3 t3-tip">
+              <b>이용팁</b>
+              <ul>
+                <li>소금빵류 + 스페셜티 커피 조합</li>
+                <li>작업·모임이면 벽쪽 칸막이 좌석</li>
+                <li>터미널 이용·출발 전 들르기 좋음</li>
+              </ul>
+            </div>
+          </div>
+          <div class="verdict-box">
+            <b>종합의견</b> — 공주종합버스터미널 인근 신관동의 약 70평 대형
+            베이커리·스페셜티 카페. 넓은 공간·인테리어·빵 종류·카공 환경이 강점이며
+            네이버 83%·블로그 91% 긍정으로 안정적이다. 카카오 표본이 1건뿐이라
+            별점은 참고만. 연중무휴라 일·월 모두 가능하고, 터미널 이용 동선과 잘
+            맞는다.
+          </div>
+        </div>
+        <a class="totop" href="#top">▲ 목차로</a>
+      </section>
+
       <!-- ④ 추천 동선 -->
       <h2 class="sec" id="course">④ 일·월 추천 동선 &amp; 핵심 정리</h2>
       <p class="note">
@@ -4297,10 +5343,15 @@
             <i>또는</i> <b>베이커리 밤마을</b>(공산성 앞 밤빵) →
             <b>공산성 산책</b> 연계
           </li>
-          <li><b>오후 카페</b>: 곡물집 · 루치아의 뜰 · 카페 소솜 중 택</li>
+          <li>
+            <b>오후 카페·디저트</b>: 곡물집 · 루치아의 뜰 · 카페 소솜 ·
+            <b>마롱드공주</b>(제민천 밤잼) 중 택, 산성시장 들르면
+            <b>부자떡집</b>(알밤모찌) 포장
+          </li>
           <li>
             <b>저녁</b>: <b>원진</b>(숯불갈비·청국장, 월 휴무 → 일요일 권장,
-            ~20시) <i>또는</i> <b>피탕김탕</b>(~23시·캐치테이블)
+            ~20시) <i>또는</i> <b>피탕김탕</b>(~23시·캐치테이블) <i>또는</i>
+            <b>까우</b>(블루리본 양식, ~21시·네이버예약)
           </li>
           <li class="em">
             북경탕수육(김피탕 원조)은 일 09~14시·재료소진 → 먹으려면 도착 즉시
@@ -4318,11 +5369,13 @@
           </li>
           <li>
             <b>오후 카페</b>: 곡물집 · 루치아의 뜰 · 카페 소솜 · 바므 · 베이커리
-            밤마을(매일 영업) 모두 가능
+            밤마을 · <b>마롱드공주</b> · <b>커피인터뷰 신관</b>(매일 영업) 모두
+            가능 — 출발 동선이 신관·터미널 쪽이면 커피인터뷰가 편리
           </li>
           <li>
             <b>저녁(출발 전)</b>: <b>피탕김탕</b>(~23시·캐치테이블) <i>또는</i>
-            <b>우시장국밥</b>(늦게까지) — 저녁 든든히 먹고 출발
+            <b>우시장국밥</b>(늦게까지) <i>또는</i> <b>까우</b>(양식, ~21시) —
+            저녁 든든히 먹고 출발
           </li>
           <li class="em">
             월요일 휴무: 빵빵빵하우스·시장정육점식당·원진·북경탕수육 — 일정에서
@@ -4332,12 +5385,14 @@
       </div>
       <div class="verdict-box" style="margin-top: 14px">
         <p style="margin: 0.25em 0">
-          <b>✅ 실패 없는 픽</b> — 우케타(★4.7·월)·루치아의
-          뜰(★4.4)·곡물집·베이커리 밤마을(밤빵 필수). 안정적 만족.
+          <b>✅ 실패 없는 픽</b> — 우케타(★4.7·월)·<b>마롱드공주(★4.9)</b>·루치아의
+          뜰(★4.4)·곡물집·베이커리 밤마을(밤빵 필수)·<b>까우</b>(블루리본 양식).
+          안정적 만족.
         </p>
         <p style="margin: 0.25em 0">
           <b>⏳ 맛은 좋지만 웨이팅 각오</b> — 매향·시장정육점·베이커리
-          밤마을·피탕김탕. 오픈런·캐치테이블·이른 방문으로 대응.
+          밤마을·피탕김탕·<b>까우</b>(피크 1시간)·<b>부자떡집</b>(주말 오픈런).
+          오픈런·캐치테이블·이른 방문으로 대응.
         </p>
         <p style="margin: 0.25em 0">
           <b>⚠️ 신중히</b> — 원진(서비스 불만 최다)·바므(디저트·테이크아웃 위주,
@@ -4349,17 +5404,17 @@
           배치.
         </p>
         <p style="margin: 0.25em 0; color: var(--sub); font-size: 0.82rem">
-          표본은 가게당 통합 약 158~319건(네이버·카카오, 광고·불성실 제외,
-          가중치 반영). 빵빵빵(3건)·카페소솜(13건)·원진(21건)은 카카오 평점
-          모수가 작아 본문 감성과 함께 해석하세요. 영업정보는 변동될 수 있어
-          방문 전 확인을 권장합니다.
+          표본은 가게당 통합 약 130~320건(네이버·카카오, 광고·불성실 제외,
+          가중치 반영). 빵빵빵(3건)·카페소솜(13건)·원진(21건)·<b>커피인터뷰
+          신관(1건)</b>은 카카오 평점 모수가 작아 본문 감성과 함께 해석하세요.
+          영업정보는 변동될 수 있어 방문 전 확인을 권장합니다.
         </p>
       </div>
 
       <p class="foot">
         네이버·카카오 공개 리뷰를 수집·가중 분석한 결과이며, 감성 분류는 사전
         추정에 대표리뷰 검증을 더한 것입니다. 영업정보는 변동될 수 있으니 방문
-        전 확인하세요. · 생성 2026-06-19
+        전 확인하세요. · 생성 2026-06-19 · 갱신 2026-06-21(까우·부자떡집·마롱드공주·커피인터뷰 신관 추가)
       </p>
     </div>
   </body>

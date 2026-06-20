@@ -1,0 +1,828 @@
+{
+  "restaurant": "마롱드공주",
+  "place_id": "412124158",
+  "confirm_id": "412124158",
+  "collected_at": "2026-06-21T01:16:09+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-21",
+  "cutoff_12m": "2025-06-21",
+  "cutoff_24m": "2024-06-21",
+  "stop_reason": "api_end:마지막페이지_도달",
+  "place_info": {
+    "confirm_id": "412124158",
+    "collected_at": "2026-06-21T01:16:09+09:00",
+    "name": "마롱드공주",
+    "category": "음식점 > 카페",
+    "address": "충남 공주시 웅진로 131 1,2층",
+    "phone": "0502-5553-1022",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": "주차 가능",
+    "facilities": [
+      "주차",
+      "예약가능",
+      "포장가능"
+    ],
+    "kakao_booking": true,
+    "average_score": 4.9,
+    "total_kakao_reviews": 24,
+    "total_blog_reviews": 136,
+    "menus": [
+      {
+        "name": "밤잼슈페너",
+        "price": "6,000원",
+        "description": "추천메뉴"
+      },
+      {
+        "name": "밤잼크림 휘낭시에",
+        "price": "3,600원",
+        "description": "추천메뉴"
+      },
+      {
+        "name": "화이트 밤잼슈페너",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "밤잼 밀푀유",
+        "price": "6,800원",
+        "description": null
+      },
+      {
+        "name": "아메리카노",
+        "price": "4,500원",
+        "description": null
+      },
+      {
+        "name": "애플유자티",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "클래식 휘낭시에",
+        "price": "3,000원",
+        "description": null
+      },
+      {
+        "name": "밤잼 아이스크림",
+        "price": "6,500원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15788299,
+      "author": "김민철",
+      "date": "2026-06-20",
+      "date_raw": "2026-06-20 09:55:24",
+      "content": "밤 크림부터 해서 사장님까지 친절해서 너무 좋습니다\n다음에 공주여행 오면 또 올거 같아요",
+      "char_count": 37,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "review_id": 15717246,
+      "author": "찐",
+      "date": "2026-06-11",
+      "date_raw": "2026-06-11 01:01:58",
+      "content": "카페 공간이 좁아 자리 잡기가 힘들었지만 분위기는 너무 좋았고, 음료와 디저트 모두 맛있었어요. 다만 밤이 들어간 라떼의 맛이 약해서 조금 더 맛이 진했으면 하는 아쉬움이 남아요.",
+      "char_count": 75,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 3,
+      "review_id": 15664351,
+      "author": "알려dream",
+      "date": "2026-06-04",
+      "date_raw": "2026-06-04 00:39:06",
+      "content": "디저트도 맛있고 커피도 굿! 밤잼도 생각보다 더 맛있었어요",
+      "char_count": 25,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 4,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 4,
+      "review_id": 15444120,
+      "author": "자몽스",
+      "date": "2026-05-07",
+      "date_raw": "2026-05-07 01:15:55",
+      "content": "공주가 내려다보이는 곳! 예뻐요 그리구 밤 디저트도 커피두 맛있어요🌰🌰🤎",
+      "char_count": 32,
+      "rating": 5,
+      "strength_ids": [
+        2,
+        3
+      ],
+      "keywords": [
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 6,
+      "review_id": 15370278,
+      "author": "이수민",
+      "date": "2026-04-28",
+      "date_raw": "2026-04-28 19:38:34",
+      "content": "버터떡 진짜 너무 맛있어요!!!!!!!!!!!",
+      "char_count": 22,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 8,
+      "review_id": 14954805,
+      "author": "DaeSik",
+      "date": "2026-03-03",
+      "date_raw": "2026-03-03 12:54:50",
+      "content": "메뉴들이 알밤을 주재료로 만들어 특색있고, 시그니쳐 밤라떼 밤슈페너 다 달달꼬숩하니 맛있다. 지나치게 달지 않아 밸런스가 좋다. 디저트도 밤을 활용했는데 디저트류는 무난하다. 접객도 사장님 직원 모두 친절하셔서 마음이 편안하다.",
+      "char_count": 100,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 10,
+      "review_id": 14807914,
+      "author": "meow",
+      "date": "2026-02-12",
+      "date_raw": "2026-02-12 16:09:12",
+      "content": "분위기 좋고 밤잼슈페너와 밤잼크림 휘낭시에 두 가지 메뉴 다 맛있었음\n무엇보다도 사장님이 친절하심 \n혼자 가기도 괜찮음👍",
+      "char_count": 51,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 14,
+      "review_id": 14271865,
+      "author": "어흥사자",
+      "date": "2025-11-29",
+      "date_raw": "2025-11-29 10:48:46",
+      "content": "분위기, 커피, 디저트 모두 완벽한 카페!\n사장님도 무척 친절하셔서 머무는 동안 기분 좋았던 카페! 최고!",
+      "char_count": 45,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 15,
+      "review_id": 14166737,
+      "author": "읍내언니 최은우..✒️",
+      "date": "2025-11-14",
+      "date_raw": "2025-11-14 18:17:54",
+      "content": "카페를 즐기고 커피를 마시다가 행복해져가는 곳..\n오픈런 좋음..",
+      "char_count": 29,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 16,
+      "review_id": 14137263,
+      "author": "감자돌스",
+      "date": "2025-11-10",
+      "date_raw": "2025-11-10 14:08:16",
+      "content": "네이버에 리뷰쓰다 여까지 와서 또씁니다... 밤 디저트 꼭 드셔보세유 진짜 미쳐뜸 존맛도리 카카오 평점 5.0인 이유가 있었다~~~~~~~ 흉내낸 밤ㄴㄴ 찐밤맛집이다... 공주의 핫스팟이되길 기대하며^_^ㅋㅋㅋ",
+      "char_count": 95,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 7,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 17,
+      "review_id": 14078691,
+      "author": "말랑",
+      "date": "2025-11-02",
+      "date_raw": "2025-11-02 14:39:41",
+      "content": "저번에 공주왔을 땐 없었는데 생긴지 얼마 안됐나봐요 🥲\n골목길에 아늑하게 있어서 너무 좋아요... 포근하고 직원분들이 맛있고 디저트가 친절해요 ㅜ.ㅜ\n음료 쏟았는데 다시 채워주셔서 너무 감사해요... 😭\n(공주에 기아심기)",
+      "char_count": 97,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 4,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 18,
+      "review_id": 14042662,
+      "author": "🤩",
+      "date": "2025-10-28",
+      "date_raw": "2025-10-28 15:28:13",
+      "content": "아인슈페너 위에 올라간 밤크림이 정말 향긋하니 좋았습니다..!!! 서비스로 주신 밤잼과 크래커도 잘 먹고 갑니다 ..",
+      "char_count": 51,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 19,
+      "review_id": 14018164,
+      "author": "맛집킬러",
+      "date": "2025-10-25",
+      "date_raw": "2025-10-25 12:55:08",
+      "content": "밤잼에 진심인 곳, 밤잼라떼는 사장님 추천대로 아이스를 골랐는데 텁텁하지 않고 밤향이 기분 좋게 퍼졌다.\n휘낭시에와 밀푀유도 밤잼 베리에이션에 맞게 먹을 만하다. 생긴 지 얼마 안돼 후기가 많이 없어 이름만 보고 가본 곳인데 성공했다. \n2층 공간 넓긴 한데 소리가 울리는 게 굳이 찾은 흠이다",
+      "char_count": 121,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 20,
+      "review_id": 13832331,
+      "author": "크립스",
+      "date": "2025-10-01",
+      "date_raw": "2025-10-01 15:50:09",
+      "content": "맛 분위기 친절\n뭐하나 빠지는거 없이 완벽함",
+      "char_count": 18,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 4,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 21,
+      "review_id": 13793729,
+      "author": "쩡",
+      "date": "2025-09-26",
+      "date_raw": "2025-09-26 13:13:50",
+      "content": "친절함  밤잼서비스로 나와서 좋음   주차편함",
+      "char_count": 18,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 22,
+      "review_id": 13776297,
+      "author": "먼지",
+      "date": "2025-09-23",
+      "date_raw": "2025-09-23 18:39:08",
+      "content": "생긴지 얼마 안됐는데 벌써 몇번째 재방문하는 최애카페됨 처음에 밀푀유 맛에 반해서 자주 가게됐는데 밤잼어쩌고 하는 메뉴들 진심 다 맛있음 특히 밤잼라떼랑 밤잼슈페너 진짜 미쳤냐고요 \n그 중 슈페너가 개찐인데 크림이 단짠단짠이라 그냥 막 퍼먹고싶음 앤나 꽈자랑 잼 맛보기로 주시는데 이게 또 너무 맛있어버림... 쨈 푹푹 찍어 먹고싶어서 사오고 싶었는데 드디어 이번주에 나온다함 하 3개짜리 매입해온다; 공주에 취저카페 생겨서 너무 기쁘니까 마롱드공주 오래 오래 장사해주시길..🫶",
+      "char_count": 204,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 23,
+      "review_id": 13775992,
+      "author": "뉴누",
+      "date": "2025-09-23",
+      "date_raw": "2025-09-23 17:59:49",
+      "content": "지금까지 먹었던 밤 라떼 중에 제일 맛있어요\n밤잼파시는 걸로 만드시는 거라고 하는데 밤잼만 사서 집에서 타먹기도 좋을꺼같아요!.\n커피만 시켜도 밤잼이랑 크래커도 주시니 가성비면이나 서비스적인 면이나 너무 좋네요!",
+      "char_count": 92,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 24,
+      "review_id": 13758964,
+      "author": "ㄱ",
+      "date": "2025-09-21",
+      "date_raw": "2025-09-21 13:01:11",
+      "content": "길가다 새로 생겼길래 들어가봤는데 공간이 예뻐서 놀라고 디저트도 맛있네요",
+      "char_count": 32,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기",
+        "주차"
+      ],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    }
+  ],
+  "excluded": [
+    {
+      "id": 5,
+      "review_id": 15412877,
+      "author": "우동",
+      "date": "2026-05-03",
+      "date_raw": "2026-05-03 16:31:56",
+      "content": "맛있어요.  두번와서 사진이 두장",
+      "char_count": 14,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 7,
+      "review_id": 15190524,
+      "author": "🫥",
+      "date": "2026-04-05",
+      "date_raw": "2026-04-05 02:10:02",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 9,
+      "review_id": 14799954,
+      "author": "user",
+      "date": "2026-02-11",
+      "date_raw": "2026-02-11 14:18:14",
+      "content": "분위기 좋아요\n조금 좁아요",
+      "char_count": 11,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 11,
+      "review_id": 14696061,
+      "author": "mei827",
+      "date": "2026-01-28",
+      "date_raw": "2026-01-28 08:56:19",
+      "content": "",
+      "char_count": 0,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 12,
+      "review_id": 14616938,
+      "author": "Jeong-ryang",
+      "date": "2026-01-17",
+      "date_raw": "2026-01-17 10:54:47",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 13,
+      "review_id": 14401190,
+      "author": ".",
+      "date": "2025-12-18",
+      "date_raw": "2025-12-18 09:52:35",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "친절"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 24,
+    "average_score_overall": 4.9,
+    "total_collected": 18,
+    "total_loaded": 24,
+    "count_within_3m": 5,
+    "count_3m_to_12m": 13,
+    "count_12m_to_24m": 0,
+    "recency_bonus_count": 5,
+    "recency_penalty_count": 0,
+    "quality_bonus_count": 10,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 17
+    },
+    "avg_rating_collected": 4.94,
+    "total_excluded": 6,
+    "excluded_paid": 0,
+    "excluded_insincere": 6,
+    "excluded_too_old": 0,
+    "date_oldest": "2025-09-21",
+    "date_newest": "2026-06-20",
+    "target_met": false
+  }
+}

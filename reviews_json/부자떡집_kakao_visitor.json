@@ -1,0 +1,578 @@
+{
+  "restaurant": "부자떡집",
+  "place_id": "10471794",
+  "confirm_id": "10471794",
+  "collected_at": "2026-06-21T01:16:09+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-21",
+  "cutoff_12m": "2025-06-21",
+  "cutoff_24m": "2024-06-21",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "10471794",
+    "collected_at": "2026-06-21T01:16:09+09:00",
+    "name": "부자떡집",
+    "category": "음식점 > 간식 > 떡,한과",
+    "address": "충남 공주시 용당길 11 1층",
+    "phone": "041-852-2687",
+    "homepage": null,
+    "hours": [
+      {
+        "day": "매일",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "",
+        "open": "09:00",
+        "close": "18:30"
+      }
+    ],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": "주차 가능",
+    "facilities": [
+      "이동약자접근",
+      "주차",
+      "장애인 편의",
+      "주차장없음",
+      "포장가능",
+      "배달가능"
+    ],
+    "kakao_booking": false,
+    "average_score": 4.0,
+    "total_kakao_reviews": 158,
+    "total_blog_reviews": 815,
+    "menus": [
+      {
+        "name": "알밤모찌(8개입)",
+        "price": "20,000원",
+        "description": null
+      },
+      {
+        "name": "쑥밤시루",
+        "price": "3,800원",
+        "description": null
+      },
+      {
+        "name": "호밤시루",
+        "price": "3,800원",
+        "description": null
+      },
+      {
+        "name": "부자떡(20개입)",
+        "price": "29,000원",
+        "description": null
+      },
+      {
+        "name": "쑥개떡(20개입)",
+        "price": "18,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": "매일 09:00 ~ 18:30\n09:00 ~ 18:30",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15777444,
+      "author": "출시때부터 찐유저",
+      "date": "2026-06-18",
+      "date_raw": "2026-06-18 17:43:49",
+      "content": "알밤모찌, 호박설기? 맛있어용\n\n공주페이 안됨!",
+      "char_count": 21,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "review_id": 15771361,
+      "author": "맛에대해서만리뷰",
+      "date": "2026-06-17",
+      "date_raw": "2026-06-17 21:04:22",
+      "content": "맛있어서 택배 종종 시켜먹으려고요 알밤모찌!!!!!!!!",
+      "char_count": 27,
+      "rating": 4,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 3,
+      "review_id": 15751100,
+      "author": "ㅅㅎ~❤️",
+      "date": "2026-06-15",
+      "date_raw": "2026-06-15 09:43:41",
+      "content": "찰떡은 맛있는데 쑥썰기 좀 질기다. 쑥개떡은 좀 달고 끝맛이 좋진않네요 그래도 전체적으론 맛있어요",
+      "char_count": 42,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 6,
+      "review_id": 15657836,
+      "author": "빵순이",
+      "date": "2026-06-03",
+      "date_raw": "2026-06-03 12:48:09",
+      "content": "평일 오후 1시쯤 웨이팅 없이 바로 입장\n기대했던 알밤모찌는 그냥 모찌 안에 밤 들어있는 맛! 한번쯤 먹어보긴 좋은듯합니다\n\n쑥밤시루, 호밤시루가 오히려 훨씬 맛있었어요. \n바로 못 먹으면 전자레인지에 데펴서 드세요!\n맛있긴 한데 사실 다른 떡집도 이정돈 할 것 같아요",
+      "char_count": 111,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 8,
+      "review_id": 15574906,
+      "author": "Hayon",
+      "date": "2026-05-23",
+      "date_raw": "2026-05-23 21:24:32",
+      "content": "-떡집 다 똑같겠지 했는데\n-솔직히 맛있다\n-대체할 곳은 아직 못찾았음\n-다른곳 대체하기 어려운 공주 맛집 : 피탕김탕, 부자떡집 두개뿐",
+      "char_count": 58,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 9,
+      "review_id": 15572122,
+      "author": "여르미",
+      "date": "2026-05-23",
+      "date_raw": "2026-05-23 17:06:39",
+      "content": "일요일 오후 4시 30분쯤 갔는데 줄이 없어서 바로 들어가서 구매했습니다. 알밤모찌 품절됐을 줄 알았는데 아직 있었어요. 왜 공주하면 부자 떡집 부자 떡집 하는지 알겠어요.. 알밤모찌 정말 맛있게 먹었습니다🥹 단호박 설기 등 다른 떡들도 다 맛있었어요. 떡 맛집 인정이요,,👍",
+      "char_count": 117,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 11,
+      "review_id": 15546420,
+      "author": "흑백 취식자",
+      "date": "2026-05-20",
+      "date_raw": "2026-05-20 10:39:58",
+      "content": "26.5월 방문. \n\n공주 짬뽕집 맛난다고 해서 겸사겸사 방문함. 아침부터 손님은 끝없이 방문하는거 같았다. \n\n주차는 주변 공영 주차장이 있었으나 그냥 길가에 주차 잠깐하는 분위기었다. \n\n내가 맛있는 떡을 많이 먹어봐서 그런건가???? \n평범했고 맛은 그냥 보통이었음... 가격은 전혀 저렴하지 않았고 떡은 찰기라던지 쫄깃함이 부족했다. \n공주 놀러온김에 한번 경험으로 충분한 맛과 퀄리티었음.  주변 도시에 이집을 능가하는 맛있는 떡집들니 너무 많다보니.... \n\n모찌는 논산 모찌의 가격과 크기와 찰기보다 못했고. \n소보로떡 같은 호박떡은. 창억떡이 3배는 더 맛있는거 같았다. \n\n설기도 달기만 하고 영.... \n아무튼 4점 짜리는 아니었고 역시 공주 대표는 피탕김탕이다...",
+      "char_count": 286,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 3,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 12,
+      "review_id": 15536689,
+      "author": "11111",
+      "date": "2026-05-18",
+      "date_raw": "2026-05-18 20:00:49",
+      "content": "부자떡 시그니처 추천, 안달고 선물하기에도 좋아요",
+      "char_count": 22,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 13,
+      "review_id": 15494398,
+      "author": "잔반은없어",
+      "date": "2026-05-13",
+      "date_raw": "2026-05-13 15:31:35",
+      "content": "줄이 길긴 하지만 생각보다 빨리 빠진다. \n밤모찌랑 찰떡은 맛있지만 좀 달다.\n오히려 내입에 더 맛있었던건 쑥개떡과 쑥밤시루. \n그래도 공주에 가면 가볼만한 맛있는 떡집",
+      "char_count": 70,
+      "rating": 4,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 14,
+      "review_id": 15460031,
+      "author": "올곧다",
+      "date": "2026-05-09",
+      "date_raw": "2026-05-09 11:13:45",
+      "content": "메뉴 : 부자떡, 알밤모찌, 송편, 바람떡, 모듬설기 \n방문시간 : 금요일 14시 웨이팅 없었음\n장단점 : 전국 어디에 떡으로 밀리진 않음. 맛남, 바람떡은 살짝 느끼했음",
+      "char_count": 71,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 15,
+      "review_id": 15443158,
+      "author": "콩",
+      "date": "2026-05-06",
+      "date_raw": "2026-05-06 21:46:58",
+      "content": "알밤모찌, 꿀떡, 쑥밤시루, 호밤시루 구매\n구매한 떡 다 맛있어요 근데 찹쌀떡류보다 맵쌀떡류가 더 취향이네요\n\n시루 2종 - 달지 않고 정말 맛있었음\n꿀떡 - 많이 달고 아는 맛! 깨꿀이 들어있음 재구매의사x\n알밤모찌 - 팥이 달지만 알밤이랑 잘 어울림 밤 두개 들어있고 정말 맛있어요\n\n알밤모찌 + 취향대로 구매하세요~~\n대기줄이 계산줄로 바로 이어져서 기다리면서 떡을 골라야해서 둘러보지 못하고 빠르게 담았네요 그 점은 아쉽습니다 ㅠㅠ",
+      "char_count": 183,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 16,
+      "review_id": 15438611,
+      "author": "🍔좋아",
+      "date": "2026-05-06",
+      "date_raw": "2026-05-06 11:49:34",
+      "content": "연휴에 웨이팅이 있음.\n알밤모찌 달지않고 맛있음!!",
+      "char_count": 23,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 18,
+      "review_id": 15371260,
+      "author": "캉캉",
+      "date": "2026-04-28",
+      "date_raw": "2026-04-28 21:19:37",
+      "content": "떡국떡이랑 인절미랑 꿀떡 샀는데 다 맛있게 먹었지만 인절미 콩고물이 뭔가 씀 살짝 씀 숟가락으로 퍼먹을때 주로 쓴맛이 나지만......맛있게 잘 먹음 무엇보다 떡국떡 쫀득하고 꿀떡 정말 맛있음",
+      "char_count": 82,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        4
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "주차"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "주차"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 19,
+      "review_id": 14948907,
+      "author": "ㅁ",
+      "date": "2026-03-02",
+      "date_raw": "2026-03-02 15:26:59",
+      "content": "택배 두번째 주문입니다. \n밤 크기가 많이 작아졌네요.",
+      "char_count": 23,
+      "rating": 2,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 20,
+      "review_id": 15311577,
+      "author": "똥타꾸",
+      "date": "2026-04-21",
+      "date_raw": "2026-04-21 08:17:26",
+      "content": "대전갔다  집에 올라가는 길에 조금 멀지만\n떡이 맛있다고 하여 잠깐 들렀는데 떡이 맛있는건 인정, 다만 아쉬운것은 돈좀 번다고 그런지 매우 불친절하고 떡단가가 약간 비싸다는 느낌~",
+      "char_count": 75,
+      "rating": 2,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    }
+  ],
+  "excluded": [
+    {
+      "id": 4,
+      "review_id": 15740472,
+      "author": "아자자",
+      "date": "2026-06-13",
+      "date_raw": "2026-06-13 21:30:46",
+      "content": "전반적으로 떡이 다 맛있어요",
+      "char_count": 12,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 5,
+      "review_id": 15683903,
+      "author": "이호준",
+      "date": "2026-06-06",
+      "date_raw": "2026-06-06 17:25:32",
+      "content": "이거 맛있다는거는 트루먼쇼임?",
+      "char_count": 14,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 7,
+      "review_id": 15587634,
+      "author": "HWANG KICHUL",
+      "date": "2026-05-25",
+      "date_raw": "2026-05-25 11:23:39",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 10,
+      "review_id": 15561948,
+      "author": "박영순",
+      "date": "2026-05-22",
+      "date_raw": "2026-05-22 13:56:26",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 17,
+      "review_id": 15418913,
+      "author": ".",
+      "date": "2026-05-04",
+      "date_raw": "2026-05-04 11:42:46",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 158,
+    "average_score_overall": 4.0,
+    "total_collected": 15,
+    "total_loaded": 20,
+    "count_within_3m": 14,
+    "count_3m_to_12m": 1,
+    "count_12m_to_24m": 0,
+    "recency_bonus_count": 14,
+    "recency_penalty_count": 0,
+    "quality_bonus_count": 10,
+    "rating_distribution": {
+      "1": 0,
+      "2": 2,
+      "3": 1,
+      "4": 6,
+      "5": 6
+    },
+    "avg_rating_collected": 4.07,
+    "total_excluded": 5,
+    "excluded_paid": 0,
+    "excluded_insincere": 5,
+    "excluded_too_old": 0,
+    "date_oldest": "2026-03-02",
+    "date_newest": "2026-06-18",
+    "target_met": false
+  }
+}

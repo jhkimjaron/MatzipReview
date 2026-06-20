@@ -1,0 +1,4357 @@
+{
+  "restaurant": "까우",
+  "place_id": "1934883905",
+  "collected_at": "2026-06-21T01:19:35+09:00",
+  "review_type": "visitor",
+  "cutoff_3m": "2026-03-21",
+  "cutoff_12m": "2025-06-21",
+  "cutoff_24m": "2024-06-21",
+  "place_info": {
+    "place_id": "1934883905",
+    "collected_at": "2026-06-21T01:19:35+09:00",
+    "name": "까우",
+    "category": null,
+    "address": "충남 공주시 번영3로 58 1층 우측상가 CCOW(까우)",
+    "phone": "0507-1342-9358",
+    "homepage": "https://www.instagram.com/ccow_seo",
+    "hours": [
+      {
+        "day": "일",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      {
+        "day": "월",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      {
+        "day": "화",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      {
+        "day": "수",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      {
+        "day": "목",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      {
+        "day": "금",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      {
+        "day": "토",
+        "open": "11:00",
+        "close": "21:00"
+      }
+    ],
+    "break_time": "15:00 - 17:00",
+    "last_order": "20:00",
+    "regular_holiday": null,
+    "parking": "주차",
+    "facilities": [
+      "배달",
+      "포장",
+      "단체 이용 가능",
+      "반려동물 동반",
+      "예약",
+      "무선 인터넷",
+      "유아의자",
+      "주차"
+    ],
+    "naver_booking": true,
+    "total_visitor_reviews": null,
+    "total_blog_reviews": null,
+    "menus": [
+      {
+        "name": "라구 아란치니",
+        "price": "15,900원",
+        "description": "라구 리조또에 치즈와 빵가루를 입혀 튀기고 다시한번 라구와 요거트 소스로 맛을 낸 아란치니"
+      },
+      {
+        "name": "트러플 크림 뇨끼",
+        "price": "16,900원",
+        "description": "진한 트러플 크림소스와 견과류 구운 감자로 직접 만든 뇨끼"
+      },
+      {
+        "name": "차돌오일 링귀니",
+        "price": "15,900원",
+        "description": "최상급 올리브 오일 과 마늘 차돌로 풍미를 올리고 링귀니면으로 식감을 살린 파스타"
+      },
+      {
+        "name": "치킨 크림커리 리조또",
+        "price": "15,900원",
+        "description": "허브와 소금 후추로만 마리네이드하고 수비드조리 치킨을 올린 크림커리 리조또"
+      },
+      {
+        "name": "트러플 풍기",
+        "price": "16,900원",
+        "description": "각종 버섯과 신선한 샐러드 그리거 트러플 오일로 풍미를 살린 까우 대표 피자"
+      },
+      {
+        "name": "라구 빠따떼",
+        "price": "17,900원",
+        "description": "장시간 끓인 진한 라구소스와 바삭한 프렌치 프라이 그리고 마늘쫑으로 식감을 살린 피자"
+      },
+      {
+        "name": "요거트 렌치 감자튀김",
+        "price": "8,900원",
+        "description": "상큼한 요거트 렌치 소스와 슈가치즈 파우더를 뿌린 까우 대표 감자튀김"
+      },
+      {
+        "name": "까우 버팔로윙",
+        "price": "12,900원",
+        "description": "신선한 샐러드와 단짠한 슈가파우더로 시즈닝한 버팔로윙"
+      },
+      {
+        "name": "에그 인 헬",
+        "price": "14,900원",
+        "description": "토마토소스에 각종 재료와 계란과 치즈를 넣고 오븐에 구운뒤 바게트와 곁들여먹는 스튜"
+      },
+      {
+        "name": "로제 로스트 치킨",
+        "price": "17,900원",
+        "description": "각종 허브와 함께 숙성한 닭다리살과 매콤한 로제소스 와 곁들인 구운 치킨"
+      },
+      {
+        "name": "알리오올리오",
+        "price": "9,900원",
+        "description": "최상급 올리브오일과 토종마늘 진한 마늘의 풍미를 살린 파스타"
+      },
+      {
+        "name": "크림 까르보나라",
+        "price": "11,900원",
+        "description": "베이컨과 4가지 이상에 버섯 그리고 진한 크림으로 맛을 낸 파스타"
+      },
+      {
+        "name": "클래식 치즈 라구 파스타",
+        "price": "12,900원",
+        "description": "소고기 돼지고기 각종야채등과 함께 4시간이상 끓여 깊은 풍미의 라구 파스타"
+      },
+      {
+        "name": "매운새우크림",
+        "price": "13,900원",
+        "description": "최상급 올리브오일과 토종마늘 새우로만 향과 맛 을 낸 매콤하고 크림 파스타"
+      },
+      {
+        "name": "새우 오일 링귀니",
+        "price": "14,900원",
+        "description": "최상급 올리브 오일과 토종마늘 그리고 새우만으로 맛을 낸 파스타"
+      }
+    ],
+    "raw_hours_text": "일 11:00 - 21:00\n15:00 - 17:00 브레이크타임\n20:00 라스트오더\n월 11:00 - 21:00\n15:00 - 17:00 브레이크타임\n20:00 라스트오더\n화 11:00 - 21:00\n15:00 - 17:00 브레이크타임\n20:00 라스트오더\n수 11:00 - 21:00\n15:00 - 17:00 브레이크타임\n20:00 라스트오더\n목 11:00 - 21:00\n15:00 - 17:00 브레이크타임\n20:00 라스트오더\n금 11:00 - 21:00\n15:00 - 17:00 브레이크타임\n20:00 라스트오더\n토 11:00 - 21:00\n15:00 - 17:00 브레이크타임\n20:00 라스트오더",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "author": "sum****",
+      "date": "2026-06-18",
+      "date_raw": "2026년 6월 18일 목요일",
+      "content": "너무 맛있어요 믿고 먹는 블루리본🩵 n년째 파스타 먹고싶으면 여기만 와요 정말로🫶",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "author": "지숭니",
+      "date": "2026-06-18",
+      "date_raw": "2026년 6월 18일 목요일",
+      "content": "친구가 공주에 놀러 와서 맛집을 소개해 주고 싶어 까우에 데려왔어요!! 음식이 맛있고 양도 많아서\n친구랑 감탄하면서 먹었습니다 🥺🥺\n분위기도 좋아서 만족!\n제 공주 최애 양식집입니다 🫶",
+      "char_count": 78,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 3,
+      "author": "솔직리뷰퀸",
+      "date": "2026-06-17",
+      "date_raw": "2026년 6월 17일 수요일",
+      "content": "메뉴도 많이 시켰고 1시간 좀 넘었는데\n안나간다고 눈치줘서 이젠 안갈랍니다\n유명해져서 배부른듯",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 4,
+      "author": "jan****",
+      "date": "2026-06-15",
+      "date_raw": "2026년 6월 15일 월요일",
+      "content": "항상 맛있고 양도 많아요!! 공주에서 양식 땡기면 까우만 옵니다 ㅎㅎ! 직원분들도 친절하시고 바로 입장할때도 있고 웨이팅 한시간 할때도있는데 그 시간이 아깝지 않아요!! 양식 먹고싶을땐 까우 추천드립니닷!!",
+      "char_count": 90,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 5,
+      "author": "먹는거좋아하는사람",
+      "date": "2026-06-15",
+      "date_raw": "2026년 6월 15일 월요일",
+      "content": "공주 양식 맛집 까우입니다.\n약 반년 만에 방문했지만 여전히 사람이 많습니다.\n남1 여1 기준 파스타, 리조또, 피자 1판(6조각), 자몽에이드 주문했는데 양이 많아서 리조또 조금, 피자는 2조각 남겼어요.\n클래식 치즈 라구는 라구 소스 위에 모짜렐라 치즈와 약간 꼬릿하다 느낄수 있는 치즈가 갈려 나옵니다.\n소세지 로제 볼로네이즈는 현미? 비슷한 둥글둥글하고 큰 쌀알 사이에 토마토와 크림이 녹진하게 스며들고 위에 소세지 토핑이 있었습니다.\n피자의 경우 씬피자 위에 우삼겹 비슷한 고기와 불고기, 소스를 얹어서 나오는데 한입 크게 베어물면 입 안 가득 불고기가 느껴지는 게 좋았습니다.\n자몽에이드는 아래 자몽청, 사이다, 자몽 잘라주신 걸 넣어서 수제 자몽에이드 먹는 느낌이었어요. 주차는 골목 주차하셔야 해요.",
+      "char_count": 304,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 6,
+      "author": "매옹씨",
+      "date": "2026-06-13",
+      "date_raw": "2026년 6월 13일 토요일",
+      "content": "소식하는 커플이라\n다른테이블처럼 두접시를 다 비울수없어 너무 아쉬운 식사였습니다🥺\n\n공주놀러각다가 피탕먹으러갓는데 웨이팅이너무 오래걸려 저장해놧던 까우로왓는데\n\n저녁이라 웨이팅은 금방 사라졌구\n다들 접시가 소스까지 없어져서 뭐지 햇는데\n저희도 배고팟으면 바닥까지긁어먹엇을거같아요\n\n일단 저런 얇은 또띠아피자 별로안좋아하는데\n먹자마자 와 소리가낫습니다\n일단 치즈가 너무 좋은걸쓰시는지 신선하고 꼬숩고\n시저드레싱도 입에 착감기는맛에 파르미지아노 치즈도 아낌없이뿌려주셨는데\n도우가 치즈마냥 쪼온득 고소했습니다\n모든테이블이 피자를 먹던이유가있었어요..\n\n파스타도 가격비해 양이 엄청나서 ..\n배터지는줄알았습니다\n암튼 저는 조만간 다른피자를 먹으로 또 갈거같습니다 🥹\n이탈리아가서먹엇던 피자보다 맛있네요 👍",
+      "char_count": 314,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 8,
+      "author": "rhk****",
+      "date": "2026-06-11",
+      "date_raw": "2026년 6월 11일 목요일",
+      "content": "너무 너무 맛있어서 벌써 몇 번째 오는지 모를 정도예요! 지인들한테 맘 편히 소개시켜주고 항상 칭찬 받는 공주에서 제일 가는 양식집입니담!! 공주에서 배 고플 땐 까우 밖에 안 찾아요ㅠㅠ",
+      "char_count": 77,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 9,
+      "author": "갱이4412",
+      "date": "2026-05-12",
+      "date_raw": "2026년 5월 12일 화요일",
+      "content": "부모님께서 너무 맛있게 드셔서 좋아요",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 11,
+      "author": "Miss이매력",
+      "date": "2026-05-08",
+      "date_raw": "2026년 5월 8일 금요일",
+      "content": "너무짜요...진짜 짜요\n맛있긴한데 너무짜서 물을 오늘 엄청마셨어요...\n모든 음식이 짜서..😢😢",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "부모님"
+      ],
+      "keywords": [
+        "잡내가 적어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 12,
+      "author": "ksi****",
+      "date": "2026-05-06",
+      "date_raw": "2026년 5월 6일 수요일",
+      "content": "서울에서도 뇨끼 맛있게 하는집.뇨끼전문점 찾아다닐정도로 뇨끼를 좋아하는 사람으로써 뇨끼한번드셔보시라고 적극 추천하고싶은집입니다음식들의 밸런스가 모두 좋았습니다.",
+      "char_count": 76,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 13,
+      "author": "포골페골",
+      "date": "2026-05-03",
+      "date_raw": "2026년 5월 3일 일요일",
+      "content": "정작 음식 사진을 안찍고 가게외관만 찍어놨네요.\n가성비가 좋은 비스트로입니다. 가볍게 먹기 좋습니다.\n아란치니는 라구소스와 잘어울려서 맛있었고 매운 새우크림은 정말 꽤 매웠지만 맛있는 매콤함이라 먹다보니 괜찮았습니다. 바질 마르게리타는 마르게리타라기보다는 바질페스토가 주가된 고르곤졸라에 가까운 느낌이었지만 재료가 풍부해서 좋았습니다.",
+      "char_count": 152,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 14,
+      "author": "미식탐방",
+      "date": "2026-04-29",
+      "date_raw": "2026년 4월 29일 수요일",
+      "content": "공주에서 찾은 분위기 좋은 양식 맛집 🍝\n블루리본 인증 까우 다녀왔어요\n\n차돌 오일 파스타는 녹진한 풍미 최고,\n트러플 뇨끼는 부드럽고 고급진 맛✨\n\n양도 푸짐하고 분위기도 좋아서\n데이트 코스로 딱이에요 💛\n\n예약은 필수입니다 ✔️",
+      "char_count": 94,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 15,
+      "author": "golla",
+      "date": "2026-04-25",
+      "date_raw": "2026년 4월 25일 토요일",
+      "content": "기대하고갔는데 아쉬워요ㅠㅠ 간이 너무 약하고 크림이 묽어요ㅠㅠ여행중 일부러 들릴정도는 아닌거같아요ㅠㅠ",
+      "char_count": 47,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 16,
+      "author": "허당",
+      "date": "2026-04-25",
+      "date_raw": "2026년 4월 25일 토요일",
+      "content": "공주 여행을 준비하며, 가장 먼저 고른 점심 메뉴✔️\n대체 안이 없었기 때문에 선택한 오픈런🔆\n30분 전에 도착해 테라스 자리에서 웨이팅 중〰️\n센스있게 자리까지 미리 세팅해 주심🥹\n\n메뉴 공부하고 온 나 칭찬해🤗\n동시 입장이라 주문 순서로 음식이 나온다.\n#메뉴숙지필수✔️\n\n모든 메뉴가 다 맛있었지만, 개인적으로 차돌 오일 링귀니가 기억에 남는다.🍝\n토마토파스타만 먹는 아이가 맛있게 먹은 메뉴💯\n\n*맛있는 한끼😋",
+      "char_count": 175,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "여행",
+        "연인・배우자, 아이, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 17,
+      "author": "먹돌이마누라",
+      "date": "2026-04-24",
+      "date_raw": "2026년 4월 24일 금요일",
+      "content": "당근스프는 처음 먹어봤는데 당근맛이 강하지 않아서 맛있어요! 역시 까우는 공주에서 최고의 양식 맛집이 아닌가 싶네요 ㅎㅎ 순삭 그릇 비움 ^^",
+      "char_count": 60,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트, 일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 18,
+      "author": "ogreotigoc",
+      "date": "2026-04-24",
+      "date_raw": "2026년 4월 24일 금요일",
+      "content": "공주대생이라면 졸업 전에 꼭 와서 먹어보길~ 맛있어요",
+      "char_count": 23,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 19,
+      "author": "힘내자6661",
+      "date": "2026-04-21",
+      "date_raw": "2026년 4월 21일 화요일",
+      "content": "감자뇨끼가 치즈가득한 맛이 나요. 피자도 신선한 재료와 깊은 풍미가 느껴졌습니다.\n당근스프는 꾸덕한 느낌이 났어요. 맛있게 먹었습니다.",
+      "char_count": 60,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 21,
+      "author": "곰곰이10",
+      "date": "2026-04-06",
+      "date_raw": "2026년 4월 6일 월요일",
+      "content": "네이버 보고 찾아 갔는데요\n맛나요\n주방이 앞에 다 보이니 더 좋아요",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 22,
+      "author": "김몽이s2",
+      "date": "2026-04-02",
+      "date_raw": "2026년 4월 2일 목요일",
+      "content": "분위기도 좋고 음식도 맛있었어요!",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목, 여행",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 23,
+      "author": "stars1234",
+      "date": "2026-03-27",
+      "date_raw": "2026년 3월 27일 금요일",
+      "content": "크림커리 리조또의 탱글한 밥알식감에 수비드한 부드러운 닭고기랑 너뮤너무 맛나요!!! 카레맛과 크림소스가 조화롭네용! 명란로제파스타는 끝맛이 살짝 매콤하고 루꼴라랑 명란이 많이 들어가서 고소해요!! 요거트렌치 감자튀김도 상큼하고 메인메뉴랑 잘 어울려요🍝🥩🍝🍟🍟",
+      "char_count": 118,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.95
+    },
+    {
+      "id": 25,
+      "author": "비안기립",
+      "date": "2026-03-23",
+      "date_raw": "2026년 3월 23일 월요일",
+      "content": "뇨끼와 아란치니는 아쉽게도 품절로 못먹었지만 당근스프와 다른 음식들이 맛있었어요:) 조만간 재방문 예정입니다ㅋㅋ",
+      "char_count": 51,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 26,
+      "author": "lov****",
+      "date": "2026-03-03",
+      "date_raw": "2026년 3월 3일 화요일",
+      "content": "식사 나온거 다 너무 맛있었어요!! 공주 맛집으로 추천해요! 매장 직원분들도 너무 친절하세요 ☺️그리고 당일 예약 안되는지 모르고 갔다가 안된다하셔서 몇시간 뒤에 다시 방문했는데 죄송하다면서 샐러드 서비스 주셨어요 제가 잘못안건데 너무 감사했어요!!",
+      "char_count": 109,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 27,
+      "author": "aldnjsl12",
+      "date": "2026-02-28",
+      "date_raw": "2026년 2월 28일 토요일",
+      "content": "가격도좋고 블루리본맛집이라 더잘먹고왔네요",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 28,
+      "author": "kit****",
+      "date": "2026-02-26",
+      "date_raw": "2026년 2월 26일 목요일",
+      "content": "음식이 맛있어요.다른 메뉴도 먹어보고 싶어요.음식이 나오는데 20분정도 걸렸고 서비스도 좋아요.",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 30,
+      "author": "5SOL길",
+      "date": "2026-02-18",
+      "date_raw": "2026년 2월 18일 수요일",
+      "content": "공주 여행하면서 간 식당 중 제일 맛집이었어요. 점심 때 무작정 갔더니 웨이팅을 좀 했어요.ㅜ.ㅜ 나중에 보니 평일 점심 때는 (11시~14시) 예약도 받으시더라고요. 생각보다 음식이 빨리 나오는 편이었어요. 요리하시는 분들이 손이 엄청 빠르셨어요. 총 7가지 요리 먹었는데, 하나같이 다 맛있었어요. 다음에 공주 간다면 또 방문하고 싶은 곳입니다. ♡",
+      "char_count": 151,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 32,
+      "author": "반포감자",
+      "date": "2026-02-09",
+      "date_raw": "2026년 2월 9일 월요일",
+      "content": "맛있다는 추천을 받고 까우를 다녀왔습니다..!!\n웨이팅이 있을때가 있다고 해서 예약을 하고 갔는데\n저희가 나올때까지는 웨이팅은 없었습니다!!\n메뉴는 라구 아란치니와 청양크림새우파스타를\n시켜봤고 파스타 맵기는 2단계로 시켰습니다~~\n먼저 아란치니는 바삭 쫀득하고 속에\n모짜렐라 치즈가 있어서 고소했고 라구 소스도\n정석적인 맛의 라구였습니다~\n소스 양이 조금 적었던게 아쉬웠지만\n추가 문의는 따로 안해봐서 더 주실지도 모르겠네요..!!\n파스타는 새우 사이즈나 면 삶기 정도도 좋았고\n소스가 생각보다 매콤해서 너무 좋았습니다~~\n가성비가 좋은 곳은 아니지만 맛은 좋아서\n또 가고 싶은 곳입니다!!",
+      "char_count": 258,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 33,
+      "author": "먹돌이마누라",
+      "date": "2026-02-04",
+      "date_raw": "2026년 2월 4일 수요일",
+      "content": "진짜 오랜만에 간 까우! 소세지아라비아따, 치킨크림커리 정말 맛있어요. 순삭이에요. 피클도 너무 맛있네요. 이 두 메뉴는 또 먹고 싶어요. 가격도 합리적이고 신관동 최고 맛집이에요~^^",
+      "char_count": 81,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트, 나들이, 일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 34,
+      "author": "토요일71",
+      "date": "2026-02-01",
+      "date_raw": "2026년 2월 1일 일요일",
+      "content": "타이밍 좋으면 대기 안하고 들어갈수있어요",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 35,
+      "author": "SKYhee",
+      "date": "2026-01-27",
+      "date_raw": "2026년 1월 27일 화요일",
+      "content": "잘 먹었습니다 정말 맛있었어요.\n다음에 공주에 또 놀러간다면 다시 방문할게요",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 37,
+      "author": "반다닝",
+      "date": "2026-01-22",
+      "date_raw": "2026년 1월 22일 목요일",
+      "content": "공주에 이런 맛집을 이제 알았다니…\n오랜만에 정말 맛있는 양식을 먹었어요.\n보통 먹다 보면 느끼해서 물리기 마련인데, 여기는 시킨 음식이 전부 다 맛있어서 하나도 남기지 않고 다 먹었습니다. 전 메뉴 완그릇 성공!\n당근 스프는 궁금해서 주문했는데, 당근 맛이 강할까 봐 걱정했거든요. 그런데 당근 향은 거의 없고 달콤한 크림 스프 느낌이라 부담 없이 정말 맛있게 먹었어요.\n엄마랑 같이 방문했는데, 엄마도 전부 다 맛있다고 하시더라고요.\n엄마가 인정하면 말 다 한 거 아시죠? ㅎㅎ\n재방문 의사 100%입니다!",
+      "char_count": 213,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "부모님, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 39,
+      "author": "hoho8103",
+      "date": "2026-01-12",
+      "date_raw": "2026년 1월 12일 월요일",
+      "content": "흑임자리조또가 맛은 좋은데 간이 좀 쌔서 먹기 힘들었네요 ㅜ 피자도 맛있고 파스타도 맛있어요\n맛과 분위기 좋은 레스토랑 찾으산다면 강추",
+      "char_count": 57,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 40,
+      "author": "ppunghago",
+      "date": "2026-01-09",
+      "date_raw": "2026년 1월 9일 금요일",
+      "content": "오랜만에방문했는데\n여전히맛있어요👍",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 41,
+      "author": "묭구리",
+      "date": "2026-01-02",
+      "date_raw": "2026년 1월 2일 금요일",
+      "content": "남편이 알아본 곳인데 정말 가길 잘 한거같아요!\n아란치니랑 라구 빠따떼를 먹었는데 둘다 정말 맛있었어요 아란치니는 그냥 일반쌀로 만든게 아니라 보리?로 만들어서 씹는맛도 좋고 위에올라간 요거트소스?가 포인트로 라구랑 너무 잘맞더라구요 라구빠따떼는 요 근래 먹어본 피자중에 최고! 계속 맛있다를 외치면서 먹었습니다 완전추천!",
+      "char_count": 141,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 42,
+      "author": "눈누난나667",
+      "date": "2026-01-02",
+      "date_raw": "2026년 1월 2일 금요일",
+      "content": "당근수프 진짜 최애예요😍😍\n메뉴 하니하나 빠짐없이 너무 맛있어요!",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 43,
+      "author": "SEMY",
+      "date": "2025-12-27",
+      "date_raw": "2025년 12월 27일 토요일",
+      "content": "당근수프가 젤맛있어요 따뜻하고 설명할 순 없지만 진짜 맛있는데 느끼하지 않았어요.. 이것만 시켜서 한번 더 먹고싶었을 정도ㅎ\n블루리본을 받은 집답게 전반적으로 가성비좋고 맛있었던 것 같아요 추천합니다!",
+      "char_count": 88,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "나들이, 여행, 일상, 가족모임",
+        "아이, 연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 44,
+      "author": "먹잘알대장",
+      "date": "2025-12-25",
+      "date_raw": "2025년 12월 25일 목요일",
+      "content": "대학생 때부터 자주 먹으러 오고 배달도 엄청 많이 시켜먹었는데 남자친구 만나러 공주 온김에 크리스마스 데이트 겸 오랜만에 왔거든요☺️ 크리스마스라 사람이 많을 것 같았고 웨이팅 무조건 있을 것 같아서 오픈 30분 정도 빠르게 왔는데 그러길 잘했어요! 다 먹고 나왔을 땐 이미 10팀 넘게 웨이팅 걸어놓으셨더라구요… 인기가 점점 많아지는 듯! 제 최애 메뉴 차돌 오일 링귀니랑 피칸 넛츠 고르곤, 소세지 아라비아따 이렇게 주문했고요! 피자는 처음 먹어봤는데 일반 고르곤졸라 피자랑 다르게 카야잼을 같이 주셔서 새롭고 견과류가 엄청 많이 올라가 있어서 맛있었어요🤤 남자친구도 저도 완전 만족…♥",
+      "char_count": 249,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 45,
+      "author": "느낌데로",
+      "date": "2025-12-20",
+      "date_raw": "2025년 12월 20일 토요일",
+      "content": "라구아란치니, 풍기피자 추천!!",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 46,
+      "author": "또동이의맛집여행",
+      "date": "2025-12-13",
+      "date_raw": "2025년 12월 13일 토요일",
+      "content": "웨이팅 있는 때가 많은데 조금 늦게 갔더니 운이 좋았는지 바로 입장했어요. 오늘도 맛있게 잘 먹었습니다.",
+      "char_count": 44,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 47,
+      "author": "느낌데로",
+      "date": "2025-12-13",
+      "date_raw": "2025년 12월 13일 토요일",
+      "content": "불고기흑임자크림리조또 맛있어요~",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 50,
+      "author": "woo66",
+      "date": "2025-12-07",
+      "date_raw": "2025년 12월 7일 일요일",
+      "content": "웨이팅맛집 일요일인데도 1시간 넘게 기다리는데... 중간에 아무도 안 빠짐....",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 1시간 이상",
+        "데이트, 나들이",
+        "연인・배우자, 친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 51,
+      "author": "느낌데로",
+      "date": "2025-12-07",
+      "date_raw": "2025년 12월 7일 일요일",
+      "content": "트러플풍기피자 넘나 맛있었어요!!!추천!!!",
+      "char_count": 22,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 53,
+      "author": "seonnnnni",
+      "date": "2025-12-02",
+      "date_raw": "2025년 12월 2일 화요일",
+      "content": "까우는 언제나 맛있죠.ㅎㅎㅎ\n항상 가면 설거지하고 와요😉",
+      "char_count": 25,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 54,
+      "author": "hjk1871",
+      "date": "2025-12-01",
+      "date_raw": "2025년 12월 1일 월요일",
+      "content": "처음 방문인데 음식 맛있어요!\n특히 뇨끼 소스 완전 크리미하고 맛나요\n라자냐는 토마토소스보다 라구맛이 더 강해서 토마토 향 좋아하는 분은 약간 별로라고 느낄 수 있어요\n근데 맛있습니다 ㅋㅋ\n분위기도 좋아서 친구들이랑 접시 다 비우고 나왔어요",
+      "char_count": 101,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 55,
+      "author": "lov****",
+      "date": "2025-11-29",
+      "date_raw": "2025년 11월 29일 토요일",
+      "content": "테이블이 너무 가깝고 좁다보니 음식맛을 제대로 느낄 겨를이 없이 급히 먹게 되서 아쉽네요~",
+      "char_count": 38,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이상"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 56,
+      "author": "디져트탐험가",
+      "date": "2025-11-28",
+      "date_raw": "2025년 11월 28일 금요일",
+      "content": "애정하는 까우 🍴\n뇨끼와 라구 피자를 먹었는데요!\n뇨끼는 쫄깃하고 특히 트러플 크림 소스가 남길 수 없는 맛 … 너무 잘 어울립니다 👍🏻\n라구 빠따떼는 라구 소스가 잘 느껴져서 좋고 위의 치즈와 감자가 한 입 베어물 때마다 가득 차는 느낌이에요!",
+      "char_count": 99,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 57,
+      "author": "abbccc",
+      "date": "2025-11-27",
+      "date_raw": "2025년 11월 27일 목요일",
+      "content": "맛있습니다 믿고먹는 블루리본 맛집",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 58,
+      "author": "태인67",
+      "date": "2025-11-26",
+      "date_raw": "2025년 11월 26일 수요일",
+      "content": "음식은 맛이있고 분위기도 좋은데 뇨끼양이 너무 적어 당황스러웠어요 ㅠㅜ",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 59,
+      "author": "건이78",
+      "date": "2025-11-24",
+      "date_raw": "2025년 11월 24일 월요일",
+      "content": "음식이 맛있고 좋아요~^^\n다만 레스토랑이 전체적으로 조금은 아담한 느낌이라 참고하세요",
+      "char_count": 39,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 60,
+      "author": "withyeoz",
+      "date": "2025-11-18",
+      "date_raw": "2025년 11월 18일 화요일",
+      "content": "대전에서 공주로 놀러 와서 방문한 곳인데 여태 먹어본 뇨끼 중에 제일 맛있었고, 뇨끼 하나만 판다고 해도 또 오고 싶은 곳이에요 남자친구가 저보고 “소스까지 다 먹는 모습은 처음 본다” 라고 할 정도로요 물론 파스타랑 바질피자도 너무 맛있었어요",
+      "char_count": 101,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "양이 많아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 61,
+      "author": "rkslq",
+      "date": "2025-11-14",
+      "date_raw": "2025년 11월 14일 금요일",
+      "content": "평일 점심에 갔는데도 대기가 있을 정도로 인기 많은 집입니다.\n음식은 맛있게 먹었고 재방문 의사 있습니다. 다만 매장이 좁아 테이블간 간격이 좁고 주방이 완전 오픈주방이라 손님들 말소리, 음악소리, 주방에서 일하는 소리 까지 다 들려서 조용한 분위기를 원한다면 여기 오시면 안됩니다.",
+      "char_count": 120,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 62,
+      "author": "Mindtravel",
+      "date": "2025-11-14",
+      "date_raw": "2025년 11월 14일 금요일",
+      "content": "트러플크림뇨끼랑 자몽에이드 모두 맛있었어요.\n야외에 두 좌석 가게 안에 좌석이 많이 있지는 않아\n오픈 시간 맞춰 가면 좋겠더라고요.\n뇨끼 식감도 좋고 맛있어요.\n다음날 생각나서 배달로도 먹었었는데 맛있더라고요.",
+      "char_count": 91,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 63,
+      "author": "씬디김",
+      "date": "2025-11-11",
+      "date_raw": "2025년 11월 11일 화요일",
+      "content": "어머나! 엄마 공주토박이신데..\n공주에놀러온 친구한테 소개받은 맛집이에요ㅋㅋ\n왜 난 몰랐을까... 공주가 진짜 가성비찐맛집들이 많은데\n까우역시 신선하고 맛있고!! 공주갈때마다 갈듯😀\n빼빼로데이 라고 선물센스..👍",
+      "char_count": 97,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 64,
+      "author": "밤톨맘68",
+      "date": "2025-11-10",
+      "date_raw": "2025년 11월 10일 월요일",
+      "content": "지나가는 길에 예약없이 방문했어요.\n웨이팅 40분쯤 하고 마지막 주문 겨우 턱걸이해서 했어요. 에그헬 맛있다고 소문나서 주문해봤는데...\n에그가 진짜 헬급으로 많이 들었어요.\n토마토 베이스 스튜맛있었는데 에그는 너무 많이 들어서 먹다 좀 물릴 정도였어요. 늘 맛있게 먹는 식당이라 만족한식사 했는데...에그헬 도전하는라 파스타를 못먹어 아쉬웠어요.\n다음엔 꼭 예약하고 갈께요",
+      "char_count": 164,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 66,
+      "author": "영수증살인마님",
+      "date": "2025-11-07",
+      "date_raw": "2025년 11월 7일 금요일",
+      "content": "야무지게 먹었습니다\n뇨끼랑 피자 다 추천합니다\n너무 맛있어요",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 67,
+      "author": "푸푸리02",
+      "date": "2025-11-07",
+      "date_raw": "2025년 11월 7일 금요일",
+      "content": "한개도 빠짐없이 넘 맛있어요 !!! 공주가면 무조건입니당",
+      "char_count": 25,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 68,
+      "author": "먹는거좋아하는사람",
+      "date": "2025-11-04",
+      "date_raw": "2025년 11월 4일 화요일",
+      "content": "공주대 유명 맛집 까우에 왔습니다.\n파스타 샐러드 리조또 피자 등으로 구성 되어있구요\n라구 빠타테라는 피자가 감자튀김 올라가는 줄 모르고 감자튀김을 따로 시켰네용\n그래도 다 먹을정도로 맛있어서 여자친구랑 둘이 그릇 설거지하고 나왔습니다 맛있어용",
+      "char_count": 105,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 69,
+      "author": "승민맘5",
+      "date": "2025-11-03",
+      "date_raw": "2025년 11월 3일 월요일",
+      "content": "50대 아줌마들이 맛집 찾아서\n멀리서 갔는데 대성공했어요.\n네비보고 갔는데 못찾아서.헤메다가 조금 늦었었어요. 그래도 친절히…\n\n네비보고.가면 간판이 따로 안보이고.1층에 가게 문에 써 있어요.\n\n피자는\n정말.맛있었고 뇨끼와.\n리조또 셀러드 어느하나 안 맛있는게 없었어요.\n\n피자는.한판 더 시킬까 고민했을정도.\n\n담에 여행가면\n또 갈것 같아요.",
+      "char_count": 150,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "나들이, 가족모임, 여행",
+        "부모님, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 70,
+      "author": "드르르른",
+      "date": "2025-10-26",
+      "date_raw": "2025년 10월 26일 일요일",
+      "content": "정말 맛있었어요!! 오픈하기 전부터 갔는데도 3번째 입장~~~\n뇨끼 강추!!! 다음 공주여행때 또 갈게요!\n무피클도 맛났어요. ^^\n\n조명, 벽, 에어컨 먼지만 조금 닦아주시면 더 쾌적할 듯 합니다~~ 오래오래 영업해주세요 넘 맛나요~~",
+      "char_count": 102,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 71,
+      "author": "dihiding",
+      "date": "2025-10-25",
+      "date_raw": "2025년 10월 25일 토요일",
+      "content": "공주여행가는데 반려견동반음식점이라 방문했어요~ 반려견은 테라스자리만이용가능해서 테라스에서 먹었어요 맛있어요!!",
+      "char_count": 54,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "나들이",
+        "반려동물, 연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 72,
+      "author": "dduminnnni",
+      "date": "2025-10-10",
+      "date_raw": "2025년 10월 10일 금요일",
+      "content": "공주 사람이라면 한 번쯤은 꼭 방문해야 하는 곳입니다!\n데이트 장소로도 너무 좋고 친구랑 둘이서 가도 너무 좋은 장소에요\n뇨끼는 갈 때마다 꼭 주문하는 메뉴에요 너무 맛있어요😍😍 바질크림파스타도 빠네랑 먹으면 뒤집어져요😆 다 너무 맛있고 직원분들도 너무 친절하셔요",
+      "char_count": 112,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 74,
+      "author": "Nayeonnn",
+      "date": "2025-10-08",
+      "date_raw": "2025년 10월 8일 수요일",
+      "content": "새로 나온 흑임자 리조또도 맛있네요. 새우 오일 파스타도 간도 너무 좋고 새우가 통통해서 맛있었습니다. 웨이팅이 있어 야외자리에서 먹었는데 날씨가 선선해서 더욱 좋았습니다. 사람이 많아도 점원분들이 친절하셔서 기분 좋게 식사했습니다. 지금까지 10번 넘게 간 곳이고 앞으로도 재방문 의사 있습니다!",
+      "char_count": 129,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 75,
+      "author": "zamina",
+      "date": "2025-10-05",
+      "date_raw": "2025년 10월 5일 일요일",
+      "content": "파스타 피자 추천\n최근 먹은 양식집 중에 제일 괜찮았음",
+      "char_count": 22,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "매장이 청결해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 76,
+      "author": "쏵쏵이",
+      "date": "2025-09-27",
+      "date_raw": "2025년 9월 27일 토요일",
+      "content": "방문할때 마다 너무 맛있게 먹습니당~ 특히 라구아란치니랑 트러플 크림뇨끼는 언제 먹어도 감동입니당^^ 기다리는 시간이 길지만 그만한 보람이 있어요!!",
+      "char_count": 66,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "특별한 메뉴가 있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 77,
+      "author": "K57",
+      "date": "2025-09-23",
+      "date_raw": "2025년 9월 23일 화요일",
+      "content": "여러분 뇨끼는 꼭 드셔보시길 바랍니댜,,\n뇨끼가 너무 맛도리였어요ㅠㅠ 뇨끼랑 아란치니 피자까지 다 너무 맛있어서 공주 가는 지인들에게 추천해주고 싶은 집입니다💗🥹\n엄마랑 같이갔었는데 엄마도 넘 만족하셨오요><",
+      "char_count": 92,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 78,
+      "author": "영구아트뮤비",
+      "date": "2025-09-22",
+      "date_raw": "2025년 9월 22일 월요일",
+      "content": "피맥땡겨서 들렀는데 애매한 시간이라 웨이팅 없어서 피맥 잘 먹었습니당~점심 먹고 간식이지만 바질 JMT! 맥주가 병맥이 없어 아쉬웠지만 피맥 즐거워요.!🍕",
+      "char_count": 68,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "재료가 신선해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 79,
+      "author": "kk****",
+      "date": "2025-09-21",
+      "date_raw": "2025년 9월 21일 일요일",
+      "content": "음식은 맛있었어요~\n근데 여자알바생분 때문에 기분은 안좋네요..\n피클, 앞치마, 음식 나눌 식기류 등등 말안하면 안가져다 주고 말해도 안가져다 주고, 직접 프론트 가서 말해도 안가져다 주고.... 일부러 그러는건지..손도 느리고..\n답답해서 진짜... 제가 사장님이라면 길게 보고 웬만하면 같이 일 안할것 같네요..",
+      "char_count": 138,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 80,
+      "author": "엄마내맘61",
+      "date": "2025-09-21",
+      "date_raw": "2025년 9월 21일 일요일",
+      "content": "처음방문한곳....\n맛은 괸찮아요..",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 81,
+      "author": "Nyangang",
+      "date": "2025-09-18",
+      "date_raw": "2025년 9월 18일 목요일",
+      "content": "저의 베스트는 당근스프입니다\n진짜…. 너무 맛있어서 바닥이 보이는데도\n계속 먹었어요 ㅠㅠ 뇨끼,피자도 다 맛있어요\n배불러서 남은 피자는 또 먹으려고 포장까지 ㅠㅠ\n있는 메뉴는 한번씩 다 먹어보고싶어요!!\n사는 지역이 아니라서 나중에 또 가려고\n기록하기 위해서 리뷰 작성합니다!!",
+      "char_count": 120,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 82,
+      "author": "ann****",
+      "date": "2025-09-17",
+      "date_raw": "2025년 9월 17일 수요일",
+      "content": "맛난 메뉴가 많아 또 방문했네요~뇨끼와 피자가 넘 좋았네요~",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 83,
+      "author": "또동이의맛집여행",
+      "date": "2025-09-12",
+      "date_raw": "2025년 9월 12일 금요일",
+      "content": "평일 낮엔 웨이팅없는데 저녁엔 웨이팅 필수인 식당입니다. 그냥 여긴 다 맛있어요😍",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 84,
+      "author": "리리녕",
+      "date": "2025-09-09",
+      "date_raw": "2025년 9월 9일 화요일",
+      "content": "평일인데도 예약안하면 대기 할수도있다해서 예약하고 방문했어요 1시반쯤이었는데도 손님이 꽤많았음!\n주차는 길가에 함!\n대표메뉴 아란치니랑 뇨끼 추가로 에그인헬까지 주문~\n오픈주방이라 열심히 만드시는 셰프님들도 구경할수있어여\n음식이 한꺼번에 나와서 항공샷 찍을수있어서 만족😉\n뇨끼는 크림이 부드럽고 맛있었는데 저는 아란치니가 바삭하고 너무맛있었네용 ㅠ 밑에 소스를 너무 많이 해먹으면 짜서 적당히 같이 먹으니 극락~\n에그인헬은 살짝 매콤해서 크림 살짝씩 물릴때 한번씩 왕창 퍼먹으면 너무좋더라구요~\n아란치니 파는곳 흔치않은데 정말 만족스런 식사 하구옴☺️",
+      "char_count": 244,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 85,
+      "author": "꽁이카와이",
+      "date": "2025-09-06",
+      "date_raw": "2025년 9월 6일 토요일",
+      "content": "불고기흑임자크림 생각했던것보다 너무너무 맛있었습니다🤎🖤",
+      "char_count": 27,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "여행, 친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 87,
+      "author": "seonnnnni",
+      "date": "2025-09-03",
+      "date_raw": "2025년 9월 3일 수요일",
+      "content": "지인들로부터 까우 까우 까우 ! 를 전해듣고 언제가보나 했는데..!\n정말 첫 방문이었는대도 음식들이 너무 맛있고, 분위기도 너무 좋아서 또 가고 싶은 식당이에요.\n\n뇨끼랑 파스타먹었는데 하나씩 도장깨기 하고 싶어졌어요🥹💛",
+      "char_count": 95,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 88,
+      "author": "초코송이뿌030",
+      "date": "2025-08-29",
+      "date_raw": "2025년 8월 29일 금요일",
+      "content": "까우는 무슨 메뉴를 시키던 맛있어요!!",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 89,
+      "author": "blo****",
+      "date": "2025-08-28",
+      "date_raw": "2025년 8월 28일 목요일",
+      "content": "음식이 맛있고 주방에서 일하시는 분들도 성실하시고 직원분들도 친절하십니다.",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 91,
+      "author": "인생맛집탐방 전문",
+      "date": "2025-08-17",
+      "date_raw": "2025년 8월 17일 일요일",
+      "content": "밖에서 대기하다가 오픈시간 맞춰서 입장!!\n이탈리아에 다녀온 7명이 추억을 되새기고자 찾은 곳\n트러플크림뇨끼, 바질새우크림빠네, 바질 마르게리따 등 푸짐하게 잘 먹었습니다",
+      "char_count": 76,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 92,
+      "author": "JJinni107",
+      "date": "2025-08-09",
+      "date_raw": "2025년 8월 9일 토요일",
+      "content": "친구의 추천으로 방문하게 된 까우! 너무 맛있어요ㅜㅜ 다음번에 공주가면 또 방문할거에요!!",
+      "char_count": 40,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 93,
+      "author": "하GI",
+      "date": "2025-08-04",
+      "date_raw": "2025년 8월 4일 월요일",
+      "content": "대천 가는길에 점심때가 겹치게 되서 찾아보다가 전날에 예약했어요!\n평일 점심때이기도 하고 이 정도로 인기 많을 줄 몰랐는데 예약 안했으면 웨이팅 더 오래 할뻔했네요 ;; 예약시간보다 조금 일찍 도착하긴 했는데 15분 정도 웨이팅 한거 같네욥\n\n음식은 트러플 크림 뇨끼, 클래식 토마토 라구파스타, 치킨 크림커리 리조또 이렇게 주문했어요!\n\n뇨끼 = 크림은 살짝 묽은 느낌에 트러플 오일이 한 두바퀴 둘러져서 나왔는데 같이 들어있는 버섯, 견과류와 뇨끼를 같이 떠서 먹으니 향도 넘 좋고 식감과 맛 모두 좋았어요.\n\n리조또 = 밥알의 익힘정도 너무 좋고 닭고기도 넘 부드럽고 커리향이 너무 잘 어울렸어요\n\n파스타 = 면의 익힘정도 굿, 파스타 소스, 재료 모두 너무 잘 어울리고 좋고 맛있었어요!\n\n다음에 재방문 꼭!",
+      "char_count": 293,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "데이트, 여행",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 95,
+      "author": "ber****",
+      "date": "2025-07-30",
+      "date_raw": "2025년 7월 30일 수요일",
+      "content": "어떤 메뉴를 주문해도 평타 이상 안정적인 맛!",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 96,
+      "author": "브라이팅밍",
+      "date": "2025-07-29",
+      "date_raw": "2025년 7월 29일 화요일",
+      "content": "기대 하고 방문했는데 맛있긴한데요..너무 기대를 했던것 같아요! 크림새우파스타가 라자냐보다는 괜찮았는데.. 라자냐는 살짝 토마토 소스가 더 들어가면 좋았을것 같아요 살짝 싱거웠습니다.",
+      "char_count": 83,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 97,
+      "author": "미나미나탄",
+      "date": "2025-07-27",
+      "date_raw": "2025년 7월 27일 일요일",
+      "content": "음식 하나하나 정말 다 맛있고 직원분들도 정말 친절해서 좋았어요 👍👍",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 98,
+      "author": "Keep going84",
+      "date": "2025-07-13",
+      "date_raw": "2025년 7월 13일 일요일",
+      "content": "트러플 크림뇨끼와 라구아란치니 그리고 와인 마셨어요.\n맛은 좋았는데 앉은 자리 위에 에어컨?에서 물이 떨어져 식사하는데 비위생적이라고 생각 했어요.",
+      "char_count": 65,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 100,
+      "author": "단미3790",
+      "date": "2025-07-10",
+      "date_raw": "2025년 7월 10일 목요일",
+      "content": "사진은 못 찍었지만 음식 메뉴 특성을 잘살리는것 같으며 다음엔 꼭 피자를 먹어보고 싶네요",
+      "char_count": 37,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "일상",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 102,
+      "author": "dyd****",
+      "date": "2025-06-30",
+      "date_raw": "2025년 6월 30일 월요일",
+      "content": "아이들이 파스타를 좋아해서 파스타맛집 찾고 방문했는데\n평일인데도 불구하고 사람들이 많았는데 그 이유를 알겠더라고요😇비주얼고 좋고 맛도 좋고!",
+      "char_count": 63,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행, 가족모임",
+        "아이, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    },
+    {
+      "id": 104,
+      "author": "ljy****",
+      "date": "2025-06-18",
+      "date_raw": "2025년 6월 18일 수요일",
+      "content": "오늘 회사에서 점심 회식이 있어서 예약하고 방문했습니다. 메뉴가 다양했는데도 음식도 바로바로 나오고 무엇보다 음식이 다 맛있어서 모두 감탄하며 맛있게 먹었습니다!! 감사합니다 사장님 또 방문할게요😊",
+      "char_count": 87,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "회식",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 105,
+      "author": "꼬맹찌",
+      "date": "2025-06-13",
+      "date_raw": "2025년 6월 13일 금요일",
+      "content": "공주여행 계획짜다가 발견한 맛집\n보름전부터 예약걸어놓고 기대가득!!\n까우에 가는날 ~\n와우 가게찾기전부터 사람이 많이 모여있는거 보구선 저기가 까우인가부다 했어요.\n조구만한 가게에 사람은 엄청 대기가 많았지만\n예약한덕분이 오래 기다리지 않고 바로 입장\n뱃속에 거지가 있는지 배고파 힘들어하는 아이들 1,2,3,4,5호들...ㅎㅎㅎ\n음식나왔는데 눈으로 놀라고\n먹어보고 맛에 놀라고\n왜 인기인지 알겠더라구요\n공주간다면 또 가고싶어요!!!",
+      "char_count": 193,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "여행",
+        "아이, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 106,
+      "author": "숨알굼알64",
+      "date": "2025-05-24",
+      "date_raw": "2025년 5월 24일 토요일",
+      "content": "뇨끼와 차돌오일링귀니 추천합니당",
+      "char_count": 15,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 108,
+      "author": "각시언니",
+      "date": "2025-05-16",
+      "date_raw": "2025년 5월 16일 금요일",
+      "content": "재료가 신선하고, 음식이 골고루 고급진 맛이나요. 가성비도 최고!!",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 109,
+      "author": "밍키 ㅇ00ㅇ",
+      "date": "2025-05-11",
+      "date_raw": "2025년 5월 11일 일요일",
+      "content": "친구랑 데이트겸 갔어요 ㅎㅎ\n너무 맛있더라구요 👍🏻\n블루리본 받은 이유가 있네요 ~\n세상에 파스타도 너무 담백하니 존마탱 ~ 🧡",
+      "char_count": 53,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 110,
+      "author": "쏵쏵이",
+      "date": "2025-05-06",
+      "date_raw": "2025년 5월 6일 화요일",
+      "content": "음식이 하나같이 다 너무 맛있었습니다! 특히 뇨끼는 정말 크림 좋아하는 사람이라면 무조건 강추입니다😆 피자도 부담스럽지않고 신선하니 너무 맛있었구요 아란치니도 겉바속촉인데 사워크림이랑 넘나 잘어울렸습니다~~ 완전 재방문의사 100%😊😊",
+      "char_count": 106,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 111,
+      "author": "Happy0616",
+      "date": "2025-05-05",
+      "date_raw": "2025년 5월 5일 월요일",
+      "content": "성인 남2 여1 가서 메뉴 4가지 주문했어요 ㅋㅋ 양이 많아서 다 배터지게 먹었어요!! 다 맛있었는데 로제로스트치킨하고 바질 새우크림빠네가 개인적으로 가장 맛있었어요 ㅎㅎ 빠네는 항상 소스가 빵을 먹어서 부족한데 여기에서는 빵 찍어먹게 소스를 엄청 많이 주셔서 끝까지 다 먹었어요!! 다음에도 또 가야겠어요",
+      "char_count": 131,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 112,
+      "author": "별림하다",
+      "date": "2025-05-05",
+      "date_raw": "2025년 5월 5일 월요일",
+      "content": "공주 놀러와서 왠 파스타냐 하시겠지만...\n하도 평이 좋아서 왔어요.\n근데 이거 공주의 보물임....\n당근스프 왜 안먹어요? 1등입니다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "char_count": 68,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 114,
+      "author": "재이 율조",
+      "date": "2025-05-02",
+      "date_raw": "2025년 5월 2일 금요일",
+      "content": "아이들도 맛있게 즐길 수 있늠 메뉴가 다양해요! 맛도 너무 좋고 행복한 시간이었어요",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "아이"
+      ],
+      "keywords": [
+        "아늑해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 117,
+      "author": "ljy****",
+      "date": "2025-04-24",
+      "date_raw": "2025년 4월 24일 목요일",
+      "content": "매장 분위기랑 인테리어도 너무 좋고 음식도 맛있어요!! 배터지게 먹고갑니다 ㅎㅎ 다음에 또 올게요~",
+      "char_count": 43,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 118,
+      "author": "Gwonnig",
+      "date": "2025-04-24",
+      "date_raw": "2025년 4월 24일 목요일",
+      "content": "진짜 너무 맛있어서 싹싹 긁어 먹었어요..\n공주 3대 맛집이라던데 공주오시면 꼭꼭 와보세요 제발🙏🏼\n둘이서 오시면 라구 아란치니 추가 필수!",
+      "char_count": 60,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 119,
+      "author": "핸드드립Lover",
+      "date": "2025-04-20",
+      "date_raw": "2025년 4월 20일 일요일",
+      "content": "거의 5개월 만에 간 까우 ❤️🥹💚\n11시 40분에 갔는데 테이블 하나 남아있어서\n후다닥 들어가서 자리 선점했네요 🩵💜\n\n사장님과 직원분들\n오랜만에 봐도 참 늘 반갑게 인사해주시고\n친절하게 대해주셔서\n갈때마다 기분이 좋아요 ❤️💚\n\n특별히 추천드리는 메뉴는\n감자 트러플 뇨끼랑\n라구 아란치니 그리고 베리에이드 조합입니다\n\n뇨끼 맛 특히 일품이니\n꼭 드셔보시길 추천드림둥 💜🩵\n\n정말 애정하는 맛집인데\n잘되는 것 볼 때마다 기분이 좋아요\n\n사장님 적게 일하고 많이 버세요 🌸🌸",
+      "char_count": 196,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 120,
+      "author": "E안맘",
+      "date": "2025-04-12",
+      "date_raw": "2025년 4월 12일 토요일",
+      "content": "라구파스타 소스도 진하고 맛있어요\n포테이토 피자도 생각보다 너무 맛있고\n기본에 충실한 역시 맛있는 까우입니다🤍",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "가족모임",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 121,
+      "author": "기영아밥먹자",
+      "date": "2025-04-11",
+      "date_raw": "2025년 4월 11일 금요일",
+      "content": "리조또랑 라자냐 먹었는데 역시 너무 맛있네요!! 5시 브레이크타임 끝나자마자 갔는데 더 늦게 갔으면 웨이팅할뻔 했어요😂 직원분들도 친절하시고 리모델링 하셨는지 인테리어도 바꿔었네요!",
+      "char_count": 81,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 122,
+      "author": "hee****",
+      "date": "2025-04-11",
+      "date_raw": "2025년 4월 11일 금요일",
+      "content": "까우는 늘 믿고 방문해요… 제 최애 양식집 !!",
+      "char_count": 19,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 123,
+      "author": "냥콩콩코이",
+      "date": "2025-04-08",
+      "date_raw": "2025년 4월 8일 화요일",
+      "content": "베스트 메뉴들로만 시켜 봤습니다.\n맛있었고 가격대비 양은 좀 아쉽지만 양이 적다는 리뷰를 보고 애초에 메뉴를 3개 시켜 저희는 배부르게 먹었습니다. 맛있었고 서빙 해주시는 직원분이 친절해서 좋았습니다.덕분에 하루 시작을 기분 좋게 했습니다 감사합니다",
+      "char_count": 108,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 124,
+      "author": "아인슈페너53",
+      "date": "2025-04-07",
+      "date_raw": "2025년 4월 7일 월요일",
+      "content": "역시 맛있어요 ㅎㅎ\n항상 기다리면서도 먹어요 ㅎ",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 126,
+      "author": "유정포에버",
+      "date": "2025-03-14",
+      "date_raw": "2025년 3월 14일 금요일",
+      "content": "공주여행중 첫번째로 방문한 맛집\n운좋게 대기 없이 입장.\n모든 음식 다 맛있어요.\n꼭 들려보세요.",
+      "char_count": 41,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 127,
+      "author": "cut****",
+      "date": "2025-03-10",
+      "date_raw": "2025년 3월 10일 월요일",
+      "content": "봉골레랑 뇨끼가 맛있었어요^^ 리조또는 쏘쏘였네요~^^",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 128,
+      "author": "슈팡98",
+      "date": "2025-03-08",
+      "date_raw": "2025년 3월 8일 토요일",
+      "content": "공주에 맛있는 파스타는 여기서 먹을 수 있어요!",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "대기 시간 30분 이내",
+        "친목, 여행, 일상",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "매장이 넓어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 129,
+      "author": "사초간볼빨기",
+      "date": "2025-03-07",
+      "date_raw": "2025년 3월 7일 금요일",
+      "content": "맛있어요 오늘은 스프가 하얀 알갱이도 있고 간도 싱가워서 좀 아쉬웠어용",
+      "char_count": 30,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 130,
+      "author": "으라차차43",
+      "date": "2025-03-06",
+      "date_raw": "2025년 3월 6일 목요일",
+      "content": "맛있어요 손님이 많아서 일찍와야 해요 ^^",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 131,
+      "author": "여사박33",
+      "date": "2025-03-02",
+      "date_raw": "2025년 3월 2일 일요일",
+      "content": "정말 최애 최고의 맛집입니다.\n1시간정도 대기햇지만 그만큼의 값어치를 선사해준\n맛집이네요.재료자체가 신선하고 맛에이어 대접받고잇다는 느낌이들어 가족모두 흡족한 식사엿습니다~\n그어떤메뉴를 시켜도 실망시키지 않습니다.\n또한 화장실의 메너티까지 고급져서 기분좋앗습니다.\n오래오래ㅇ번창하세요~~",
+      "char_count": 134,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이상",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 132,
+      "author": "supping98",
+      "date": "2025-02-28",
+      "date_raw": "2025년 2월 28일 금요일",
+      "content": "맛있는데 양은 조금 부족..? 하지만 왕맛있다",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 133,
+      "author": "하원15",
+      "date": "2025-02-25",
+      "date_raw": "2025년 2월 25일 화요일",
+      "content": "너무 맛있게 잘먹었습니다.\n처음으로 추천받아 간곳인데 하나하나 너무맛있었어요~~\n다음 방문의사100프로 입니다.",
+      "char_count": 52,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 135,
+      "author": "초코송이뿌030",
+      "date": "2025-02-16",
+      "date_raw": "2025년 2월 16일 일요일",
+      "content": "파스타, 리조또, 피자 다 맛있어요!! 최고예요😆👍👍",
+      "char_count": 24,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "가족모임",
+        "부모님"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 136,
+      "author": "초코송이뿌030",
+      "date": "2025-02-14",
+      "date_raw": "2025년 2월 14일 금요일",
+      "content": "피자도 뇨끼도 다 너무 맛있어요!! 분위기도 좋고 맛도 있고 넘 조아요",
+      "char_count": 29,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 137,
+      "author": "ppunghago",
+      "date": "2025-02-11",
+      "date_raw": "2025년 2월 11일 화요일",
+      "content": "메뉴 도장깨기중입니다!\n1시 넘어 갔더니\n안기다려도되고\n좋았어요.ㅎ\n맛있었고,편안하게\n잘먹다왔습니다ㅎ",
+      "char_count": 48,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 138,
+      "author": "멋쟁이토마토씨",
+      "date": "2025-02-08",
+      "date_raw": "2025년 2월 8일 토요일",
+      "content": "또 까우💚\n치킨크림커리 항상 추천하는거 아시죠🤤\n바질마르게리따랑 커리리조또는 필수 코스💓",
+      "char_count": 40,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "일상",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 141,
+      "author": "도리감자",
+      "date": "2025-02-01",
+      "date_raw": "2025년 2월 1일 토요일",
+      "content": "뇨끼가 미쳤습니다.. 크림 못 먹는 남자친구도 이건 또 먹고싶다고 했어요.. 가성비도 좋고 피자도 맛있고 다른 메뉴도 먹어보고 싶은 맛이였습니다!!",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 142,
+      "author": "칼리퓌",
+      "date": "2025-01-31",
+      "date_raw": "2025년 1월 31일 금요일",
+      "content": "조명이 조금만 더 밝았으면… 너무 어두워 분위가가 다운되는 느낌. 샐러드에 드레싱을 선택할수 있으면 좋겠습니다. 함께 나오는 드레싱이 어울리지 않아요. 샐러드 채소에 아삭한 양상추가 없어서 신선한 느낌이 떨어지는것 같습니다. 다른 음식들은 맛있었습니다.",
+      "char_count": 111,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "메뉴 구성이 알차요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 143,
+      "author": "ber****",
+      "date": "2025-01-27",
+      "date_raw": "2025년 1월 27일 월요일",
+      "content": "당근스프, 아란치니, 까르보나라 먹었어요.\n저는 이제 당근스프의 노예입니다.",
+      "char_count": 35,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 144,
+      "author": "물들다51",
+      "date": "2025-01-26",
+      "date_raw": "2025년 1월 26일 일요일",
+      "content": "까우 파스타가 먹고 싶어 오랜만에 다녀왔어요\n\n라구 소스 맛집이에요",
+      "char_count": 28,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 145,
+      "author": "세상에모든것을리뷰한다",
+      "date": "2025-01-26",
+      "date_raw": "2025년 1월 26일 일요일",
+      "content": "[솔직후기]블루리본 맛집이라 기대하고 갔는데 역시나 맛있었습니다.",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 147,
+      "author": "조치원불주먹",
+      "date": "2025-01-24",
+      "date_raw": "2025년 1월 24일 금요일",
+      "content": "지금까지 8명 데려갔는데 다 맛있다구 한 최애 또간집..🤍",
+      "char_count": 25,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 149,
+      "author": "Requiem71",
+      "date": "2025-01-21",
+      "date_raw": "2025년 1월 21일 화요일",
+      "content": "직원분들이 엄청 다정하세요. 좋은 시간 선물받은 것 같아요.. 감사드립니다.",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 150,
+      "author": "alwayshappyy",
+      "date": "2025-01-20",
+      "date_raw": "2025년 1월 20일 월요일",
+      "content": "간이 너무 잘 맞고 특히 오리고기가 너무 맛있고 오리고기 소스가..😍😍😍 리조또도 넘 맛있고 양도 많았어요 분위기가 정말 최고에요 ㅎㅎ!!!",
+      "char_count": 60,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 151,
+      "author": "zxc7645",
+      "date": "2025-01-20",
+      "date_raw": "2025년 1월 20일 월요일",
+      "content": "친구랑 공주 당일치기 여행 가서 맨 처음으로 방문한 까우! 음식이 진짜로 다 맛있어요!! 매장 인테리어랑 분위기도 넘넘 좋고... 그중에서도 특히 트러플크림 리조또가 두 소녀의 맘을 너무너무 울렸습니다... 또 먹고 싶네요 😭",
+      "char_count": 96,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 152,
+      "author": "ppunghago",
+      "date": "2025-01-18",
+      "date_raw": "2025년 1월 18일 토요일",
+      "content": "맛있게 잘 먹고 왔어요!\n오랜만에 웨이팅없이 편히\n먹고와서 좋았습니다🙏",
+      "char_count": 31,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 153,
+      "author": "실베리오맛집",
+      "date": "2025-01-16",
+      "date_raw": "2025년 1월 16일 목요일",
+      "content": "완천 맛있는데 가격도 가성비였다. 레스토랑에서 매뉴3개에 5만원이면 저렴한데 맛도 너무 좋아서 흡힙했다. 추천!!",
+      "char_count": 51,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "나들이",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "화장실이 깨끗해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 154,
+      "author": "Nayeonnn",
+      "date": "2025-01-15",
+      "date_raw": "2025년 1월 15일 수요일",
+      "content": "항상 맛있는 까우지만 이 날은 특히 오일 파스타가 맛있었습니다. 오일 파스타 좋아하는 친구랑 신나게 먹었네요 ㅎㅎ 화장실도 내부에 있어서 편리하고 매장도 깔끔하니 좋아요!!",
+      "char_count": 74,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 155,
+      "author": "체이쑤리",
+      "date": "2025-01-13",
+      "date_raw": "2025년 1월 13일 월요일",
+      "content": "충청도권 파스타, 리조또 1등 맛집 ❤️‍🔥\n\n지금까지 총 5번 식사\n* 집에서 매장까지 자차로 40분 소요\n\n모든 메뉴 도전중\n올 때마다 대성공",
+      "char_count": 58,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이, 일상",
+        "부모님"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 156,
+      "author": "프린18",
+      "date": "2025-01-11",
+      "date_raw": "2025년 1월 11일 토요일",
+      "content": "아이랑 가서 잘 먹었어요. 유아식기랑 파스타에 후추 빼줄 수 있다고 먼저 물어봐주셔서 감사해요👍👍 다음에는 아이 없이 와서 먹을려구요 ㅎㅎ",
+      "char_count": 59,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "일상",
+        "아이"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 157,
+      "author": "InfinityRun",
+      "date": "2024-12-29",
+      "date_raw": "2024년 12월 29일 일요일",
+      "content": "크림뇨끼 매니아인 여자친구가 까우의 트러플 크림 뇨끼를 감탄하며 맛있게 먹었습니다. 저는 라구파스타 먹었는데 어디 흠잡을 데 없이 맛있게 먹었습니다^^ 크림이 정말 입에 착착 감겨서 재방문할 때는 크림 리조또 먹어보려고요!!",
+      "char_count": 97,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "매장이 청결해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 158,
+      "author": "지니는돼지니",
+      "date": "2024-12-29",
+      "date_raw": "2024년 12월 29일 일요일",
+      "content": "이 집 잘하네..\n메뉴 도장깨기 해야겠다",
+      "char_count": 17,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 159,
+      "author": "좋은 곳만 리뷰어",
+      "date": "2024-12-27",
+      "date_raw": "2024년 12월 27일 금요일",
+      "content": "미리 예약하고 방문한 까우.\n모든 음식에서 재료의 신선함과 건강한 맛이 느껴졌습니다. 연말 친구와 따뜻한 식사로 아주 만족스러웠습니다.",
+      "char_count": 59,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 160,
+      "author": "먹고 먹고 뜌 먹기",
+      "date": "2024-12-12",
+      "date_raw": "2024년 12월 12일 목요일",
+      "content": "⭐️솔직히 까우는 공주 양식 원탑입니다⭐️\n모든 메뉴가 다 맛있어요….!!!\n셀 수 없을 만큼 n번째 방문인데 매번 갈때마다 맛있고 안 질려요…!! 한 때 까우에 빠져서 일주일에 3~4끼를 까우로 먹을 정도로.. 맛있습니다🖤🖤\n최애 메뉴는 뇨끼‼️ 참고로 피자도 다 맛있어요!!\n\n아직 까우 안 먹어본 사람..꼭 가보세요!!!!!!!!!!!",
+      "char_count": 147,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 161,
+      "author": "Sunnytrace",
+      "date": "2024-12-12",
+      "date_raw": "2024년 12월 12일 목요일",
+      "content": "추운날이라 대기는 길지 않았고, 웨이팅 걸어놓을수있었어요 :)\n공주 맛집 맞는듯. 당근스프도 뇨끼도 전부 맛있었어요. 다시 간다면 또 갈 것 같은 양식집.",
+      "char_count": 66,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 162,
+      "author": "nac****",
+      "date": "2024-12-10",
+      "date_raw": "2024년 12월 10일 화요일",
+      "content": "맛있어요!!! 분위기도 조쿠용 ㅎㅎ",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "지인・동료"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 163,
+      "author": "Soon1227",
+      "date": "2024-12-05",
+      "date_raw": "2024년 12월 5일 목요일",
+      "content": "당근수프 기대안했는데 너무 맛있어요!\n안 시켰으면 후회할 뻔",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 164,
+      "author": "tlf****",
+      "date": "2024-12-04",
+      "date_raw": "2024년 12월 4일 수요일",
+      "content": "항상 믿고 먹는 까우예요 다행이 웨이팅없이 바로먹을수 있어서 좋았어요! 음식도 빨리나오고 직원분들도 너무 친절해서 맛있는 점심 먹을 수 있었습니다~",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 166,
+      "author": "sil****",
+      "date": "2024-12-01",
+      "date_raw": "2024년 12월 1일 일요일",
+      "content": "직원들도 불친절하고 음식도 그냥그래요... 웨이팅까지할필요없어요..가격이 저렴하긴한데 딱 그가격이에요",
+      "char_count": 49,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목, 나들이",
+        "친구"
+      ],
+      "keywords": [],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 167,
+      "author": "PlusX",
+      "date": "2024-11-30",
+      "date_raw": "2024년 11월 30일 토요일",
+      "content": "지방으로 가족 여행 갔다가 공주 레드리본 받은 맛집이길래 들렀어요 유아식기 있습니다 에그인헬, 까르보나라, 윙, 피자 이렇게 먹었는데 튀는 것 없이 전부 평타 이상은 하더라고요 피자가 가장 맛있었어요 주말 점심은 웨이팅 있더군요 토요일 낮 12시쯤에 가서 30분 기다렸어요 음식은 빨리 나옵니다",
+      "char_count": 125,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 168,
+      "author": "murba",
+      "date": "2024-11-29",
+      "date_raw": "2024년 11월 29일 금요일",
+      "content": "피자도 푸짐 파스타도 진하고 맛있어요",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 10분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 169,
+      "author": "맹꽁리",
+      "date": "2024-11-25",
+      "date_raw": "2024년 11월 25일 월요일",
+      "content": "피자랑 파스타 진짜 너무너무너무 맛있어요🥺🤤",
+      "char_count": 20,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 170,
+      "author": "설봉산물방개",
+      "date": "2024-11-24",
+      "date_raw": "2024년 11월 24일 일요일",
+      "content": "일찍가서 대기없이 들어갔어요! 엄마도 맛있게 드셨어요!!",
+      "char_count": 26,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행, 가족모임"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 172,
+      "author": "알콩이1234",
+      "date": "2024-11-23",
+      "date_raw": "2024년 11월 23일 토요일",
+      "content": "굿 트러플풍기 피자는 샐러드와.버섯을 같이 먹을수있어서 좋네요 트러블향을 입힌 버섯이.아주 예술이에요 버팔로윙도 맛있어요",
+      "char_count": 55,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "일상",
+        "부모님, 친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 173,
+      "author": "멋쟁이토마토씨",
+      "date": "2024-11-21",
+      "date_raw": "2024년 11월 21일 목요일",
+      "content": "까우 아직 안 간 사람 있으면 제발 꼭 가세요ㅠ\n특히 치킨크림커리 리조또..🤍🤍",
+      "char_count": 33,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 176,
+      "author": "yew****",
+      "date": "2024-11-15",
+      "date_raw": "2024년 11월 15일 금요일",
+      "content": "좋아요!🩶 좋아하는 사람이랑 오고싶은 곳",
+      "char_count": 18,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 178,
+      "author": "푸우댕",
+      "date": "2024-11-10",
+      "date_raw": "2024년 11월 10일 일요일",
+      "content": "공주 신관동 파스타 맛집인 까우!🍝\n공주종합버스 터미널에서 도보로 7분밖에 걸리지 않고 2024년 블루리본 받은곳이라 꼭 가보고 싶었는데 맛집인 만큼 사람이 많아요. 무조건 1시30분 전에는 가셔서 웨이팅 등록 하시는 게 좋아요. 저희는 매운 새우크림, 명란 로제, 소세지로제볼로네, 크림까르보나라 총 4가지 주문했는데 다 넘 맛있어서 좋았어요. 살짝 아쉬운 점은 크림 까르보나라 소스가 부족해서 면이 메마르더라구요🥺 좀 더 넉넉하게 주시면 더더 좋았지만 그래도 맛있어서 공주 파스타 맛집 찾는 분들은 꼭 방문해보세요!",
+      "char_count": 223,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 179,
+      "author": "yeonghong",
+      "date": "2024-11-02",
+      "date_raw": "2024년 11월 2일 토요일",
+      "content": "넘 맛있었어요 특히 크림 맛집이네요.",
+      "char_count": 16,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 180,
+      "author": "아기모빌",
+      "date": "2024-10-27",
+      "date_raw": "2024년 10월 27일 일요일",
+      "content": "이탈리아 식당에 맞게 기본적으로 테라스 자리가 있어서 꽤 마음에 들었습니다. 매우 인기가 좋은지 주말임에도 5시 약간 넘은 시각에도 거의 자리가 모두 차는 것을 확인할 수 있었습니다. 오픈 주방 인테리어가 마음에 들었으며 근처에 주차도 용이하였습니다.\n크림뇨끼와 라구아란치니와 차돌오일링귀니가 주문했습니다. 개인적으로 크림뇨끼가 가장 괜찮았습니다. 크림뇨끼에 들어가있는 호두의 식감이 매우 좋았으며 뇨끼와 맛도 잘 어울렸습니다. 개인적으로 퓨전음식은 좋아하지않아서 라구아란치니는 잘 튀겨졌으나 깻잎이 잘 어울리지 않는다는 생각이 들었습니다. 차돌오일링귀니의 경우 면은 쫄깃했으나 야채와 차돌이 좀더 익었으면 좋았을것 같습니다.",
+      "char_count": 277,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 181,
+      "author": "winter889964",
+      "date": "2024-10-26",
+      "date_raw": "2024년 10월 26일 토요일",
+      "content": "뇨끼랑 애그인헬 맛은 말모말모~ 정말 맛있어요!!\n로스트 치킨은.. 소스가 약간 따로 놀아서.. 에그인헬 소스랑 같이 먹었어요. 담에는 안 먹을 듯 ㅎ",
+      "char_count": 64,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "대화하기 좋아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 182,
+      "author": "팡이제로77",
+      "date": "2024-10-26",
+      "date_raw": "2024년 10월 26일 토요일",
+      "content": "친절하고 오픈 주방이라 요리 과정을 볼수 있어요.\n대학교앞 가성비 맛집입니다!",
+      "char_count": 34,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "아이"
+      ],
+      "keywords": [
+        "친절해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 183,
+      "author": "maya0303",
+      "date": "2024-10-22",
+      "date_raw": "2024년 10월 22일 화요일",
+      "content": "공주에서는.양식메뉴로 여기가 젤 괜찮아요~~ㅎㅎ강추강추입니다..",
+      "char_count": 32,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 184,
+      "author": "Senoh",
+      "date": "2024-10-21",
+      "date_raw": "2024년 10월 21일 월요일",
+      "content": "로제로스트치킨, 알리오올리오... 이탈리아 현지 레스토랑에서 먹었던 그 맛이 어떻게 여기서?",
+      "char_count": 42,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "여행",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    }
+  ],
+  "excluded": [
+    {
+      "id": 7,
+      "author": "JJHH",
+      "date": "2026-06-13",
+      "date_raw": "2026년 6월 13일 토요일",
+      "content": "맛잇고 힙해요 굳",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구, 지인・동료"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 10,
+      "author": "azx0328",
+      "date": "2026-05-10",
+      "date_raw": "2026년 5월 10일 일요일",
+      "content": "맛잇어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 20,
+      "author": "Happy day601",
+      "date": "2026-04-08",
+      "date_raw": "2026년 4월 8일 수요일",
+      "content": "너무 맛있어서 싹싹 비워ㅛ네요",
+      "char_count": 13,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 24,
+      "author": "bettersweet61",
+      "date": "2026-03-26",
+      "date_raw": "2026년 3월 26일 목요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 29,
+      "author": "네이버닉네임이당",
+      "date": "2026-02-21",
+      "date_raw": "2026년 2월 21일 토요일",
+      "content": "넘 좋아하는 곳 ..💛",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이상",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 31,
+      "author": "김커비 하루의 갈무리",
+      "date": "2026-02-14",
+      "date_raw": "2026년 2월 14일 토요일",
+      "content": "맛있어요.\n진심이에요",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "여행",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 36,
+      "author": "쭈네가족",
+      "date": "2026-01-23",
+      "date_raw": "2026년 1월 23일 금요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 38,
+      "author": "11111111222",
+      "date": "2026-01-14",
+      "date_raw": "2026년 1월 14일 수요일",
+      "content": "맛있게 잘 먹었어요.",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내"
+      ],
+      "keywords": [
+        "양이 많아요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 48,
+      "author": "2019예산뜰",
+      "date": "2025-12-12",
+      "date_raw": "2025년 12월 12일 금요일",
+      "content": "생일 축하파티^^",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "일상",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 49,
+      "author": "앤 셜리예요",
+      "date": "2025-12-12",
+      "date_raw": "2025년 12월 12일 금요일",
+      "content": "언니생파했어요",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "가족모임",
+        "친척・형제자매"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 52,
+      "author": "지니22109",
+      "date": "2025-12-06",
+      "date_raw": "2025년 12월 6일 토요일",
+      "content": "친절하고 맛있어요",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 10분 이내",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 65,
+      "author": "eeia",
+      "date": "2025-11-07",
+      "date_raw": "2025년 11월 7일 금요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 73,
+      "author": "all31",
+      "date": "2025-10-09",
+      "date_raw": "2025년 10월 9일 목요일",
+      "content": "맛남",
+      "char_count": 2,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 86,
+      "author": "ury****",
+      "date": "2025-09-06",
+      "date_raw": "2025년 9월 6일 토요일",
+      "content": "굿",
+      "char_count": 1,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 90,
+      "author": "eeia",
+      "date": "2025-08-23",
+      "date_raw": "2025년 8월 23일 토요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 30분 이내",
+        "일상",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 94,
+      "author": "ㅡ_ㅡ",
+      "date": "2025-07-30",
+      "date_raw": "2025년 7월 30일 수요일",
+      "content": "라구 아란치니가 맛있었습니다.",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "일상",
+        "혼자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 99,
+      "author": "azx0328",
+      "date": "2025-07-12",
+      "date_raw": "2025년 7월 12일 토요일",
+      "content": "너무맛잇아요",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 101,
+      "author": "파루땅",
+      "date": "2025-07-09",
+      "date_raw": "2025년 7월 9일 수요일",
+      "content": "맛있어요 !!",
+      "char_count": 6,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 103,
+      "author": "qwerty048",
+      "date": "2025-06-20",
+      "date_raw": "2025년 6월 20일 금요일",
+      "content": "라자냐짱맛이에용",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 107,
+      "author": "abbccc",
+      "date": "2025-05-18",
+      "date_raw": "2025년 5월 18일 일요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 113,
+      "author": "dj****",
+      "date": "2025-05-04",
+      "date_raw": "2025년 5월 4일 일요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 115,
+      "author": "qwerty048",
+      "date": "2025-04-28",
+      "date_raw": "2025년 4월 28일 월요일",
+      "content": "언제나 맛있어요 ㅎㅎ",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트",
+        "연인・배우자, 친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 116,
+      "author": "abbccc",
+      "date": "2025-04-24",
+      "date_raw": "2025년 4월 24일 목요일",
+      "content": "맛있습니다",
+      "char_count": 5,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 125,
+      "author": "맹꽁리",
+      "date": "2025-03-17",
+      "date_raw": "2025년 3월 17일 월요일",
+      "content": "너무 맛있어용🤤🧡",
+      "char_count": 8,
+      "rating": null,
+      "tags": [
+        "저녁에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 134,
+      "author": "쑤기099",
+      "date": "2025-02-23",
+      "date_raw": "2025년 2월 23일 일요일",
+      "content": "에그인헬 맛있어요!",
+      "char_count": 9,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "대기 시간 30분 이내"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 139,
+      "author": "luc****",
+      "date": "2025-02-06",
+      "date_raw": "2025년 2월 6일 목요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "기타"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 140,
+      "author": "조치원불주먹",
+      "date": "2025-02-06",
+      "date_raw": "2025년 2월 6일 목요일",
+      "content": "최애 맛집..🤍",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 후 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 146,
+      "author": "숱땡이5",
+      "date": "2025-01-24",
+      "date_raw": "2025년 1월 24일 금요일",
+      "content": "가격대비 맛이 별로네요",
+      "char_count": 10,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "연인・배우자"
+      ],
+      "keywords": [
+        "아늑해요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 148,
+      "author": "진은돌",
+      "date": "2025-01-22",
+      "date_raw": "2025년 1월 22일 수요일",
+      "content": "까우 항상 너무 맛있어요!",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "데이트, 친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 165,
+      "author": "나니2554",
+      "date": "2024-12-03",
+      "date_raw": "2024년 12월 3일 화요일",
+      "content": "대체로 음식이 맛있어요ㅡ",
+      "char_count": 11,
+      "rating": null,
+      "tags": [
+        "점심에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 171,
+      "author": "xeul3",
+      "date": "2024-11-23",
+      "date_raw": "2024년 11월 23일 토요일",
+      "content": "아 너무 맛있어요",
+      "char_count": 7,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "친목",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 174,
+      "author": "맹꽁리",
+      "date": "2024-11-18",
+      "date_raw": "2024년 11월 18일 월요일",
+      "content": "최고의 파스타 맛집💁🏻‍♀️🍅",
+      "char_count": 14,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 175,
+      "author": "VAECH56",
+      "date": "2024-11-16",
+      "date_raw": "2024년 11월 16일 토요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "점심에 방문"
+      ],
+      "keywords": [
+        "인테리어가 멋져요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 177,
+      "author": "eeia",
+      "date": "2024-11-13",
+      "date_raw": "2024년 11월 13일 수요일",
+      "content": "",
+      "char_count": 0,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 없이 이용",
+        "대기 시간 바로 입장",
+        "나들이",
+        "친구"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 189,
+      "author": "호야호야38",
+      "date": "2024-10-13",
+      "date_raw": "2024년 10월 13일 일요일",
+      "content": "맛있어요",
+      "char_count": 4,
+      "rating": null,
+      "tags": [
+        "저녁에 방문",
+        "예약 후 이용",
+        "대기 시간 30분 이내",
+        "나들이",
+        "연인・배우자, 아이"
+      ],
+      "keywords": [
+        "음식이 맛있어요"
+      ],
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_naver_count": 600,
+    "total_loaded": 190,
+    "total_collected": 150,
+    "count_within_3m": 21,
+    "count_3m_to_12m": 63,
+    "count_12m_to_24m": 66,
+    "recency_bonus_count": 21,
+    "recency_penalty_count": 66,
+    "total_excluded": 35,
+    "excluded_paid": 0,
+    "excluded_insincere": 35,
+    "excluded_too_old": 0,
+    "quality_bonus_count": 90,
+    "date_oldest": "2024-10-21",
+    "date_newest": "2026-06-18",
+    "target_met": true
+  }
+}

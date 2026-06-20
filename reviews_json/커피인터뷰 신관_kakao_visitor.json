@@ -1,0 +1,184 @@
+{
+  "restaurant": "커피인터뷰 신관",
+  "place_id": "2085032013",
+  "confirm_id": "2085032013",
+  "collected_at": "2026-06-21T01:16:09+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-21",
+  "cutoff_12m": "2025-06-21",
+  "cutoff_24m": "2024-06-21",
+  "stop_reason": "api_end:마지막페이지_도달",
+  "place_info": {
+    "confirm_id": "2085032013",
+    "collected_at": "2026-06-21T01:16:09+09:00",
+    "name": "커피인터뷰 신관",
+    "category": "음식점 > 카페",
+    "address": "충남 공주시 신관로 69-11 1층",
+    "phone": "0507-1442-8528",
+    "homepage": null,
+    "hours": [],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": null,
+    "parking": null,
+    "facilities": [
+      "예약가능",
+      "포장가능"
+    ],
+    "kakao_booking": true,
+    "average_score": 4.0,
+    "total_kakao_reviews": 1,
+    "total_blog_reviews": 49,
+    "menus": [
+      {
+        "name": "플로팅 아일랜드",
+        "price": "7,000원",
+        "description": "추천메뉴"
+      },
+      {
+        "name": "누룽판단라떼",
+        "price": "6,500원",
+        "description": "추천메뉴"
+      },
+      {
+        "name": "카페 라떼",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "아메리카노",
+        "price": "4,500원",
+        "description": null
+      },
+      {
+        "name": "바닐라 라떼",
+        "price": "5,500원",
+        "description": null
+      },
+      {
+        "name": "유자 애플 티",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "리얼 블루베리 바나나 스무디",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "딸기 라떼",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "레몬 에이드",
+        "price": "6,000원",
+        "description": null
+      },
+      {
+        "name": "레몬옐로 캐모마일",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "망고 스무디",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "레몬 티",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "자몽 티",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "피치 시나몬 티",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "퍼머넌트 그린",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "버밀리온 히비스커스",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "로 시에나 루이보스",
+        "price": "5,000원",
+        "description": null
+      },
+      {
+        "name": "코코넛 커피 스무디",
+        "price": "6,500원",
+        "description": null
+      },
+      {
+        "name": "자두 에이드",
+        "price": "6,000원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": null,
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 14188851,
+      "author": "Mark Lee Wife",
+      "date": "2025-11-17",
+      "date_raw": "2025-11-17 14:45:41",
+      "content": "빵+커피+높은책상+넓음\n이 조건이 갖춰진...\n신관동에서 보기 드문 카페\n\n아쉬운점: 판단라떼는 커피향이 너무 세서 판단향이 거의 안남...향이 덜한 음료에 믹스하면 좋을 것 같아요 아님 커피를 반샷만 넣거나.",
+      "char_count": 91,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.2
+    }
+  ],
+  "excluded": [],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 1,
+    "average_score_overall": 4.0,
+    "total_collected": 1,
+    "total_loaded": 1,
+    "count_within_3m": 0,
+    "count_3m_to_12m": 1,
+    "count_12m_to_24m": 0,
+    "recency_bonus_count": 0,
+    "recency_penalty_count": 0,
+    "quality_bonus_count": 1,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_rating_collected": 4.0,
+    "total_excluded": 0,
+    "excluded_paid": 0,
+    "excluded_insincere": 0,
+    "excluded_too_old": 0,
+    "date_oldest": "2025-11-17",
+    "date_newest": "2025-11-17",
+    "target_met": false
+  }
+}

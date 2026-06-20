@@ -1,0 +1,859 @@
+{
+  "restaurant": "까우",
+  "place_id": "797932040",
+  "confirm_id": "797932040",
+  "collected_at": "2026-06-21T01:16:09+09:00",
+  "review_type": "kakao",
+  "source": "place_api_kakaomap_reviews",
+  "cutoff_3m": "2026-03-21",
+  "cutoff_12m": "2025-06-21",
+  "cutoff_24m": "2024-06-21",
+  "stop_reason": "24m_wall:24개월초과_도달",
+  "place_info": {
+    "confirm_id": "797932040",
+    "collected_at": "2026-06-21T01:16:09+09:00",
+    "name": "까우",
+    "category": "음식점 > 양식",
+    "address": "충남 공주시 번영3로 58 1층",
+    "phone": "010-9399-9358",
+    "homepage": null,
+    "hours": [
+      {
+        "day": "매일",
+        "open": "11:00",
+        "close": "21:30"
+      }
+    ],
+    "break_time": null,
+    "last_order": null,
+    "regular_holiday": "1월1일",
+    "parking": null,
+    "facilities": [
+      "주차장없음",
+      "예약가능",
+      "포장가능",
+      "배달가능"
+    ],
+    "kakao_booking": true,
+    "average_score": 4.7,
+    "total_kakao_reviews": 55,
+    "total_blog_reviews": 229,
+    "menus": [
+      {
+        "name": "알리오올리오",
+        "price": "9,900원",
+        "description": null
+      }
+    ],
+    "raw_hours_text": "매일 11:00 ~ 21:30",
+    "errors": []
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 15781671,
+      "author": "루한샤",
+      "date": "2026-06-19",
+      "date_raw": "2026-06-19 11:49:15",
+      "content": "하 신관에는 브런치 맛집이 어떻게 이렇게나 많은걸까",
+      "char_count": 22,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 2,
+      "review_id": 15781254,
+      "author": "DJ",
+      "date": "2026-06-19",
+      "date_raw": "2026-06-19 10:56:28",
+      "content": "오리 스테이크 부드럽고 너무 맛있고 아란치니도 맛있고 너무 만족스러웠어요.",
+      "char_count": 33,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 3,
+      "review_id": 15674549,
+      "author": "김건우",
+      "date": "2026-06-05",
+      "date_raw": "2026-06-05 15:18:02",
+      "content": "여긴 피자 무조건 시켜야합니다. 불고기피자 사랑해요",
+      "char_count": 23,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 4,
+      "review_id": 15582176,
+      "author": "u0",
+      "date": "2026-05-24",
+      "date_raw": "2026-05-24 17:59:10",
+      "content": "환장할정도로맛있습니다.\n맛집이래서 가봤는데 그 칭호에 어울리는 맛이네요",
+      "char_count": 33,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.3
+    },
+    {
+      "id": 6,
+      "review_id": 15436256,
+      "author": "젊최",
+      "date": "2026-05-05",
+      "date_raw": "2026-05-05 22:53:40",
+      "content": "여행중에 후기보고 30분정도 웨이팅하고 먹었는데 여느 양식집과 다를바없는 평범한 맛이었어요.\n양식 땡기는데 웨이팅이 없고 바로 입장된다면 모를까 굳이 찾아가서 웨이팅 할 곳은 아닌거같네유",
+      "char_count": 82,
+      "rating": 2,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": true,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.56
+    },
+    {
+      "id": 7,
+      "review_id": 14060212,
+      "author": "😊",
+      "date": "2025-10-31",
+      "date_raw": "2025-10-31 08:20:49",
+      "content": "공주 맛집!\n뇨끼랑 아란치니 추천합니다~",
+      "char_count": 18,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 4,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 8,
+      "review_id": 13988082,
+      "author": "아 네네",
+      "date": "2025-10-20",
+      "date_raw": "2025-10-20 21:47:03",
+      "content": "자리가 많지 않아 많이 기다렸어요ㅠ\n맛있어요!",
+      "char_count": 20,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 2,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 9,
+      "review_id": 13908691,
+      "author": "네 생각 보다 꿀잼인 역사쌤",
+      "date": "2025-10-10",
+      "date_raw": "2025-10-10 13:37:36",
+      "content": "웨이팅 오래 기다릴 줄 알았는데 다행히 금방 들어갔습니다.\n네이버 예약도 가능하니 참고하세요.\n주차는 신관공영주차장 이용하시면 됩니다.\n버섯크림 트러플 뇨끼는 진짜 최상의 맛입니다😁👍\n차돌오일 링귀니는 생각보다 매꼼해서 뇨끼와 환상적입니닷👍",
+      "char_count": 107,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": true,
+      "weight": 1.5
+    },
+    {
+      "id": 10,
+      "review_id": 13666036,
+      "author": "붕어빵",
+      "date": "2025-09-08",
+      "date_raw": "2025-09-08 12:24:28",
+      "content": "음식 너무 맛나고 직원분들도 친절하세요",
+      "char_count": 17,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 11,
+      "review_id": 13643014,
+      "author": "가나디",
+      "date": "2025-09-05",
+      "date_raw": "2025-09-05 13:21:11",
+      "content": "친구들이랑 피자 먹으러 자주 가요 ♥ 워낙 맛있는 걸로 유명해서 더 말할 건 없는 ㅜㅜ",
+      "char_count": 34,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 12,
+      "review_id": 13555164,
+      "author": "Mirdad",
+      "date": "2025-08-24",
+      "date_raw": "2025-08-24 19:43:08",
+      "content": "좋아요! 이정도면 지역에서 익셉셔널",
+      "char_count": 16,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0
+    },
+    {
+      "id": 14,
+      "review_id": 12862462,
+      "author": "맛집아니면리뷰X",
+      "date": "2025-05-27",
+      "date_raw": "2025-05-27 21:37:39",
+      "content": "까우 먹으려고 공주가요.\n오일파스타 까르보나라 맛집",
+      "char_count": 23,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 6,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 15,
+      "review_id": 12486937,
+      "author": "현이",
+      "date": "2025-04-07",
+      "date_raw": "2025-04-07 12:55:56",
+      "content": "맛은 레전드. 서울 진출기원 1일차입니다. 장점이자 단점이 여대생들이많아서 분위기가 화사한데 귀가아픕니다 흑흑",
+      "char_count": 50,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 5,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 20,
+      "review_id": 12118605,
+      "author": "왠만해서리뷰안남김",
+      "date": "2025-02-13",
+      "date_raw": "2025-02-13 14:17:28",
+      "content": "개맛있음. 서울 맛집 빰치는 정도. 공주가 아니라 대도시에 있었어도 잘 되었을 집. 파스타는 돈 주고 안 사먹는데, 여기는 진짜 맛있음.\n\n가격도 요즘 물가 생각하면 너무 저렴한데다가, 양도 적지않고 꽤 많음. 2인에서 가면 2디쉬로 적당함.\n\n가장 추천 메뉴는 트러플 리조또로, 닭다리 추가 꼭 하기. 트러플향 거북해하는 편인데도, 강하지 않고 조화롭고 맛있음 👍🏻",
+      "char_count": 153,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 3,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 21,
+      "review_id": 11901948,
+      "author": "경험주의",
+      "date": "2025-01-13",
+      "date_raw": "2025-01-13 00:45:00",
+      "content": "셰프님 납치하고 싶을정도로 괜찮았네요.",
+      "char_count": 18,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 1,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 22,
+      "review_id": 11659705,
+      "author": "...",
+      "date": "2024-12-21",
+      "date_raw": "2024-12-21 09:24:48",
+      "content": "정말 맛있습니다..........\n매장 분위기도 좋고 화장실도 깔끔합니다.",
+      "char_count": 35,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 23,
+      "review_id": 10524697,
+      "author": "여행하는 민호씨",
+      "date": "2024-07-11",
+      "date_raw": "2024-07-11 02:40:01",
+      "content": "신관동에 위치한 가성비 맛집이었어요. 근처에 터미널과 공주대 학생들이 많아 웨이팅이 잦습니다. 거의 끝나갈 때쯤 방문해 대기없이 입장했어요. 클래식토마토라구파스타와 트러플크림리조또, 치킨시저샐러드를 주문했고 가격은 36,000원이었습니다.\n\n저렴한 편의 양식임에도 느끼함 없이 아주 깔끔했어요. 흔히 양식 잘하는 집에 가면 재료 맛을 살려 조리하는데 여기도 그 느낌을 비슷하게 잘 묘사했습니다. 음식들이 가격 대비 정말 좋은 출력이었어요. 서비스도 좋습니다.\n\n치킨시저샐러드는 아주 신선했고 부드러운 닭고기가 일품이었어요. 트러플 크림 리조또도 적당한 풍미에 담백하니 밥알 한톨도 잘 살려서 너무 잘 먹었어요. 토마토라구는 무난했습니다. 재방문 의향 있고 다른 메뉴들도 더 먹어보고 싶네요.",
+      "char_count": 303,
+      "rating": 4,
+      "strength_ids": [
+        5,
+        1,
+        2
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절"
+      ],
+      "photo_count": 6,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.75
+    },
+    {
+      "id": 24,
+      "review_id": 11500184,
+      "author": "🙊",
+      "date": "2024-11-24",
+      "date_raw": "2024-11-24 20:12:25",
+      "content": "분위기도 좋고 음식도 맛있어요\n메뉴 8개 주문했는데 그 중 풍기피자, 치킨스테이크, 뇨끼 특히 추천합니다!!",
+      "char_count": 47,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 3,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 25,
+      "review_id": 11172670,
+      "author": "흇",
+      "date": "2024-10-07",
+      "date_raw": "2024-10-07 22:08:52",
+      "content": "다 맛있었어요........ 흡입쇼",
+      "char_count": 17,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": false,
+      "weight": 0.5
+    },
+    {
+      "id": 26,
+      "review_id": 11137917,
+      "author": "하뉴",
+      "date": "2024-10-03",
+      "date_raw": "2024-10-03 14:10:35",
+      "content": "길거리 들어가서 먹는 그런 무난한 양식 파스타 그맛입니다. 블루리본이라 기대했는데 한시간 기다릴 맛은 아니에요..",
+      "char_count": 50,
+      "rating": 3,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 28,
+      "review_id": 10909244,
+      "author": "솔직함",
+      "date": "2024-09-01",
+      "date_raw": "2024-09-01 16:52:01",
+      "content": "가성비 굿 웨이팅 있고 음식 늦게 나오는 거 감안하면 4점 매콤새우크림 추천, 토마토라구는 비츄",
+      "char_count": 40,
+      "rating": 4,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    },
+    {
+      "id": 29,
+      "review_id": 10657480,
+      "author": "건",
+      "date": "2024-07-30",
+      "date_raw": "2024-07-30 12:04:42",
+      "content": "가성비가 좋아요! 와인에 메뉴 몇가지 시켜도 부담스럽지 않은 가격이에요 뇨끼가 가장 맛있었어요\n매장 분위기는 공간이 협소하고 소리가 조금 울려서 시끄러운 감이 있어요.",
+      "char_count": 72,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1
+      ],
+      "keywords": [
+        "맛",
+        "가성비"
+      ],
+      "tags": [
+        "맛",
+        "가성비"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": true,
+      "quality_bonus": true,
+      "weight": 0.6
+    }
+  ],
+  "excluded": [
+    {
+      "id": 5,
+      "review_id": 15462286,
+      "author": "oo",
+      "date": "2026-05-09",
+      "date_raw": "2026-05-09 14:26:19",
+      "content": "음식 개늦게나와요",
+      "char_count": 8,
+      "rating": 2,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 13,
+      "review_id": 13215323,
+      "author": "조수연",
+      "date": "2025-07-14",
+      "date_raw": "2025-07-14 16:08:33",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 3,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 16,
+      "review_id": 12382573,
+      "author": "밥빙기",
+      "date": "2025-03-23",
+      "date_raw": "2025-03-23 11:55:15",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 1,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 17,
+      "review_id": 12301195,
+      "author": "QOKKI",
+      "date": "2025-03-11",
+      "date_raw": "2025-03-11 11:04:07",
+      "content": "굿",
+      "char_count": 1,
+      "rating": 5,
+      "strength_ids": [],
+      "keywords": [],
+      "tags": [],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 18,
+      "review_id": 12207047,
+      "author": "user",
+      "date": "2025-02-26",
+      "date_raw": "2025-02-26 00:08:58",
+      "content": "",
+      "char_count": 0,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 19,
+      "review_id": 12139076,
+      "author": "👍",
+      "date": "2025-02-16",
+      "date_raw": "2025-02-16 12:25:43",
+      "content": "존맛",
+      "char_count": 2,
+      "rating": 5,
+      "strength_ids": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "keywords": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "tags": [
+        "맛",
+        "가성비",
+        "친절",
+        "분위기"
+      ],
+      "photo_count": 0,
+      "like_count": 0,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    },
+    {
+      "id": 27,
+      "review_id": 10980026,
+      "author": "흐김자사냥꾼",
+      "date": "2024-09-11",
+      "date_raw": "2024-09-11 15:09:05",
+      "content": "바질피자미쳐뜸",
+      "char_count": 7,
+      "rating": 5,
+      "strength_ids": [
+        5
+      ],
+      "keywords": [
+        "맛"
+      ],
+      "tags": [
+        "맛"
+      ],
+      "photo_count": 0,
+      "like_count": 1,
+      "is_owner_pick": false,
+      "recency_bonus": false,
+      "recency_penalty": false,
+      "quality_bonus": false,
+      "weight": 1.0,
+      "exclude_reason": "insincere"
+    }
+  ],
+  "summary": {
+    "target": 150,
+    "total_kakao_count": 55,
+    "average_score_overall": 4.7,
+    "total_collected": 22,
+    "total_loaded": 29,
+    "count_within_3m": 5,
+    "count_3m_to_12m": 6,
+    "count_12m_to_24m": 11,
+    "recency_bonus_count": 5,
+    "recency_penalty_count": 11,
+    "quality_bonus_count": 9,
+    "rating_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 3,
+      "5": 17
+    },
+    "avg_rating_collected": 4.64,
+    "total_excluded": 7,
+    "excluded_paid": 0,
+    "excluded_insincere": 7,
+    "excluded_too_old": 0,
+    "date_oldest": "2024-07-11",
+    "date_newest": "2026-06-19",
+    "target_met": false
+  }
+}
